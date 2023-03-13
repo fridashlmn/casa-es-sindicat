@@ -10,8 +10,10 @@
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
-    "@nuxtjs/i18n": "^7.3.1",
+    "@nuxtjs/google-fonts": "^3.0.0",
+    "@nuxtjs/i18n": "^8.0.0-beta.10",
     "@nuxtjs/stylelint-module": "4.1.0",
+    "@types/node": "^18.14.6",
     "eslint": "^8.35.0",
     "eslint-config-prettier": "8.6.0",
     "eslint-import-resolver-alias": "1.1.2",

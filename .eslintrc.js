@@ -108,19 +108,9 @@ module.exports = {
     'no-undef': 'off',
     'prettier/prettier': ['error', prettierConfig],
     'vuejs-accessibility/no-static-element-interactions': 'warn',
+    'vue/multi-word-component-names': 'off',
   },
   overrides: [
-    {
-      files: [
-        '**/pages/**/*.{js,ts,vue}',
-        '**/layouts/**/*.{js,ts,vue}',
-        '**/app.{js,ts,vue}',
-        '**/error.{js,ts,vue}',
-      ],
-      rules: {
-        'vue/multi-word-component-names': 'off',
-      },
-    },
     {
       files: ['*.js'],
       rules: {
