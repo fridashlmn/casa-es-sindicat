@@ -3,6 +3,10 @@ import svgLoader from 'vite-svg-loader'
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 export default defineNuxtConfig({
+  target: 'static',
+  router: {
+    base: '/can-es-sindicat/',
+  },
   modules: [
     'nuxt-windicss',
     '@nuxtjs/i18n',
