@@ -5,7 +5,7 @@ import svgLoader from 'vite-svg-loader'
 export default defineNuxtConfig({
   target: 'static',
   router: {
-    base: '/can-es-sindicat/',
+    base: '/<can-es-sindicat>/',
   },
   modules: [
     'nuxt-windicss',
