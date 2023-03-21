@@ -4,8 +4,8 @@ import svgLoader from 'vite-svg-loader'
 // @ts-ignore
 export default defineNuxtConfig({
   target: 'static',
-  router: {
-    base: '/<can-es-sindicat>/',
+  app: {
+    baseURL: '/can-es-sindicat/', // baseURL: '/<repository>/'
   },
   modules: [
     'nuxt-windicss',
