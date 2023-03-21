@@ -1,4 +1,4 @@
-import {Breakpoints, screens} from './screens'
+import { Breakpoints, screens } from './screens'
 
 const getBreakpointValue = (value: Breakpoints): number =>
   +screens[value].slice(0, screens[value].indexOf('px'))

@@ -13,9 +13,14 @@ module.exports = {
     'plugin:vuejs-accessibility/recommended',
     'plugin:vue/vue3-recommended',
     'prettier',
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
   ],
-  plugins: ['unicorn', 'vue', 'import', 'prettier'],
   parser: 'vue-eslint-parser',
+  parserOptions: {
+    parser: '@typescript-eslint/parser',
+  },
+  plugins: ['unicorn', 'vue', 'import', 'prettier', '@typescript-eslint'],
   rules: {
     /**********************/
     /* General Code Rules */

@@ -10,7 +10,7 @@
     "strict": true,
     "noEmit": true,
     "experimentalDecorators": true,
-    "types": ["@types/node", "@nuxtjs/i18n"],
+    "types": ["@types/node", "nuxt-windicss", "@nuxtjs/i18n"],
     "baseUrl": ".",
   },
   "exclude": ["node_modules", ".nuxt", "dist"]

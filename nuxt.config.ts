@@ -1,19 +1,27 @@
+import svgLoader from 'vite-svg-loader'
 // https://nuxt.com/docs/api/configuration/nuxt-config
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 export default defineNuxtConfig({
-  modules: ['nuxt-windicss', '@nuxtjs/i18n'],
-
+  modules: [
+    'nuxt-windicss',
+    '@nuxtjs/i18n',
+    [
+      '@nuxtjs/google-fonts',
+      {
+        families: {
+          'Bodoni Moda': true,
+          'Montserrat': true,
+          'Lato': [100, 300],
+        },
+      },
+    ],
+  ],
   buildModules: ['@nuxtjs/google-fonts'],
 
   components: ['~/components'],
 
-  googleFonts: {
-    families: {
-      'Roboto': true,
-      'Bodoni Moda': true,
-    },
-  },
-
+  css: ['~/assets/css/global.css'],
   windicss: {
     analyze: {
       analysis: {
@@ -27,22 +35,37 @@ export default defineNuxtConfig({
   },
 
   i18n: {
-    locales: ['de', 'en', 'es'],
-    defaultLocale: 'de',
-    // langDir: 'locales',
-    vueI18n: {
-      fallbackLocale: 'de',
-      messages: {
-        de: {
-          welcome: 'Welcome',
-        },
-        en: {
-          welcome: 'Bienvenue',
-        },
-        es: {
-          welcome: 'Bienvenido',
-        },
+    locales: [
+      {
+        code: 'en',
+        file: 'en.json',
       },
+      {
+        code: 'es',
+        file: 'es.json',
+      },
+      {
+        code: 'de',
+        file: 'de.json',
+      },
+    ],
+    defaultLocale: 'de',
+    langDir: 'locales',
+    detectBrowserLanguage: false,
+    baseUrl: 'http://localhost:3000',
+    vueI18n: {
+      legacy: false,
+      locale: 'de',
+      fallbackLocale: 'de',
     },
   },
+
+  vite: {
+    plugins: [svgLoader()],
+    optimizeDeps: {
+      include: ['@fawmi/vue-google-maps', 'fast-deep-equal'],
+    },
+  },
+
+  build: { transpile: ['@fawmi/vue-google-maps', '@vuepic/vue-datepicker'] },
 })

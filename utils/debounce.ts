@@ -1,5 +1,5 @@
 export function debounce(
-  func: () => {} | void,
+  func: () => any | void,
   time = 100,
 ): (event: unknown) => void {
   let timer: number

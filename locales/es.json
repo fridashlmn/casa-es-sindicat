@@ -1,0 +1,20 @@
+{
+  "locales": {
+    "de": {
+      "short": "DE"
+    },
+    "en": {
+      "short": "EN"
+    },
+    "es": {
+      "short": "ES"
+    }
+  },
+  "navigation": {
+    "location": "Ubicación",
+    "house": "Casa",
+    "equipment": "Equipamiento",
+    "booking": "Reserve",
+    "contact": "Contacto"
+  }
+}

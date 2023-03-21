@@ -1,11 +1,11 @@
-import {dirname, join, resolve} from 'path'
-import {defineConfig} from 'windicss/helpers'
+import { dirname, join, resolve } from 'path'
+import { defineConfig } from 'windicss/helpers'
 import scrollSnapPlugin from 'windicss/plugin/scroll-snap'
-import {spacing, supportedSpacings} from './spacing'
-import {screens, supportedScreens} from './screens'
-import {colors} from './colors'
+import { spacing, supportedSpacings } from './spacing'
+import { screens, supportedScreens } from './screens'
 import font from './font'
 import textStyles from './textStyles'
+import { colors } from './colors'
 
 function range(size: number, startAt = 0) {
   return Array.from(Array(size).keys()).map((i) => i + startAt)
@@ -45,17 +45,21 @@ const generateWindiConfig = (appPath: string) => {
     },
     theme: {
       extend: {
-        fontFamily: {
-          sans: [
-            'Bodoni Modal'
-          ],
+        colors: {
+          main: '#006778',
+          primary: {
+            800: '#0093AB',
+          },
+          secondary: '#00AFC1',
+          residual: '#FFD124',
+          dark: '#18191a',
         },
         animation: {
           notification: 'ping 2s cubic-bezier(0, 0, 0.2, 1) infinite',
         },
         keyframes: {
           notification: {
-            '75%, 100%': {transform: 'scale(2) opacity-0'},
+            '75%, 100%': { transform: 'scale(2) opacity-0' },
           },
         },
         ringWidth: {
@@ -89,23 +93,17 @@ const generateWindiConfig = (appPath: string) => {
         scale: {
           flip: '-1',
         },
-        backgroundSize: {220: '220px'},
+        backgroundSize: { 220: '220px' },
       },
-      ...font,
       screens,
       colors,
+      ...font,
       spacing,
       outline: {
         none: 'none',
       },
-      opacity: {
-        backdrop: '58%',
-      },
     },
-    plugins: [
-      textStyles,
-      scrollSnapPlugin,
-    ],
+    plugins: [textStyles, scrollSnapPlugin],
     safelist: [
       allScreenVariants(allColumnVariants('grid-cols')),
       allScreenVariants(allColumnVariants('col-span')),

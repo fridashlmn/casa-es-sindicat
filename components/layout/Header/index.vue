@@ -1,31 +1,92 @@
 <template>
-  <BreakpointSwitch>
-    <template #mobile>
-      <header class="h-18 flex items-center">
-        <nav class="flex-grow">
-          <ul>
-            <li class="flex-grow">MOBILE</li>
-          </ul>
-        </nav>
-      </header>
-    </template>
-    <template #desktop>
-      <header>
-        <nav>
-          <ul>
-            <li>DESKTOP</li>
-          </ul>
-        </nav>
-      </header>
-    </template>
-  </BreakpointSwitch>
+  <header
+    :class="{ 'bg-white': scrollPosition > 50, 'fixed': isHomePage }"
+    class="h-20 w-screen flex flex-row flew-nowrap items-center justify-between z-2 bg-transparent transition-all ease-in"
+  >
+    <button>
+      <MenuIcon
+        :class="{ '!fill-black': scrollPosition > 50 || !isHomePage }"
+        class="w-32pt h-32pt ml-20 mt-4 inline-block fill-white transition-all ease-in"
+        @click="toggleSidebar"
+      />
+    </button>
+    <Transition mode="out-in" name="slide-fade">
+      <div
+        v-if="sidebarVisible"
+        class="fixed inset-0 z-10 overflow-y-auto"
+        @click.stop="toggleSidebar"
+      >
+        <div class="min-h-screen">
+          <div
+            class="opacity-60 opacity-backdrop fixed inset-0 overflow-y-auto bg-black"
+          />
+          <Sidebar @close="toggleSidebar" />
+        </div>
+      </div>
+    </Transition>
+    <button @click="router.push('/')">
+      <LogoIcon v-if="!isHomePage" class="w-12" />
+    </button>
+    <LocaleSwitch :is-scrolling="scrollPosition > 50 || !isHomePage" />
+  </header>
 </template>
+<script lang="ts" setup>
+import { onMounted } from 'vue'
+import { useRouter } from 'nuxt/app'
+import MenuIcon from 'assets/icons/menu.svg?component'
+import LogoIcon from 'assets/logo/logoipsum.svg?component'
 
+const router = useRouter()
+
+const sidebarVisible = ref<boolean>(false)
+const scrollPosition = ref<number | null>(null)
+const isHomePage = ref<boolean>(false)
+const toggleSidebar = () => {
+  sidebarVisible.value = !sidebarVisible.value
+}
+
+const updateScroll = () => {
+  scrollPosition.value = window.scrollY
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', updateScroll)
+})
+
+const watchRoute = () => {
+  router.currentRoute.value.name === 'index___de' ||
+  router.currentRoute.value.name === 'index___en' ||
+  router.currentRoute.value.name === 'index___es'
+    ? (isHomePage.value = true)
+    : (isHomePage.value = false)
+}
+
+watch(router.currentRoute, watchRoute, { immediate: true })
+</script>
 <script lang="ts">
-import BreakpointSwitch from '../../BreakpointSwitch/index.vue'
+import LocaleSwitch from '../../LocaleSwitch/index.vue'
+import Sidebar from '../../Sidebar/index.vue'
 
 export default {
   name: 'TheHeader',
-  components: { BreakpointSwitch },
+  components: { Sidebar, LocaleSwitch },
 }
 </script>
+<style>
+.slide-fade-enter-active {
+  transition: all 0.4s ease-in-out;
+}
+
+.slide-fade-leave-active {
+  transition: all 0.25s ease-in;
+}
+
+.slide-fade-leave-to {
+  opacity: 0;
+}
+
+.slide-fade-enter-from {
+  transform: translateX(20px);
+  opacity: 0;
+}
+</style>

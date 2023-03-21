@@ -1,14 +1,13 @@
 <template>
   <div class="max-w-screen min-h-screen">
-    <GridContainer>
-      <TheHeader />
-    </GridContainer>
+    <TheHeader />
     <main>
       <slot />
     </main>
-    <GridContainer :is-xl="true">
+    <GridContainer bg-color="bg-[#D6CFC7]">
       <TheFooter />
     </GridContainer>
+    <div id="global-overlay" class="z-50" />
   </div>
 </template>
 
