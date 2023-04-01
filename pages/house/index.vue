@@ -25,15 +25,17 @@
           img-alt="alt"
           img-src="living-room-2.jpg"
           link-label="Entdecken"
+          link-path="/house/firstFloor"
           text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
           title="Erstes Obergeschoss"
         />
         <Card
           img-alt="alt"
-          img-src="patio.jpg"
+          img-src="apartment2.jpg"
           link-label="Entdecken"
+          link-path="/house/secondeFloor"
           text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
-          title="Zwischengeschoss"
+          title="Zweites Obergeschoss"
         />
       </div>
       <div
@@ -41,22 +43,25 @@
       >
         <Card
           img-alt="alt"
-          img-src="apartment.jpg"
-          link-label="Entdecken"
-          text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
-          title="Zweites Obergeschoss"
-        />
-        <Card
-          img-alt="alt"
           img-src="dinner-table.jpg"
           link-label="Entdecken"
+          link-path="/house/studio"
           text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
           title="Studio"
         />
         <Card
           img-alt="alt"
+          img-src="patio.jpg"
+          link-label="Entdecken"
+          link-path="/house/patio-rooftop"
+          text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+          title="Patio & Dachterasse"
+        />
+        <Card
+          img-alt="alt"
           img-src="pool.jpg"
           link-label="Entdecken"
+          link-path="/house/garden"
           text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
           title="Pool und Garten"
         />

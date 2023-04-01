@@ -12,7 +12,7 @@
         <li
           v-for="(item, index) in navigationItems"
           :key="index"
-          class="text-6xl pt-7"
+          class="text-6xl pt-7 cursor-pointer"
         >
           <NuxtLink @click="navigate(item.path)">
             {{ $t(item.name) }}
@@ -26,7 +26,7 @@
             <li
               v-for="(submenuItem, index) in item.submenu"
               :key="index"
-              class="text-3xl py-2 px-6 first:pt-6"
+              class="text-3xl py-2 px-6 first:pt-6 cursor-pointer"
             >
               <NuxtLink @click="navigate(submenuItem.path)">
                 {{ $t(submenuItem.name) }}

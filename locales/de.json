@@ -30,11 +30,21 @@
   },
   "house": {
     "intro": "Das historische Stadtpalais wurde von uns Erhaltung der architektonisch wertvollen Elemente mit viel Liebe zum Detail saniert. Es erstreckt sich über vier Stockwerke und ca. 600 m2, sowie einem großen Patio mit beheizten, 3 x 6 m großen und 1,60 m tiefen Swimminpool. Ein kleiner Brunnen, Sonnenliegen und Stühle und ein Esstisch für 8 Personen laden hier zum Entspannen und Genießen ein.",
-    "groundFloor": "Im Erdgeschoss befinden sich die große vollausgestattete Küche, das Esszimmer mit Kamin, Sitzecke, Gästebad, Hauswirtschaftsraum mit Waschmaschine und Trockner und ein Abstellraum",
-    "firstFloor": "Im ersten Obergeschoss befindet sich das weitläufige Wohnzimmer mit angrenzender Bibliothek, Master-Bedroom mit großem Badezimmer sowie das Ankleidezimmer. Selbstverständlich gibt es einen Smart-TV mit Soundbar und Empfang der meisten deutschen, spanischen und internationalen Sender.",
-    "betweenFloor": "Im Zwischengeschoss, über dem Atlier, erstreckt sich eine überdachte Terasse. Auf dem Daybed genießt man hier vor allem die Nachmittags-Sonne.",
-    "secondFloor": "Im zweiten Obergeschoss befinden sich zwei weitere Schlafzimmer. Beide mit Bade- und Wohnzimmer",
-    "thirdFloor": "Die Dachterasse im dritten Obergeschoss ist ein absolutes Highlight. 360 Grad Rundumblick über die Dächer von Artà, hinauf zur Burg San Salvador und zur Kathedrale bis zum Meer in der Ferne. Ein beschatteter Loungebereich sowie eine Außendusche laden auch bie heißen Tagen zum Verweilen ein."
+    "groundFloor": {
+      "intro": "Im Erdgeschoss befinden sich die große vollausgestattete Küche, das Esszimmer mit Kamin, Sitzecke, Gästebad, Hauswirtschaftsraum mit Waschmaschine und Trockner und ein Abstellraum"
+    },
+    "firstFloor": {
+      "intro": "Im ersten Obergeschoss befindet sich das weitläufige Wohnzimmer mit angrenzender Bibliothek, Master-Bedroom mit großem Badezimmer sowie das Ankleidezimmer. Selbstverständlich gibt es einen Smart-TV mit Soundbar und Empfang der meisten deutschen, spanischen und internationalen Sender."
+    },
+    "secondFloor": {
+      "intro": "Im zweiten Obergeschoss befinden sich zwei weitere Schlafzimmer. Beide mit Bade- und Wohnzimmer"
+    },
+    "patio": {
+      "intro": "Im Zwischengeschoss, über dem Atlier, erstreckt sich eine überdachte Terasse. Auf dem Daybed genießt man hier vor allem die Nachmittags-Sonne."
+    },
+    "rooftop": {
+      "intro": "Die Dachterasse im dritten Obergeschoss ist ein absolutes Highlight. 360 Grad Rundumblick über die Dächer von Artà, hinauf zur Burg San Salvador und zur Kathedrale bis zum Meer in der Ferne. Ein beschatteter Loungebereich sowie eine Außendusche laden auch bie heißen Tagen zum Verweilen ein."
+    }
   },
   "location": {
     "intro": "Im Nordosten der Insel, im malerischen Städtchen Artà liegt das Haus im historischen Zentrum. Die Fußgänger-Einkaufsstraße, der wunderschöne Marktplatz, die Burg San Salvador sowie die Kathedrale sind in wenigen Minuten zu Fuß zu erreichen. Für den täglichen Einkauf gib es mehrere Supermärkte, ebenfalls fußläufig."

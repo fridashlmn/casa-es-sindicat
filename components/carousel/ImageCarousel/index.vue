@@ -28,7 +28,7 @@ const useAsset = (path: string): string => {
 const images = [
   {
     alt: 'test1',
-    src: 'roof-top.jpg',
+    src: 'rooftop.jpg',
   },
   {
     alt: 'test2',
@@ -36,7 +36,7 @@ const images = [
   },
   {
     alt: 'test3',
-    src: 'roof-top.jpg',
+    src: 'rooftop.jpg',
   },
 ]
 </script>

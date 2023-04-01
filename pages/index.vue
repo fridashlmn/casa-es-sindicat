@@ -1,19 +1,19 @@
 <template>
   <div>
-    <div class="relative">
+    <div class="flex items-center justify-center relative opacity-88">
       <img
         alt="image_pool"
         class="w-screen max-h-185 object-cover"
-        src="~/assets/images/roof-top.jpg"
+        src="~/assets/images/sunset-2.jpg"
       />
       <LogoIcon
         :class="{
-          '!fixed !-top-2 !left-12/25 !w-18 z-3': scrollPosition > 50,
+          '!fixed !-top-2 !w-18 !fill-black z-3': scrollPosition > 50,
         }"
-        class="absolute top-3/20 left-37/100 w-100 transition-all ease-in"
+        class="absolute w-130 transition-all ease-in fill-[#f1f1f1]"
       />
     </div>
-    <p class="text-center max-w-220 my-0 mx-auto py-22">
+    <p class="text-center max-w-220 my-0 mx-auto py-30">
       Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
       sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
       diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
@@ -24,7 +24,7 @@
     <div class="grid grid-flow-col gap-4 auto-cols-auto justify-between p-14">
       <Card
         img-alt="alt"
-        img-src="roof-top.jpg"
+        img-src="rooftop.jpg"
         link-label="Entdecken"
         text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
         title="Lorem ipsum dolor"
