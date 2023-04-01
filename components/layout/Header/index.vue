@@ -11,11 +11,7 @@
       />
     </button>
     <Transition mode="out-in" name="slide-fade">
-      <div
-        v-if="sidebarVisible"
-        class="fixed inset-0 z-10 overflow-y-auto"
-        @click.stop="toggleSidebar"
-      >
+      <div v-if="sidebarVisible" class="fixed inset-0 z-10 overflow-y-auto">
         <div class="min-h-screen">
           <div
             class="opacity-60 opacity-backdrop fixed inset-0 overflow-y-auto bg-black"
@@ -34,7 +30,7 @@
 import { onMounted } from 'vue'
 import { useRouter } from 'nuxt/app'
 import MenuIcon from 'assets/icons/menu.svg?component'
-import LogoIcon from 'assets/logo/logoipsum.svg?component'
+import LogoIcon from 'assets/logo/ces.svg?component'
 
 const router = useRouter()
 

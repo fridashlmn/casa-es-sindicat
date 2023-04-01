@@ -17,6 +17,7 @@ export const fontSize = {
   '6xl': ['40px', { lineHeight: '48px' }],
   '7xl': ['44px', { lineHeight: '44px' }],
   '8xl': ['52px', { lineHeight: '52px' }],
+  '11xl': ['80px', { lineHeight: '80px' }],
 }
 
 export default {

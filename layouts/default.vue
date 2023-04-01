@@ -4,7 +4,7 @@
     <main>
       <slot />
     </main>
-    <GridContainer bg-color="bg-[#D6CFC7]">
+    <GridContainer bg-color="bg-[#d5c4b8]">
       <TheFooter />
     </GridContainer>
     <div id="global-overlay" class="z-50" />

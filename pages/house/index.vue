@@ -10,7 +10,7 @@
 </template>
 <script lang="ts" setup></script>
 <script lang="ts">
-import ImageCarousel from '../components/carousel/ImageCarousel/index.vue'
+import ImageCarousel from '../../components/carousel/ImageCarousel/index.vue'
 
 export default {
   name: 'HousePage',

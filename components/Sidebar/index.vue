@@ -10,9 +10,21 @@
       </button>
       <ul class="text-6xl font-normal text-neutralDarkest p-22">
         <li v-for="(item, index) in navigationItems" :key="index" class="pt-7">
-          <NuxtLink :to="localePath(item.path)">
+          <NuxtLink @click="navigate(item.path)">
             {{ $t(item.name) }}
           </NuxtLink>
+          <ChevronDownIcon
+            v-if="item.submenu && item.submenu.length > 0"
+            class="w-10 h-10 fill-black transition-all ease-in"
+            @click="openSubmenu = !openSubmenu"
+          />
+          <ul v-show="openSubmenu">
+            <li v-for="(submenuItem, index) in item.submenu" :key="index">
+              <NuxtLink @click="navigate(submenuItem.path)">
+                {{ $t(submenuItem.name) }}
+              </NuxtLink>
+            </li>
+          </ul>
         </li>
       </ul>
     </div>
@@ -20,15 +32,23 @@
 </template>
 <script lang="ts" setup>
 import CloseIcon from 'assets/icons/close.svg?component'
+import ChevronDownIcon from 'assets/icons/chevron_down.svg?component'
+import { useRouter } from 'nuxt/app'
 import { navigationItems } from '../../config/routes'
 
+const router = useRouter()
 const localePath = useLocalePath()
-
+const openSubmenu = ref<boolean>(false)
 const emit = defineEmits<{
   (eventName: 'close'): void
 }>()
 
 const close = () => {
+  emit('close')
+}
+
+const navigate = (path: string) => {
+  router.push(localePath(path))
   emit('close')
 }
 </script>

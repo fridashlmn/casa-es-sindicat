@@ -7,8 +7,10 @@
         src="~/assets/images/roof-top.jpg"
       />
       <LogoIcon
-        :class="{ '!top-14px !w-12 z-3': scrollPosition > 50 }"
-        class="fixed top-1/3 left-1/2 w-30 transition-all ease-in"
+        :class="{
+          '!fixed !-top-2 !left-12/25 !w-18 z-3': scrollPosition > 50,
+        }"
+        class="absolute top-3/20 left-37/100 w-100 transition-all ease-in"
       />
     </div>
     <p class="text-center max-w-220 my-0 mx-auto py-22">
@@ -21,18 +23,21 @@
     </p>
     <div class="grid grid-flow-col gap-4 auto-cols-auto justify-between p-14">
       <Card
+        img-alt="alt"
         img-src="roof-top.jpg"
         link-label="Entdecken"
         text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
         title="Lorem ipsum dolor"
       />
       <Card
+        img-alt="alt"
         img-src="pool-with-light.jpg"
         link-label="Entdecken"
         text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
         title="Sadipscing elitr"
       />
       <Card
+        img-alt="alt"
         img-src="living-room.jpg"
         link-label="Entdecken"
         text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
@@ -43,7 +48,7 @@
   </div>
 </template>
 <script lang="ts" setup>
-import LogoIcon from 'assets/logo/logoipsum.svg?component'
+import LogoIcon from 'assets/logo/ces.svg?component'
 import { onMounted } from 'vue'
 
 const scrollPosition = ref<number | null>(null)
