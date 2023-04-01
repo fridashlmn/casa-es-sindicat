@@ -71,6 +71,7 @@ const generateWindiConfig = (appPath: string) => {
           badge: '-5deg',
           3: '3deg',
           45: '45deg',
+          180: '180deg',
         },
         maxWidth: {
           50: '200px',

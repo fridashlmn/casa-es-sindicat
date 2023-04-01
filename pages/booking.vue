@@ -1,4 +1,10 @@
 <template>
+  <Stage
+    headline="Buchen"
+    img-alt="image_pool"
+    img-src="sunset.jpg"
+    subline="Hier steht eine griffige Subline"
+  />
   <div class="flex p-15 items-center justify-between">
     <p class="max-w-xl">
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy

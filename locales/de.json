@@ -20,10 +20,16 @@
     "impressum": "Impressum",
     "privacyPolicy": "Datenschutz",
     "disclaimer": "Disclaimer",
-    "directions": "Anfahrt"
+    "directions": "Anfahrt",
+    "groundFloor": "Erdgeschoss",
+    "firstFloor": "Erstes Obergeschoss",
+    "secondFloor": "Zweites Obergeschoss",
+    "studio": "Studio",
+    "patioRooftop": "Patio & Dachterasse",
+    "garden": "Garten & Pool"
   },
   "house": {
-    "intro": "Das historische Stadtpalais wurde von uns Erhaltung der architektonisch wertvollen Elemente mit viel Liebe zum Detail saniert. Es erstreckt sich über drei Stockwerke und ca. 600m2 sowie einem großen Patio mit beheiztem Swimminpoo. - 3 x 6m. Ein kleiner Brunnen, Sonnenliegen und Stühle und ein Esstisch für 8 Personen laden hier zum Entspannen und Genießen ein.",
+    "intro": "Das historische Stadtpalais wurde von uns Erhaltung der architektonisch wertvollen Elemente mit viel Liebe zum Detail saniert. Es erstreckt sich über vier Stockwerke und ca. 600 m2, sowie einem großen Patio mit beheizten, 3 x 6 m großen und 1,60 m tiefen Swimminpool. Ein kleiner Brunnen, Sonnenliegen und Stühle und ein Esstisch für 8 Personen laden hier zum Entspannen und Genießen ein.",
     "groundFloor": "Im Erdgeschoss befinden sich die große vollausgestattete Küche, das Esszimmer mit Kamin, Sitzecke, Gästebad, Hauswirtschaftsraum mit Waschmaschine und Trockner und ein Abstellraum",
     "firstFloor": "Im ersten Obergeschoss befindet sich das weitläufige Wohnzimmer mit angrenzender Bibliothek, Master-Bedroom mit großem Badezimmer sowie das Ankleidezimmer. Selbstverständlich gibt es einen Smart-TV mit Soundbar und Empfang der meisten deutschen, spanischen und internationalen Sender.",
     "betweenFloor": "Im Zwischengeschoss, über dem Atlier, erstreckt sich eine überdachte Terasse. Auf dem Daybed genießt man hier vor allem die Nachmittags-Sonne.",

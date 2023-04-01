@@ -1,25 +1,33 @@
 <template>
   <div
     :class="[
-      'absolute left-0 top-0 inline-block min-h-screen w-full overflow-hidden bg-white md:w-120',
+      'absolute left-0 top-0 inline-block min-h-screen w-full overflow-hidden bg-white md:w-136',
     ]"
   >
     <div class="relative bg-white">
       <button class="absolute top-8 left-10" @click.stop="close">
         <CloseIcon class="w-32pt h-32pt inline-block" />
       </button>
-      <ul class="text-6xl font-normal text-neutralDarkest p-22">
-        <li v-for="(item, index) in navigationItems" :key="index" class="pt-7">
+      <ul class="font-normal text-neutralDarkest p-22">
+        <li
+          v-for="(item, index) in navigationItems"
+          :key="index"
+          class="text-6xl pt-7"
+        >
           <NuxtLink @click="navigate(item.path)">
             {{ $t(item.name) }}
           </NuxtLink>
           <ChevronDownIcon
             v-if="item.submenu && item.submenu.length > 0"
-            class="w-10 h-10 fill-black transition-all ease-in"
+            class="absolute left-47/100 w-20 h-20 fill-black transition-all ease-in"
             @click="openSubmenu = !openSubmenu"
           />
           <ul v-show="openSubmenu">
-            <li v-for="(submenuItem, index) in item.submenu" :key="index">
+            <li
+              v-for="(submenuItem, index) in item.submenu"
+              :key="index"
+              class="text-3xl py-2 px-6 first:pt-6"
+            >
               <NuxtLink @click="navigate(submenuItem.path)">
                 {{ $t(submenuItem.name) }}
               </NuxtLink>

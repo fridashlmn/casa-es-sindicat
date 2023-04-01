@@ -2,7 +2,9 @@
   <div class="text-[#fefefe]">
     <footer class="flex flex-row items-center justify-between p-8 pb-0">
       <div>
-        <LogoIcon class="h-75" />
+        <button @click="router.push('/')">
+          <LogoIcon class="h-75" />
+        </button>
       </div>
       <div>
         <nav class="flex flex-row flew-nowrap justify-between">
@@ -48,12 +50,14 @@
 
 <script lang="ts" setup>
 import LogoIcon from 'assets/logo/ces.svg?component'
+import { useRouter } from 'nuxt/app'
 import {
   footer1NavigationItems,
   footer2NavigationItems,
   serviceNavigationItems,
 } from '../../../config/routes'
 
+const router = useRouter()
 const localePath = useLocalePath()
 </script>
 <script lang="ts">

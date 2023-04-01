@@ -1,7 +1,11 @@
 <template>
   <div class="h-153 p-5 flex flex-col shrink-0 justify-between">
     <div>
-      <img :alt="imgAlt" :src="useAsset(imgSrc)" class="h-91 object-cover" />
+      <img
+        :alt="imgAlt"
+        :src="useAsset(imgSrc)"
+        class="h-91 max-w-91 w-91 object-cover"
+      />
       <h5 class="text-xl pt-4 pb-2">{{ title }}</h5>
       <p>{{ text }}</p>
     </div>
@@ -35,6 +39,6 @@ const useAsset = (path: string): string => {
 
 <script lang="ts">
 export default {
-  name: 'Index',
+  name: 'Card',
 }
 </script>

@@ -1,4 +1,10 @@
 <template>
+  <Stage
+    headline="Lage"
+    img-alt="image_pool"
+    img-src="castle.jpg"
+    subline="Hier steht eine griffige Subline"
+  />
   <div class="flex p-15 items-center">
     <p>
       Im Nordosten der Insel, im malerischen Städtchen Artà liegt das Haus im

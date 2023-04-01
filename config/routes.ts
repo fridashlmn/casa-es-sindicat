@@ -9,8 +9,28 @@ export const navigationItems = [
     name: 'navigation.house',
     submenu: [
       {
-        path: '/house/groundfloor',
-        name: 'navigation.groundfloor',
+        path: '/house/groundFloor',
+        name: 'navigation.groundFloor',
+      },
+      {
+        path: '/house/firstFloor',
+        name: 'navigation.firstFloor',
+      },
+      {
+        path: '/house/secondFloor',
+        name: 'navigation.secondFloor',
+      },
+      {
+        path: '/house/studio',
+        name: 'navigation.studio',
+      },
+      {
+        path: '/house/patio-rooftop',
+        name: 'navigation.patioRooftop',
+      },
+      {
+        path: '/house/garden',
+        name: 'navigation.garden',
       },
     ],
   },
