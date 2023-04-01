@@ -8,3 +8,7 @@ li a {
   font-family: "Bodoni Moda";
 }
 
+.listStyle li {
+  padding-top: 16px;
+  list-style: square;
+}

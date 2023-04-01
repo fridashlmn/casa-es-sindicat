@@ -67,8 +67,8 @@ export const footer1NavigationItems = [
     name: 'navigation.house',
     submenu: [
       {
-        path: '/house/groundfloor',
-        name: 'navigation.groundfloor',
+        path: '/house/groundFloor',
+        name: 'navigation.groundFloor',
       },
     ],
   },

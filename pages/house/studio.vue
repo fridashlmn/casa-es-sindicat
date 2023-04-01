@@ -2,6 +2,6 @@
 
 <script lang="ts">
 export default {
-  name: 'GroundfloorPage',
+  name: 'GroundFloorPage',
 }
 </script>

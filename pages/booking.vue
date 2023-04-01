@@ -1,33 +1,35 @@
 <template>
-  <Stage
-    headline="Buchen"
-    img-alt="image_pool"
-    img-src="sunset.jpg"
-    subline="Hier steht eine griffige Subline"
-  />
-  <div class="flex p-15 items-center justify-between">
-    <p class="max-w-xl">
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-      amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-      Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-      sit amet.
-    </p>
-    <VueDatePicker
-      v-model="date"
-      :enable-time-picker="false"
-      :highlight="highlightedDates"
-      :inline="true"
-      :markers="markers"
-      :multi-static="false"
-      multi-calendars
-      position="right"
-      range
+  <div>
+    <Stage
+      headline="Buchen"
+      img-alt="image_pool"
+      img-src="sunset.jpg"
+      subline="Hier steht eine griffige Subline"
     />
+    <div class="flex p-15 items-center justify-between">
+      <p class="max-w-xl">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+        ipsum dolor sit amet.
+      </p>
+      <VueDatePicker
+        v-model="date"
+        :enable-time-picker="false"
+        :highlight="highlightedDates"
+        :inline="true"
+        :markers="markers"
+        :multi-static="false"
+        multi-calendars
+        position="right"
+        range
+      />
+    </div>
   </div>
 </template>
 <script lang="ts" setup>

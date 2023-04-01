@@ -3,19 +3,25 @@
     <img
       :alt="imgAlt"
       :src="useAsset(imgSrc)"
-      class="w-screen max-h-185 object-cover"
+      class="w-screen max-h-177.5 object-cover"
     />
-    <div class="absolute text-white pb-6 text-center">
+    <div class="absolute text-white text-center">
       <HeadlineComponent level="M/L">
         {{ headline }}
       </HeadlineComponent>
       <p class="text-lg pt-4">
         {{ subline }}
       </p>
+      <ChevronDownIcon
+        class="relative w-16 h-20 fill-white"
+        @click="openSubmenu = !openSubmenu"
+      />
     </div>
   </div>
 </template>
 <script lang="ts" setup>
+import ChevronDownIcon from 'assets/icons/chevron_down.svg?component'
+
 interface Props {
   imgSrc: string
   imgAlt: string
