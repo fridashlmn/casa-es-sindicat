@@ -1,12 +1,10 @@
 <template>
   <div>
     <form
-      id="contact"
+      data-netlify="true"
       data-netlify-honeypot="bot-field"
-      method="post"
+      method="POST"
       name="contact"
-      netlify
-      @submit="submitForm($event)"
     >
       <input name="form-name" type="hidden" value="contact" />
       <input name="text" />
@@ -14,11 +12,6 @@
     </form>
   </div>
 </template>
-<script lang="ts" setup>
-const submitForm = (e) => {
-  e.preventDefault()
-}
-</script>
 <script lang="ts">
 export default {
   name: 'ContactPage',
