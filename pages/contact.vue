@@ -6,7 +6,7 @@
       method="post"
       name="contact"
       netlify
-      @submit.prevent="handleSubmit"
+      @submit="handleSubmit"
     >
       <input name="form-name" type="hidden" value="contact" />
       <input name="text" />
