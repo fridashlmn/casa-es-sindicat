@@ -7,8 +7,7 @@
     "lint": "eslint --ext .ts,.js,.vue .",
     "lint-fix": "eslint --fix --ext .ts,.js,.vue .",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "deploy": "gh-pages -d dist"
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",
