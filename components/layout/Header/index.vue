@@ -15,6 +15,7 @@
         <div class="min-h-screen">
           <div
             class="opacity-60 opacity-backdrop fixed inset-0 overflow-y-auto bg-black"
+            @click="toggleSidebar"
           />
           <Sidebar @close="toggleSidebar" />
         </div>

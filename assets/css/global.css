@@ -70,3 +70,7 @@ input:focus, textarea:focus, input:focus-visible, textarea:focus-visible {
   background-color: rgba(248, 120, 106, 0.55) !important;
   color: white !important;
 }
+
+.dp__cell_inner {
+  border-radius: 0 !important;
+}

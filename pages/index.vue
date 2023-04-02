@@ -13,38 +13,37 @@
         class="absolute w-130 transition-all ease-in fill-[#f1f1f1]"
       />
     </div>
-    <p class="text-center max-w-220 my-0 mx-auto py-30">
-      Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-      sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-      diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-      erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-      rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-      dolor sit amet.
-    </p>
-    <div class="grid grid-flow-col gap-4 auto-cols-auto justify-between p-14">
-      <Card
-        img-alt="alt"
-        img-src="rooftop.jpg"
-        link-label="Entdecken"
-        text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
-        title="Lorem ipsum dolor"
-      />
-      <Card
-        img-alt="alt"
-        img-src="pool-with-light.jpg"
-        link-label="Entdecken"
-        text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
-        title="Sadipscing elitr"
-      />
-      <Card
-        img-alt="alt"
-        img-src="living-room.jpg"
-        link-label="Entdecken"
-        text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
-        title="At vero eos et"
-      />
+    <div class="p-30">
+      <p class="text-center max-w-220 my-0 mx-auto pb-30">
+        {{ $t('home.intro') }}
+      </p>
+      <div class="grid grid-flow-col gap-4 auto-cols-auto justify-between">
+        <Card
+          :link-label="$t('home.equipment.link')"
+          :text="$t('home.location.teaser')"
+          :title="$t('home.location.title')"
+          img-alt="alt"
+          img-src="rooftop.jpg"
+          link-path="/location"
+        />
+        <Card
+          :link-label="$t('home.equipment.link')"
+          :text="$t('home.house.teaser')"
+          :title="$t('home.house.title')"
+          img-alt="alt"
+          img-src="pool-with-light.jpg"
+          link-path="/house"
+        />
+        <Card
+          :link-label="$t('home.equipment.link')"
+          :text="$t('home.equipment.teaser')"
+          :title="$t('home.equipment.title')"
+          img-alt="alt"
+          img-src="kitchen.jpg"
+          link-path="/equipment"
+        />
+      </div>
     </div>
-    <div class="h-70" />
   </div>
 </template>
 <script lang="ts" setup>

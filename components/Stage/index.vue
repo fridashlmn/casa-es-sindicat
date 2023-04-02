@@ -5,7 +5,10 @@
       :src="useAsset(imgSrc)"
       class="w-screen max-h-177.5 object-cover"
     />
-    <div class="absolute text-white text-center">
+    <div
+      :class="{ 'pb-24': !withScrollIndicator }"
+      class="absolute text-white text-center"
+    >
       <HeadlineComponent level="M/L">
         {{ headline }}
       </HeadlineComponent>
@@ -13,6 +16,7 @@
         {{ subline }}
       </p>
       <ChevronDownIcon
+        v-if="withScrollIndicator"
         class="relative w-16 h-20 fill-white"
         @click="openSubmenu = !openSubmenu"
       />
@@ -27,9 +31,12 @@ interface Props {
   imgAlt: string
   headline: string
   subline: string
+  withScrollIndicator?: boolean
 }
 
-const props = defineProps<Props>()
+const props = withDefaults(defineProps<Props>(), {
+  withScrollIndicator: true,
+})
 const localePath = useLocalePath()
 
 const useAsset = (path: string): string => {

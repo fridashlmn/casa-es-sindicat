@@ -12,6 +12,7 @@
       </HeadlineComponent>
 
       <form
+        action="/contact/success"
         class="flex flex-col w-125 items-start w-full"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
@@ -37,8 +38,8 @@
   </div>
 </template>
 <script lang="ts">
-import HeadlineComponent from '../components/Headline/index.vue'
-import BaseButton from '../components/BaseButton/index.vue'
+import HeadlineComponent from '../../components/Headline/index.vue'
+import BaseButton from '../../components/BaseButton/index.vue'
 
 export default {
   name: 'ContactPage',

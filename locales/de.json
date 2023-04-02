@@ -28,6 +28,24 @@
     "patioRooftop": "Patio & Dachterasse",
     "garden": "Garten & Pool"
   },
+  "home": {
+    "intro": "Willkommen in Artà auf Mallorca, willkommen im Casa Es Sindicat. Entdecken Sie unser liebevoll restauriertes Stadtpalais. Entspannen Sie sich auf vier Etagen – im Pool oder auf der Sonnenliege, auf dem Patio oder der Dachterrasse. Erkunden Sie die kulturelle Vielfalt Artàs, die idyllische Natur und die traumhaften Strände in näherer Umgebung. Freuen Sie sich ganz einfach auf ein unvergessliches Erlebnis auf Mallorca.",
+    "location": {
+      "title": "Die Lage",
+      "teaser": "Ruhig gelegen und trotzdem mittendrin: Von der Casa Es Sindicat aus lässt sich entspannt alles erkunden, was die Stadt Artà zu bieten hat. Und das ist eine ganze Menge.",
+      "link": "Entdecken"
+    },
+    "house": {
+      "title": "Das Haus",
+      "teaser": "Historisches Stadtpalais, mit viel Liebe restauriert: Einen Rundgang durch das geräumige Haus können wir Ihnen hier zwar nicht geben – Ihre Vorfreude wecken allerdings schon. ",
+      "link": "Entdecken"
+    },
+    "equipment": {
+      "title": "Die Ausstattung",
+      "teaser": "Von der voll ausgestatteten Küche über den beheizten Pool bis hin zur Sportausrüstung: Unsere Casa bietet alles, was Sie sich für einen unvergesslichen Urlaub wünschen.",
+      "link": "Entdecken"
+    }
+  },
   "house": {
     "intro": "Das historische Stadtpalais wurde von uns Erhaltung der architektonisch wertvollen Elemente mit viel Liebe zum Detail saniert. Es erstreckt sich über vier Stockwerke und ca. 600 m2, sowie einem großen Patio mit beheizten, 3 x 6 m großen und 1,60 m tiefen Swimminpool. Ein kleiner Brunnen, Sonnenliegen und Stühle und ein Esstisch für 8 Personen laden hier zum Entspannen und Genießen ein.",
     "groundFloor": {
