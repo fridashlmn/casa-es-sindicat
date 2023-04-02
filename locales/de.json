@@ -52,6 +52,9 @@
   "booking": {
     "intro": "In dem Belegungsplan sind die bereits vermieteten Zeiten rot markiert, die gelben Markierungen sind Optionen, diese Termine können wie die freien grünen Markierungen angefragt werden. Wenn Sie einen geeigneten Zeitraum für Ihren geplanten Urlaub gefunden haben, senden Sie uns bitte über Kontakt eine E-Mail, wir werden Ihnen unverzüglich antworten."
   },
+  "contact": {
+    "agb": "Ich stimme zu, dass meine Angaben aus dem Kontaktformular zur Beantwortung meiner Anfrage erhoben und verarbeitet werden. Die Daten werden nach abgeschlossener Bearbeitung Ihrer Anfrage gelöscht. Hinweis: Sie können Ihre Einwilligung jederzeit für die Zukunft per E-Mail an info&#64casa-es-sindicat.de widerrufen. Detaillierte Informationen zum Umgang mit Nutzerdaten finden Sie in unserer Datenschutzerklärung."
+  },
   "impressum": {
     "headline": "Impressum",
     "content": "Angaben gemäß § 5 TMG:<br /><br />Wendt&Liebold GbR<br />Völckersstraße 42<br />22765 Hamburg<br />Telefon: 0177/6802685<br />E-Mail: info&#64traumfinca-arta.de"

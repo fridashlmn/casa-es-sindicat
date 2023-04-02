@@ -13,6 +13,23 @@ li a {
   list-style: square;
 }
 
+input, textarea {
+  width: 100%;
+  padding: 16px 16px 6px 16px;
+  margin-bottom: 18px;
+  border-color: black;
+  border-width: 0px 0px 1px 0px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+textarea {
+  height: 128px;
+}
+
+input:focus, textarea:focus, input:focus-visible, textarea:focus-visible {
+  outline: none;
+}
+
 .dp__action_row {
   display: none !important;
 }
@@ -47,4 +64,9 @@ li a {
 
 .dp__flex_display {
   justify-content: flex-end !important;
+}
+
+.dp__cell_highlight {
+  background-color: rgba(248, 120, 106, 0.55) !important;
+  color: white !important;
 }

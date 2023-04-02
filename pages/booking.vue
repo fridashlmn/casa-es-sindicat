@@ -22,14 +22,19 @@
         </div>
         <VueDatePicker
           v-model="date"
+          :disabled-dates="disabledDates"
           :enable-time-picker="false"
           :highlight="highlightedDates"
           :inline="true"
           :markers="markers"
+          :max-date="maxDate"
+          :min-date="new Date()"
+          :month-change-on-scroll="false"
           :multi-static="false"
           class="pb-30"
           multi-calendars
           position="right"
+          prevent-min-max-navigation
           range
         />
       </div>
@@ -88,32 +93,37 @@
 <script lang="ts" setup>
 import VueDatePicker from '@vuepic/vue-datepicker'
 import '@vuepic/vue-datepicker/dist/main.css'
-import addDays from 'date-fns/addDays'
+import addYears from 'date-fns/addYears'
 import HeadlineComponent from '../components/Headline/index.vue'
 
 const date = ref()
-const highlightedDates = ref([
-  addDays(new Date(), 1),
-  addDays(new Date(), 2),
-  addDays(new Date(), 3),
-])
 
-const markers = ref([
-  {
-    date: addDays(new Date(), 15),
-    type: 'dot',
-    tooltip: [{ text: 'Belegt', color: 'red' }],
-  },
-  {
-    date: addDays(new Date(), 16),
-    type: 'dot',
-    color: 'red',
-  },
-  {
-    date: addDays(new Date(), 17),
-    type: 'dot',
-    color: 'red',
-  },
+const maxDate = addYears(new Date(), 1)
+
+const disabledDates = computed(() => {
+  const today = new Date()
+
+  const tomorrow = new Date(today)
+  tomorrow.setDate(tomorrow.getDate() + 1)
+
+  const afterTomorrow = new Date(tomorrow)
+  afterTomorrow.setDate(tomorrow.getDate() + 1)
+
+  return [
+    new Date('2023-04-10'),
+    new Date('2023-04-11'),
+    new Date('2023-04-12'),
+    new Date('2023-04-13'),
+    new Date('2023-04-14'),
+  ]
+})
+
+const highlightedDates = ref([
+  new Date('2023-04-05'),
+  new Date('2023-04-06'),
+  new Date('2023-04-07'),
+  new Date('2023-04-08'),
+  new Date('2023-04-09'),
 ])
 </script>
 <script lang="ts">
@@ -141,6 +151,6 @@ export default {
   --dp-success-color-disabled: #a3d9b1;
   --dp-icon-color: #959595;
   --dp-danger-color: #ff6f60;
-  --dp-highlight-color: rgba(25, 118, 210, 0.1);
+  --dp-highlight-color: #ff6f60;
 }
 </style>

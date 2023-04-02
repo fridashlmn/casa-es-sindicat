@@ -8,6 +8,14 @@
   netlify
 >
   <input name="form-name" type="hidden" value="contact"/>
-  <input name="text"/>
+  <input name="name" placeholder="Name"/>
+  <input name="email" placeholder="Email" required type="email"/>
+  <textarea name="message" placeholder="Nachricht"/>
+  <input
+    class="w-auto mr-4 mt-0.5"
+    name="agb"
+    required
+    type="checkbox"
+  />
   <button>Submit</button>
 </form>
