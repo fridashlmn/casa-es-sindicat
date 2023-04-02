@@ -8,6 +8,7 @@
       <button class="absolute top-8 left-10" @click.stop="close">
         <CloseIcon class="w-32pt h-32pt inline-block" />
       </button>
+
       <ul class="font-normal text-neutralDarkest p-22">
         <li
           v-for="(item, index) in navigationItems"
@@ -17,12 +18,19 @@
           <NuxtLink @click="navigate(item.path)">
             {{ $t(item.name) }}
           </NuxtLink>
-          <ChevronDownIcon
+          <ChevronDownThickIcon
             v-if="item.submenu && item.submenu.length > 0"
-            class="absolute left-47/100 w-20 h-20 fill-black transition-all ease-in"
+            :class="{ 'rotate-180': openSubmenu }"
+            class="ml-4 w-10 h-10 fill-black transform transition-all duration-400"
             @click="openSubmenu = !openSubmenu"
           />
-          <ul v-show="openSubmenu">
+          <ul
+            :class="{
+              'opacity-100 max-h-500': openSubmenu,
+              'opacity-0 max-h-0': !openSubmenu,
+            }"
+            class="transform overflow-hidden transition-all duration-600"
+          >
             <li
               v-for="(submenuItem, index) in item.submenu"
               :key="index"
@@ -40,7 +48,7 @@
 </template>
 <script lang="ts" setup>
 import CloseIcon from 'assets/icons/close.svg?component'
-import ChevronDownIcon from 'assets/icons/chevron_down.svg?component'
+import ChevronDownThickIcon from 'assets/icons/chevron_down_thick.svg?component'
 import { useRouter } from 'nuxt/app'
 import { navigationItems } from '../../config/routes'
 

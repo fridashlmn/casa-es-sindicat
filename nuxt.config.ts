@@ -74,4 +74,10 @@ export default defineNuxtConfig({
       '@vuepic/vue-datepicker',
     ],
   },
+
+  runtimeConfig: {
+    app: {
+      googleMapsApiKey: process.env.GOOGLE_MAPS_API_KEY,
+    },
+  },
 })
