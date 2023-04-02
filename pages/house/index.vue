@@ -10,9 +10,7 @@
       <p class="text-center max-w-220 my-0 mx-auto pb-30">
         {{ $t('house.intro') }}
       </p>
-      <div
-        class="grid grid-flow-col gap-4 auto-cols-auto justify-between px-14"
-      >
+      <div class="grid grid-flow-col gap-4 auto-cols-auto justify-between p-14">
         <Card
           img-alt="alt"
           img-src="dinner-table.jpg"
@@ -38,9 +36,7 @@
           title="Zweites Obergeschoss"
         />
       </div>
-      <div
-        class="grid grid-flow-col gap-4 auto-cols-auto justify-between px-14"
-      >
+      <div class="grid grid-flow-col gap-4 auto-cols-auto justify-between p-14">
         <Card
           img-alt="alt"
           img-src="dinner-table.jpg"
