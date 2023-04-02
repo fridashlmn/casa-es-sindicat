@@ -40,7 +40,6 @@
   "dependencies": {
     "@fawmi/vue-google-maps": "^0.9.79",
     "@vuepic/vue-datepicker": "^4.2.2",
-    "netlify-cli": "^13.2.2",
     "vue3-carousel": "^0.2.13"
   }
 }
