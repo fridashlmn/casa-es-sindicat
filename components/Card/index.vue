@@ -1,5 +1,5 @@
 <template>
-  <div class="h-142 max-w-91 flex flex-col shrink-0 justify-between">
+  <div class="h-150 max-w-91 flex flex-col shrink-0 justify-between">
     <div>
       <img
         :alt="imgAlt"

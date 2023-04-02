@@ -1,7 +1,7 @@
 <template>
   <div>
     <Stage
-      headline="Zweites Geschoss"
+      headline="Zweite Etage"
       img-alt="image_pool"
       img-src="apartment2.jpg"
       subline="Hier steht eine griffige Subline "

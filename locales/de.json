@@ -22,8 +22,8 @@
     "disclaimer": "Disclaimer",
     "directions": "Anfahrt",
     "groundFloor": "Erdgeschoss",
-    "firstFloor": "Erstes Obergeschoss",
-    "secondFloor": "Zweites Obergeschoss",
+    "firstFloor": "Erste Etage",
+    "secondFloor": "Zweite Etage",
     "studio": "Studio",
     "patioRooftop": "Patio & Dachterasse",
     "garden": "Garten & Pool"
@@ -47,7 +47,43 @@
     }
   },
   "house": {
-    "intro": "Das historische Stadtpalais wurde von uns Erhaltung der architektonisch wertvollen Elemente mit viel Liebe zum Detail saniert. Es erstreckt sich über vier Stockwerke und ca. 600 m2, sowie einem großen Patio mit beheizten, 3 x 6 m großen und 1,60 m tiefen Swimminpool. Ein kleiner Brunnen, Sonnenliegen und Stühle und ein Esstisch für 8 Personen laden hier zum Entspannen und Genießen ein.",
+    "stage": {
+      "headline": "Haus",
+      "subline": "Hier beginnt Ihr Urlaub"
+    },
+    "intro": "Das historische Stadtpalais Casa Es Sindicat wurde von uns mit viel Liebe zum Detail und unter Beibehaltung der architektonisch wertvollen Elemente renoviert. Es erstreckt sich über vier Etagen und etwa 600 m2. Auf der Rückseite befindet sich eine große Terrasse mit einem großzügigen beheizbaren Pool. Ein kleiner Brunnen, Sonnenliegen und -stühle sowie ein Esstisch für 8 Personen laden hier zum Entspannen und Genießen ein.",
+    "teaser": {
+      "groundFloor": {
+        "title": "Erdgeschoss",
+        "teaser": "Viel Raum für Genuss: In der untersten Etage erwartet Sie die voll ausgestattete Küche und das geräumige Esszimmer mit großem Esstisch und dem Kamin für gemütliche Stunden.",
+        "link": "Entdecken"
+      },
+      "firstFloor": {
+        "title": "Erste Etage",
+        "teaser": "Wer sich zurückziehen und die Ruhe genießen möchte, kann es sich auf dem Sofa im ersten Stock gemütlich machen. Hier befinden sich auch das Hauptschlafzimmer, ein geräumiges Badezimmer, ein Ankleidezimmer und die Bibliothek.",
+        "link": "Entdecken"
+      },
+      "secondFloor": {
+        "title": "Zweite Etage",
+        "teaser": "Ein Stockwerk höher finden Sie zwei separate Apartments für jeweils zwei Personen. Beide verfügen über ein Schlafzimmer mit Doppelbett und ein eigenes Bad. Genießen Sie den Blick nach vorne oder hinten – Sie haben die Wahl.",
+        "link": "Entdecken"
+      },
+      "studio": {
+        "title": "Studio",
+        "teaser": "Über die Terrasse gelangen Sie in das Studio. Hier können Sie es sich auf einem der beiden Designerstühle bequem machen und die einzigartige Architektur und die besondere Atmosphäre des Raumes auf sich wirken lassen.",
+        "link": "Entdecken"
+      },
+      "patioRooftop": {
+        "title": "Patio & Dachterrasse",
+        "teaser": "Hoch und noch höher: Zwischen dem ersten und zweiten Stock finden Sie den Patio, auf dem Sie vom Tagesbett aus die Seele baumeln lassen können. Ganz oben auf der Dachterrasse erwartet Sie ein atemberaubender 360°-Blick über Artà.",
+        "link": "Entdecken"
+      },
+      "garden": {
+        "title": "Pool & Garten",
+        "teaser": "Hinter dem Haus ist Entspannung angesagt: Erfrischen Sie sich im 3 x 6 m großen und 1,60 m tiefen Pool. Machen Sie es sich in der Sonne gemütlich. Und genießen Sie den Blick auf die imposanten Kakteen und den alten Mispelbaum.",
+        "link": "Entdecken"
+      }
+    },
     "groundFloor": {
       "intro": "Im Erdgeschoss befinden sich die große vollausgestattete Küche, das Esszimmer mit Kamin, Sitzecke, Gästebad, Hauswirtschaftsraum mit Waschmaschine und Trockner und ein Abstellraum"
     },
@@ -65,7 +101,7 @@
     }
   },
   "location": {
-    "intro": "Im Nordosten der Insel, im malerischen Städtchen Artà liegt das Haus im historischen Zentrum. Die Fußgänger-Einkaufsstraße, der wunderschöne Marktplatz, die Burg San Salvador sowie die Kathedrale sind in wenigen Minuten zu Fuß zu erreichen. Für den täglichen Einkauf gib es mehrere Supermärkte, ebenfalls fußläufig."
+    "intro": "Im Nordosten der Insel, im historischen Zentrum des malerischen Städtchens Artà, liegt die Casa Es Sindicat. Die verkehrsberuhigte Einkaufsstraße, der wunderschöne Marktplatz, die Burg San Salvador sowie die Kathedrale sind in eigenen Minuten zu Fuß zu erreichen. Für den täglichen Einkauf gibt es mehrere Supermärkte, ebenfalls fußläufig. "
   },
   "booking": {
     "intro": "In dem Belegungsplan sind die bereits vermieteten Zeiten rot markiert, die gelben Markierungen sind Optionen, diese Termine können wie die freien grünen Markierungen angefragt werden. Wenn Sie einen geeigneten Zeitraum für Ihren geplanten Urlaub gefunden haben, senden Sie uns bitte über Kontakt eine E-Mail, wir werden Ihnen unverzüglich antworten."

@@ -1,10 +1,10 @@
 <template>
   <div>
     <Stage
-      headline="Haus"
+      :headline="$t('house.stage.headline')"
+      :subline="$t('house.stage.subline')"
       img-alt="image_pool"
       img-src="garden.jpg"
-      subline="Hier steht eine griffige Subline "
     />
     <div class="py-30">
       <p class="text-center max-w-220 my-0 mx-auto pb-30">
@@ -12,54 +12,54 @@
       </p>
       <div class="grid grid-flow-col gap-4 auto-cols-auto justify-between p-14">
         <Card
+          :link-label="$t('house.teaser.groundFloor.link')"
+          :text="$t('house.teaser.groundFloor.teaser')"
+          :title="$t('house.teaser.groundFloor.title')"
           img-alt="alt"
           img-src="dinner-table.jpg"
-          link-label="Entdecken"
           link-path="/house/groundFloor"
-          text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
-          title="Erdgeschoss"
         />
         <Card
+          :link-label="$t('house.teaser.firstFloor.link')"
+          :text="$t('house.teaser.firstFloor.teaser')"
+          :title="$t('house.teaser.firstFloor.title')"
           img-alt="alt"
           img-src="living-room-2.jpg"
-          link-label="Entdecken"
           link-path="/house/firstFloor"
-          text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
-          title="Erstes Obergeschoss"
         />
         <Card
+          :link-label="$t('house.teaser.secondFloor.link')"
+          :text="$t('house.teaser.secondFloor.teaser')"
+          :title="$t('house.teaser.secondFloor.title')"
           img-alt="alt"
           img-src="apartment2.jpg"
-          link-label="Entdecken"
-          link-path="/house/secondeFloor"
-          text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
-          title="Zweites Obergeschoss"
+          link-path="/house/secondFloor"
         />
       </div>
       <div class="grid grid-flow-col gap-4 auto-cols-auto justify-between p-14">
         <Card
+          :link-label="$t('house.teaser.studio.link')"
+          :text="$t('house.teaser.studio.teaser')"
+          :title="$t('house.teaser.studio.title')"
           img-alt="alt"
           img-src="dinner-table.jpg"
-          link-label="Entdecken"
           link-path="/house/studio"
-          text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
-          title="Studio"
         />
         <Card
+          :link-label="$t('house.teaser.patioRooftop.link')"
+          :text="$t('house.teaser.patioRooftop.teaser')"
+          :title="$t('house.teaser.patioRooftop.title')"
           img-alt="alt"
           img-src="patio.jpg"
-          link-label="Entdecken"
           link-path="/house/patio-rooftop"
-          text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
-          title="Patio & Dachterasse"
         />
         <Card
+          :link-label="$t('house.teaser.garden.link')"
+          :text="$t('house.teaser.garden.teaser')"
+          :title="$t('house.teaser.garden.title')"
           img-alt="alt"
           img-src="garden.jpg"
-          link-label="Entdecken"
           link-path="/house/garden"
-          text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
-          title="Pool und Garten"
         />
       </div>
     </div>
