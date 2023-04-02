@@ -6,7 +6,7 @@
       method="post"
       name="contact"
       netlify
-      @submit="handleSubmit"
+      @submit="submitForm($event)"
     >
       <input name="form-name" type="hidden" value="contact" />
       <input name="text" />
@@ -15,14 +15,8 @@
   </div>
 </template>
 <script lang="ts" setup>
-const handleSubmit = () => {
-  const myForm = document.getElementById('contact') as HTMLFormElement
-  const formData = new FormData(myForm)
-  fetch('/', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: new URLSearchParams(formData).toString(),
-  }).catch((error) => console.log(error))
+const submitForm = (e) => {
+  e.preventDefault()
 }
 </script>
 <script lang="ts">
