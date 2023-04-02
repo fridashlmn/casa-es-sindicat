@@ -14,7 +14,7 @@
         <img
           alt="image_pool"
           class="w-50vw object-cover"
-          src="~/assets/images/kitchen-2.jpg"
+          src="~/assets/images/outdoor-area.jpg"
         />
         <p class="p-30">
           Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
@@ -37,14 +37,14 @@
         <img
           alt="image_pool"
           class="w-50vw object-cover"
-          src="~/assets/images/dinner-table.jpg"
+          src="~/assets/images/pool-with-light.jpg"
         />
       </div>
       <div class="flex justify-between items-center">
         <img
           alt="image_pool"
           class="w-50vw object-cover"
-          src="~/assets/images/buddha.jpg"
+          src="~/assets/images/outdoor-area.jpg"
         />
         <p class="p-30">
           Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum

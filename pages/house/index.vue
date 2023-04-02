@@ -3,7 +3,7 @@
     <Stage
       headline="Haus"
       img-alt="image_pool"
-      img-src="pool.jpg"
+      img-src="garden.jpg"
       subline="Hier steht eine griffige Subline "
     />
     <div class="py-30">
@@ -59,7 +59,7 @@
         />
         <Card
           img-alt="alt"
-          img-src="pool.jpg"
+          img-src="garden.jpg"
           link-label="Entdecken"
           link-path="/house/garden"
           text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."

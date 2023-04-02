@@ -6,29 +6,82 @@
       img-src="sunset.jpg"
       subline="Hier steht eine griffige Subline"
     />
-    <div class="flex p-15 items-center justify-between">
-      <p class="max-w-xl">
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-        ipsum dolor sit amet.
+    <div class="p-30">
+      <p class="text-center max-w-220 my-0 mx-auto pb-30">
+        {{ $t('booking.intro') }}
       </p>
-      <VueDatePicker
-        v-model="date"
-        :enable-time-picker="false"
-        :highlight="highlightedDates"
-        :inline="true"
-        :markers="markers"
-        :multi-static="false"
-        multi-calendars
-        position="right"
-        range
-      />
+      <div class="flex justify-between">
+        <div>
+          <HeadlineComponent class="mb-8" level="M">Preise</HeadlineComponent>
+          <span>Preise bei einer Belegung mit bis zu 6 Erwachsenen</span>
+          <ul class="listStyle ml-9 mb-30">
+            <li>Pro Tag: 180,00 €</li>
+            <li>Pro Woche: 1.260,00 €</li>
+            <li>Endreinigung pauschal 150,00 € pro Aufenthalt</li>
+          </ul>
+        </div>
+        <VueDatePicker
+          v-model="date"
+          :enable-time-picker="false"
+          :highlight="highlightedDates"
+          :inline="true"
+          :markers="markers"
+          :multi-static="false"
+          class="pb-30"
+          multi-calendars
+          position="right"
+          range
+        />
+      </div>
+      <HeadlineComponent class="mb-8" level="M">
+        Mietbedingungen
+      </HeadlineComponent>
+      <ul class="listStyle ml-9">
+        <li>
+          Wir bestätigen Ihnen per Mail die Anmietung der Finca. Damit die
+          Vermietung endgültig zustande gekommen ist, müssen Sie innerhalb einer
+          Woche nach Erhalt der Bestätigung 25 % der Miete als Anzahlung an uns
+          überweisen.
+        </li>
+        <li>
+          Die restlichen 75 % der Miete müssen bis 6 Wochen vor Beginn der
+          Mietzeit auf unserem Konto eingegangen sein.
+        </li>
+        <li>
+          Eine Mietkaution in Höhe von Euro 400,00 muss spätestens eine Woche
+          vor Mietbeginn auf unserem Konto eingegangen sein.
+        </li>
+        <li>
+          Bei der Anreise erfolgt, durch eine von uns beauftragte Person, die
+          Schlüsselübergabe sowie eine Einweisung in die Finca.
+        </li>
+        <li>
+          Am Tag der Abreise wird dieselbe Person den Schlüssel wieder
+          entgegennehmen und dabei die Finca auf ihren einwandfreien Zustand
+          überprüfen. Bei mängelfreiem Zustand werden wir Ihnen die Mietkaution
+          unverzüglich zurück überweisen.
+        </li>
+        <li>
+          Im Mietpreis enthalten sind Bettwäsche und Handtücher. Die
+          Endreinigung wird pauschal mit Euro 150 bzw. Euro 220 berechnet.
+        </li>
+        <li>
+          Die Finca darf nur durch die Anzahl Personen bewohnt werden, die bei
+          der Anmietung angegeben wurden. Maximal 6 bzw. 8 Personen sowie 2
+          Kleinkinder bis 3 Jahre.
+        </li>
+        <li>
+          Die Benutzung des Pools geschieht auf eigene Gefahr. Kinder sind von
+          den Eltern bei der Nutzung des Pools zu beaufsichtigen.
+        </li>
+        <li>
+          Am Tag der Anreise kann die Finca ab 16:00 Uhr bezogen werden. Am Tag
+          der Abreise muss die Finca bis 11:00 Uhr verlassen werden.
+        </li>
+        <li>Das Mitbringen von Haustieren ist untersagt.</li>
+        <li>Rauchen innerhalb des Hauses ist nicht gestattet.</li>
+        <li>Das Feiern von Partys auf der Finca ist nicht erlaubt.</li>
+      </ul>
     </div>
   </div>
 </template>
@@ -36,6 +89,7 @@
 import VueDatePicker from '@vuepic/vue-datepicker'
 import '@vuepic/vue-datepicker/dist/main.css'
 import addDays from 'date-fns/addDays'
+import HeadlineComponent from '../components/Headline/index.vue'
 
 const date = ref()
 const highlightedDates = ref([
@@ -67,3 +121,26 @@ export default {
   name: 'BookingPage',
 }
 </script>
+<style module>
+.dp__theme_light {
+  --dp-background-color: white;
+  --dp-text-color: #212121;
+  --dp-hover-color: #f3f3f3;
+  --dp-hover-text-color: #212121;
+  --dp-hover-icon-color: #959595;
+  --dp-primary-color: #1976d2;
+  --dp-primary-text-color: #f8f5f5;
+  --dp-secondary-color: #c0c4cc;
+  --dp-border-color: #ddd;
+  --dp-menu-border-color: #ddd;
+  --dp-border-color-hover: #aaaeb7;
+  --dp-disabled-color: #f6f6f6;
+  --dp-scroll-bar-background: #f3f3f3;
+  --dp-scroll-bar-color: #959595;
+  --dp-success-color: transparent;
+  --dp-success-color-disabled: #a3d9b1;
+  --dp-icon-color: #959595;
+  --dp-danger-color: #ff6f60;
+  --dp-highlight-color: rgba(25, 118, 210, 0.1);
+}
+</style>

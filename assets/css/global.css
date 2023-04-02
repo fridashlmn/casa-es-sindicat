@@ -12,3 +12,39 @@ li a {
   padding-top: 16px;
   list-style: square;
 }
+
+.dp__action_row {
+  display: none !important;
+}
+
+.dp__main, .dp__calendar_wrap {
+  width: auto !important;
+  font-family: "Avenir Next" !important;
+}
+
+.dp__instance_calendar {
+  padding: 20px;
+}
+
+.dp__calendar_next {
+  margin-left: 20px !important;
+}
+
+.dp__month_year_row {
+  height: 60px !important;
+  font-family: "Bodoni Moda" !important;
+  font-weight: bold !important;
+}
+
+.dp__month_year_wrap {
+  justify-content: center !important;
+}
+
+.dp__month_year_select {
+  width: auto !important;
+  margin-right: 16px !important;
+}
+
+.dp__flex_display {
+  justify-content: flex-end !important;
+}

@@ -44,7 +44,7 @@
         <img
           alt="image_pool"
           class="w-50vw object-cover"
-          src="~/assets/images/buddha.jpg"
+          src="~/assets/images/groundfloor.jpg"
         />
         <p class="p-30">
           Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum

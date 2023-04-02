@@ -51,7 +51,7 @@ const component: ComputedRef<HeadlineTag | undefined> = computed(() => {
 })
 
 const styles: ComputedRef<string[]> = computed(() => {
-  return ['font-400 hyphens-auto my-0 z-10', selectedLevel?.value?.style || '']
+  return ['font-400 hyphens-auto my-0', selectedLevel?.value?.style || '']
 })
 </script>
 

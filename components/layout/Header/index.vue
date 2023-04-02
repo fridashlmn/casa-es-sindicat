@@ -21,7 +21,10 @@
       </div>
     </Transition>
     <button @click="router.push('/')">
-      <LogoIcon v-if="scrollPosition > 50" class="w-12 fill-black" />
+      <LogoIcon
+        v-if="scrollPosition > 50 || !isHomePage"
+        class="w-12 fill-black"
+      />
     </button>
     <LocaleSwitch :is-scrolling="scrollPosition > 50 || !isHomePage" />
   </header>
