@@ -1,36 +1,16 @@
 <template>
   <div>
-    <form data-netlify="true" method="POST" name="contact">
-      <p>
-        <label>
-          Your Name:
-          <input name="name" type="text" />
-        </label>
-      </p>
-      <p>
-        <label>
-          Your Email:
-          <input name="email" type="email" />
-        </label>
-      </p>
-      <p>
-        <label>
-          Your Role:
-          <select multiple name="role[]">
-            <option value="leader">Leader</option>
-            <option value="follower">Follower</option>
-          </select>
-        </label>
-      </p>
-      <p>
-        <label>
-          Message:
-          <textarea name="message"></textarea>
-        </label>
-      </p>
-      <p>
-        <button type="submit">Send</button>
-      </p>
+    <form
+      id="contact"
+      data-netlify="true"
+      method="post"
+      name="contact"
+      netlify
+      netlify-honeypot="bot-field"
+    >
+      <input name="form-name" type="hidden" value="contact" />
+      <input name="text" />
+      <button>Submit</button>
     </form>
   </div>
 </template>
