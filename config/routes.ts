@@ -1,5 +1,10 @@
 export const navigationItems = [
   {
+    path: '/',
+    name: 'navigation.home',
+    submenu: [],
+  },
+  {
     path: '/location',
     name: 'navigation.location',
     submenu: [],

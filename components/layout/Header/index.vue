@@ -1,11 +1,11 @@
 <template>
   <header
-    :class="{ 'bg-white': scrollPosition > 50, 'fixed': isHomePage }"
-    class="h-20 px-6 lg:px-20 w-screen flex flex-row flew-nowrap items-center justify-between z-2 bg-transparent transition-all ease-in"
+    :class="{ 'bg-white': scrollPosition > 50 }"
+    class="fixed h-20 px-6 lg:px-20 w-screen flex flex-row flew-nowrap items-center justify-between z-2 bg-transparent transition-all ease-in"
   >
     <button>
       <MenuIcon
-        :class="{ '!fill-black': scrollPosition > 50 || !isHomePage }"
+        :class="{ '!fill-black': scrollPosition > 50 }"
         class="w-32pt h-32pt mt-4 inline-block fill-white transition-all ease-in"
         @click="toggleSidebar"
       />
@@ -22,12 +22,9 @@
       </div>
     </Transition>
     <button @click="router.push('/')">
-      <LogoIcon
-        v-if="scrollPosition > 50 || !isHomePage"
-        class="w-12 fill-black"
-      />
+      <LogoIcon v-if="scrollPosition > 50" class="w-12 fill-black" />
     </button>
-    <LocaleSwitch :is-scrolling="scrollPosition > 50 || !isHomePage" />
+    <LocaleSwitch :is-scrolling="scrollPosition > 50" />
   </header>
 </template>
 <script lang="ts" setup>
@@ -40,7 +37,6 @@ const router = useRouter()
 
 const sidebarVisible = ref<boolean>(false)
 const scrollPosition = ref<number | null>(null)
-const isHomePage = ref<boolean>(false)
 const toggleSidebar = () => {
   sidebarVisible.value = !sidebarVisible.value
 }
@@ -52,16 +48,6 @@ const updateScroll = () => {
 onMounted(() => {
   window.addEventListener('scroll', updateScroll)
 })
-
-const watchRoute = () => {
-  router.currentRoute.value.name === 'index___de' ||
-  router.currentRoute.value.name === 'index___en' ||
-  router.currentRoute.value.name === 'index___es'
-    ? (isHomePage.value = true)
-    : (isHomePage.value = false)
-}
-
-watch(router.currentRoute, watchRoute, { immediate: true })
 </script>
 <script lang="ts">
 import LocaleSwitch from '../../LocaleSwitch/index.vue'

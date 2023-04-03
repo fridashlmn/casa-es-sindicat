@@ -13,11 +13,14 @@
       <div class="flex justify-between">
         <div>
           <HeadlineComponent class="mb-8" level="M">Preise</HeadlineComponent>
-          <span>Preise bei einer Belegung mit bis zu 6 Erwachsenen</span>
+          <span>
+            Preise bei einer Belegung mit bis zu 6 Erwachsenen sowie zwei
+            Kleinkindern (bis 5 Jahre)
+          </span>
           <ul class="listStyle ml-9 mb-30">
-            <li>Pro Tag: 180,00 €</li>
-            <li>Pro Woche: 1.260,00 €</li>
-            <li>Endreinigung pauschal 150,00 € pro Aufenthalt</li>
+            <li>Pro Tag: 750 € - 3 Nächte Mindestaufenthalt</li>
+            <li>Eine Woche: 5.100 €</li>
+            <li>Zwei Wochen: 10.000 €</li>
           </ul>
         </div>
         <VueDatePicker
@@ -53,8 +56,8 @@
           Mietzeit auf unserem Konto eingegangen sein.
         </li>
         <li>
-          Eine Mietkaution in Höhe von Euro 400,00 muss spätestens eine Woche
-          vor Mietbeginn auf unserem Konto eingegangen sein.
+          Eine Mietkaution in Höhe von 1.000 € muss spätestens eine Woche vor
+          Mietbeginn auf unserem Konto eingegangen sein.
         </li>
         <li>
           Bei der Anreise erfolgt, durch eine von uns beauftragte Person, die
@@ -68,7 +71,7 @@
         </li>
         <li>
           Im Mietpreis enthalten sind Bettwäsche und Handtücher. Die
-          Endreinigung wird pauschal mit Euro 150 bzw. Euro 220 berechnet.
+          Endreinigung wird pauschal mit 220 € berechnet.
         </li>
         <li>
           Die Finca darf nur durch die Anzahl Personen bewohnt werden, die bei

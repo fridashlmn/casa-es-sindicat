@@ -1,7 +1,7 @@
 <template>
   <div>
     <Stage
-      headline="Patio & Rooftop"
+      headline="Porche & Dachterasse"
       img-alt="image_pool"
       img-src="rooftop-2.jpg"
       subline="Hier steht eine griffige Subline "

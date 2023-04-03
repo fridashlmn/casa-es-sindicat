@@ -5,11 +5,11 @@
     ]"
   >
     <div class="relative bg-white">
-      <button class="absolute top-8 left-10" @click.stop="close">
-        <CloseIcon class="w-32pt h-32pt inline-block" />
+      <button class="absolute top-8 left-8" @click.stop="close">
+        <CloseIcon class="w-40pt h-40pt inline-block" />
       </button>
 
-      <ul class="font-normal text-neutralDarkest p-22">
+      <ul class="font-normal text-neutralDarkest py-18 px-22">
         <li
           v-for="(item, index) in navigationItems"
           :key="index"

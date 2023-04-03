@@ -16,6 +16,7 @@
           <li>Kinderbett & Kinderstuhlm</li>
           <li>Kostenfreies W-LAN</li>
           <li>Vollausgestattete Küche inkl. De Longhi Kaffeevollautomat</li>
+          <li>Waschmaschine & Trockner</li>
         </ul>
       </div>
       <hr class="mb-24" />
@@ -26,6 +27,7 @@
           <li>Terassen-Stühle</li>
           <li>Badehandtücher</li>
           <li>Beheizter Pool mit Gegenstrom-Anlage - 1.60 m Tiefe</li>
+          <li>Außendusche</li>
         </ul>
         <HeadlineComponent class="ml-27" level="M">
           Außenbereich
@@ -37,9 +39,9 @@
           Entertainment
         </HeadlineComponent>
         <ul class="listStyle">
-          <li>Smart-TV xx Zoll</li>
-          <li>Bluetooth Lautsprecher</li>
-          <li>Umfassende Bibliothek</li>
+          <li>Smart-TV 65 Zoll</li>
+          <li>BluOS Bluetooth-Soundsystem</li>
+          <li>Bibliothek</li>
         </ul>
       </div>
       <hr class="mb-24" />
@@ -48,7 +50,6 @@
           <li>Handtücher</li>
           <li>Shampoo & Bodywash</li>
           <li>Haartrochner</li>
-          <li>Waschmaschine & Trockner</li>
         </ul>
         <HeadlineComponent class="ml-27" level="M">
           Badezimmer
