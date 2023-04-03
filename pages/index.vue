@@ -3,21 +3,16 @@
     <div class="flex items-center justify-center relative opacity-88">
       <img
         alt="image_pool"
-        class="w-screen max-h-185 object-cover"
+        class="w-screen min-h-90vh max-h-185 object-cover"
         src="~/assets/images/sunset-2.jpg"
       />
-      <LogoIcon
-        :class="{
-          '!fixed !-top-2 !w-18 !fill-black z-3': scrollPosition > 50,
-        }"
-        class="absolute w-130 transition-all ease-in fill-[#f1f1f1]"
-      />
+      <LogoIcon class="absolute w-64 md:w-88 lg:w-130 fill-[#f1f1f1]" />
     </div>
-    <div class="p-30">
+    <div class="px-6 py-16 md:p-16 lg:p-30">
       <p class="text-center max-w-220 my-0 mx-auto pb-30">
         {{ $t('home.intro') }}
       </p>
-      <div class="grid grid-flow-col gap-4 auto-cols-auto justify-between">
+      <div class="flex flex-wrap justify-between shrink">
         <Card
           :link-label="$t('home.equipment.link')"
           :text="$t('home.location.teaser')"

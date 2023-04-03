@@ -1,10 +1,10 @@
 <template>
-  <div class="h-150 max-w-91 flex flex-col shrink-0 justify-between">
+  <div class="h-150 max-w-81 md:max-w-91 flex flex-col shrink justify-between">
     <div>
       <img
         :alt="imgAlt"
         :src="useAsset(imgSrc)"
-        class="h-91 max-w-91 w-91 object-cover"
+        class="h-91 w-81 md:w-91 object-cover"
       />
       <h5 class="text-xl pt-4 pb-2">{{ title }}</h5>
       <p>{{ text }}</p>

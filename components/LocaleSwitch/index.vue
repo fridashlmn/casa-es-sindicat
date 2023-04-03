@@ -1,5 +1,5 @@
 <template>
-  <div class="w-15 relative mr-20">
+  <div class="w-15 relative">
     <select
       :class="{ '!text-black': isScrolling }"
       aria-label="locale_switch"

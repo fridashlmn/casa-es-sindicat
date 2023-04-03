@@ -1,12 +1,12 @@
 <template>
   <header
     :class="{ 'bg-white': scrollPosition > 50, 'fixed': isHomePage }"
-    class="h-20 w-screen flex flex-row flew-nowrap items-center justify-between z-2 bg-transparent transition-all ease-in"
+    class="h-20 px-6 lg:px-20 w-screen flex flex-row flew-nowrap items-center justify-between z-2 bg-transparent transition-all ease-in"
   >
     <button>
       <MenuIcon
         :class="{ '!fill-black': scrollPosition > 50 || !isHomePage }"
-        class="w-32pt h-32pt ml-20 mt-4 inline-block fill-white transition-all ease-in"
+        class="w-32pt h-32pt mt-4 inline-block fill-white transition-all ease-in"
         @click="toggleSidebar"
       />
     </button>
