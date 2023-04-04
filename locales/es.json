@@ -16,5 +16,24 @@
     "equipment": "Equipamiento",
     "booking": "Reserve",
     "contact": "Contacto"
+  },
+  "impressum": {
+    "headline": "Pie de imprenta",
+    "content": "Información según § 5 TMG:<br /><br />Silka & Helmut Koch<br />Bellevue 8<br />22301 Hamburgo<br />Teléfono: +49 171 8626891<br />E-Mail: helmutkoch8&#64icloud.com"
+  },
+  "disclaimer": {
+    "headline": "Descargo de responsabilidad",
+    "content": {
+      "headline": "Responsabilidad por el contenido",
+      "content": "Como proveedor de servicios, somos responsables de nuestros propios contenidos en estas páginas de acuerdo con la legislación general según el artículo 7 (1) de la Ley alemana de medios de telecomunicación (TMG). Sin embargo, según los §§ 8 a 10 de la TMG, como proveedor de servicios no estamos obligados a controlar la información ajena transmitida o almacenada ni a investigar circunstancias que indiquen una actividad ilegal.<br /><br />Esto no afecta a las obligaciones de eliminar o bloquear el uso de información de conformidad con las leyes generales. Sin embargo, la responsabilidad a este respecto sólo es posible a partir del momento en que se tiene conocimiento de una infracción concreta de la ley. Si tenemos conocimiento de infracciones correspondientes, eliminaremos estos contenidos inmediatamente."
+    },
+    "links": {
+      "headline": "Responsabilidad de los enlaces",
+      "content": "Nuestra oferta contiene enlaces a páginas web externas de terceros, sobre cuyos contenidos no tenemos ninguna influencia. Por lo tanto, no podemos asumir ninguna responsabilidad por estos contenidos externos. El respectivo proveedor u operador de las páginas es siempre responsable del contenido de las páginas enlazadas. En el momento de establecer el enlace se comprobó si las páginas enlazadas infringían la ley. En el momento de establecer el enlace no se detectaron contenidos ilegales.<br /><br />\nSin embargo, no es razonable un control permanente de los contenidos de las páginas enlazadas sin indicios concretos de una infracción legal. Si tenemos conocimiento de alguna infracción de la ley, eliminaremos inmediatamente dichos enlaces."
+    },
+    "copyright": {
+      "headline": "Derechos de autor",
+      "content": "Los contenidos y obras creados por los operadores del sitio en estas páginas están sujetos a la legislación alemana sobre derechos de autor. La reproducción, el procesamiento, la distribución y cualquier tipo de explotación fuera de los límites de la ley de derechos de autor requieren el consentimiento por escrito del autor o creador correspondiente. Las descargas y copias de este sitio sólo están permitidas para uso privado y no comercial.<br /><br />\nEn la medida en que el contenido de este sitio no haya sido creado por el operador, se respetan los derechos de autor de terceros. En particular, los contenidos de terceros están marcados como tales. No obstante, si tiene conocimiento de una infracción de los derechos de autor, le rogamos que nos lo comunique. Si tenemos conocimiento de alguna infracción, eliminaremos inmediatamente dicho contenido."
+    }
   }
 }

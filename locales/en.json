@@ -16,5 +16,115 @@
     "equipment": "Equipment",
     "booking": "Booking",
     "contact": "Contact"
+  },
+  "impressum": {
+    "headline": "Imprint",
+    "content": "Information according to § 5 TMG:<br /><br />Silka & Helmut Koch<br />Bellevue 8<br />22301 Hamburg<br />Phone: +49 171 8626891<br />E-Mail: helmutkoch8&#64icloud.com"
+  },
+  "disclaimer": {
+    "headline": "Disclaimer",
+    "content": {
+      "headline": "Liability for contents",
+      "content": "As a service provider, we are responsible for our own content on these pages in accordance with general legislation pursuant to Section 7 (1) of the German Telemedia Act (TMG). According to §§ 8 to 10 TMG, however, we are not obligated as a service provider to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity.<br /><br />Obligations to remove or block the use of information under the general laws remain unaffected. However, liability in this regard is only possible from the point in time at which a concrete infringement of the law becomes known. If we become aware of such infringements, we will remove this content immediately."
+    },
+    "links": {
+      "headline": "Liability for links",
+      "content": "Our offer contains links to external websites of third parties, on whose contents we have no influence. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the pages is always responsible for the content of the linked pages. The linked pages were checked for possible legal violations at the time of linking. Illegal contents were not recognizable at the time of linking.<br /><br />However, a permanent control of the contents of the linked pages is not reasonable without concrete evidence of a violation of the law. If we become aware of any infringements, we will remove such links immediately."
+    },
+    "copyright": {
+      "headline": "Copyright",
+      "content": "The content and works created by the site operators on these pages are subject to German copyright law. Duplication, processing, distribution, or any form of commercialization of such material beyond the scope of the copyright law shall require the prior written consent of its respective author or creator. Downloads and copies of this site are only permitted for private, non-commercial use.<br /><br />Insofar as the content on this site was not created by the operator, the copyrights of third parties are respected. In particular, third-party content is identified as such. Should you nevertheless become aware of a copyright infringement, please inform us accordingly. If we become aware of any infringements, we will remove such content immediately."
+    }
+  },
+  "privacyPolicy": {
+    "headline": "Privacy policy",
+    "first": {
+      "headline": "1. Data protection at a glance",
+      "general": {
+        "headline": "General information",
+        "content": "The following notes provide a simple overview of what happens to your personal data when you visit our website. Personal data is any data with which you can be personally identified. For detailed information on the subject of data protection, please refer to our privacy policy listed below this text."
+      },
+      "usage": {
+        "headline": "Data collection on our website",
+        "content": "Who is responsible for data collection on this website?<br />The data processing on this website is carried out by the website operator. You can find his contact details in the imprint of this website.<br /><br />How do we collect your data?<br />On the one hand, your data is collected by you providing it to us. This can be, for example, data that you enter in a contact form.<br /><br />Other data is collected automatically by our IT systems when you visit the website. This is mainly technical data (e.g. Internet browser, operating system or time of page view). The collection of this data takes place automatically as soon as you enter our website.<br /><br />What do we use your data for?<br />Part of the data is collected to ensure error-free provision of the website. Other data may be used to analyze your user behavior.<br /><br />What rights do you have regarding your data?<br />You have the right to receive information about the origin, recipient and purpose of your stored personal data free of charge at any time. You also have a right to demand the correction, blocking or deletion of this data. For this purpose, as well as for further questions on the subject of data protection, you can contact us at any time at the address given in the imprint. Furthermore, you have the right to lodge a complaint with the competent supervisory authority.<br /><br />You also have the right to request the restriction of the processing of your personal data under certain circumstances. For details, please refer to the privacy policy under \"Right to restriction of processing\"."
+      },
+      "thirdParty": {
+        "headline": "Third-party analytics and tools",
+        "content": "When visiting our website, your surfing behavior can be statistically evaluated. This is done primarily with cookies and with so-called analysis programs. The analysis of your surfing behavior is usually anonymous; the surfing behavior cannot be traced back to you. You can object to this analysis or prevent it by not using certain tools. You can find detailed information on this in the following privacy policy.<br /><br />You can object to this analysis. We will inform you about the objection options in this privacy policy."
+      }
+    },
+    "second": {
+      "headline": "2. General notes and mandatory information",
+      "privacy": {
+        "headline": "Privacy",
+        "content": "The operators of these pages take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory data protection regulations and this privacy policy.<br /><br />When you use this website, various personal data are collected. Personal data is data with which you can be personally identified. This privacy policy explains what data we collect and what we use it for. It also explains how and for what purpose this is done.<br /><br />We would like to point out that data transmission on the Internet (e.g. when communicating by e-mail) can have security gaps. Complete protection of data against access by third parties is not possible."
+      },
+      "responsibility": {
+        "headline": "Note on the responsible entity",
+        "content": "The responsible party for data processing on this website is:<br /><br />Silka & Helmut Koch<br />Bellevue 8<br />22301 Hamburg<br />Phone: +49 171 8626891<br />E-Mail: helmutkoch8&#64icloud.com<br /><br />The responsible party is the natural or legal person who alone or jointly with others determines the purposes and means of the processing of personal data (e.g. names, e-mail addresses or similar)."
+      },
+      "revocation": {
+        "headline": "Revocation of your consent to data processing",
+        "content": "Many data processing operations are only possible with your express consent. You can revoke an already given consent at any time. For this purpose, an informal communication by e-mail to us is sufficient. The legality of the data processing carried out until the revocation remains unaffected by the revocation."
+      },
+      "rightOfObjection": {
+        "headline": "Right to object to data collection in special cases and to direct marketing (Art. 21 DSGVO)",
+        "content": "If the data processing is based on Art. 6 (1) lit. e or f DSGVO, you have the right to object to the processing of your personal data at any time for reasons arising from your particular situation; this also applies to profiling based on these provisions. The respective legal basis on which processing is based can be found in this privacy policy. If you object, we will no longer process your personal data concerned unless we can demonstrate compelling legitimate grounds for the processing which override your interests, rights and freedoms, or the processing serves the purpose of asserting, exercising or defending legal claims (objection pursuant to Art. 21(1) DSGVO).<br /><br />If your personal data is processed for the purpose of direct marketing, you have the right to object at any time to the processing of personal data concerning you for the purpose of such marketing; this also applies to profiling, insofar as it is associated with such direct marketing. If you object, your personal data will subsequently no longer be used for the purpose of direct marketing (objection pursuant to Art. 21 (2) DSGVO)."
+      },
+      "rightOfAppeal": {
+        "headline": "Right of complaint to the competent supervisory authority",
+        "content": "In the event of breaches of the GDPR, data subjects shall have a right of appeal to a supervisory authority, in particular in the Member State of their habitual residence, their place of work or the place of the alleged breach. The right of appeal is without prejudice to other administrative or judicial remedies."
+      },
+      "rightOfDataPortability": {
+        "headline": "Right to data portability",
+        "content": "You have the right to have data that we process automatically on the basis of your consent or in fulfillment of a contract handed over to you or to a third party in a common, machine-readable format. If you request the direct transfer of the data to another controller, this will only be done insofar as it is technically feasible."
+      },
+      "encryption": {
+        "headline": "SSL or TLS encryption",
+        "content": "This site uses SSL or TLS encryption for security reasons and to protect the transmission of confidential content, such as orders or requests that you send to us as the site operator. You can recognize an encrypted connection by the fact that the address line of the browser changes from \"http://\" to \"https://\" and by the lock symbol in your browser line.<br /><br />If SSL or TLS encryption is activated, the data you transmit to us cannot be read by third parties."
+      },
+      "deletion": {
+        "headline": "Information, blocking, deletion and correction",
+        "content": "Within the framework of the applicable legal provisions, you have the right at any time to free information about your stored personal data, its origin and recipient and the purpose of data processing and, if necessary, a right to correction, blocking or deletion of this data. For this purpose, as well as for further questions on the subject of personal data, you can contact us at any time at the address given in the imprint."
+      },
+      "restriction": {
+        "headline": "Right to restriction of processing",
+        "content": "You have the right to request the restriction of the processing of your personal data. To do this, you can contact us at any time at the address given in the imprint. The right to restriction of processing exists in the following cases:<br /><br /><li>If you dispute the accuracy of your personal data stored by us, we usually need time to verify this. For the duration of the review, you have the right to request the restriction of the processing of your personal data.</li><li>If the processing of your personal data has happened / is happening unlawfully, you can request the restriction of data processing instead of deletion.</li><li>If we no longer need your personal data, but you need it to exercise, defend or assert legal claims, you have the right to request the restriction of the processing of your personal data instead of erasure.</li><li>If you have lodged an objection pursuant to Art. 21 (1) DSGVO, a balancing of your and our interests must be carried out. As long as it has not yet been determined whose interests prevail, you have the right to request the restriction of the processing of your personal data.</li><br /><br />If you have restricted the processing of your personal data, this data may - apart from being stored - only be processed with your consent or for the assertion, exercise or defense of legal claims or for the protection of the rights of another natural or legal person or for reasons of an important public interest of the European Union or a Member State."
+      }
+    },
+    "third": {
+      "headline": "3. Data collection on our website",
+      "cookies": {
+        "headline": "Cookies",
+        "content": "The Internet pages partly use so-called cookies. Cookies do not cause any damage to your computer and do not contain viruses. Cookies serve to make our offer more user-friendly, effective and secure. Cookies are small text files that are stored on your computer and saved by your browser.<br /><br />Most of the cookies we use are so-called \"session cookies\". They are automatically deleted after the end of your visit. Other cookies remain stored on your terminal device until you delete them. These cookies allow us to recognize your browser on your next visit.<br /><br />You can set your browser so that you are informed about the setting of cookies and only allow cookies in individual cases, exclude the acceptance of cookies for certain cases or in general and activate the automatic deletion of cookies when closing the browser. If cookies are deactivated, the functionality of this website may be limited.<br /><br />Cookies that are required to carry out the electronic communication process or to provide certain functions that you have requested (e.g. shopping cart function) are stored on the basis of Art. 6 (1) lit. f DSGVO. The website operator has a legitimate interest in storing cookies for the technically error-free and optimized provision of its services. Insofar as other cookies (e.g. cookies for analyzing your surfing behavior) are stored, these are treated separately in this privacy policy."
+      },
+      "logFiles": {
+        "headline": "Server log files",
+        "content": "The provider of the pages automatically collects and stores information in so-called server log files, which your browser automatically transmits to us. These are:<br /><br /><li>Browser type and version</li><li>Used operation system</li><li>Referrer URL</li><li>Host name of the accessing computer</li><li>Time of the server request</li><li>IP address</li><br /><br />This data is not merged with other data sources.<br /><br />The collection of this data is based on Art. 6 para. 1 lit. f DSGVO. The website operator has a legitimate interest in the technically error-free presentation and optimization of its website - for this purpose, the server log files must be collected."
+      },
+      "contact": {
+        "headline": "Contact form",
+        "content": "If you send us inquiries via the contact form, your data from the inquiry form, including the contact data you provided there, will be stored by us for the purpose of processing the inquiry and in case of follow-up questions. We do not pass on this data without your consent.<br /><br />The processing of the data entered in the contact form is therefore based exclusively on your consent (Art. 6 para. 1 lit. a DSGVO). You can revoke this consent at any time. For this purpose, an informal communication by e-mail to us is sufficient. The legality of the data processing operations carried out until the revocation remains unaffected by the revocation.<br /><br />The data you entered in the contact form will remain with us until you request us to delete it, revoke your consent to store it, or the purpose for storing the data no longer applies (e.g. after we have completed processing your request). Mandatory legal provisions - in particular retention periods - remain unaffected."
+      },
+      "request": {
+        "headline": "Request by e-mail, phone or fax",
+        "content": "If you contact us by e-mail, telephone or fax, your inquiry including all resulting personal data (name, inquiry) will be stored and processed by us for the purpose of processing your request. We do not pass on this data without your consent.<br /><br />The processing of this data is based on Art. 6 (1) lit. b DSGVO, if your request is related to the performance of a contract or is necessary for the implementation of pre-contractual measures. In all other cases, the processing is based on your consent (Art. 6 (1) (a) DSGVO) and / or on our legitimate interests (Art. 6 (1) (f) DSGVO), as we have a legitimate interest in the effective processing of requests sent to us.<br /><br />The data you send to us via contact requests will remain with us until you request us to delete it, revoke your consent to store it, or the purpose for storing the data no longer applies (e.g. after we have completed processing your request). Mandatory legal provisions - in particular legal retention periods - remain unaffected."
+      },
+      "processing": {
+        "headline": "Processing of data (customer and contract data)",
+        "content": "We collect, process and use personal data only to the extent that they are necessary for the establishment, content or modification of the legal relationship (inventory data). This is done on the basis of Art. 6 para. 1 lit. b DSGVO, which permits the processing of data for the fulfillment of a contract or pre-contractual measures. We collect, process and use personal data about the use of our Internet pages (usage data) only insofar as this is necessary to enable the user to use the service or to bill the user.<br /><br />The collected customer data will be deleted after completion of the order or termination of the business relationship. Statutory retention periods remain unaffected."
+      }
+    },
+    "fourth": {
+      "headline": "4. Plugins and Tools",
+      "googleFonts": {
+        "headline": "Google Web Fonts",
+        "content": "This page uses so-called web fonts provided by Google for the uniform display of fonts. When you call up a page, your browser loads the required web fonts into its browser cache in order to display texts and fonts correctly.<br />For this purpose, the browser you are using must connect to Google's servers. This gives Google knowledge that our website has been accessed via your IP address. Google Web Fonts are used in the interest of a uniform and appealing presentation of our online offers. This represents a legitimate interest within the meaning of Art. 6 (1) lit. f DSGVO.<br />If your browser does not support web fonts, a standard font will be used by your computer.<br />You can find more information about Google Web Fonts at <a href=\"https://developers.google.com/fonts/faq\">developers.google.com/fonts/faq</a> and in Google's privacy policy: <a href=\"https://policies.google.com/privacy?hl=de\">policies.google.com/privacy</a>."
+      },
+      "googleMaps": {
+        "headline": "Google Maps",
+        "content": "This site uses the map service Google Maps via an API. The provider is Google Inc, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.<br />To use the functions of Google Maps, it is necessary to store your IP address. This information is usually transferred to a Google server in the USA and stored there. The provider of this site has no influence on this data transmission.<br />The use of Google Maps is in the interest of an appealing presentation of our online offers and an easy location of the places indicated by us on the website. This represents a legitimate interest within the meaning of Art. 6 para. 1 lit. f DSGVO.<br />More information on the handling of user data can be found in Google's privacy policy: <a href=\"https://policies.google.com/privacy?hl=de\">policies.google.com/privacy</a>."
+      }
+    }
   }
 }

@@ -3,7 +3,7 @@
     <footer class="flex flex-col sm:flex-row items-center justify-between p-8">
       <div>
         <button @click="router.push('/')">
-          <LogoIcon class="w-32 md:w-50 fill-[#f1f1f1]" />
+          <LogoIcon class="w-32 md:w-50" />
         </button>
       </div>
       <div>
@@ -49,7 +49,7 @@
 </template>
 
 <script lang="ts" setup>
-import LogoIcon from 'assets/logo/ces.svg?component'
+import LogoIcon from 'assets/logo/ces_color.svg?component'
 import { useRouter } from 'nuxt/app'
 import {
   footer1NavigationItems,

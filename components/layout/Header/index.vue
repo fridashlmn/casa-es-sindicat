@@ -5,7 +5,7 @@
   >
     <button>
       <MenuIcon
-        :class="{ '!fill-black': scrollPosition > 50 }"
+        :class="{ '!fill-black': scrollPosition > 50 || fillBlack }"
         class="w-32pt h-32pt mt-4 inline-block fill-white transition-all ease-in"
         @click="toggleSidebar"
       />
@@ -22,16 +22,27 @@
       </div>
     </Transition>
     <button @click="router.push('/')">
-      <LogoIcon v-if="scrollPosition > 50" class="w-12 fill-black" />
+      <LogoIcon
+        v-if="scrollPosition > 50 || fillBlack"
+        class="w-12 fill-black"
+      />
     </button>
-    <LocaleSwitch :is-scrolling="scrollPosition > 50" />
+    <LocaleSwitch :fill-black="scrollPosition > 50 || fillBlack" />
   </header>
 </template>
 <script lang="ts" setup>
 import { onMounted } from 'vue'
 import { useRouter } from 'nuxt/app'
 import MenuIcon from 'assets/icons/menu.svg?component'
-import LogoIcon from 'assets/logo/ces.svg?component'
+import LogoIcon from 'assets/logo/ces_color.svg?component'
+
+interface Props {
+  fillBlack?: boolean
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  fillBlack: false,
+})
 
 const router = useRouter()
 

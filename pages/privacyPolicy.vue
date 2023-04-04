@@ -1,6 +1,6 @@
 <template>
-  <div class="pt-20 pb-24 px-36">
-    <HeadlineComponent class="pb-12" level="M">
+  <div class="pt-36 pb-30 px-7 md:px-22 lg:px-36">
+    <HeadlineComponent class="pb-5 md:pb-12 break-words" level="M">
       {{ $t('privacyPolicy.headline') }}
     </HeadlineComponent>
     <!-- FIRST -->
@@ -47,9 +47,9 @@
       </HeadlineComponent>
       <p v-html="$t('privacyPolicy.second.rightOfAppeal.content')" />
       <HeadlineComponent class="pt-12 pb-4" level="XS">
-        {{ $t('privacyPolicy.second.rightOfDatPortability.headline') }}
+        {{ $t('privacyPolicy.second.rightOfDataPortability.headline') }}
       </HeadlineComponent>
-      <p v-html="$t('privacyPolicy.second.rightOfDatPortability.content')" />
+      <p v-html="$t('privacyPolicy.second.rightOfDataPortability.content')" />
       <HeadlineComponent class="pt-12 pb-4" level="XS">
         {{ $t('privacyPolicy.second.encryption.headline') }}
       </HeadlineComponent>
@@ -91,7 +91,7 @@
     </div>
     <!-- FOURTH -->
     <div>
-      <HeadlineComponent class="pt-4 pb-4" level="XS">
+      <HeadlineComponent class="pt-8 pb-4" level="S">
         {{ $t('privacyPolicy.fourth.headline') }}
       </HeadlineComponent>
       <HeadlineComponent class="pt-8 pb-4" level="XS">
@@ -111,7 +111,11 @@
     </div>
   </div>
 </template>
-
+<script lang="ts" setup>
+definePageMeta({
+  layout: 'service',
+})
+</script>
 <script lang="ts">
 import HeadlineComponent from '../components/Headline/index.vue'
 

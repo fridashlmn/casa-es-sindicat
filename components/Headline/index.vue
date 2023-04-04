@@ -26,7 +26,7 @@ const styleMap: Map<HeadlineLevel, HeadlineStyleMapping> = new Map([
   ['XL', { tag: 'h1', style: 'text-9xl lg:text-13xl' }],
   ['L', { tag: 'h2', style: 'text-8xl lg:text-12xl' }],
   ['M/L', { tag: 'h3', style: 'text-5xl lg:text-9xl' }],
-  ['M', { tag: 'h3', style: 'text-5xl lg:text-7xl' }],
+  ['M', { tag: 'h3', style: 'text-4xl md:text-5xl lg:text-7xl' }],
   ['S', { tag: 'h4', style: 'text-2xl lg:text-3xl' }],
   ['XS', { tag: 'h5', style: 'text-base lg:text-lg m-0 !font-bold' }],
 ])

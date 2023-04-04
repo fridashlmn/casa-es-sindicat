@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="flex items-center justify-center relative opacity-88">
+    <div class="flex items-center justify-center relative">
       <img
         alt="image_pool"
-        class="w-screen min-h-90vh max-h-185 object-cover"
-        src="~/assets/images/sunset-2.jpg"
+        class="w-screen min-h-90vh max-h-185 object-cover opacity-80"
+        src="~/assets/images/dinner-table-2.jpg"
       />
-      <LogoIcon class="absolute w-64 md:w-88 lg:w-130 fill-[#f1f1f1]" />
+      <LogoIcon class="absolute w-64 md:w-88 lg:w-200" />
     </div>
     <div class="px-6 py-16 md:p-16 lg:p-30">
       <p class="text-center max-w-220 my-0 mx-auto pb-30">
@@ -42,7 +42,7 @@
   </div>
 </template>
 <script lang="ts" setup>
-import LogoIcon from 'assets/logo/ces.svg?component'
+import LogoIcon from 'assets/logo/ces_color.svg?component'
 import { onMounted } from 'vue'
 
 const scrollPosition = ref<number | null>(null)

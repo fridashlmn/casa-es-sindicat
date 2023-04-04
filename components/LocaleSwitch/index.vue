@@ -1,7 +1,7 @@
 <template>
   <div class="w-15 relative">
     <select
-      :class="{ '!text-black': isScrolling }"
+      :class="{ '!text-black': fillBlack }"
       aria-label="locale_switch"
       class="w-15 bg-transparent text-base text-white font-light appearance-none transition-all ease-in"
       @input="changeLocale"
@@ -19,7 +19,7 @@
       class="pointer-events-none absolute right-0.5 top-1/2 flex h-2 w-10 items-center justify-end"
     >
       <ChevronDownIcon
-        :class="{ '!fill-black': isScrolling }"
+        :class="{ '!fill-black': fillBlack }"
         class="w-10 fill-white transition-all ease-in"
       />
     </div>
@@ -30,10 +30,12 @@ import { useNuxtApp } from 'nuxt/app'
 import ChevronDownIcon from 'assets/icons/chevron_down.svg?component'
 
 interface Props {
-  isScrolling: boolean
+  fillBlack?: boolean
 }
 
-const props = defineProps<Props>()
+const props = withDefaults(defineProps<Props>(), {
+  fillBlack: false,
+})
 const { $switchLocalePath } = useNuxtApp()
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
