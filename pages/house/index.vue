@@ -50,8 +50,8 @@
           :text="$t('house.teaser.porcheRooftop.teaser')"
           :title="$t('house.teaser.porcheRooftop.title')"
           img-alt="alt"
-          img-src="patio.jpg"
-          link-path="/house/patio-rooftop"
+          img-src="porche.jpg"
+          link-path="/house/porche-rooftop"
         />
         <Card
           :link-label="$t('house.teaser.patioPool.link')"
@@ -59,7 +59,7 @@
           :title="$t('house.teaser.patioPool.title')"
           img-alt="alt"
           img-src="patioPool.jpg"
-          link-path="/house/patioPool"
+          link-path="/house/patio-pool"
         />
       </div>
     </div>

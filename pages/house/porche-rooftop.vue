@@ -13,7 +13,7 @@
       <img
         alt="image_pool"
         class="w-35vw max-h-170 object-cover"
-        src="~/assets/images/patio.jpg"
+        src="~/assets/images/porche.jpg"
       />
       <img
         alt="image_pool"

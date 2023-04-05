@@ -8,8 +8,8 @@
     />
 
     <div class="flex flex-col lg:flex-row p-6 py-12 sm:p-16 md:p-26 lg:p-30">
-      <div class="flex flex-col mb-12 sm:mb-16 lg:mr-20 xl:mr-30">
-        <HeadlineComponent class="mb-12 max-w-111" level="M">
+      <div class="flex flex-col max-w-111 mb-12 sm:mb-16 lg:mr-20 xl:mr-30">
+        <HeadlineComponent class="mb-12" level="M">
           So erreichen Sie uns!
         </HeadlineComponent>
         <p>

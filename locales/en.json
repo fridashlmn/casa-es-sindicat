@@ -31,6 +31,78 @@
     "porcheRooftop": "Porche & Rooftop",
     "patioPool": "Patio & Pool"
   },
+  "home": {
+    "intro": "Welcome to Artà in Mallorca, welcome to Casa Es Sindicat. Discover our lovingly restored town palace. Relax on four floors - by the pool, on the porche or the roof terrace. Explore the cultural diversity of Artà, the idyllic nature and the fantastic beaches in the vicinity. Simply look forward to an unforgettable experience in Mallorca.",
+    "location": {
+      "title": "Location",
+      "teaser": "Quietly located and yet right in the middle of it all: from Casa Es Sindicat you can relax and explore everything that the town of Artà has to offer. And that is quite a lot.",
+      "link": "Explore"
+    },
+    "house": {
+      "title": "House",
+      "teaser": "Historic city palace, restored with much love: We can't give you a tour of the spacious house here - but we can whet your appetite.",
+      "link": "Explore"
+    },
+    "equipment": {
+      "title": "Equipment",
+      "teaser": "From the fully equipped kitchen to the heated pool and sports equipment, our casa has everything you want for an unforgettable vacation.",
+      "link": "Explore"
+    }
+  },
+  "house": {
+    "stage": {
+      "headline": "House",
+      "subline": "Your vacation starts here"
+    },
+    "intro": "The historic town house Casa Es Sindicat was renovated by us with great attention to detail and preserving the architecturally valuable elements. It extends over four floors and about 600 square meters. At the back there is a large terrace with a spacious heated pool. A small fountain, sun loungers and chairs and a dining table for 8 people invite you to relax and enjoy here.",
+    "teaser": {
+      "groundFloor": {
+        "title": "Ground floor",
+        "teaser": "Plenty of space for enjoyment: on the lowest floor awaits the fully equipped kitchen and spacious dining room with large dining table and the fireplace for cozy hours.",
+        "link": "Explore"
+      },
+      "firstFloor": {
+        "title": "First floor",
+        "teaser": "Those who want to retreat can make themselves comfortable on the sofa on the second floor. Here you can also find the master bedroom, a spacious bathroom, a dressing room and the library.",
+        "link": "Explore"
+      },
+      "secondFloor": {
+        "title": "Second floor",
+        "teaser": "One floor up you will find two separate apartments for two people each. Both have a bedroom with a double bed and a private bathroom. Enjoy the view to the front or to the back - the choice is yours.",
+        "link": "Explore"
+      },
+      "studio": {
+        "title": "Studio",
+        "teaser": "Through the terrace you enter the studio. Here you can make yourself comfortable on one of the two designer chairs and take in the unique architecture and special atmosphere of the room.",
+        "link": "Explore"
+      },
+      "porcheRooftop": {
+        "title": "Porche & Rooftop",
+        "teaser": "High and even higher: between the first and second floor you will find the porche, where you can unwind from the day bed. At the very top of the roof terrace, a breathtaking panoramic view over Artà awaits you.",
+        "link": "Explore"
+      },
+      "patioPool": {
+        "title": "Patio & Pool",
+        "teaser": "Behind the house, relaxation is the order of the day: refresh yourself in the 3 x 6 m and 1.60 m deep pool. Make yourself comfortable in the sun. And enjoy the view of the imposing cacti and the old medlar tree.",
+        "link": "Explore"
+      }
+    }
+  },
+  "contact": {
+    "stage": {
+      "headline": "Contact",
+      "subline": "Write us!"
+    },
+    "title": "Here's how you can reach us.",
+    "content": "If you have any questions about the house, want to make a reservation or leave a review, just use the form on the right. We will contact you as soon as possible.",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Message",
+      "submit": "Submit",
+      "agb": "I agree that my data from the contact form will be collected and processed to answer my request. The data will be deleted after the processing of your request has been completed. Note: You can revoke your consent at any time for the future by e-mail to info&#64casa-es-sindicat.de. Detailed information on the handling of user data can be found in our privacy policy."
+    }
+  },
   "impressum": {
     "headline": "Imprint",
     "content": "Information according to § 5 TMG:<br /><br />Silka & Helmut Koch<br />Bellevue 8<br />22301 Hamburg<br />Phone: +49 171 8626891<br />E-Mail: helmutkoch8&#64icloud.com"

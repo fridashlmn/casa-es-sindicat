@@ -32,7 +32,7 @@
     "patioPool": "Patio & Pool"
   },
   "home": {
-    "intro": "Willkommen in Artà auf Mallorca, willkommen in der Casa Es Sindicat. Entdecken Sie unser liebevoll restauriertes Stadtpalais. Entspannen Sie sich auf vier Etagen – im Pool oder auf der Sonnenliege, auf dem Patio oder der Dachterrasse. Erkunden Sie die kulturelle Vielfalt Artàs, die idyllische Natur und die traumhaften Strände in näherer Umgebung. Freuen Sie sich ganz einfach auf ein unvergessliches Erlebnis auf Mallorca.",
+    "intro": "Willkommen in Artà auf Mallorca, willkommen im Casa Es Sindicat. Entdecken Sie unser liebevoll restauriertes Stadtpalais. Entspannen Sie sich auf vier Etagen – am Pool, auf der Porche oder der Dachterrasse. Erkunden Sie die kulturelle Vielfalt Artàs, die idyllische Natur und die traumhaften Strände in näherer Umgebung. Freuen Sie sich ganz einfach auf ein unvergessliches Erlebnis auf Mallorca.",
     "location": {
       "title": "Die Lage",
       "teaser": "Ruhig gelegen und trotzdem mittendrin: Von der Casa Es Sindicat aus lässt sich entspannt alles erkunden, was die Stadt Artà zu bieten hat. Und das ist eine ganze Menge.",
@@ -54,7 +54,7 @@
       "headline": "Haus",
       "subline": "Hier beginnt Ihr Urlaub"
     },
-    "intro": "Das historische Stadtpalais Casa Es Sindicat wurde von uns mit viel Liebe zum Detail und unter Beibehaltung der architektonisch wertvollen Elemente renoviert. Es erstreckt sich über vier Etagen und etwa 600 m2. Auf der Rückseite befindet sich eine große Terrasse mit einem großzügigen beheizbaren Pool. Ein kleiner Brunnen, Sonnenliegen und -stühle sowie ein Esstisch für 8 Personen laden hier zum Entspannen und Genießen ein.",
+    "intro": "Das historische Stadtpalais Casa Es Sindicat wurde von uns mit viel Liebe zum Detail und unter Beibehaltung der architektonisch wertvollen Elemente renoviert. Es erstreckt sich über vier Etagen und etwa 600 Quadratmeter. Auf der Rückseite befindet sich eine große Terrasse mit einem großzügigen beheizbaren Pool. Ein kleiner Brunnen, Sonnenliegen und -stühle sowie ein Esstisch für 8 Personen laden hier zum Entspannen und Genießen ein.",
     "teaser": {
       "groundFloor": {
         "title": "Erdgeschoss",
@@ -63,7 +63,7 @@
       },
       "firstFloor": {
         "title": "Erste Etage",
-        "teaser": "Wer sich zurückziehen und die Ruhe genießen möchte, kann es sich auf dem Sofa im ersten Stock gemütlich machen. Hier befinden sich auch das Hauptschlafzimmer, ein geräumiges Badezimmer, ein Ankleidezimmer und die Bibliothek.",
+        "teaser": "Wer sich zurückziehen möchte, kann es sich auf dem Sofa im ersten Stock gemütlich machen. Hier befinden sich auch das Hauptschlafzimmer, ein geräumiges Badezimmer, ein Ankleidezimmer und die Bibliothek.",
         "link": "Entdecken"
       },
       "secondFloor": {
@@ -78,11 +78,11 @@
       },
       "porcheRooftop": {
         "title": "Porche & Dachterrasse",
-        "teaser": "Hoch und noch höher: Zwischen dem ersten und zweiten Stock finden Sie den Patio, auf dem Sie vom Tagesbett aus die Seele baumeln lassen können. Ganz oben auf der Dachterrasse erwartet Sie ein atemberaubender 360°-Blick über Artà.",
+        "teaser": "Hoch und noch höher: Zwischen dem ersten und zweiten Stock finden Sie die Porche, auf dem Sie vom Tagesbett aus die Seele baumeln lassen können. Ganz oben auf der Dachterrasse erwartet Sie ein atemberaubender Panoramablick über Artà.",
         "link": "Entdecken"
       },
       "patioPool": {
-        "title": "Pool & Garten",
+        "title": "Patio & Pool",
         "teaser": "Hinter dem Haus ist Entspannung angesagt: Erfrischen Sie sich im 3 x 6 m großen und 1,60 m tiefen Pool. Machen Sie es sich in der Sonne gemütlich. Und genießen Sie den Blick auf die imposanten Kakteen und den alten Mispelbaum.",
         "link": "Entdecken"
       }
@@ -110,7 +110,19 @@
     "intro": "In dem Belegungsplan sind die bereits vermieteten Zeiten rot markiert, die gelben Markierungen sind Optionen, diese Termine können wie die freien grünen Markierungen angefragt werden. Wenn Sie einen geeigneten Zeitraum für Ihren geplanten Urlaub gefunden haben, senden Sie uns bitte über Kontakt eine E-Mail, wir werden Ihnen unverzüglich antworten."
   },
   "contact": {
-    "agb": "Ich stimme zu, dass meine Angaben aus dem Kontaktformular zur Beantwortung meiner Anfrage erhoben und verarbeitet werden. Die Daten werden nach abgeschlossener Bearbeitung Ihrer Anfrage gelöscht. Hinweis: Sie können Ihre Einwilligung jederzeit für die Zukunft per E-Mail an info&#64casa-es-sindicat.de widerrufen. Detaillierte Informationen zum Umgang mit Nutzerdaten finden Sie in unserer Datenschutzerklärung."
+    "stage": {
+      "headline": "Kontakt",
+      "subline": "Schreiben Sie uns!"
+    },
+    "title": "So können Sie uns erreichen.",
+    "content": "Wenn Sie Fragen zum Haus haben, eine Reservierung vornehmen oder eine Bewertung abgeben möchten, nutzen Sie einfach das Formular auf der rechten Seite. Wir werden uns so schnell wie möglich mit Ihnen in Verbindung setzen.",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "submit": "Senden",
+      "agb": "Ich stimme zu, dass meine Angaben aus dem Kontaktformular zur Beantwortung meiner Anfrage erhoben und verarbeitet werden. Die Daten werden nach abgeschlossener Bearbeitung Ihrer Anfrage gelöscht. Hinweis: Sie können Ihre Einwilligung jederzeit für die Zukunft per E-Mail an info&#64casa-es-sindicat.de widerrufen. Detaillierte Informationen zum Umgang mit Nutzerdaten finden Sie in unserer Datenschutzerklärung."
+    }
   },
   "impressum": {
     "headline": "Impressum",
