@@ -11,11 +11,22 @@
     }
   },
   "navigation": {
+    "home": "Página inicio",
     "location": "Ubicación",
     "house": "Casa",
     "equipment": "Equipamiento",
     "booking": "Reserve",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "impressum": "Pie de imprenta",
+    "privacyPolicy": "Protección de datos",
+    "disclaimer": "Aviso legal",
+    "directions": "Trayecto",
+    "groundFloor": "Planta baja",
+    "firstFloor": "Primera planta",
+    "secondFloor": "Segunda floor",
+    "studio": "Estudio",
+    "porcheRooftop": "Porche & Azotea",
+    "patioPool": "Patio & Piscina"
   },
   "impressum": {
     "headline": "Pie de imprenta",
@@ -34,6 +45,97 @@
     "copyright": {
       "headline": "Derechos de autor",
       "content": "Los contenidos y obras creados por los operadores del sitio en estas páginas están sujetos a la legislación alemana sobre derechos de autor. La reproducción, el procesamiento, la distribución y cualquier tipo de explotación fuera de los límites de la ley de derechos de autor requieren el consentimiento por escrito del autor o creador correspondiente. Las descargas y copias de este sitio sólo están permitidas para uso privado y no comercial.<br /><br />\nEn la medida en que el contenido de este sitio no haya sido creado por el operador, se respetan los derechos de autor de terceros. En particular, los contenidos de terceros están marcados como tales. No obstante, si tiene conocimiento de una infracción de los derechos de autor, le rogamos que nos lo comunique. Si tenemos conocimiento de alguna infracción, eliminaremos inmediatamente dicho contenido."
+    }
+  },
+  "privacyPolicy": {
+    "headline": "Política de privacidad",
+    "first": {
+      "headline": "1. Protección de datos de un vistazo",
+      "general": {
+        "headline": "Notas generales",
+        "content": "La siguiente información ofrece una visión general de lo que ocurre con sus datos personales cuando visita nuestro sitio web. Por datos personales se entiende cualquier dato que permita identificarle personalmente. Si desea información detallada sobre el tema de la protección de datos, consulte nuestra política de privacidad que figura debajo de este texto."
+      },
+      "usage": {
+        "headline": "Recogida de datos en nuestro sitio web",
+        "content": "¿Quién es responsable de la recogida de datos en este sitio web?<br />El responsable del tratamiento de datos en este sitio web es el operador del mismo. Encontrará sus datos de contacto en el pie de imprenta de este sitio web.<br /><br />¿Cómo recogemos sus datos?<br />Por un lado, sus datos se recogen cuando usted nos los facilita. Puede tratarse, por ejemplo, de los datos que introduce en un formulario de contacto.<br /><br />Otros datos son recogidos automáticamente por nuestros sistemas informáticos cuando usted visita el sitio web. Se trata principalmente de datos técnicos (por ejemplo, navegador de Internet, sistema operativo o tiempo de visualización de la página). Estos datos se recogen automáticamente en cuanto usted entra en nuestro sitio web.<br /><br />¿Para qué utilizamos sus datos?<br />Parte de los datos se recogen para garantizar un funcionamiento sin errores del sitio web. Otros datos pueden utilizarse para analizar su comportamiento como usuario.<br /><br />¿Qué derechos tiene en relación con sus datos?<br />Tiene derecho a recibir información gratuita en cualquier momento sobre el origen, el destinatario y la finalidad de sus datos personales almacenados. También tiene derecho a exigir la corrección, el bloqueo o la supresión de estos datos. Puede ponerse en contacto con nosotros en cualquier momento en la dirección indicada en el pie de imprenta para este fin y para otras cuestiones sobre el tema de la protección de datos. Además, tiene derecho a presentar una reclamación ante la autoridad de control competente.<br /><br />También tiene derecho a solicitar la limitación del tratamiento de sus datos personales en determinadas circunstancias. Para más detalles, consulte la declaración de protección de datos en el apartado \"Derecho a la limitación del tratamiento\"."
+      },
+      "thirdParty": {
+        "headline": "Herramientas y herramientas de análisis de terceros",
+        "content": "Al visitar nuestro sitio web, su comportamiento de navegación puede ser evaluado estadísticamente. Esto se hace principalmente con cookies y los llamados programas de análisis. El análisis de su comportamiento de navegación suele ser anónimo; el comportamiento de navegación no puede ser rastreado hasta usted. Puede oponerse a este análisis o impedirlo no utilizando determinadas herramientas. Encontrará información detallada al respecto en la siguiente declaración de protección de datos.<br /><br />Puede oponerse a este análisis. Le informaremos sobre las posibilidades de oposición en esta declaración de protección de datos."
+      }
+    },
+    "second": {
+      "headline": "2. Notas generales e información obligatoria",
+      "privacy": {
+        "headline": "Protección de datos",
+        "content": "Los operadores de estas páginas se toman muy en serio la protección de sus datos personales. Tratamos sus datos personales de forma confidencial y de conformidad con las disposiciones legales sobre protección de datos y la presente declaración de protección de datos.<br /><br />Al utilizar este sitio web, se recopilan diversos datos personales. Los datos personales son aquellos que permiten identificarle personalmente. Esta declaración de protección de datos explica qué información recogemos y cómo la utilizamos. También explica cómo y con qué fin lo hacemos.<br /><br />Nos gustaría señalar que la transmisión de datos en Internet (por ejemplo, al comunicarse por correo electrónico) puede presentar lagunas de seguridad. No es posible proteger completamente los datos contra el acceso de terceros."
+      },
+      "responsibility": {
+        "headline": "Nota sobre el organismo responsable",
+        "content": "El responsable del tratamiento de datos en este sitio web es:<br /><br />Silka & Helmut Koch<br />Bellevue 8<br />22301 Hamburgo<br />Teléfono: +49 171 8626891<br />Correo electrónico: helmutkoch8&#64icloud.com<br /><br />El responsable del tratamiento es la persona física o jurídica que, sola o conjuntamente con otras, determina los fines y medios del tratamiento de datos personales (por ejemplo, nombres, direcciones de correo electrónico o similares)."
+      },
+      "revocation": {
+        "headline": "Revocación de su consentimiento para el tratamiento de datos",
+        "content": "Muchas operaciones de tratamiento de datos sólo son posibles con su consentimiento expreso. Puede revocar el consentimiento que ya ha dado en cualquier momento. Para ello, basta con que nos lo comunique de manera informal por correo electrónico. La legalidad del tratamiento de datos efectuado hasta la revocación no se verá afectada por ésta."
+      },
+      "rightOfObjection": {
+        "headline": "Derecho a oponerse a la recogida de datos en casos específicos y a la mercadotecnia directa (Art. 21 GDPR)",
+        "content": "Si el tratamiento de datos se basa en el art. 6 (1) e o f DSGVO, tiene derecho a oponerse al tratamiento de sus datos personales en cualquier momento por motivos derivados de su situación particular; esto también se aplica a la elaboración de perfiles basada en estas disposiciones. La base jurídica respectiva en la que se basa el tratamiento puede consultarse en esta declaración de protección de datos. Si se opone, dejaremos de procesar sus datos personales en cuestión, a menos que podamos demostrar motivos legítimos imperiosos para el procesamiento que prevalezcan sobre sus intereses, derechos y libertades, o el procesamiento sirva para hacer valer, ejercer o defender reclamaciones legales (objeción en virtud del artículo 21, apartado 1, del GDPR).<br /><br />Si sus datos personales se tratan con fines de mercadotecnia directa, tiene derecho a oponerse en cualquier momento al tratamiento de los datos personales que le conciernen con fines de dicha mercadotecnia; esto también se aplica a la elaboración de perfiles en la medida en que esté relacionada con dicha mercadotecnia directa. Si se opone, sus datos personales dejarán de utilizarse posteriormente con fines de publicidad directa (oposición con arreglo al artículo 21, apartado 2, de la DSGVO)."
+      },
+      "rightOfAppeal": {
+        "headline": "Derecho de recurso ante la autoridad de control competente",
+        "content": "En caso de infracción del RGPD, los interesados tendrán derecho a recurrir ante una autoridad de control, en particular en el Estado miembro de su residencia habitual, su lugar de trabajo o el lugar de la presunta infracción. El derecho de recurso se entiende sin perjuicio de cualquier otro recurso administrativo o judicial."
+      },
+      "rightOfDataPortability": {
+        "headline": "Derecho a la portabilidad de los datos",
+        "content": "Usted tiene derecho a que los datos que procesamos automáticamente sobre la base de su consentimiento o en cumplimiento de un contrato le sean entregados a usted o a un tercero en un formato común legible por máquina. Si solicita la transferencia directa de los datos a otro responsable del tratamiento, sólo se hará en la medida en que sea técnicamente viable."
+      },
+      "encryption": {
+        "headline": "Cifrado SSL o TLS",
+        "content": "Por razones de seguridad y para proteger la transmisión de contenidos confidenciales, como pedidos o consultas que nos envíe como operador del sitio, este sitio utiliza cifrado SSL o TLS. Puede reconocer una conexión cifrada por el hecho de que la línea de dirección del navegador cambia de \"http://\" a \"https://\" y por el símbolo del candado en la línea de su navegador.<br /><br />Si el cifrado SSL o TLS está activado, los datos que nos transmita no podrán ser leídos por terceros."
+      },
+      "deletion": {
+        "headline": "Información, bloqueo, supresión y corrección",
+        "content": "En el marco de las disposiciones legales aplicables, usted tiene derecho en todo momento a la libre información sobre sus datos personales almacenados, su origen y destinatario y la finalidad del tratamiento de datos y, en su caso, derecho a la rectificación, bloqueo o supresión de estos datos. Con este fin, así como para otras cuestiones sobre el tema de los datos personales, puede ponerse en contacto con nosotros en cualquier momento en la dirección indicada en el pie de imprenta."
+      },
+      "restriction": {
+        "headline": "Derecho a restringir el tratamiento",
+        "content": "Tiene derecho a solicitar la limitación del tratamiento de sus datos personales. Para ello, puede ponerse en contacto con nosotros en cualquier momento en la dirección que figura en el pie de imprenta. El derecho a la limitación del tratamiento existe en los siguientes casos:"
+      }
+    },
+    "third": {
+      "headline": "3. Recogida de datos en nuestro sitio web",
+      "cookies": {
+        "headline": "Cookies",
+        "content": "Algunas páginas de Internet utilizan las denominadas cookies. Las cookies no causan ningún daño a su ordenador y no contienen virus. Las cookies sirven para hacer nuestra oferta más fácil de usar, eficaz y segura. Las cookies son pequeños archivos de texto que se almacenan en su ordenador y que guarda su navegador.<br /><br />La mayoría de las cookies que utilizamos son las denominadas \"cookies de sesión\". Se borran automáticamente al final de su visita. Otras cookies permanecen almacenadas en su dispositivo terminal hasta que usted las borra. Estas cookies nos permiten reconocer su navegador en su próxima visita.<br /><br />Puede configurar su navegador para que le informe sobre la instalación de cookies y permitirlas sólo en casos individuales, excluir la aceptación de cookies para determinados casos o en general y activar la eliminación automática de cookies al cerrar el navegador. Si desactiva las cookies, la funcionalidad de este sitio web puede verse limitada.<br /><br />Las cookies que son necesarias para llevar a cabo el proceso de comunicación electrónica o para proporcionar ciertas funciones que usted ha solicitado (por ejemplo, la función de carrito de la compra) se almacenan sobre la base del Art. 6 párrafo 1 lit. f DSGVO. El operador del sitio web tiene un interés legítimo en almacenar cookies para la prestación técnicamente libre de errores y optimizada de sus servicios. En la medida en que se almacenen otras cookies (por ejemplo, cookies para analizar su comportamiento de navegación), éstas se tratan por separado en esta declaración de protección de datos."
+      },
+      "logFiles": {
+        "headline": "Archivos de registro del servidor",
+        "content": "El proveedor de las páginas recoge y almacena automáticamente información en los denominados archivos de registro del servidor, que su navegador nos transmite automáticamente. Estos datos son<br /><br /><li>tipo y versión del navegador</li><li>sistema operativo utilizado</li><li>URL de referencia</li><li>Nombre de host del ordenador de acceso</li><li>Hora de la petición al servidor</li><li>Dirección IP</li><br />Estos datos no se combinan con otras fuentes de datos.<br /><br />La recopilación de estos datos se basa en el artículo 6, apartado 1, letra f del DSGVO. El operador del sitio web tiene un interés legítimo en la presentación técnicamente libre de errores y la optimización de su sitio web - con este fin, los archivos de registro del servidor deben ser recogidos."
+      },
+      "contact": {
+        "headline": "Formulario de contacto",
+        "content": "Si nos envía consultas a través del formulario de contacto, sus datos del formulario de consulta, incluidos los datos de contacto que nos facilite en él, serán almacenados por nosotros con el fin de tramitar la consulta y en caso de preguntas de seguimiento. No transmitimos estos datos sin su consentimiento.<br /><br />Por tanto, el tratamiento de los datos introducidos en el formulario de contacto se basa exclusivamente en su consentimiento (art. 6, apdo. 1 lit. a DSGVO). Puede revocar este consentimiento en cualquier momento. Para ello, basta con que nos lo comunique por correo electrónico. La legalidad de las operaciones de tratamiento de datos realizadas hasta la revocación no se verá afectada por ésta.<br /><br />Los datos que haya introducido en el formulario de contacto permanecerán con nosotros hasta que nos solicite que los eliminemos, revoque su consentimiento para almacenarlos o deje de ser aplicable la finalidad del almacenamiento de los datos (por ejemplo, después de que hayamos finalizado la tramitación de su solicitud). Las disposiciones legales obligatorias, en particular los periodos de conservación, no se verán afectadas."
+      },
+      "request": {
+        "headline": "Solicitud por correo electrónico, teléfono o fax",
+        "content": "Si se pone en contacto con nosotros por correo electrónico, teléfono o fax, su consulta, incluidos todos los datos personales resultantes (nombre, consulta), será almacenada y procesada por nosotros con el fin de tramitar su solicitud. No transmitimos estos datos sin su consentimiento.<br /><br />El tratamiento de estos datos se basa en el art. 6 (1) lit. b DSGVO si su solicitud está relacionada con la ejecución de un contrato o es necesaria para la aplicación de medidas precontractuales. En todos los demás casos, el tratamiento se basa en su consentimiento (art. 6, apdo. 1 lit. a DSGVO) y/o en nuestros intereses legítimos (art. 6, apdo. 1 lit. f DSGVO), ya que tenemos un interés legítimo en procesar eficazmente las consultas que nos envía.<br /><br />Los datos que nos envíe a través de las solicitudes de contacto permanecerán con nosotros hasta que nos solicite que los eliminemos, revoque su consentimiento para almacenarlos o deje de aplicarse el propósito para almacenar los datos (por ejemplo, después de que hayamos completado el procesamiento de su solicitud). Las disposiciones legales obligatorias, en particular los plazos legales de conservación, no se verán afectadas."
+      },
+      "processing": {
+        "headline": "Tratamiento de datos (datos de clientes y contratos)",
+        "content": "Recopilamos, procesamos y utilizamos datos personales únicamente en la medida en que sean necesarios para el establecimiento, el contenido o la modificación de la relación jurídica (datos de inventario). Esto se hace sobre la base del art. 6 párr. 1 lit. b DSGVO, que permite el tratamiento de datos para el cumplimiento de un contrato o de medidas precontractuales. Recopilamos, procesamos y utilizamos datos personales sobre el uso de nuestras páginas de Internet (datos de uso) sólo en la medida en que sea necesario para que el usuario pueda utilizar el servicio o para facturarle.<br /><br />Los datos del cliente recopilados se eliminarán una vez finalizado el pedido o la relación comercial. Los plazos de conservación legales no se verán afectados."
+      }
+    },
+    "fourth": {
+      "headline": "4. Plugins y herramientas",
+      "googleFonts": {
+        "headline": "Google Web Fonts",
+        "content": "Este sitio utiliza las denominadas fuentes web proporcionadas por Google para la visualización uniforme de las fuentes. Cuando accede a una página, su navegador carga las fuentes web necesarias en la memoria caché del navegador para mostrar los textos y las fuentes correctamente.<br /><br />Para ello, el navegador que utiliza debe conectarse a los servidores de Google. Esto informa a Google de que se ha accedido a nuestro sitio web a través de su dirección IP. Google Web Fonts se utilizan en interés de una presentación uniforme y atractiva de nuestras ofertas en línea. Esto representa un interés legítimo en el sentido del Art. 6 Para. 1 lit. f DSGVO.<br />Si su navegador no admite fuentes web, se utilizará una fuente estándar de su ordenador.<br /><br />Encontrará más información sobre Google Web Fonts en <a href=\"https://developers.google.com/fonts/faq\">developers.google.com/fonts/faq</a> y en la política de privacidad de Google: <a href=\"https://policies.google.com/privacy?hl=de\">policies.google.com/privacy</a>."
+      },
+      "googleMaps": {
+        "headline": "Google Maps",
+        "content": "Este sitio utiliza el servicio de mapas de Google Maps a través de una API. El proveedor es Google Inc, 1600 Amphitheatre Parkway, Mountain View, CA 94043, EE.UU.<br /><br />Para utilizar las funciones de Google Maps, es necesario almacenar su dirección IP. Por lo general, esta información se transfiere a un servidor de Google en EE.UU. y se almacena allí. El proveedor de este sitio no tiene ninguna influencia sobre esta transmisión de datos.<br />Google Maps se utiliza en interés de una presentación atractiva de nuestras ofertas en línea y para facilitar la búsqueda de los lugares que indicamos en el sitio web. Esto constituye un interés legítimo en el sentido del art. 6 párr. 1 lit. f DSGVO.<br /><br />Encontrará más información sobre el tratamiento de los datos del usuario en la política de privacidad de Google: <a href=\"https://policies.google.com/privacy?hl=de\">policies.google.com/privacy</a>."
+      }
     }
   }
 }

@@ -1,11 +1,10 @@
-
 html {
   font-family: "Avenir Next";
 }
 
 h1, h2, h3, h4,
 li a {
-  font-family: "Bodoni Moda";
+  font-family: "Bodoni Moda", "Comic Sans MS";
 }
 
 .listStyle li {

@@ -11,11 +11,22 @@
     }
   },
   "navigation": {
+    "home": "Startseite",
     "location": "Location",
     "house": "House",
     "equipment": "Equipment",
     "booking": "Booking",
-    "contact": "Contact"
+    "contact": "Contact",
+    "impressum": "Imprint",
+    "privacyPolicy": "Privacy Policy",
+    "disclaimer": "Disclaimer",
+    "directions": "Directions",
+    "groundFloor": "Groundfloor",
+    "firstFloor": "First floor",
+    "secondFloor": "Second floor",
+    "studio": "Studio",
+    "porcheRooftop": "Porche & Rooftop",
+    "patioPool": "Patio & Pool"
   },
   "impressum": {
     "headline": "Imprint",
@@ -100,7 +111,7 @@
       },
       "logFiles": {
         "headline": "Server log files",
-        "content": "The provider of the pages automatically collects and stores information in so-called server log files, which your browser automatically transmits to us. These are:<br /><br /><li>Browser type and version</li><li>Used operation system</li><li>Referrer URL</li><li>Host name of the accessing computer</li><li>Time of the server request</li><li>IP address</li><br /><br />This data is not merged with other data sources.<br /><br />The collection of this data is based on Art. 6 para. 1 lit. f DSGVO. The website operator has a legitimate interest in the technically error-free presentation and optimization of its website - for this purpose, the server log files must be collected."
+        "content": "The provider of the pages automatically collects and stores information in so-called server log files, which your browser automatically transmits to us. These are:<br /><br /><li>Browser type and version</li><li>Used operation system</li><li>Referrer URL</li><li>Host name of the accessing computer</li><li>Time of the server request</li><li>IP address</li><br />This data is not merged with other data sources.<br /><br />The collection of this data is based on Art. 6 para. 1 lit. f DSGVO. The website operator has a legitimate interest in the technically error-free presentation and optimization of its website - for this purpose, the server log files must be collected."
       },
       "contact": {
         "headline": "Contact form",
@@ -119,11 +130,11 @@
       "headline": "4. Plugins and Tools",
       "googleFonts": {
         "headline": "Google Web Fonts",
-        "content": "This page uses so-called web fonts provided by Google for the uniform display of fonts. When you call up a page, your browser loads the required web fonts into its browser cache in order to display texts and fonts correctly.<br />For this purpose, the browser you are using must connect to Google's servers. This gives Google knowledge that our website has been accessed via your IP address. Google Web Fonts are used in the interest of a uniform and appealing presentation of our online offers. This represents a legitimate interest within the meaning of Art. 6 (1) lit. f DSGVO.<br />If your browser does not support web fonts, a standard font will be used by your computer.<br />You can find more information about Google Web Fonts at <a href=\"https://developers.google.com/fonts/faq\">developers.google.com/fonts/faq</a> and in Google's privacy policy: <a href=\"https://policies.google.com/privacy?hl=de\">policies.google.com/privacy</a>."
+        "content": "This page uses so-called web fonts provided by Google for the uniform display of fonts. When you call up a page, your browser loads the required web fonts into its browser cache in order to display texts and fonts correctly.<br /><br />For this purpose, the browser you are using must connect to Google's servers. This gives Google knowledge that our website has been accessed via your IP address. Google Web Fonts are used in the interest of a uniform and appealing presentation of our online offers. This represents a legitimate interest within the meaning of Art. 6 (1) lit. f DSGVO.<br />If your browser does not support web fonts, a standard font will be used by your computer.<br /><br />You can find more information about Google Web Fonts at <a href=\"https://developers.google.com/fonts/faq\">developers.google.com/fonts/faq</a> and in Google's privacy policy: <a href=\"https://policies.google.com/privacy?hl=de\">policies.google.com/privacy</a>."
       },
       "googleMaps": {
         "headline": "Google Maps",
-        "content": "This site uses the map service Google Maps via an API. The provider is Google Inc, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.<br />To use the functions of Google Maps, it is necessary to store your IP address. This information is usually transferred to a Google server in the USA and stored there. The provider of this site has no influence on this data transmission.<br />The use of Google Maps is in the interest of an appealing presentation of our online offers and an easy location of the places indicated by us on the website. This represents a legitimate interest within the meaning of Art. 6 para. 1 lit. f DSGVO.<br />More information on the handling of user data can be found in Google's privacy policy: <a href=\"https://policies.google.com/privacy?hl=de\">policies.google.com/privacy</a>."
+        "content": "This site uses the map service Google Maps via an API. The provider is Google Inc, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.<br /><br />To use the functions of Google Maps, it is necessary to store your IP address. This information is usually transferred to a Google server in the USA and stored there. The provider of this site has no influence on this data transmission.<br />The use of Google Maps is in the interest of an appealing presentation of our online offers and an easy location of the places indicated by us on the website. This represents a legitimate interest within the meaning of Art. 6 para. 1 lit. f DSGVO.<br /><br />More information on the handling of user data can be found in Google's privacy policy: <a href=\"https://policies.google.com/privacy?hl=de\">policies.google.com/privacy</a>."
       }
     }
   }

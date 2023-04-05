@@ -3,10 +3,13 @@
     <div class="flex items-center justify-center relative">
       <img
         alt="image_pool"
-        class="w-screen min-h-90vh max-h-185 object-cover opacity-80"
+        class="w-screen min-h-90vh max-h-185 object-cover"
         src="~/assets/images/dinner-table-2.jpg"
       />
-      <LogoIcon class="absolute w-64 md:w-88 lg:w-200" />
+      <div
+        class="absolute w-92 h-102 backdrop-filter backdrop-blur-2px bg-white/20"
+      />
+      <LogoIcon class="absolute w-64 md:w-88 lg:w-80" />
     </div>
     <div class="px-6 py-16 md:p-16 lg:p-30">
       <p class="text-center max-w-220 my-0 mx-auto pb-30">
@@ -42,7 +45,7 @@
   </div>
 </template>
 <script lang="ts" setup>
-import LogoIcon from 'assets/logo/ces_color.svg?component'
+import LogoIcon from 'assets/logo/logo-color.svg?component'
 import { onMounted } from 'vue'
 
 const scrollPosition = ref<number | null>(null)

@@ -30,12 +30,12 @@ export const navigationItems = [
         name: 'navigation.studio',
       },
       {
-        path: '/house/patio-rooftop',
-        name: 'navigation.patioRooftop',
+        path: '/house/porche-rooftop',
+        name: 'navigation.porcheRooftop',
       },
       {
-        path: '/house/garden',
-        name: 'navigation.garden',
+        path: '/house/patio-pool',
+        name: 'navigation.patioPool',
       },
     ],
   },

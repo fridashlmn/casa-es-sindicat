@@ -34,7 +34,7 @@
 import { onMounted } from 'vue'
 import { useRouter } from 'nuxt/app'
 import MenuIcon from 'assets/icons/menu.svg?component'
-import LogoIcon from 'assets/logo/ces_color.svg?component'
+import LogoIcon from 'assets/logo/ces.svg?component'
 
 interface Props {
   fillBlack?: boolean

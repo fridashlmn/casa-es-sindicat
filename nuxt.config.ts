@@ -3,6 +3,41 @@ import svgLoader from 'vite-svg-loader'
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 export default defineNuxtConfig({
+  head: {
+    title: 'Casa es Sindicat',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'my website description',
+      },
+    ],
+    link: [
+      {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/apple-touch-icon.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/svg+xml',
+        href: `/favicon.svg`,
+      },
+      { rel: 'icon', type: 'image/png', href: `/favicon.png` },
+      {
+        rel: 'manifest',
+        href: `/site.webmanifest`,
+        crossorigin: 'use-credentials',
+      },
+      {
+        rel: 'mask-icon',
+        color: '#5bbad5',
+        href: `/safari-pinned-tab.svg`,
+      },
+    ],
+  },
   target: 'static',
   modules: [
     'nuxt-windicss',
@@ -12,8 +47,6 @@ export default defineNuxtConfig({
       {
         families: {
           'Bodoni Moda': true,
-          'Montserrat': true,
-          'Lato': [100, 300],
         },
       },
     ],

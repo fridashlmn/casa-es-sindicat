@@ -1,14 +1,16 @@
 <template>
-  <div class="text-[#fefefe]">
-    <footer class="flex flex-col sm:flex-row items-center justify-between p-8">
-      <div>
+  <footer class="w-full px-8 text-[#766f6b]">
+    <div class="flex flex-col items-center justify-between">
+      <div
+        class="w-full flex flex-col sm:flex-row items-center justify-between py-8 px-16"
+      >
         <button @click="router.push('/')">
-          <LogoIcon class="w-32 md:w-50" />
+          <LogoIcon class="w-31" />
         </button>
-      </div>
-      <div>
-        <nav class="flex flex-col sm:flex-row flew-nowrap justify-between">
-          <ul class="text-xl font-normal">
+        <nav
+          class="flex flew-nowrap items-center justify-between text-base font-normal"
+        >
+          <ul>
             <li
               v-for="(item, index) in footer1NavigationItems"
               :key="index"
@@ -19,7 +21,7 @@
               </NuxtLink>
             </li>
           </ul>
-          <ul class="text-xl font-normal">
+          <ul class="mr-8">
             <li
               v-for="(item, index) in footer2NavigationItems"
               :key="index"
@@ -30,26 +32,31 @@
               </NuxtLink>
             </li>
           </ul>
-          <ul class="text-xl font-normal">
-            <li
-              v-for="(item, index) in serviceNavigationItems"
-              :key="index"
-              class="pt-5 px-5 md:px-8"
-            >
-              <NuxtLink :to="localePath(item.path)">
-                {{ $t(item.name) }}
-              </NuxtLink>
-            </li>
-          </ul>
         </nav>
-        <p class="mt-10 ml-5 md:ml-8 text-xs">@ 2023 by Casa es Sindicat</p>
       </div>
-    </footer>
-  </div>
+      <hr class="w-full border-[#766f6b] mb-8" />
+      <div
+        class="w-full flex flex-col sm:flex-row items-center justify-between pb-8 text-xs"
+      >
+        <p>@ 2023 by Casa es Sindicat</p>
+        <ul class="flex font-normal pt-8 sm:pt-0">
+          <li
+            v-for="(item, index) in serviceNavigationItems"
+            :key="index"
+            class="px-5 md:px-8"
+          >
+            <NuxtLink :to="localePath(item.path)">
+              {{ $t(item.name) }}
+            </NuxtLink>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </template>
 
 <script lang="ts" setup>
-import LogoIcon from 'assets/logo/ces_color.svg?component'
+import LogoIcon from 'assets/logo/logo-color.svg?component'
 import { useRouter } from 'nuxt/app'
 import {
   footer1NavigationItems,

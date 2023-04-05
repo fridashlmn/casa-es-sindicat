@@ -4,7 +4,7 @@
       'absolute left-0 top-0 inline-block min-h-screen w-full overflow-hidden bg-white md:w-136',
     ]"
   >
-    <div class="relative bg-white">
+    <div class="relative h-100vh bg-[#f3efec] text-[#1f1f1f]">
       <button class="absolute top-8 left-8" @click.stop="close">
         <CloseIcon class="w-40pt h-40pt inline-block" />
       </button>

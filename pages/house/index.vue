@@ -4,7 +4,7 @@
       :headline="$t('house.stage.headline')"
       :subline="$t('house.stage.subline')"
       img-alt="image_pool"
-      img-src="garden.jpg"
+      img-src="patioPool.jpg"
     />
     <div class="py-30">
       <p class="text-center max-w-220 my-0 mx-auto pb-30">
@@ -46,20 +46,20 @@
           link-path="/house/studio"
         />
         <Card
-          :link-label="$t('house.teaser.patioRooftop.link')"
-          :text="$t('house.teaser.patioRooftop.teaser')"
-          :title="$t('house.teaser.patioRooftop.title')"
+          :link-label="$t('house.teaser.porcheRooftop.link')"
+          :text="$t('house.teaser.porcheRooftop.teaser')"
+          :title="$t('house.teaser.porcheRooftop.title')"
           img-alt="alt"
           img-src="patio.jpg"
           link-path="/house/patio-rooftop"
         />
         <Card
-          :link-label="$t('house.teaser.garden.link')"
-          :text="$t('house.teaser.garden.teaser')"
-          :title="$t('house.teaser.garden.title')"
+          :link-label="$t('house.teaser.patioPool.link')"
+          :text="$t('house.teaser.patioPool.teaser')"
+          :title="$t('house.teaser.patioPool.title')"
           img-alt="alt"
-          img-src="garden.jpg"
-          link-path="/house/garden"
+          img-src="patioPool.jpg"
+          link-path="/house/patioPool"
         />
       </div>
     </div>

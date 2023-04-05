@@ -25,8 +25,8 @@
     "firstFloor": "Erste Etage",
     "secondFloor": "Zweite Etage",
     "studio": "Studio",
-    "patioRooftop": "Porche & Dachterasse",
-    "garden": "Garten & Pool"
+    "porcheRooftop": "Porche & Dachterasse",
+    "patioPool": "Patio & Pool"
   },
   "home": {
     "intro": "Willkommen in Artà auf Mallorca, willkommen in der Casa Es Sindicat. Entdecken Sie unser liebevoll restauriertes Stadtpalais. Entspannen Sie sich auf vier Etagen – im Pool oder auf der Sonnenliege, auf dem Patio oder der Dachterrasse. Erkunden Sie die kulturelle Vielfalt Artàs, die idyllische Natur und die traumhaften Strände in näherer Umgebung. Freuen Sie sich ganz einfach auf ein unvergessliches Erlebnis auf Mallorca.",
@@ -73,12 +73,12 @@
         "teaser": "Über die Terrasse gelangen Sie in das Studio. Hier können Sie es sich auf einem der beiden Designerstühle bequem machen und die einzigartige Architektur und die besondere Atmosphäre des Raumes auf sich wirken lassen.",
         "link": "Entdecken"
       },
-      "patioRooftop": {
+      "porcheRooftop": {
         "title": "Porche & Dachterrasse",
         "teaser": "Hoch und noch höher: Zwischen dem ersten und zweiten Stock finden Sie den Patio, auf dem Sie vom Tagesbett aus die Seele baumeln lassen können. Ganz oben auf der Dachterrasse erwartet Sie ein atemberaubender 360°-Blick über Artà.",
         "link": "Entdecken"
       },
-      "garden": {
+      "patioPool": {
         "title": "Pool & Garten",
         "teaser": "Hinter dem Haus ist Entspannung angesagt: Erfrischen Sie sich im 3 x 6 m großen und 1,60 m tiefen Pool. Machen Sie es sich in der Sonne gemütlich. Und genießen Sie den Blick auf die imposanten Kakteen und den alten Mispelbaum.",
         "link": "Entdecken"
@@ -211,11 +211,11 @@
       "headline": "4. Plugins und Tools",
       "googleFonts": {
         "headline": "Google Web Fonts",
-        "content": "Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts, die von Google bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Web Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen.<br />Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu den Servern von Google aufnehmen. Hierdurch erlangt Google Kenntnis darüber, dass über Ihre IP-Adresse unsere Website aufgerufen wurde. Die Nutzung von Google Web Fonts erfolgt im Interesse einer einheitlichen und ansprechenden Darstellung unserer Online-Angebote. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar.<br />Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer genutzt.<br />Weitere Informationen zu Google Web Fonts finden Sie unter <a href=\"https://developers.google.com/fonts/faq\">developers.google.com/fonts/faq</a> und in der Datenschutzerklärung von Google: <a href=\"https://policies.google.com/privacy?hl=de\">policies.google.com/privacy</a>."
+        "content": "Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts, die von Google bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Web Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen.<br /><br />Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu den Servern von Google aufnehmen. Hierdurch erlangt Google Kenntnis darüber, dass über Ihre IP-Adresse unsere Website aufgerufen wurde. Die Nutzung von Google Web Fonts erfolgt im Interesse einer einheitlichen und ansprechenden Darstellung unserer Online-Angebote. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar.<br /><br />Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer genutzt.<br />Weitere Informationen zu Google Web Fonts finden Sie unter <a href=\"https://developers.google.com/fonts/faq\">developers.google.com/fonts/faq</a> und in der Datenschutzerklärung von Google: c."
       },
       "googleMaps": {
         "headline": "Google Maps",
-        "content": "Diese Seite nutzt über eine API den Kartendienst Google Maps. Anbieter ist die Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.<br />Zur Nutzung der Funktionen von Google Maps ist es notwendig, Ihre IP Adresse zu speichern. Diese Informationen werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Der Anbieter dieser Seite hat keinen Einfluss auf diese Datenübertragung.<br />Die Nutzung von Google Maps erfolgt im Interesse einer ansprechenden Darstellung unserer Online-Angebote und an einer leichten Auffindbarkeit der von uns auf der Website angegebenen Orte. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar.<br />Mehr Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von Google: <a href=\"https://policies.google.com/privacy?hl=de\">policies.google.com/privacy</a>."
+        "content": "Diese Seite nutzt über eine API den Kartendienst Google Maps. Anbieter ist die Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.<br /><br />Zur Nutzung der Funktionen von Google Maps ist es notwendig, Ihre IP Adresse zu speichern. Diese Informationen werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Der Anbieter dieser Seite hat keinen Einfluss auf diese Datenübertragung.<br />Die Nutzung von Google Maps erfolgt im Interesse einer ansprechenden Darstellung unserer Online-Angebote und an einer leichten Auffindbarkeit der von uns auf der Website angegebenen Orte. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar.<br /><br />Mehr Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von Google: <a href=\"https://policies.google.com/privacy?hl=de\">policies.google.com/privacy</a>."
       }
     }
   }
