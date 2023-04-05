@@ -1,4 +1,7 @@
 {
+  "meta": {
+    "description": "Bienvenidos a Artà en Mallorca, bienvenidos a Casa Es Sindicat. Descubra nuestro palacio de pueblo restaurado con cariño."
+  },
   "locales": {
     "de": {
       "short": "DE"
