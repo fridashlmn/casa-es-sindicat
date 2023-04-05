@@ -44,7 +44,7 @@
       <HeadlineComponent class="mb-8" level="M">
         {{ $t('booking.conditions.title') }}
       </HeadlineComponent>
-      <div class="listStyle ml-9" v-html="$t('booking.conditions.list')" />
+      <ul class="listStyle ml-9" v-html="$t('booking.conditions.list')" />
     </div>
   </div>
 </template>

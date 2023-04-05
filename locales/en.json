@@ -93,7 +93,7 @@
       "headline": "Booking",
       "subline": "We are looking forward to you!"
     },
-    "intro": "You want to book Casa Es Sindicat? In the occupancy schedule you can see if your desired date is still available. The already rented dates are marked in red. The yellow markings are options, these dates can be requested. If you have found a suitable period for your planned vacation, please send us a message via contact. We will answer you as soon as possible.",
+    "intro": "You want to book Casa Es Sindicat? In the occupancy schedule you can see if your desired date is still available. The already rented dates are marked in red. All other dates can be requested. If you have found a suitable period for your planned vacation, please send us a message via contact. We will answer you as soon as possible.",
     "price": {
       "title": "Prices",
       "info": "Prices for occupancy with up to 6 adults plus two small children (up to 5 years):",
@@ -111,7 +111,7 @@
       "headline": "Directions",
       "subline": "Your road to Àrta"
     },
-    "title": "How to reach us",
+    "title": "Once across the island.",
     "content": "Casa Es Sindicat is located in the small town of Àrta in the northeast of Mallorca. From Palma de Mallorca Airport, the fastest way to reach Àrta is via the Ma-15, which takes about an hour. Other connections by cab, bus or train are possible. You can get information about this, for example, here."
   },
   "contact": {
