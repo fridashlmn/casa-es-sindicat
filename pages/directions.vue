@@ -7,33 +7,35 @@
       subline="Hier steht eine griffige Subline"
     />
 
-    <div class="flex flex-col p-30 items-center">
-      <div class="flex items-center">
-        <p class="pr-30">
+    <div class="flex flex-col lg:flex-row p-6 py-12 sm:p-16 md:p-26 lg:p-30">
+      <div class="flex flex-col mb-12 sm:mb-16 lg:mr-20 xl:mr-30">
+        <HeadlineComponent class="mb-12 max-w-111" level="M">
+          So erreichen Sie uns!
+        </HeadlineComponent>
+        <p>
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
           sed diam voluptua.
         </p>
-        <GMapMap
-          :center="center"
-          :options="{
-            zoomControl: true,
-            mapTypeControl: false,
-            scaleControl: false,
-            streetViewControl: false,
-            rotateControl: false,
-            fullscreenControl: true,
-          }"
-          :zoom="17"
-          style="width: 600px; height: 500px; margin: auto"
-        >
-          <GMapMarker
-            v-for="(marker, index) in markers"
-            :key="index"
-            :position="marker.position"
-          />
-        </GMapMap>
       </div>
+      <GMapMap
+        :center="center"
+        :options="{
+          zoomControl: true,
+          mapTypeControl: false,
+          scaleControl: false,
+          streetViewControl: false,
+          rotateControl: false,
+          fullscreenControl: true,
+        }"
+        :zoom="17"
+      >
+        <GMapMarker
+          v-for="(marker, index) in markers"
+          :key="index"
+          :position="marker.position"
+        />
+      </GMapMap>
     </div>
   </div>
 </template>
@@ -53,7 +55,33 @@ const markers = [
 ]
 </script>
 <script lang="ts">
+import HeadlineComponent from '../components/Headline/index.vue'
+
 export default {
   name: 'DirectionsPage',
+  components: {
+    HeadlineComponent,
+  },
 }
 </script>
+<style>
+.vue-map {
+  width: 80vw;
+  height: 45vw;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .vue-map {
+    width: 28.125rem;
+    height: 25rem;
+  }
+}
+
+/*@media screen and (min-width: 1024px) {
+  .vue-map {
+    width: 400px;
+    height: 500px;
+  }
+}*/
+</style>

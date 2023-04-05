@@ -6,14 +6,18 @@
       img-src="apartment2-2.jpg"
       subline="Hier steht eine griffige Subline"
     />
-    <div class="flex p-30">
-      <HeadlineComponent class="mr-30 max-w-111" level="M">
+    <div
+      class="flex flex-col lg:flex-row justify-evenly p-6 py-12 sm:p-16 lg:p-30"
+    >
+      <HeadlineComponent
+        class="mb-12 sm:mb-16 lg:(mr-30 mt-0) max-w-111"
+        level="M"
+      >
         Schreiben Sie uns!
       </HeadlineComponent>
-
       <form
         action="/contact/success"
-        class="flex flex-col w-125 items-start w-full"
+        class="flex flex-col sm:w-125 items-start w-full"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         method="POST"
@@ -43,6 +47,9 @@ import BaseButton from '../../components/BaseButton/index.vue'
 
 export default {
   name: 'ContactPage',
-  components: { HeadlineComponent, BaseButton },
+  components: {
+    HeadlineComponent,
+    BaseButton,
+  },
 }
 </script>
