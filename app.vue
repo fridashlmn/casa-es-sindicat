@@ -12,7 +12,7 @@ const description = computed(() => {
   return i18n.t('meta.description')
 })
 useHead({
-  title: 'Casa es Sindicat',
+  title: 'Casa Es Sindicat',
   charset: 'utf-8',
   viewport: 'width=device-width, initial-scale=1',
   meta: [
