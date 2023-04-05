@@ -88,6 +88,24 @@
       }
     }
   },
+  "booking": {
+    "stage": {
+      "headline": "Booking",
+      "subline": "We are looking forward to you!"
+    },
+    "intro": "You want to book Casa Es Sindicat? In the occupancy schedule you can see if your desired date is still available. The already rented dates are marked in red. The yellow markings are options, these dates can be requested. If you have found a suitable period for your planned vacation, please send us a message via contact. We will answer you as soon as possible.",
+    "price": {
+      "title": "Prices",
+      "info": "Prices for occupancy with up to 6 adults plus two small children (up to 5 years):",
+      "day": "Per day: 750 € (3 nights minimum stay)",
+      "week": "One week: 5.100 €",
+      "weeks": "Two weeks: 10.000 €"
+    },
+    "conditions": {
+      "title": "Rental conditions",
+      "list": "<li>We will confirm the booking of the Casa by e-mail. In order for the rental contract to come into effect, you must transfer 25% of the rent as a deposit within one week of receiving the confirmation.</li><li>The remaining 75% of the rent must be received on our account until 6 weeks before the beginning of the rental period.</li><li>A rental deposit of € 1,000 must be received in our account at least one week before the start of the rental period.</li><li>On arrival the keys will be handed over and an introduction to the Casa will be given by a person authorized by us.</li><li>On the day of departure the same person will take back the keys and check the Casa for its proper condition. If it is in perfect condition, the deposit will be returned immediately.</li><li>Bed linen and towels are included in the rent. For the final cleaning we charge a flat rate of 220 €.</li><li>The Casa may only be occupied by the number of persons indicated at the time of booking. Maximum 6 or 8 persons plus 2 small children up to 5 years.</li><li>The use of the pool is at your own risk. Children must be supervised by parents while using the pool.</li><li>On the day of arrival the casa can be occupied from 16:00. On the day of departure the casa must be vacated by 11:00 am.</li><li>Pets are not allowed.</li><li>Smoking in the house is not allowed.</li><li>The celebration of parties in the Casa is not allowed.</li>"
+    }
+  },
   "directions": {
     "stage": {
       "headline": "Directions",

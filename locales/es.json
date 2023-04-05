@@ -88,6 +88,24 @@
       }
     }
   },
+  "booking": {
+    "stage": {
+      "headline": "Reserve",
+      "subline": "Le esperamos!"
+    },
+    "intro": "¿Desea reservar en Casa Es Sindicat? En el calendario de ocupación puede ver si la fecha que desea aún está disponible. Las fechas que ya han sido alquiladas están marcadas en rojo. Las marcas amarillas son opciones, estas fechas pueden ser solicitadas. Si ha encontrado un periodo adecuado para sus vacaciones previstas, envíenos un mensaje a través de Contacto. Le responderemos lo antes posible.",
+    "price": {
+      "title": "Precios",
+      "info": "Precios para ocupación de hasta 6 adultos y dos niños pequeños (hasta 5 años):",
+      "day": "Por día: 750 € (estancia mínima de 3 noches)",
+      "week": "Una semana: 5.100 €",
+      "weeks": "Dos semanas: 10.000 €"
+    },
+    "conditions": {
+      "title": "Condiciones de alquiler",
+      "list": "<li>Le confirmaremos la reserva de la Casa por correo electrónico. Para que el contrato de alquiler entre en vigor, deberá transferir el 25% del precio del alquiler como depósito en el plazo de una semana a partir de la recepción de la confirmación.</li><li>El 75% restante del alquiler deberá ingresarse en nuestra cuenta a más tardar 6 semanas antes del comienzo del período de alquiler.</li><li>Un depósito de alquiler de 1.000 euros debe recibirse en nuestra cuenta al menos una semana antes del comienzo del periodo de alquiler.</li><li>A la llegada, se entregarán las llaves y una persona designada por nosotros hará una presentación de la casa.</li><li>El día de salida, la misma persona recogerá las llaves y comprobará el buen estado de la Casa. Si está en perfectas condiciones, se devolverá la fianza inmediatamente.</li><li>La ropa de cama y las toallas están incluidas en el precio del alquiler. Por la limpieza final cobramos una tarifa plana de 220 euros.</li><li>La Casa sólo puede ser ocupada por el número de personas indicado en el momento de la reserva. Máximo 6 u 8 personas más 2 niños pequeños de hasta 5 años.</li><li>El uso de la piscina es bajo su propio riesgo. Los niños deben ser supervisados por sus padres durante el uso de la piscina.</li><li>El día de llegada, la casa se puede ocupar a partir de las 16:00. El día de salida, la casa debe quedar libre antes de las 11:00 horas.</li><li>No se admiten animales de compañía.</li><li>No está permitido fumar en la casa.</li><li>No se permiten fiestas en la casa.</li>"
+    }
+  },
   "directions": {
     "stage": {
       "headline": "Trayecto",

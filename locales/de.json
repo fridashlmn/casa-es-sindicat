@@ -107,7 +107,22 @@
     "intro": "Im Nordosten der Insel, im historischen Zentrum des malerischen Städtchens Artà, liegt die Casa Es Sindicat. Die verkehrsberuhigte Einkaufsstraße, der wunderschöne Marktplatz, die Burg San Salvador sowie die Kathedrale sind in eigenen Minuten zu Fuß zu erreichen. Für den täglichen Einkauf gibt es mehrere Supermärkte, ebenfalls fußläufig. "
   },
   "booking": {
-    "intro": "In dem Belegungsplan sind die bereits vermieteten Zeiten rot markiert, die gelben Markierungen sind Optionen, diese Termine können wie die freien grünen Markierungen angefragt werden. Wenn Sie einen geeigneten Zeitraum für Ihren geplanten Urlaub gefunden haben, senden Sie uns bitte über Kontakt eine E-Mail, wir werden Ihnen unverzüglich antworten."
+    "stage": {
+      "headline": "Buchen",
+      "subline": "Wir freuen uns auf Sie!"
+    },
+    "intro": "Sie möchten Casa Es Sindicat buchen? Im Belegungsplan sehen Sie, ob Ihr Wunschtermin noch frei ist. Die bereits vermieteten Termine sind rot markiert. Die gelben Markierungen sind Optionen, diese Termine können angefragt werden. Wenn Sie einen geeigneten Zeitraum für Ihren geplanten Urlaub gefunden haben, senden Sie uns bitte eine Nachricht über Kontakt. Wir werden Ihnen so schnell wie möglich antworten.",
+    "price": {
+      "title": "Preise",
+      "info": "Preise bei einer Belegung mit bis zu 6 Erwachsenen sowie zwei Kleinkindern (bis 5 Jahre):",
+      "day": "Pro Tag: 750 € (3 Nächte Mindestaufenthalt)",
+      "week": "Eine Woche: 5.100 €",
+      "weeks": "Zwei Wochen: 10.000 €"
+    },
+    "conditions": {
+      "title": "Mietbedingungen",
+      "list": "<li>Wir bestätigen Ihnen per E-Mail die Buchung der Casa. Damit der Mietvertrag zustande kommt, müssen Sie innerhalb einer Woche nach Erhalt der Bestätigung 25% des Mietpreises als Anzahlung überweisen.</li><li>Die restlichen 75 % der Miete müssen bis 6 Wochen vor Beginn der Mietzeit auf unserem Konto eingegangen sein.</li><li>Eine Mietkaution in Höhe von 1.000 € muss spätestens eine Woche vor Mietbeginn auf unserem Konto eingegangen sein.</li><li>Bei Anreise erfolgt die Schlüsselübergabe und eine Einweisung in die Casa durch eine von uns beauftragte Person.</li><li>Am Abreisetag wird die gleiche Person die Schlüssel zurücknehmen und die Casa auf ihren ordnungsgemäßen Zustand überprüfen. Bei einwandfreiem Zustand wird die Kaution umgehend zurückerstattet.</li><li>Bettwäsche und Handtücher sind im Mietpreis enthalten. Für die Endreinigung berechnen wir eine Pauschale von 220 €.</li><li>Die Casa darf nur mit der bei der Buchung angegebenen Personenzahl belegt werden. Maximal 6 bzw. 8 Personen plus 2 Kleinkinder bis 5 Jahre.</li><li>Die Benutzung des Pools erfolgt auf eigene Gefahr. Kinder müssen während der Benutzung des Pools von den Eltern beaufsichtigt werden.</li><li>Am Anreisetag kann die Casa ab 16:00 Uhr bezogen werden. Am Abreisetag muss die Casa bis 11:00 Uhr geräumt werden.</li><li>Das Mitbringen von Haustieren ist untersagt.</li><li>Rauchen innerhalb des Hauses ist nicht gestattet.</li><li>Das Feiern von Partys auf der Finca ist nicht erlaubt.</li>"
+    }
   },
   "directions": {
     "stage": {
