@@ -88,6 +88,14 @@
       }
     }
   },
+  "directions": {
+    "stage": {
+      "headline": "Trayecto",
+      "subline": "Tu camino a Àrta"
+    },
+    "title": "Cómo llegar",
+    "content": "Casa Es Sindicat se encuentra en la pequeña localidad de Àrta, al noreste de Mallorca. La forma más rápida de llegar a Àrta desde el aeropuerto de Palma de Mallorca es a través de la Ma-15, que tarda aproximadamente una hora. También es posible llegar en taxi, autobús o tren. Puede obtener información al respecto, por ejemplo, aquí."
+  },
   "contact": {
     "stage": {
       "headline": "Contacto",

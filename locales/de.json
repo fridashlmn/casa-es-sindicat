@@ -109,6 +109,14 @@
   "booking": {
     "intro": "In dem Belegungsplan sind die bereits vermieteten Zeiten rot markiert, die gelben Markierungen sind Optionen, diese Termine können wie die freien grünen Markierungen angefragt werden. Wenn Sie einen geeigneten Zeitraum für Ihren geplanten Urlaub gefunden haben, senden Sie uns bitte über Kontakt eine E-Mail, wir werden Ihnen unverzüglich antworten."
   },
+  "directions": {
+    "stage": {
+      "headline": "Anfahrt",
+      "subline": "Ihr Weg nach Àrta"
+    },
+    "title": "So erreichen Sie uns",
+    "content": "Die Casa Es Sindicat liegt in der kleinen Stadt Àrta im Nordosten von Mallorca. Vom Flughafen Palma de Mallorca erreichen Àrta am schnellsten über die Ma-15. Die Fahrtzeit beträgt ungefähr eine Stunde. Weitere Verbindungen mit Taxi, Bus oder Bahn sind möglich. Informationen dazu erhalten Sie zum Beispiel hier."
+  },
   "contact": {
     "stage": {
       "headline": "Kontakt",

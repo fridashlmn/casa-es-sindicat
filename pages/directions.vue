@@ -1,21 +1,20 @@
 <template>
   <div>
     <Stage
-      headline="Anfahrt"
+      :headline="$t('directions.stage.headline')"
+      :subline="$t('directions.stage.subline')"
       img-alt="image_pool"
       img-src="castle-view.jpg"
-      subline="Hier steht eine griffige Subline"
     />
-
-    <div class="flex flex-col lg:flex-row p-6 py-12 sm:p-16 md:p-26 lg:p-30">
+    <div
+      class="flex flex-col lg:flex-row justify-evenly p-6 py-12 sm:p-16 md:p-26 lg:p-30"
+    >
       <div class="flex flex-col max-w-111 mb-12 sm:mb-16 lg:mr-20 xl:mr-30">
         <HeadlineComponent class="mb-12" level="M">
-          So erreichen Sie uns!
+          {{ $t('directions.title') }}
         </HeadlineComponent>
         <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua.
+          {{ $t('directions.content') }}
         </p>
       </div>
       <GMapMap
@@ -78,10 +77,10 @@ export default {
   }
 }
 
-/*@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   .vue-map {
-    width: 400px;
-    height: 500px;
+    width: 31.25rem;
+    height: 28.125rem;
   }
-}*/
+}
 </style>
