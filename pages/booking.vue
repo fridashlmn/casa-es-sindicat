@@ -3,7 +3,7 @@
     <Stage
       :headline="$t('booking.stage.headline')"
       :subline="$t('booking.stage.subline')"
-      img-alt="image_pool"
+      img-alt="sunset"
       img-src="sunset.jpg"
     />
     <div class="px-6 py-16 md:p-16 lg:p-30">
