@@ -88,6 +88,36 @@
       }
     }
   },
+  "equipment": {
+    "stage": {
+      "headline": "Equipamiento",
+      "subline": "Todo para unas vacaciones de ensueño"
+    },
+    "general": {
+      "title": "General",
+      "list": "<li>Calefacción por suelo radiante en la planta baja</li><li>Calefacción mural en la planta superior</li><li>Aire acondicionado en toda la casa</li><li>Cuna y trona</li><li>W-LAN gratuito</li><li>Lavadora y secadora</li>"
+    },
+    "kitchen": {
+      "title": "Cocina",
+      "list": "<li>Cocina totalmente equipada incl. cafetera De Longhi</li><li>Placa de inducción y horno de 90 cm</li><li>Nevera-congelador grande</li>"
+    },
+    "bathroom": {
+      "title": "Baño",
+      "list": "<li>Toallas</li><li>Champú y gel de baño</li><li>Secador de pelo</li>"
+    },
+    "outdoor": {
+      "title": "Zona exterior",
+      "list": "<li>Barbacoa de gas Weber</li><li>Tumbonas y sombrillas</li><li>Sillas de terraza</li><li>Toallas de baño</li><li>Piscina climatizada con sistema contracorriente (1,60 m de profundidad, 3 x 6 m)</li><li>Ducha exterior</li>"
+    },
+    "entertainment": {
+      "title": "Entretenimiento",
+      "list": "<li>Smart TV de 65 pulgadas</li><li>Sistema de sonido Bluetooth BluOS</li><li>Biblioteca</li>"
+    },
+    "sports": {
+      "title": "Equipamiento deportivo",
+      "list": "<li>Stand-up Paddle</li><li>Equipo de snorkel</li><li>Bádminton</li>"
+    }
+  },
   "booking": {
     "stage": {
       "headline": "Reserve",
@@ -127,6 +157,12 @@
       "message": "Mensaje",
       "submit": "Enviar",
       "agb": "Acepto que mis datos del formulario de contacto se recopilen y procesen para responder a mi consulta. Los datos se eliminarán una vez finalizado el tratamiento de su consulta. Nota: Puede revocar su consentimiento para el futuro en cualquier momento enviando un correo electrónico a info&#64casa-es-sindicat.de. Encontrará información detallada sobre el tratamiento de los datos de los usuarios en nuestra política de privacidad."
+    },
+    "success": {
+      "stage": {
+        "headline": "¡Muchas gracias!",
+        "subline": "Atenderemos su solicitud de inmediato"
+      }
     }
   },
   "impressum": {

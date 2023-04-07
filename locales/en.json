@@ -88,6 +88,36 @@
       }
     }
   },
+  "equipment": {
+    "stage": {
+      "headline": "Equipment",
+      "subline": "Everything for your dream vacation"
+    },
+    "general": {
+      "title": "General",
+      "list": "<li>Underfloor heating on the ground floor</li><li>Wall heating on the upper floor</li><li>Air conditioning throughout the house</li><li>Crib & high chair</li><li>Free W-LAN</li><li>Washing machine & dryer</li>"
+    },
+    "kitchen": {
+      "title": "Kitchen",
+      "list": "<li>Fully equipped kitchen incl. De Longhi coffee machine</li><li>90 cm wide induction stove and oven</li><li>Large fridge-freezer</li>"
+    },
+    "bathroom": {
+      "title": "Bathroom",
+      "list": "<li>Towels</li><li>Shampoo & Bodywash</li><li>Hairdryer</li>"
+    },
+    "outdoor": {
+      "title": "Outdoor area",
+      "list": "<li>Weber gas grill</li><li>Sun loungers & parasols</li><li>Terrace chairs</li><li>Bath towels</li><li>Heated pool with counter-current system (1.60 m deep, 3 x 6 m in size)</li><li>Outdoor shower</li>"
+    },
+    "entertainment": {
+      "title": "Entertainment",
+      "list": "<li>Smart-TV 65 inches</li><li>BluOS Bluetooth sound system</li><li>Library</li>"
+    },
+    "sports": {
+      "title": "Sports",
+      "list": "<li>Stand-up paddle</li><li>Snorkeling equipment</li><li>Badminton</li>"
+    }
+  },
   "booking": {
     "stage": {
       "headline": "Booking",
@@ -127,6 +157,12 @@
       "message": "Message",
       "submit": "Submit",
       "agb": "I agree that my data from the contact form will be collected and processed to answer my request. The data will be deleted after the processing of your request has been completed. Note: You can revoke your consent at any time for the future by e-mail to info&#64casa-es-sindicat.de. Detailed information on the handling of user data can be found in our privacy policy."
+    },
+    "success": {
+      "stage": {
+        "headline": "Thank you!",
+        "subline": "We will take care of your request immediately"
+      }
     }
   },
   "impressum": {

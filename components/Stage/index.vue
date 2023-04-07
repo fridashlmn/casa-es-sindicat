@@ -3,7 +3,7 @@
     <img
       :alt="imgAlt"
       :src="useAsset(imgSrc)"
-      class="w-screen max-h-177.5 object-cover"
+      class="w-screen min-h-70vh max-h-177.5 object-cover"
     />
     <div
       :class="{ 'pb-24': !withScrollIndicator }"

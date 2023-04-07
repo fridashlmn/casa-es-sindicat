@@ -1,7 +1,7 @@
 <template>
   <header
-    :class="{ 'bg-white': scrollPosition > 50 }"
-    class="fixed h-20 px-6 lg:px-20 w-screen flex flex-row flew-nowrap items-center justify-between z-2 bg-transparent transition-all ease-in"
+    :class="{ '!shadow	bg-white': scrollPosition > 50 }"
+    class="fixed h-20 px-6 lg:px-20 w-screen flex flex-row flew-nowrap items-center justify-between z-2 bg-transparent transition-all ease-in shadow-none"
   >
     <button>
       <MenuIcon

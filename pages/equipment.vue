@@ -1,70 +1,70 @@
 <template>
   <div>
     <Stage
-      headline="Ausstattung"
+      :headline="$t('equipment.stage.headline')"
+      :subline="$t('equipment.stage.subline')"
       img-alt="image_pool"
       img-src="kitchen.jpg"
-      subline="Hier steht eine griffige Subline"
     />
-    <div class="p-30 flex flex-col">
-      <div class="flex pt-10 pb-24">
-        <HeadlineComponent class="mr-30" level="M">Allgemein</HeadlineComponent>
-        <ul class="listStyle">
-          <li>Fußbodenheizung im Erdgschoss</li>
-          <li>Wandheizung im ersten Obergeschoss</li>
-          <li>Klimaanlage im gesamten Haus</li>
-          <li>Kinderbett & Kinderstuhlm</li>
-          <li>Kostenfreies W-LAN</li>
-          <li>Vollausgestattete Küche inkl. De Longhi Kaffeevollautomat</li>
-          <li>Waschmaschine & Trockner</li>
-        </ul>
+    <div class="flex flex-col px-6 py-16 md:p-16 lg:p-30">
+      <div class="flex flex-col lg:flex-row pb-16 lg:pb-24">
+        <HeadlineComponent class="pb-8 lg:pb-0 mr-30" level="M">
+          {{ $t('equipment.general.title') }}
+        </HeadlineComponent>
+        <ul
+          class="listStyle ml-14 sm:ml-22 lg:ml-0"
+          v-html="$t('equipment.general.list')"
+        />
       </div>
       <hr class="mb-24" />
-      <div class="flex pb-24 self-end">
-        <ul class="listStyle">
-          <li>Weber-Gas-Grill</li>
-          <li>Sonnenliegen & Sonnenschirme</li>
-          <li>Terassen-Stühle</li>
-          <li>Badehandtücher</li>
-          <li>Beheizter Pool mit Gegenstrom-Anlage - 1.60 m Tiefe</li>
-          <li>Außendusche</li>
-        </ul>
-        <HeadlineComponent class="ml-27" level="M">
-          Außenbereich
+      <div class="flex flex-col-reverse lg:flex-row pb-16 lg:pb-24 lg:self-end">
+        <ul
+          class="listStyle ml-14 sm:ml-22 lg:ml-0"
+          v-html="$t('equipment.kitchen.list')"
+        />
+        <HeadlineComponent class="pb-8 lg:pb-0 lg:ml-27" level="M">
+          {{ $t('equipment.kitchen.title') }}
         </HeadlineComponent>
       </div>
       <hr class="mb-24" />
-      <div class="flex pb-24">
-        <HeadlineComponent class="mr-30" level="M">
-          Entertainment
+      <div class="flex flex-col lg:flex-row pb-16 lg:pb-24">
+        <HeadlineComponent class="pb-8 lg:pb-0 mr-30" level="M">
+          {{ $t('equipment.bathroom.title') }}
         </HeadlineComponent>
-        <ul class="listStyle">
-          <li>Smart-TV 65 Zoll</li>
-          <li>BluOS Bluetooth-Soundsystem</li>
-          <li>Bibliothek</li>
-        </ul>
+        <ul
+          class="listStyle ml-14 sm:ml-22 lg:ml-0"
+          v-html="$t('equipment.bathroom.list')"
+        />
       </div>
       <hr class="mb-24" />
-      <div class="flex pb-24 self-end">
-        <ul class="listStyle">
-          <li>Handtücher</li>
-          <li>Shampoo & Bodywash</li>
-          <li>Haartrochner</li>
-        </ul>
-        <HeadlineComponent class="ml-27" level="M">
-          Badezimmer
+      <div class="flex flex-col-reverse lg:flex-row pb-16 lg:pb-24 lg:self-end">
+        <ul
+          class="listStyle ml-14 sm:ml-22 lg:ml-0"
+          v-html="$t('equipment.outdoor.list')"
+        />
+        <HeadlineComponent class="pb-8 lg:pb-0 lg:ml-27" level="M">
+          {{ $t('equipment.outdoor.title') }}
         </HeadlineComponent>
       </div>
       <hr class="mb-24" />
-      <div class="flex pb-24">
-        <HeadlineComponent class="mr-30" level="M">
-          Sportausrüstung
+      <div class="flex flex-col lg:flex-row pb-16 lg:pb-24">
+        <HeadlineComponent class="pb-8 lg:pb-0 mr-30" level="M">
+          {{ $t('equipment.entertainment.title') }}
         </HeadlineComponent>
-        <ul class="listStyle">
-          <li>Standup Paddle</li>
-          <li>Schnorchelausstattung</li>
-          <li>Federball</li>
-        </ul>
+        <ul
+          class="listStyle ml-14 sm:ml-22 lg:ml-0"
+          v-html="$t('equipment.entertainment.list')"
+        />
+      </div>
+      <hr class="mb-24" />
+      <div class="flex flex-col-reverse lg:flex-row pb-16 lg:pb-24 lg:self-end">
+        <ul
+          class="listStyle ml-14 sm:ml-22 lg:ml-0"
+          v-html="$t('equipment.sports.list')"
+        />
+        <HeadlineComponent class="pb-8 lg:pb-0 lg:ml-27" level="M">
+          {{ $t('equipment.sports.title') }}
+        </HeadlineComponent>
       </div>
     </div>
   </div>

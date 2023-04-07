@@ -14,6 +14,7 @@ export const fontSize = {
   'xl': ['22px', { lineHeight: '24px' }],
   '2xl': ['24px', { lineHeight: '32px' }],
   '3xl': ['28px', { lineHeight: '32px' }],
+  '5xl': ['36px', { lineHeight: '36px' }],
   '6xl': ['40px', { lineHeight: '48px' }],
   '7xl': ['44px', { lineHeight: '44px' }],
   '8xl': ['52px', { lineHeight: '52px' }],

@@ -49,6 +49,9 @@
       "link": "Entdecken"
     }
   },
+  "location": {
+    "intro": "Im Nordosten der Insel, im historischen Zentrum des malerischen Städtchens Artà, liegt die Casa Es Sindicat. Die verkehrsberuhigte Einkaufsstraße, der wunderschöne Marktplatz, die Burg San Salvador sowie die Kathedrale sind in eigenen Minuten zu Fuß zu erreichen. Für den täglichen Einkauf gibt es mehrere Supermärkte, ebenfalls fußläufig. "
+  },
   "house": {
     "stage": {
       "headline": "Haus",
@@ -103,8 +106,35 @@
       "intro": "Die Dachterasse im dritten Obergeschoss ist ein absolutes Highlight. 360 Grad Rundumblick über die Dächer von Artà, hinauf zur Burg San Salvador und zur Kathedrale bis zum Meer in der Ferne. Ein beschatteter Loungebereich sowie eine Außendusche laden auch bie heißen Tagen zum Verweilen ein."
     }
   },
-  "location": {
-    "intro": "Im Nordosten der Insel, im historischen Zentrum des malerischen Städtchens Artà, liegt die Casa Es Sindicat. Die verkehrsberuhigte Einkaufsstraße, der wunderschöne Marktplatz, die Burg San Salvador sowie die Kathedrale sind in eigenen Minuten zu Fuß zu erreichen. Für den täglichen Einkauf gibt es mehrere Supermärkte, ebenfalls fußläufig. "
+  "equipment": {
+    "stage": {
+      "headline": "Ausstattung",
+      "subline": "Alles für Ihren Traumurlaub"
+    },
+    "general": {
+      "title": "Allgemein",
+      "list": "<li>Fußbodenheizung im Erdgschoss</li><li>Wandheizung im Obergeschoss</li><li>Klimaanlage im gesamten Haus</li><li>Kinderbett & Kinderstuhl</li><li>Kostenloses W-LAN</li><li>Waschmaschine & Trockner</li>"
+    },
+    "kitchen": {
+      "title": "Küche",
+      "list": "<li>Voll ausgestattete Küche inkl. De Longhi Kaffeevollautomat</li><li>90 cm breiter Induktionsherd und Backofen</li><li>Großer Kühl- Gefrierschrank</li>"
+    },
+    "bathroom": {
+      "title": "Badezimmer",
+      "list": "<li>Handtücher</li><li>Shampoo & Bodywash</li><li>Haartrockner</li>"
+    },
+    "outdoor": {
+      "title": "Außenbereich",
+      "list": "<li>Weber Gasgrill</li><li>Sonnenliegen & Sonnenschirme</li><li>Terassenstühle</li><li>Badehandtücher</li><li>Beheizter Pool mit Gegenstromanlage (1,60 m tief, 3 x 6 m groß)</li><li>Außendusche</li>"
+    },
+    "entertainment": {
+      "title": "Entertainment",
+      "list": "<li>Smart-TV 65 Zoll</li><li>BluOS Bluetooth-Soundsystem</li><li>Bibliothek</li>"
+    },
+    "sports": {
+      "title": "Sportausrüstung",
+      "list": "<li>Stand-up Paddle</li><li>Schnorchelausrüstung</li><li>Federball</li>"
+    }
   },
   "booking": {
     "stage": {
@@ -145,6 +175,12 @@
       "message": "Nachricht",
       "submit": "Senden",
       "agb": "Ich stimme zu, dass meine Angaben aus dem Kontaktformular zur Beantwortung meiner Anfrage erhoben und verarbeitet werden. Die Daten werden nach abgeschlossener Bearbeitung Ihrer Anfrage gelöscht. Hinweis: Sie können Ihre Einwilligung jederzeit für die Zukunft per E-Mail an info&#64casa-es-sindicat.de widerrufen. Detaillierte Informationen zum Umgang mit Nutzerdaten finden Sie in unserer Datenschutzerklärung."
+    },
+    "success": {
+      "stage": {
+        "headline": "Vielen Dank!",
+        "subline": "Wir kümmern uns umgehend um Ihre Anfrage"
+      }
     }
   },
   "impressum": {

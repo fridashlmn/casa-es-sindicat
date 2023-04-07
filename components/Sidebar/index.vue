@@ -1,7 +1,7 @@
 <template>
   <div
     :class="[
-      'absolute left-0 top-0 inline-block min-h-screen w-full overflow-hidden bg-white md:w-136',
+      'fixed md:absolute left-0 top-0 inline-block min-h-screen w-full overflow-hidden bg-white md:w-136',
     ]"
   >
     <div class="relative h-100vh bg-[#f3efec] text-[#1f1f1f]">
@@ -9,11 +9,11 @@
         <CloseIcon class="w-40pt h-40pt inline-block" />
       </button>
 
-      <ul class="font-normal text-neutralDarkest py-18 px-22">
+      <ul class="font-normal text-neutralDarkest py-16 px-11 sm:py-18 sm:px-22">
         <li
           v-for="(item, index) in navigationItems"
           :key="index"
-          class="text-6xl pt-7 cursor-pointer"
+          class="text-5xl sm:text-6xl pt-7 cursor-pointer"
         >
           <NuxtLink @click="navigate(item.path)">
             {{ $t(item.name) }}
