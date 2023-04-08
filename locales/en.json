@@ -55,6 +55,29 @@
       "teaser": "From the fully equipped kitchen to the heated pool and sports equipment, our casa has everything you want for an unforgettable vacation."
     }
   },
+  "location": {
+    "stage": {
+      "headline": "Location",
+      "subline": "Welcome to Artà"
+    },
+    "intro": "Casa Es Sindicat is located in the northeast of the island, in the historic center of the picturesque town of Artà. From the small alley you can walk to the many sights in all directions.",
+    "castle": {
+      "title": "The castle",
+      "content": "Artà is rich in history, art and culture. One of the absolute highlights is the castle complex on Calvary with the Santuari de Sant Salvador pilgrimage church. It is majestically enthroned on a hill and offers a breathtaking view over the town and the surrounding countryside."
+    },
+    "marketplace": {
+      "title": "The market place",
+      "content": "The traffic-calmed shopping street and the beautiful marketplace are also worth a visit. Here you can buy local products like olive oil, ham or cheese and enjoy the colorful market hustle and bustle. For daily shopping there are several supermarkets, which are also within walking distance."
+    },
+    "streets": {
+      "title": "The alleys",
+      "content": "Stroll through the characteristic narrow streets and discover the typical Mallorcan architecture, the numerous studios and galleries. Here you will also find many cafes and restaurants where you can enjoy the local cuisine."
+    },
+    "church": {
+      "title": "The Parish Church",
+      "content": "The Transfiguracio del Senyor parish church is also an impressive structure and one of the city's most important religious landmarks. Particularly noteworthy is the combination of different architectural styles that have been added over the centuries."
+    }
+  },
   "house": {
     "stage": {
       "headline": "House",

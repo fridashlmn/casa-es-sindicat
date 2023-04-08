@@ -55,6 +55,29 @@
       "teaser": "Desde la cocina totalmente equipada hasta la piscina climatizada y el equipamiento deportivo, nuestra casa ofrece todo lo que pueda desear para unas vacaciones inolvidables."
     }
   },
+  "location": {
+    "stage": {
+      "headline": "Ubicación",
+      "subline": "Bienvenido a Artà"
+    },
+    "intro": "Casa Es Sindicat está situada en el noreste de la isla, en el centro histórico del pintoresco pueblecito de Artà. Desde la pequeña callejuela se puede ir andando a los numerosos lugares de interés en todas direcciones.",
+    "castle": {
+      "title": "El castillo",
+      "content": "Artà es rica en historia, arte y cultura. Uno de los aspectos más destacados es el complejo del castillo en el Calvario con la iglesia de peregrinación Santuari de Sant Salvador. Está entronizado majestuosamente en una colina y ofrece una vista impresionante sobre la ciudad y el paisaje circundante."
+    },
+    "marketplace": {
+      "title": "La plaza del mercado",
+      "content": "También merece la pena visitar la calle comercial de tráfico calmado y la hermosa plaza del mercado. Aquí podrá comprar productos locales como aceite de oliva, jamón o queso y disfrutar del colorido bullicio del mercado. Para las compras diarias, hay varios supermercados que también están a poca distancia."
+    },
+    "streets": {
+      "title": "Los callejones",
+      "content": "Pasee por las características callejuelas y descubra la arquitectura típica mallorquina, los numerosos estudios y galerías. Aquí también encontrará muchos cafés y restaurantes donde podrá disfrutar de la cocina local."
+    },
+    "church": {
+      "title": "La Iglesia Parroquial",
+      "content": "La iglesia parroquial Transfiguracio del Senyor es también un edificio impresionante y uno de los hitos religiosos más importantes de la ciudad. Destaca la combinación de diferentes estilos arquitectónicos que se han ido añadiendo a lo largo de los siglos."
+    }
+  },
   "house": {
     "stage": {
       "headline": "Casa",

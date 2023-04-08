@@ -1,25 +1,53 @@
 <template>
   <div>
     <Stage
-      headline="Lage"
-      img-alt="image_pool"
+      :headline="$t('location.stage.headline')"
+      :subline="$t('location.stage.subline')"
+      img-alt=""
       img-src="arta.jpg"
-      subline="Hier steht eine griffige Subline"
     />
-    <div class="flex p-30 items-center">
-      <p>
-        Im Nordosten der Insel, im malerischen Städtchen Artà liegt das Haus im
-        historischen Zentrum. Die Fußgänger-Einkaufsstraße, der wunderschöne
-        Marktplatz, die Burg San Salvador sowie die Kathedrale sind in wenigen
-        Minuten zu Fuß zu erreichen. Für den täglichen Einkauf gib es mehrere
-        Supermärkte, ebenfalls fußläufig.
-      </p>
+    <div class="lg:p-25 xl:p-30">
+      <HeadlineComponent
+        class="!font-normal sm:text-center max-w-220 my-0 mx-auto px-6 py-16 sm:p-16 lg:p-0 lg:pb-30 xl:pb-30"
+        level="XS/S"
+      >
+        {{ $t('location.intro') }}
+      </HeadlineComponent>
+      <TeaserComponent
+        :content1="$t('location.castle.content')"
+        :image="{ alt: '', src: 'castle-2.jpg' }"
+        :image-left="true"
+        :title="$t('location.castle.title')"
+      />
+      <TeaserComponent
+        :content1="$t('location.marketplace.content')"
+        :image="{ alt: '', src: 'marketplace.jpg' }"
+        :title="$t('location.marketplace.title')"
+      />
+      <TeaserComponent
+        :content1="$t('location.streets.content')"
+        :image="{ alt: '', src: 'street.jpg' }"
+        :image-left="true"
+        :title="$t('location.streets.title')"
+      />
+      <TeaserComponent
+        :content1="$t('location.church.content')"
+        :image="{ alt: '', src: 'church.jpg' }"
+        :title="$t('location.church.title')"
+      />
     </div>
   </div>
 </template>
 
 <script lang="ts">
+import HeadlineComponent from '../components/Headline/index.vue'
+import TeaserComponent from '../components/Teaser/index.vue'
+
 export default {
   name: 'LocationPage',
+  components: {
+    HeadlineComponent,
+    TeaserComponent,
+  },
 }
 </script>

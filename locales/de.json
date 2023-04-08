@@ -56,7 +56,27 @@
     }
   },
   "location": {
-    "intro": "Im Nordosten der Insel, im historischen Zentrum des malerischen Städtchens Artà, liegt die Casa Es Sindicat. Die verkehrsberuhigte Einkaufsstraße, der wunderschöne Marktplatz, die Burg San Salvador sowie die Kathedrale sind in eigenen Minuten zu Fuß zu erreichen. Für den täglichen Einkauf gibt es mehrere Supermärkte, ebenfalls fußläufig. "
+    "stage": {
+      "headline": "Lage",
+      "subline": "Willkommen in Artà"
+    },
+    "intro": "Die Casa Es Sindicat liegt im Nordosten der Insel, im historischen Zentrum des malerischen Städtchens Artà. Von der kleinen Gasse aus kann man zu Fuß die vielen Sehenswürdigkeiten in alle Himmelsrichtungen erkunden.",
+    "castle": {
+      "title": "Die Burganlage",
+      "content": "Artà ist reich an Geschichte, Kunst und Kultur. Zu den absoluten Highlights zählt die Burganlage auf dem Kalvarienberg mit der Wallfahrtskirche Santuari de Sant Salvador. Sie thront majestätisch auf einem Hügel und bietet einen atemberaubenden Blick über die Stadt und die umliegende Landschaft."
+    },
+    "marketplace": {
+      "title": "Der Marktplatz",
+      "content": "Auch die verkehrsberuhigte Einkaufsstraße und der schöne Marktplatz sind einen Besuch wert. Hier können Sie lokale Produkte wie Olivenöl, Schinken oder Käse kaufen und das bunte Markttreiben genießen. Für den täglichen Einkauf gibt es mehrere Supermärkte, die ebenfalls zu Fuß erreichbar sind."
+    },
+    "streets": {
+      "title": "Die Gassen",
+      "content": "Bummeln Sie durch die charakteristischen engen Gassen und entdecken Sie die typisch mallorquinische Architektur, die zahlreichen Ateliers und Galerien. Hier finden Sie auch viele Cafés und Restaurants, in denen Sie die lokale Küche genießen können."
+    },
+    "church": {
+      "title": "Die Pfarrkirche",
+      "content": "Die Pfarrkirche Transfiguracio del Senyor ist ebenfalls ein beeindruckendes Bauwerk und eines der wichtigsten religiösen Wahrzeichen der Stadt. Besonders bemerkenswert ist die Kombination verschiedener Baustile, die im Laufe der Jahrhunderte hinzugefügt wurden."
+    }
   },
   "house": {
     "stage": {
