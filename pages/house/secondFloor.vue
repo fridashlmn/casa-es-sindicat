@@ -1,45 +1,76 @@
 <template>
   <div>
     <Stage
-      headline="Zweite Etage"
+      :headline="$t('house.secondFloor.stage.headline')"
+      :subline="$t('house.secondFloor.stage.subline')"
       img-alt="image_pool"
       img-src="apartment2.jpg"
-      subline="Hier steht eine griffige Subline "
     />
-    <p class="text-center max-w-220 my-0 mx-auto p-30">
-      {{ $t('house.secondFloor.intro') }}
-    </p>
-    <div>
-      <div class="flex justify-evenly items-center pb-16">
-        <img
-          alt="image_pool"
-          class="w-45vw object-cover"
-          src="~/assets/images/apartment2-2.jpg"
-        />
-        <img
-          alt="image_pool"
-          class="w-45vw object-cover"
-          src="~/assets/images/apartment2-3.jpg"
-        />
-      </div>
-      <div class="flex justify-evenly items-center pb-30">
-        <img
-          alt="image_pool"
-          class="w-45vw object-cover"
-          src="~/assets/images/apartment1-2.jpg"
-        />
-        <img
-          alt="image_pool"
-          class="w-45vw object-cover"
-          src="~/assets/images/apartment1.jpg"
-        />
-      </div>
+    <div class="lg:p-25 xl:p-30">
+      <HeadlineComponent
+        class="!font-normal sm:text-center max-w-220 my-0 mx-auto px-6 py-16 sm:p-16 lg:p-0 lg:pb-30 xl:pb-30"
+        level="XS/S"
+      >
+        {{ $t('house.firstFloor.intro') }}
+      </HeadlineComponent>
+      <TeaserComponent :teaser="teaser" />
     </div>
+    <ImageCarousel
+      :images="galleryImages"
+      :title="$t('house.firstFloor.galleryTitle')"
+    />
   </div>
 </template>
+<script lang="ts" setup>
+const i18n = useI18n()
 
+const teaser = {
+  imageTop: { alt: '', src: 'living-room.jpg' },
+  imageBottom: { alt: '', src: 'master-bathroom.jpg' },
+  titleTop: i18n.t('house.firstFloor.livingRoom.title'),
+  content1Top: i18n.t('house.firstFloor.livingRoom.content'),
+  titleBottom: i18n.t('house.firstFloor.bedRoom.title'),
+  content1Bottom: i18n.t('house.firstFloor.bedRoom.content'),
+}
+
+const galleryImages = [
+  {
+    alt: 'test1',
+    src: 'living-room-4.jpg',
+  },
+  {
+    alt: 'test1',
+    src: 'bookshelf.jpg',
+  },
+  {
+    alt: 'test3',
+    src: 'master-bathroom.jpg',
+  },
+  {
+    alt: 'test3',
+    src: 'master-bedroom.jpg',
+  },
+  {
+    alt: 'test1',
+    src: 'stairs-2.jpg',
+  },
+  {
+    alt: 'test3',
+    src: 'bookshelf-2.jpg',
+  },
+]
+</script>
 <script lang="ts">
+import ImageCarousel from '../../components/carousel/ImageCarousel/index.vue'
+import HeadlineComponent from '../../components/Headline/index.vue'
+import TeaserComponent from '../../components/Teaser/index.vue'
+
 export default {
   name: 'SecondFloorPage',
+  components: {
+    ImageCarousel,
+    HeadlineComponent,
+    TeaserComponent,
+  },
 }
 </script>

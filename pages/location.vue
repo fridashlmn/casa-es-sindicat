@@ -3,7 +3,7 @@
     <Stage
       headline="Lage"
       img-alt="image_pool"
-      img-src="castle.jpg"
+      img-src="arta.jpg"
       subline="Hier steht eine griffige Subline"
     />
     <div class="flex p-30 items-center">

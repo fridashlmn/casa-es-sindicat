@@ -14,7 +14,12 @@
     }
   },
   "general": {
-    "gallery": "Galería"
+    "gallery": "Galería",
+    "404": {
+      "headline": "404",
+      "subline": "Esta página no existe.",
+      "button": "Página inicio"
+    }
   },
   "navigation": {
     "home": "Página inicio",
