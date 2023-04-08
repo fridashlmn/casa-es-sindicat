@@ -25,7 +25,7 @@
         </Navigation>
       </template>
       <template #slides>
-        <Slide v-for="slide in images" :key="slide.alt" class="px-4">
+        <Slide v-for="slide in images" :key="slide.alt" class="object5070 px-4">
           <img
             :alt="slide.alt"
             :src="useAsset(slide.src)"

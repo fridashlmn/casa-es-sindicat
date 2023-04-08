@@ -123,11 +123,11 @@
       },
       "intro": "¡Bienvenido a Casa Es Sindicat! Cuando entras en la casa, llegas a la gran zona de entrada. A la izquierda está el baño de invitados, el lavadero con lavadora y secadora y un trastero. A la derecha está el garaje, donde hay una segunda nevera con bebidas.",
       "dining": {
-        "title": "COMEDOR",
+        "title": "Espacio para disfrutar",
         "content": "Unos pasos más adelante, se abre el comedor con la enorme mesa de madera. Aquí se pueden acomodar hasta seis personas. ¿Le gustaría visitarnos en invierno? No hay problema, en los días fríos la chimenea le dará calor. "
       },
       "kitchen": {
-        "title": "COCINA",
+        "title": "Todo para los gourmets",
         "content": "A la vuelta de la esquina está la gran cocina. También hay asientos en la larga isla de cocina hecha de la típica piedra arenisca mallorquina. La cocina no deja nada que desear, desde la placa de inducción hasta la cafetera totalmente automática."
       },
       "galleryTitle": "Planta baja"
@@ -139,11 +139,11 @@
       },
       "intro": "En la primera planta se encuentra el amplio salón con biblioteca contigua. Aquí podrá escuchar música, ver la televisión, leer o simplemente relajarse: Hay sitio para todos en el gran sofá y los acogedores sillones. ",
       "livingRoom": {
-        "title": "RELAX",
+        "title": "Pura relajación",
         "content": "Por supuesto, hay un televisor inteligente con barra de sonido y recepción de la mayoría de canales alemanes, españoles e internacionales. La elegante estufa de hierro fundido proporciona un ambiente más acogedor en invierno."
       },
       "bedRoom": {
-        "title": "DORMIR",
+        "title": "Bienestar garantizado",
         "content": "Junto al salón se encuentra el dormitorio, amueblado con una cama doble de 200 cm de ancho. En suite están el vestidor y el cuarto de baño. El cuarto de baño tiene una cómoda ducha y una bañera independiente. Sentirse bien está garantizado aquí."
       },
       "galleryTitle": "Primer piso"
@@ -155,14 +155,30 @@
       },
       "intro": "En la segunda planta hay dos pisos bien equipados. Ambos disponen de un amplio salón. ¿Planeas trabajar desde una oficina remota? No hay problema, hay Wi-Fi gratuito y escritorios que puede utilizar para su workation. Las habitaciones también disponen de una cama de día.",
       "apartment1": {
-        "title": "Piso 1",
+        "title": "Atención integral",
         "content": "El mayor de los dos pisos es perfecto para alojarse con un niño pequeño de hasta 5 años. Para ello se dispone de una cuna que se monta y desmonta en un abrir y cerrar de ojos. Siéntete como en casa."
       },
       "apartment2": {
-        "title": "Piso 2",
+        "title": "Acogedor de ensueño",
         "content": "Se duerme como se hace la cama. Por eso las habitaciones están equipadas con camas de matrimonio fantásticamente cómodas. No tiene que preocuparse por la ropa de cama, nosotros se la preparamos. Los cuartos de baño con amplias duchas también ofrecen todo lo necesario para unas vacaciones perfectas."
       },
       "galleryTitle": "Segunda planta"
+    },
+    "studio": {
+      "stage": {
+        "headline": "Estudio",
+        "subline": "El refugio perfecto"
+      },
+      "intro": "Se accede al estudio por la terraza. Aquí podrá ponerse cómodo en una de las dos sillas de diseño y disfrutar de la arquitectura y el ambiente únicos de la habitación. Pero el estudio ofrece mucho más.",
+      "downstairs": {
+        "title": "Planta baja",
+        "content": "El estudio tiene dos plantas. En el nivel inferior, hay un cuarto de baño privado junto a la habitación principal. Perfecto si utiliza la terraza y la zona de la piscina durante el día y desea cambiarse o ducharse después de nadar."
+      },
+      "gallery": {
+        "title": "En la galería",
+        "content": "Una escalera conduce a la galería. Aquí hay otra zona de asientos y un escritorio. Ya sea para relajarse o para trabajar desde la oficina remota: Aquí encontrará el refugio perfecto."
+      },
+      "galleryTitle": "Estudio"
     },
     "patioPool": {
       "stage": {
@@ -171,11 +187,11 @@
       },
       "intro": "Si miras la casa desde la calle, ¿quién puede adivinar qué oasis se esconde detrás? Salga de la cocina o del comedor y diríjase al patio, el corazón de Casa Es Sindicat.",
       "patio": {
-        "title": "PATIO",
+        "title": "Terraza y mesa de comedor",
         "content": "Enmarcado por tres lados, el patio se abre primero con su gran mesa de comedor. El lugar perfecto para disfrutar de las vistas al jardín o cenar bajo la impresionante lámpara marroquí."
       },
       "pool": {
-        "title": "PISCINA Y JARDÍN",
+        "title": "Piscina y jardín",
         "content1": "Un escalón conduce a la zona de la piscina. Aquí podrá refrescarse en la piscina de 3 x 6 m y 1,60 m de profundidad y poner a prueba su forma física en el sistema de contracorriente.",
         "content2": "Después, podrá relajarse al sol en una de las cómodas tumbonas. ¿O quizás una de las dos sillas bajo el viejo níspero se convierta en su nuevo lugar favorito?"
       },

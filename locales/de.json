@@ -123,11 +123,11 @@
       },
       "intro": "Bienvenido in der Casa Es Sindicat! Wenn Sie das Haus betreten, gelangen Sie in den großen Eingangsbereich. Links befindet sich das Gästebad, der Hauswirtschaftsraum mit Waschmaschine und Trockner und ein Abstellraum. Rechts befindet sich die Garage, in der ein zweiter Kühlschrank mit Getränken steht.",
       "dining": {
-        "title": "ESSEN",
+        "title": "Platz zum Genießen",
         "content": "Ein paar Schritte weiter öffnet sich das Esszimmer mit dem massiven Holztisch. Hier können Sie es sich mit bis zu sechs Personen gemütlich machen. Sie möchten uns im Winter besuchen? Kein Problem, an kalten Tagen wärmt Sie der Kamin."
       },
       "kitchen": {
-        "title": "KOCHEN",
+        "title": "Alles für Feinschmecker",
         "content": "Gleich um die Ecke befindet sich die große Küche. An der langen Kücheninsel aus typisch mallorquinischem Sandstein gibt es ebenfalls Sitzgelegenheiten. Auch sonst lässt die Küche keine Wünsche offen – vom Induktionsherd bis zum Kaffeevollautomaten."
       },
       "galleryTitle": "Erdgeschoss"
@@ -139,11 +139,11 @@
       },
       "intro": "Im ersten Stock befindet sich das großzügige Wohnzimmer mit angrenzender Bibliothek. Hier kann man Musik hören, fernsehen, lesen oder einfach nur entspannen: Auf dem großen Sofa und den einladenden Sesseln ist für jeden Platz. ",
       "livingRoom": {
-        "title": "ENTSPANNEN",
+        "title": "Entspannung pur",
         "content": "Natürlich gibt es einen Smart-TV mit Soundbar und Empfang der meisten deutschen, spanischen und internationalen Sender. Für zusätzliche Gemütlichkeit im Winter sorgt der stilvolle gusseiserne Ofen."
       },
       "bedRoom": {
-        "title": "SCHLAFEN",
+        "title": "Wohlfühlen garantiert",
         "content": "Hinter dem Wohnzimmer grenzt das Schlafzimmer an, das mit einem Doppelbett mit einer Breite von 200 cm ausgestattet ist. En suite befinden sich das Ankleidezimmer und das Badezimmer. Dieses verfügt neben einer komfortablen Dusche über eine freistehende Badewanne. Wohlfühlen ist hier garantiert."
       },
       "galleryTitle": "Erste Etage"
@@ -155,14 +155,30 @@
       },
       "intro": "Im zweiten Obergeschoss befinden sich zwei gut ausgestattete Apartments. Beide verfügen über ein geräumiges Wohnzimmer. Sie planen, aus dem Remote Office zu arbeiten? Kein Problem, es gibt kostenloses WLAN und Schreibtische, die Sie für Ihre Workation nutzen können. Außerdem verfügen die Zimmer über ein Tagesbett.",
       "apartment1": {
-        "title": "Apartment 1",
+        "title": "Rundum versorgt",
         "content": "Das größere der beiden Apartments eignet sich hervorragend für den Aufenthalt mit einem Kleinkind bis 5 Jahre. Hierfür steht ein Kinderbett zur Verfügung, das sich im Handumdrehen auf- und abbauen lässt. Fühlen Sie sich wie zu Hause."
       },
       "apartment2": {
-        "title": "Apartment 2",
+        "title": "Traumhaft gemütlich",
         "content": "Wie man sich bettet, so schläft man. Deshalb sind die Schlafzimmer mit traumhaft bequemen Queensize-Betten ausgestattet. Um die Bettwäsche brauchen Sie sich nicht zu kümmern, wir beziehen die Betten für Sie frisch. Auch die Bäder mit geräumigen Duschen bieten alles, was Sie für einen perfekten Urlaub brauchen."
       },
       "galleryTitle": "Zweite Etage"
+    },
+    "studio": {
+      "stage": {
+        "headline": "Studio",
+        "subline": "Ihr perfekter Rückzugsort"
+      },
+      "intro": "Über die Terrasse betreten Sie das Studio. Hier können Sie es sich auf einem der beiden Designerstühle bequem machen und die einzigartige Architektur und Atmosphäre des Raumes auf sich wirken lassen. Doch das Studio bietet noch viel mehr.",
+      "downstairs": {
+        "title": "Unterer Bereich",
+        "content": "Das Studio erstreckt sich über zwei Etagen. Im unteren Bereich befindet sich neben dem Hauptraum ein eigenes Badezimmer. Perfekt, wenn man tagsüber die Terrasse und den Poolbereich nutzt und sich umziehen oder nach dem Schwimmen duschen möchte."
+      },
+      "gallery": {
+        "title": "Auf der Galerie",
+        "content": "Über eine Treppe gelangt man auf die Galerie. Hier gibt es eine weitere Sitzgelegenheit und einen Schreibtisch. Ob zum Entspannen oder zum Arbeiten vom Remote Office aus: Hier finden Sie den perfekten Rückzugsort."
+      },
+      "galleryTitle": "Studio"
     },
     "patioPool": {
       "stage": {
@@ -171,11 +187,11 @@
       },
       "intro": "Wer das Haus von der Straße aus betrachtet – wer ahnt, welche Oase sich dahinter verbirgt? Treten Sie aus der Küche oder dem Esszimmer hinaus und auf den Patio – das Herzstück der Casa Es Sindicat. ",
       "patio": {
-        "title": "PATIO",
+        "title": "Terrasse & Esstisch",
         "content": "Eingerahmt von drei Seiten öffnet sich zunächst die Terrasse mit dem großen Esstisch. Der perfekte Ort, um den Blick in den Garten zu genießen oder unter der imposanten marokkanischen Lampe zu Abend zu essen."
       },
       "pool": {
-        "title": "POOL & GARTEN",
+        "title": "Pool & Garten",
         "content1": "Über eine Stufe gelangt man in den Poolbereich. Hier können Sie sich im 3 x 6 m großen und 1,60 m tiefen Pool erfrischen und Ihre Fitness an der Gegenstromanlage testen.",
         "content2": "Anschließend können Sie sich auf einer der bequemen Liegen in der Sonne entspannen. Oder vielleicht wird einer der beiden Stühle unter dem alten Mispelbaum Ihr neuer Lieblingsplatz?"
       },

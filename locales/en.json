@@ -123,11 +123,11 @@
       },
       "intro": "Bienvenido in Casa Es Sindicat! As you enter the house, you enter the large entrance area. To the left is the guest bathroom, the utility room with washer and dryer and a storage room. To the right is the garage, where there is a second refrigerator with drinks.",
       "dining": {
-        "title": "EATING",
+        "title": "Room to enjoy",
         "content": "A few steps further opens the dining room with the massive wooden table. Here you can make yourself comfortable with up to six people. You would like to visit us in winter? No problem, on cold days the fireplace will warm you."
       },
       "kitchen": {
-        "title": "COOKING",
+        "title": "Everything for gourmets",
         "content": "Just around the corner is the large kitchen. There is also seating at the long kitchen island made of typical Mallorcan sandstone. Also otherwise the kitchen leaves nothing to be desired - from induction stove to fully automatic coffee machine."
       },
       "galleryTitle": "Groundfloor"
@@ -139,11 +139,11 @@
       },
       "intro": "On the first floor is the spacious living room with adjoining library. Here you can listen to music, watch TV, read or just relax: There is room for everyone on the large sofa and the inviting armchairs.",
       "livingRoom": {
-        "title": "RELAX",
+        "title": "Pure relaxation",
         "content": "Of course, there is a smart TV with soundbar and reception of most German, Spanish and international channels. For additional coziness in winter, the stylish cast-iron stove."
       },
       "bedRoom": {
-        "title": "SLEEP",
+        "title": "Well-being guaranteed",
         "content": "Behind the living room adjoins the bedroom, which is equipped with a double bed with a width of 200 cm. En suite are the dressing room and the bathroom. The latter has a comfortable shower and a free-standing bathtub. Feeling good is guaranteed here."
       },
       "galleryTitle": "First floor"
@@ -155,14 +155,30 @@
       },
       "intro": "On the second floor there are two well-equipped apartments. Both have a spacious living room. Planning to work from the remote office? No problem, there is free Wi-Fi and desks you can use for your workation. Plus, the rooms have a day bed.",
       "apartment1": {
-        "title": "Apartment 1",
+        "title": "Exceeds all expectations",
         "content": "The larger of the two apartments is perfect for staying with a toddler up to 5 years old. For this purpose, a crib is available, which can be assembled and disassembled in no time. Make yourself at home."
       },
       "apartment2": {
-        "title": "Apartment 2",
+        "title": "Dreamlike cozy",
         "content": "How you make your bed, is how you sleep. That's why the bedrooms are equipped with fantastically comfortable queen-size beds. You don't need to worry about the bed linen, we will make the beds fresh for you. Also the bathrooms with spacious showers offer everything you need for a perfect vacation."
       },
       "galleryTitle": "Second floor"
+    },
+    "studio": {
+      "stage": {
+        "headline": "Studio",
+        "subline": "Your perfect retreat"
+      },
+      "intro": "You enter the studio via the terrace. Here you can make yourself comfortable on one of the two designer chairs and take in the unique architecture and atmosphere of the space. But the studio offers much more.",
+      "downstairs": {
+        "title": "Lower area",
+        "content": "The studio extends over two floors. On the lower level, there is a private bathroom next to the main room. Perfect if you use the terrace and pool area during the day and want to change or shower after swimming."
+      },
+      "gallery": {
+        "title": "On the gallery",
+        "content": "A staircase leads up to the gallery. Here there is another seating area and a desk. Whether to relax or work from the remote office: Here you will find the perfect retreat."
+      },
+      "galleryTitle": "Studio"
     },
     "patioPool": {
       "stage": {
@@ -171,11 +187,11 @@
       },
       "intro": "If you look at the house from the street - who knows what oasis is hidden behind it? Step out of the kitchen or dining room and onto the patio - the heart of Casa Es Sindicat.",
       "patio": {
-        "title": "PATIO",
+        "title": "Terrace & dining table",
         "content": "Framed on three sides, the terrace with the large dining table opens first. The perfect place to enjoy the view of the garden or have dinner under the impressive Moroccan lamp."
       },
       "pool": {
-        "title": "POOL & GARDEN",
+        "title": "Pool & garden",
         "content1": "Over a step you reach the pool area. Here you can refresh yourself in the 3 x 6 m and 1.60 m deep pool and test your fitness at the counter-current system.",
         "content2": "Afterwards you can relax in the sun on one of the comfortable loungers. Or maybe one of the two chairs under the old medlar tree will become your new favorite place?"
       },

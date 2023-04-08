@@ -33,17 +33,6 @@
   </div>
 </template>
 <script lang="ts" setup>
-const i18n = useI18n()
-
-const teaser = {
-  imageTop: { alt: '', src: 'apartment2-3.jpg' },
-  imageBottom: { alt: '', src: 'apartment1-2.jpg' },
-  titleTop: i18n.t('house.secondFloor.apartment1.title'),
-  content1Top: i18n.t('house.secondFloor.apartment1.content'),
-  titleBottom: i18n.t('house.secondFloor.apartment2.title'),
-  content1Bottom: i18n.t('house.secondFloor.apartment2.content'),
-}
-
 const galleryImages = [
   {
     alt: 'test1',

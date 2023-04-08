@@ -1,24 +1,64 @@
 <template>
   <div>
     <Stage
-      headline="Studio"
+      :headline="$t('house.studio.stage.headline')"
+      :subline="$t('house.studio.stage.subline')"
       img-alt="image_pool"
-      img-src="living-room-3.jpg"
-      subline="Hier steht eine griffige Subline "
+      img-src="studio.jpg"
     />
-    <p class="text-center max-w-220 my-0 mx-auto p-30">
-      Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-      sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-      diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-      erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-      rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-      dolor sit amet.
-    </p>
+    <div class="lg:p-25 xl:p-30">
+      <HeadlineComponent
+        class="!font-normal sm:text-center max-w-220 my-0 mx-auto px-6 py-16 sm:p-16 lg:p-0 lg:pb-30 xl:pb-30"
+        level="XS/S"
+      >
+        {{ $t('house.studio.intro') }}
+      </HeadlineComponent>
+      <TeaserComponent
+        :content1="$t('house.studio.downstairs.content')"
+        :image="{ alt: '', src: 'studio-2.jpg' }"
+        :image-left="true"
+        :title="$t('house.studio.downstairs.title')"
+        class="object5070"
+      />
+      <TeaserComponent
+        :content1="$t('house.studio.gallery.content')"
+        :image="{ alt: '', src: 'studio-3.jpg' }"
+        :title="$t('house.studio.gallery.title')"
+      />
+    </div>
+    <ImageCarousel
+      :images="galleryImages"
+      :title="$t('house.firstFloor.galleryTitle')"
+    />
   </div>
 </template>
-
+<script lang="ts" setup>
+const galleryImages = [
+  {
+    alt: 'test1',
+    src: 'studio-2.jpg',
+  },
+  {
+    alt: 'test1',
+    src: 'studio-3.jpg',
+  },
+  {
+    alt: 'test3',
+    src: 'studio.jpg',
+  },
+]
+</script>
 <script lang="ts">
+import ImageCarousel from '../../components/carousel/ImageCarousel/index.vue'
+import HeadlineComponent from '../../components/Headline/index.vue'
+import TeaserComponent from '../../components/Teaser/index.vue'
+
 export default {
   name: 'StudioPage',
+  components: {
+    ImageCarousel,
+    HeadlineComponent,
+    TeaserComponent,
+  },
 }
 </script>

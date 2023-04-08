@@ -33,8 +33,6 @@
   </div>
 </template>
 <script lang="ts" setup>
-const i18n = useI18n()
-
 const galleryImages = [
   {
     alt: 'test1',
