@@ -3,8 +3,9 @@
     <Stage
       :headline="$t('house.stage.headline')"
       :subline="$t('house.stage.subline')"
+      class="object5070"
       img-alt="image_pool"
-      img-src="patioPool.jpg"
+      img-src="dinner-table-2.jpg"
     />
     <div class="py-30">
       <p class="text-center max-w-220 my-0 mx-auto pb-30">
@@ -42,7 +43,7 @@
           :text="$t('house.teaser.studio.teaser')"
           :title="$t('house.teaser.studio.title')"
           img-alt="alt"
-          img-src="dinner-table.jpg"
+          img-src="studio-2.jpg"
           link-path="/house/studio"
         />
         <Card

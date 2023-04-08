@@ -180,6 +180,22 @@
       },
       "galleryTitle": "Studio"
     },
+    "porcheRooftop": {
+      "stage": {
+        "headline": "Porche & roof terrace",
+        "subline": "Beautiful views for all"
+      },
+      "intro": "If you love the view, you'll be spoiled for choice at Casa Es Sindicat. Porche or roof terrace? Why not both? For example, during the day to read on the day bed and at sunset on the roof.",
+      "porche": {
+        "title": "A place to linger",
+        "content": "Between the first and second floors is the porche. In Spanish, this refers to a covered terrace. What makes our porche so special is the magnificent view of the courtyard and pool area. And, of course, the inviting day bed."
+      },
+      "rooftop": {
+        "title": "The city from above",
+        "content": "An absolute highlight is the roof terrace on the third floor. Enjoy the breathtaking panoramic view over the rooftops of Artà, up to the castle and the cathedral to the sea in the distance."
+      },
+      "galleryTitle": "Porche & roof terrace"
+    },
     "patioPool": {
       "stage": {
         "headline": "Patio & Pool",

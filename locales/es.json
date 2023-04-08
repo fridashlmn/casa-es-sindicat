@@ -180,6 +180,22 @@
       },
       "galleryTitle": "Estudio"
     },
+    "porcheRooftop": {
+      "stage": {
+        "headline": "Porche y azotea",
+        "subline": "Hermosas vistas para todos"
+      },
+      "intro": "Si le gustan las vistas, en Casa Es Sindicat no le faltará donde elegir. ¿Porche o azotea? ¿Por qué no ambos? Por ejemplo, durante el día para leer en el porche y al atardecer en la azotea.",
+      "porche": {
+        "title": "Un lugar para relajarse",
+        "content": "Entre la primera y la segunda planta está el porche. En español, se refiere a una terraza cubierta. Lo que hace que nuestro porche sea tan especial es la magnífica vista del patio y la zona de la piscina. Y, por supuesto, la acogedora cama de día."
+      },
+      "rooftop": {
+        "title": "La ciudad desde arriba",
+        "content": "Lo más destacado es la terraza de la azotea, en la tercera planta. Disfrute de la impresionante vista panorámica sobre los tejados de Artà, hasta el castillo y la catedral, hasta el mar en la distancia."
+      },
+      "galleryTitle": "Porche y azotea"
+    },
     "patioPool": {
       "stage": {
         "headline": "Patio y piscina",

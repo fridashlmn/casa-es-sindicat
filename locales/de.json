@@ -180,6 +180,22 @@
       },
       "galleryTitle": "Studio"
     },
+    "porcheRooftop": {
+      "stage": {
+        "headline": "Porche & Dachterrasse",
+        "subline": "Schöne Aussichten für alle"
+      },
+      "intro": "Wer den Blick in die Weite liebt, hat in der Casa Es Sindicat die Qual der Wahl. Porche oder Dachterrasse? Warum nicht beides? Zum Beispiel tagsüber zum Lesen aufs Tagesbett und zum Sonnenuntergang aufs Dach.",
+      "porche": {
+        "title": "Ein Ort zum Verweilen",
+        "content": "Zwischen dem ersten und zweiten Stock liegt die Porche. Im Spanischen bezeichnet man damit eine überdachte Terrasse. Was unsere Porche so besonders macht, ist der herrliche Blick auf den Innenhof und den Poolbereich. Und natürlich das einladende Tagesbett."
+      },
+      "rooftop": {
+        "title": "Die Stadt von oben",
+        "content": "Ein absolutes Highlight ist die Dachterrasse im dritten Stock. Genießen Sie den atemberaubenden Panoramablick über die Dächer von Artà, hinauf zur Burg und der Kathedrale bis hin zum Meer in der Ferne."
+      },
+      "galleryTitle": "Porche & Dachterrasse"
+    },
     "patioPool": {
       "stage": {
         "headline": "Patio & Pool",
