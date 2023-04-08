@@ -20,6 +20,10 @@
         <p>
           {{ teaser.content1Top }}
         </p>
+        <br v-if="teaser.content2Top" />
+        <p v-if="teaser.content2Top">
+          {{ teaser.content2Top }}
+        </p>
       </div>
     </div>
     <div
@@ -76,7 +80,12 @@ const useAsset = (path: string): string => {
 }
 </script>
 <script lang="ts">
+import HeadlineComponent from '../Headline/index.vue'
+
 export default {
   name: 'TeaserComponent',
+  components: {
+    HeadlineComponent,
+  },
 }
 </script>

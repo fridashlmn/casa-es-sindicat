@@ -92,7 +92,7 @@
     },
     "groundFloor": {
       "stage": {
-        "headline": "First floor",
+        "headline": "Groundfloor",
         "subline": "Cook, eat, relax"
       },
       "intro": "Bienvenido in Casa Es Sindicat! As you enter the house, you enter the large entrance area. To the left is the guest bathroom, the utility room with washer and dryer and a storage room. To the right is the garage, where there is a second refrigerator with drinks.",
@@ -103,6 +103,22 @@
       "kitchen": {
         "title": "COOKING",
         "content": "Just around the corner is the large kitchen. There is also seating at the long kitchen island made of typical Mallorcan sandstone. Also otherwise the kitchen leaves nothing to be desired - from induction stove to fully automatic coffee machine."
+      },
+      "galleryTitle": "Groundfloor"
+    },
+    "firstFloor": {
+      "stage": {
+        "headline": "First floor",
+        "subline": "Living, sleeping, feeling good"
+      },
+      "intro": "On the first floor is the spacious living room with adjoining library. Here you can listen to music, watch TV, read or just relax: There is room for everyone on the large sofa and the inviting armchairs.",
+      "livingRoom": {
+        "title": "RELAX",
+        "content": "Of course, there is a smart TV with soundbar and reception of most German, Spanish and international channels. For additional coziness in winter, the stylish cast-iron stove."
+      },
+      "bedRoom": {
+        "title": "SLEEP",
+        "content": "Behind the living room adjoins the bedroom, which is equipped with a double bed with a width of 200 cm. En suite are the dressing room and the bathroom. The latter has a comfortable shower and a free-standing bathtub. Feeling good is guaranteed here."
       },
       "galleryTitle": "First floor"
     },

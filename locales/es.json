@@ -106,6 +106,22 @@
       },
       "galleryTitle": "Planta baja"
     },
+    "firstFloor": {
+      "stage": {
+        "headline": "Primer piso",
+        "subline": "Vivir, dormir, sentirse bien"
+      },
+      "intro": "En la primera planta se encuentra el amplio salón con biblioteca contigua. Aquí podrá escuchar música, ver la televisión, leer o simplemente relajarse: Hay sitio para todos en el gran sofá y los acogedores sillones. ",
+      "livingRoom": {
+        "title": "RELAX",
+        "content": "Por supuesto, hay un televisor inteligente con barra de sonido y recepción de la mayoría de canales alemanes, españoles e internacionales. La elegante estufa de hierro fundido proporciona un ambiente más acogedor en invierno."
+      },
+      "bedRoom": {
+        "title": "DORMIR",
+        "content": "Junto al salón se encuentra el dormitorio, amueblado con una cama doble de 200 cm de ancho. En suite están el vestidor y el cuarto de baño. El cuarto de baño tiene una cómoda ducha y una bañera independiente. Sentirse bien está garantizado aquí."
+      },
+      "galleryTitle": "Primer piso"
+    },
     "patioPool": {
       "stage": {
         "headline": "Patio y piscina",

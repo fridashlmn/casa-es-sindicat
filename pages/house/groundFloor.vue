@@ -88,7 +88,7 @@ export default {
   },
 }
 </script>
-<style>
+<style module>
 .object-position img {
   object-position: 50% 70%;
 }

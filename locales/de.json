@@ -109,6 +109,22 @@
       },
       "galleryTitle": "Erdgeschoss"
     },
+    "firstFloor": {
+      "stage": {
+        "headline": "Erste Etage",
+        "subline": "Wohnen, Schlafen, Wohlfühlen"
+      },
+      "intro": "Im ersten Stock befindet sich das großzügige Wohnzimmer mit angrenzender Bibliothek. Hier kann man Musik hören, fernsehen, lesen oder einfach nur entspannen: Auf dem großen Sofa und den einladenden Sesseln ist für jeden Platz. ",
+      "livingRoom": {
+        "title": "ENTSPANNEN",
+        "content": "Natürlich gibt es einen Smart-TV mit Soundbar und Empfang der meisten deutschen, spanischen und internationalen Sender. Für zusätzliche Gemütlichkeit im Winter sorgt der stilvolle gusseiserne Ofen."
+      },
+      "bedRoom": {
+        "title": "SCHLAFEN",
+        "content": "Hinter dem Wohnzimmer grenzt das Schlafzimmer an, das mit einem Doppelbett mit einer Breite von 200 cm ausgestattet ist. En suite befinden sich das Ankleidezimmer und das Badezimmer. Dieses verfügt neben einer komfortablen Dusche über eine freistehende Badewanne. Wohlfühlen ist hier garantiert."
+      },
+      "galleryTitle": "Erste Etage"
+    },
     "patioPool": {
       "stage": {
         "headline": "Patio & Pool",
