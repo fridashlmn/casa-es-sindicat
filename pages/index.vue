@@ -11,7 +11,7 @@
       class="flex flex-col justify-center items-center px-6 py-16 md:p-16 lg:p-30"
     >
       <div
-        class="w-full flex flex-col lg:flex-row justify-evenly items-center p-16 lg:py-30 pt-0 lg:pt-0"
+        class="w-full flex flex-col lg:flex-row justify-evenly items-center py-16 sm:p-16 lg:py-30 pt-0 lg:pt-0"
       >
         <LogoIcon class="w-33 lg:w-56 pb-16 lg:p-0" />
         <HeadlineComponent
