@@ -90,6 +90,22 @@
         "link": "Descubra"
       }
     },
+    "groundFloor": {
+      "stage": {
+        "headline": "Planta baja",
+        "subline": "Cocina, come, relájate"
+      },
+      "intro": "¡Bienvenido a Casa Es Sindicat! Cuando entras en la casa, llegas a la gran zona de entrada. A la izquierda está el baño de invitados, el lavadero con lavadora y secadora y un trastero. A la derecha está el garaje, donde hay una segunda nevera con bebidas.",
+      "dining": {
+        "title": "COMEDOR",
+        "content": "Unos pasos más adelante, se abre el comedor con la enorme mesa de madera. Aquí se pueden acomodar hasta seis personas. ¿Le gustaría visitarnos en invierno? No hay problema, en los días fríos la chimenea le dará calor. "
+      },
+      "kitchen": {
+        "title": "COCINA",
+        "content": "A la vuelta de la esquina está la gran cocina. También hay asientos en la larga isla de cocina hecha de la típica piedra arenisca mallorquina. La cocina no deja nada que desear, desde la placa de inducción hasta la cafetera totalmente automática."
+      },
+      "galleryTitle": "Planta baja"
+    },
     "patioPool": {
       "stage": {
         "headline": "Patio y piscina",

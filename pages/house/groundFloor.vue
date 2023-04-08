@@ -1,57 +1,95 @@
 <template>
   <div>
     <Stage
-      headline="Erdgeschoss"
+      :headline="$t('house.groundFloor.stage.headline')"
+      :subline="$t('house.groundFloor.stage.subline')"
+      class="object-position"
       img-alt="image_pool"
-      img-src="dinner-table.jpg"
-      subline="Hier steht eine griffige Subline "
+      img-src="dinner-table-3.jpg"
     />
-    <p class="text-center max-w-220 my-0 mx-auto p-30">
-      {{ $t('house.groundFloor.intro') }}
-    </p>
-    <div>
-      <div class="flex justify-between items-center">
-        <img
-          alt="image_pool"
-          class="w-50vw object-cover"
-          src="~/assets/images/kitchen-2.jpg"
-        />
-        <p class="p-30">
-          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-          dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-          elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-          magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-          justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-          takimata sanctus est Lorem ipsum dolor sit amet.
-        </p>
-      </div>
-      <div class="flex justify-between items-center">
-        <p class="p-30">
-          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-          dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-          elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-          magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-          justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-          takimata sanctus est Lorem ipsum dolor sit amet.
-        </p>
-        <img
-          alt="image_pool"
-          class="w-50vw object-cover"
-          src="~/assets/images/dinner-table.jpg"
-        />
-      </div>
-      <ImageCarousel />
+    <div class="lg:p-25 xl:p-30">
+      <HeadlineComponent
+        class="!font-normal sm:text-center max-w-220 my-0 mx-auto px-6 py-16 sm:p-16 lg:p-0 lg:pb-30 xl:pb-30"
+        level="XS/S"
+      >
+        {{ $t('house.groundFloor.intro') }}
+      </HeadlineComponent>
+      <TeaserComponent :teaser="teaser" />
     </div>
+    <ImageCarousel
+      :images="galleryImages"
+      :title="$t('house.groundFloor.galleryTitle')"
+    />
   </div>
 </template>
+<script lang="ts" setup>
+const i18n = useI18n()
+
+const teaser = {
+  imageTop: { alt: '', src: 'dinner-table.jpg' },
+  imageBottom: { alt: '', src: 'kitchen-2.jpg' },
+  titleTop: i18n.t('house.groundFloor.dining.title'),
+  content1Top: i18n.t('house.groundFloor.dining.content'),
+  titleBottom: i18n.t('house.groundFloor.kitchen.title'),
+  content1Bottom: i18n.t('house.groundFloor.kitchen.content'),
+}
+
+const galleryImages = [
+  {
+    alt: 'test1',
+    src: 'dinner-table-4.jpg',
+  },
+  {
+    alt: 'test1',
+    src: 'groundfloor.jpg',
+  },
+  {
+    alt: 'test3',
+    src: 'kitchen-outdoorView.jpg',
+  },
+  {
+    alt: 'test3',
+    src: 'guest-bathroom.jpg',
+  },
+  {
+    alt: 'test1',
+    src: 'dinner-table-fire.jpg',
+  },
+  {
+    alt: 'test3',
+    src: 'stairs.jpg',
+  },
+  {
+    alt: 'test3',
+    src: 'kitchen.jpg',
+  },
+  {
+    alt: 'test3',
+    src: 'buddha.jpg',
+  },
+  {
+    alt: 'test3',
+    src: 'dinner-table-details.jpg',
+  },
+]
+</script>
 
 <script lang="ts">
 import ImageCarousel from '../../components/carousel/ImageCarousel/index.vue'
+import HeadlineComponent from '../../components/Headline/index.vue'
+import TeaserComponent from '../../components/Teaser/index.vue'
 
 export default {
   name: 'GroundFloorPage',
   components: {
     ImageCarousel,
+    HeadlineComponent,
+    TeaserComponent,
   },
 }
 </script>
+<style>
+.object-position img {
+  object-position: 50% 70%;
+}
+</style>

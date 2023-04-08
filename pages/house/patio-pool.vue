@@ -13,65 +13,28 @@
       >
         {{ $t('house.patioPool.intro') }}
       </HeadlineComponent>
-      <div>
-        <div
-          class="flex flex-col-reverse lg:flex-row justify-between lg:items-center bg-[#f7f7f7] lg:bg-transparent mb-12 md:mb-24 pb-16 px-6 md:px-25 lg:px-0"
-        >
-          <img
-            alt="image_pool"
-            class="w-full lg:w-43vw sm:h-104 md:h-125 lg:h-auto object-cover z-2"
-            src="~/assets/images/outdoor-area.jpg"
-          />
-          <div
-            class="relative flex flex-col justify-center bg-[#f7f7f7] lg:w-1/2 xl:min-h-96 lg:mt-1/100 lg:-mb-19/100 lg:px-8/100 py-12"
-          >
-            <div
-              class="lg:absolute bg-[#f7f7f7] lg:w-1/2 top-0 -left-1/2 h-full z-1"
-            />
-            <HeadlineComponent class="mb-4 !font-normal" level="S">
-              {{ $t('house.patioPool.patio.title') }}
-            </HeadlineComponent>
-            <p>
-              {{ $t('house.patioPool.patio.content') }}
-            </p>
-          </div>
-        </div>
-        <div
-          class="flex flex-col lg:flex-row justify-between lg:items-center bg-[#f7f7f7] lg:bg-transparent mb-16 pb-16 px-6 md:px-25 lg:px-0"
-        >
-          <div
-            class="relative flex flex-col justify-center bg-[#f7f7f7] lg:w-1/2 xl:min-h-96 lg:mt-1/100 lg:-mb-19/100 lg:px-8/100 py-12"
-          >
-            <HeadlineComponent class="mb-4 !font-normal" level="S">
-              {{ $t('house.patioPool.pool.title') }}
-            </HeadlineComponent>
-            <p>
-              {{ $t('house.patioPool.pool.content1') }}
-            </p>
-            <br />
-            <p>
-              {{ $t('house.patioPool.pool.content2') }}
-            </p>
-            <div
-              class="lg:absolute bg-[#f7f7f7] w-1/2 top-0 left-full h-full z-1"
-            />
-          </div>
-          <img
-            alt="image_pool"
-            class="w-full lg:w-43vw sm:h-104 md:h-125 lg:h-auto object-cover z-2"
-            src="~/assets/images/garden.jpg"
-          />
-        </div>
-      </div>
+      <TeaserComponent :teaser="teaser" />
     </div>
     <ImageCarousel
-      :images="images"
+      :images="galleryImages"
       :title="$t('house.patioPool.galleryTitle')"
     />
   </div>
 </template>
 <script lang="ts" setup>
-const images = [
+const i18n = useI18n()
+
+const teaser = {
+  imageTop: { alt: '', src: 'outdoor-area.jpg' },
+  imageBottom: { alt: '', src: 'garden.jpg' },
+  titleTop: i18n.t('house.patioPool.patio.title'),
+  content1Top: i18n.t('house.patioPool.patio.content'),
+  titleBottom: i18n.t('house.patioPool.pool.title'),
+  content1Bottom: i18n.t('house.patioPool.pool.content1'),
+  content2Bottom: i18n.t('house.patioPool.pool.content2'),
+}
+
+const galleryImages = [
   {
     alt: 'test1',
     src: 'patio-2.jpg',
@@ -117,12 +80,14 @@ const images = [
 <script lang="ts">
 import ImageCarousel from '../../components/carousel/ImageCarousel/index.vue'
 import HeadlineComponent from '../../components/Headline/index.vue'
+import TeaserComponent from '../../components/Teaser/index.vue'
 
 export default {
   name: 'GardenPage',
   components: {
     ImageCarousel,
     HeadlineComponent,
+    TeaserComponent,
   },
 }
 </script>

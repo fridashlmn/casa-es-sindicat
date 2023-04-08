@@ -93,6 +93,22 @@
         "link": "Entdecken"
       }
     },
+    "groundFloor": {
+      "stage": {
+        "headline": "Erdgeschoss",
+        "subline": "Kochen, Essen, Entspannen"
+      },
+      "intro": "Bienvenido in der Casa Es Sindicat! Wenn Sie das Haus betreten, gelangen Sie in den großen Eingangsbereich. Links befindet sich das Gästebad, der Hauswirtschaftsraum mit Waschmaschine und Trockner und ein Abstellraum. Rechts befindet sich die Garage, in der ein zweiter Kühlschrank mit Getränken steht.",
+      "dining": {
+        "title": "ESSEN",
+        "content": "Ein paar Schritte weiter öffnet sich das Esszimmer mit dem massiven Holztisch. Hier können Sie es sich mit bis zu sechs Personen gemütlich machen. Sie möchten uns im Winter besuchen? Kein Problem, an kalten Tagen wärmt Sie der Kamin."
+      },
+      "kitchen": {
+        "title": "KOCHEN",
+        "content": "Gleich um die Ecke befindet sich die große Küche. An der langen Kücheninsel aus typisch mallorquinischem Sandstein gibt es ebenfalls Sitzgelegenheiten. Auch sonst lässt die Küche keine Wünsche offen – vom Induktionsherd bis zum Kaffeevollautomaten."
+      },
+      "galleryTitle": "Erdgeschoss"
+    },
     "patioPool": {
       "stage": {
         "headline": "Patio & Pool",

@@ -90,6 +90,22 @@
         "link": "Explore"
       }
     },
+    "groundFloor": {
+      "stage": {
+        "headline": "First floor",
+        "subline": "Cook, eat, relax"
+      },
+      "intro": "Bienvenido in Casa Es Sindicat! As you enter the house, you enter the large entrance area. To the left is the guest bathroom, the utility room with washer and dryer and a storage room. To the right is the garage, where there is a second refrigerator with drinks.",
+      "dining": {
+        "title": "EATING",
+        "content": "A few steps further opens the dining room with the massive wooden table. Here you can make yourself comfortable with up to six people. You would like to visit us in winter? No problem, on cold days the fireplace will warm you."
+      },
+      "kitchen": {
+        "title": "COOKING",
+        "content": "Just around the corner is the large kitchen. There is also seating at the long kitchen island made of typical Mallorcan sandstone. Also otherwise the kitchen leaves nothing to be desired - from induction stove to fully automatic coffee machine."
+      },
+      "galleryTitle": "First floor"
+    },
     "patioPool": {
       "stage": {
         "headline": "Patio & Pool",
