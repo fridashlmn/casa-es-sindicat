@@ -127,6 +127,22 @@
       },
       "galleryTitle": "Primer piso"
     },
+    "secondFloor": {
+      "stage": {
+        "headline": "Segunda planta",
+        "subline": "Los dos pisos"
+      },
+      "intro": "En la segunda planta hay dos pisos bien equipados. Ambos disponen de un amplio salón. ¿Planeas trabajar desde una oficina remota? No hay problema, hay Wi-Fi gratuito y escritorios que puede utilizar para su workation. Las habitaciones también disponen de una cama de día.",
+      "apartment1": {
+        "title": "Piso 1",
+        "content": "El mayor de los dos pisos es perfecto para alojarse con un niño pequeño de hasta 5 años. Para ello se dispone de una cuna que se monta y desmonta en un abrir y cerrar de ojos. Siéntete como en casa."
+      },
+      "apartment2": {
+        "title": "Piso 2",
+        "content": "Se duerme como se hace la cama. Por eso las habitaciones están equipadas con camas de matrimonio fantásticamente cómodas. No tiene que preocuparse por la ropa de cama, nosotros se la preparamos. Los cuartos de baño con amplias duchas también ofrecen todo lo necesario para unas vacaciones perfectas."
+      },
+      "galleryTitle": "Segunda planta"
+    },
     "patioPool": {
       "stage": {
         "headline": "Patio y piscina",

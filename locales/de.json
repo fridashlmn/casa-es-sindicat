@@ -130,6 +130,22 @@
       },
       "galleryTitle": "Erste Etage"
     },
+    "secondFloor": {
+      "stage": {
+        "headline": "Zweite Etage",
+        "subline": "Die beiden Apartments"
+      },
+      "intro": "Im zweiten Obergeschoss befinden sich zwei gut ausgestattete Apartments. Beide verfügen über ein geräumiges Wohnzimmer. Sie planen, aus dem Remote Office zu arbeiten? Kein Problem, es gibt kostenloses WLAN und Schreibtische, die Sie für Ihre Workation nutzen können. Außerdem verfügen die Zimmer über ein Tagesbett.",
+      "apartment1": {
+        "title": "Apartment 1",
+        "content": "Das größere der beiden Apartments eignet sich hervorragend für den Aufenthalt mit einem Kleinkind bis 5 Jahre. Hierfür steht ein Kinderbett zur Verfügung, das sich im Handumdrehen auf- und abbauen lässt. Fühlen Sie sich wie zu Hause."
+      },
+      "apartment2": {
+        "title": "Apartment 2",
+        "content": "Wie man sich bettet, so schläft man. Deshalb sind die Schlafzimmer mit traumhaft bequemen Queensize-Betten ausgestattet. Um die Bettwäsche brauchen Sie sich nicht zu kümmern, wir beziehen die Betten für Sie frisch. Auch die Bäder mit geräumigen Duschen bieten alles, was Sie für einen perfekten Urlaub brauchen."
+      },
+      "galleryTitle": "Zweite Etage"
+    },
     "patioPool": {
       "stage": {
         "headline": "Patio & Pool",

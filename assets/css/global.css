@@ -33,6 +33,10 @@ input:focus, textarea:focus, input:focus-visible, textarea:focus-visible {
   object-position: 50% 70%
 }
 
+.object5090 img {
+  object-position: 50% 90%
+}
+
 .dp__action_row {
   display: none !important;
 }

@@ -3,6 +3,7 @@
     <Stage
       :headline="$t('house.secondFloor.stage.headline')"
       :subline="$t('house.secondFloor.stage.subline')"
+      class="object5090"
       img-alt="image_pool"
       img-src="apartment2.jpg"
     />
@@ -11,13 +12,13 @@
         class="!font-normal sm:text-center max-w-220 my-0 mx-auto px-6 py-16 sm:p-16 lg:p-0 lg:pb-30 xl:pb-30"
         level="XS/S"
       >
-        {{ $t('house.firstFloor.intro') }}
+        {{ $t('house.secondFloor.intro') }}
       </HeadlineComponent>
       <TeaserComponent :teaser="teaser" />
     </div>
     <ImageCarousel
       :images="galleryImages"
-      :title="$t('house.firstFloor.galleryTitle')"
+      :title="$t('house.secondFloor.galleryTitle')"
     />
   </div>
 </template>
@@ -25,38 +26,34 @@
 const i18n = useI18n()
 
 const teaser = {
-  imageTop: { alt: '', src: 'living-room.jpg' },
-  imageBottom: { alt: '', src: 'master-bathroom.jpg' },
-  titleTop: i18n.t('house.firstFloor.livingRoom.title'),
-  content1Top: i18n.t('house.firstFloor.livingRoom.content'),
-  titleBottom: i18n.t('house.firstFloor.bedRoom.title'),
-  content1Bottom: i18n.t('house.firstFloor.bedRoom.content'),
+  imageTop: { alt: '', src: 'apartment2-3.jpg' },
+  imageBottom: { alt: '', src: 'apartment1-2.jpg' },
+  titleTop: i18n.t('house.secondFloor.apartment1.title'),
+  content1Top: i18n.t('house.secondFloor.apartment1.content'),
+  titleBottom: i18n.t('house.secondFloor.apartment2.title'),
+  content1Bottom: i18n.t('house.secondFloor.apartment2.content'),
 }
 
 const galleryImages = [
   {
     alt: 'test1',
-    src: 'living-room-4.jpg',
+    src: 'apartment1.jpg',
   },
   {
     alt: 'test1',
-    src: 'bookshelf.jpg',
+    src: 'apartment1-2.jpg',
   },
   {
     alt: 'test3',
-    src: 'master-bathroom.jpg',
+    src: 'apartment2.jpg',
   },
   {
     alt: 'test3',
-    src: 'master-bedroom.jpg',
+    src: 'apartment2-2.jpg',
   },
   {
     alt: 'test1',
-    src: 'stairs-2.jpg',
-  },
-  {
-    alt: 'test3',
-    src: 'bookshelf-2.jpg',
+    src: 'apartment2-3.jpg',
   },
 ]
 </script>

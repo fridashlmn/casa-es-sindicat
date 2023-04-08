@@ -127,6 +127,22 @@
       },
       "galleryTitle": "First floor"
     },
+    "secondFloor": {
+      "stage": {
+        "headline": "Second floor",
+        "subline": "The two apartments"
+      },
+      "intro": "On the second floor there are two well-equipped apartments. Both have a spacious living room. Planning to work from the remote office? No problem, there is free Wi-Fi and desks you can use for your workation. Plus, the rooms have a day bed.",
+      "apartment1": {
+        "title": "Apartment 1",
+        "content": "The larger of the two apartments is perfect for staying with a toddler up to 5 years old. For this purpose, a crib is available, which can be assembled and disassembled in no time. Make yourself at home."
+      },
+      "apartment2": {
+        "title": "Apartment 2",
+        "content": "How you make your bed, is how you sleep. That's why the bedrooms are equipped with fantastically comfortable queen-size beds. You don't need to worry about the bed linen, we will make the beds fresh for you. Also the bathrooms with spacious showers offer everything you need for a perfect vacation."
+      },
+      "galleryTitle": "Second floor"
+    },
     "patioPool": {
       "stage": {
         "headline": "Patio & Pool",
