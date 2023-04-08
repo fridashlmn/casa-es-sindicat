@@ -14,7 +14,17 @@
       >
         {{ $t('house.secondFloor.intro') }}
       </HeadlineComponent>
-      <TeaserComponent :teaser="teaser" />
+      <TeaserComponent
+        :content1="$t('house.secondFloor.apartment1.content')"
+        :image="{ alt: '', src: 'apartment2-3.jpg' }"
+        :image-left="true"
+        :title="$t('house.secondFloor.apartment1.title')"
+      />
+      <TeaserComponent
+        :content1="$t('house.secondFloor.apartment2.content')"
+        :image="{ alt: '', src: 'apartment1-2.jpg' }"
+        :title="$t('house.secondFloor.apartment2.title')"
+      />
     </div>
     <ImageCarousel
       :images="galleryImages"

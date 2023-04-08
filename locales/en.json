@@ -19,7 +19,8 @@
       "headline": "404",
       "subline": "This page does not exist.",
       "button": "Homepage"
-    }
+    },
+    "explore": "EXPLORE"
   },
   "navigation": {
     "home": "Startseite",
@@ -43,18 +44,15 @@
     "intro": "Welcome to Artà in Mallorca, welcome to Casa Es Sindicat. Discover our lovingly restored town palace. Relax on four floors - by the pool, on the porche or the roof terrace. Explore the cultural diversity of Artà, the idyllic nature and the fantastic beaches in the vicinity. Simply look forward to an unforgettable experience in Mallorca.",
     "location": {
       "title": "Location",
-      "teaser": "Quietly located and yet right in the middle of it all: from Casa Es Sindicat you can relax and explore everything that the town of Artà has to offer. And that is quite a lot.",
-      "link": "Explore"
+      "teaser": "Quietly located and yet right in the middle of it all: from Casa Es Sindicat you can relax and explore everything that the town of Artà has to offer. And that is quite a lot."
     },
     "house": {
       "title": "House",
-      "teaser": "Historic city palace, restored with much love: We can't give you a tour of the spacious house here - but we can whet your appetite.",
-      "link": "Explore"
+      "teaser": "Historic city palace, restored with much love: We can't give you a tour of the spacious house here - but we can whet your appetite."
     },
     "equipment": {
       "title": "Equipment",
-      "teaser": "From the fully equipped kitchen to the heated pool and sports equipment, our casa has everything you want for an unforgettable vacation.",
-      "link": "Explore"
+      "teaser": "From the fully equipped kitchen to the heated pool and sports equipment, our casa has everything you want for an unforgettable vacation."
     }
   },
   "house": {

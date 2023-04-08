@@ -14,7 +14,17 @@
       >
         {{ $t('house.groundFloor.intro') }}
       </HeadlineComponent>
-      <TeaserComponent :teaser="teaser" />
+      <TeaserComponent
+        :content1="$t('house.groundFloor.dining.content')"
+        :image="{ alt: '', src: 'dinner-table.jpg' }"
+        :image-left="true"
+        :title="$t('house.groundFloor.dining.title')"
+      />
+      <TeaserComponent
+        :content1="$t('house.groundFloor.kitchen.content')"
+        :image="{ alt: '', src: 'kitchen-2.jpg' }"
+        :title="$t('house.groundFloor.kitchen.title')"
+      />
     </div>
     <ImageCarousel
       :images="galleryImages"
@@ -25,19 +35,10 @@
 <script lang="ts" setup>
 const i18n = useI18n()
 
-const teaser = {
-  imageTop: { alt: '', src: 'dinner-table.jpg' },
-  imageBottom: { alt: '', src: 'kitchen-2.jpg' },
-  titleTop: i18n.t('house.groundFloor.dining.title'),
-  content1Top: i18n.t('house.groundFloor.dining.content'),
-  titleBottom: i18n.t('house.groundFloor.kitchen.title'),
-  content1Bottom: i18n.t('house.groundFloor.kitchen.content'),
-}
-
 const galleryImages = [
   {
     alt: 'test1',
-    src: 'dinner-table-4.jpg',
+    src: 'dinner-table-2.jpg',
   },
   {
     alt: 'test1',

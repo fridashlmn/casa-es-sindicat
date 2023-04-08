@@ -13,7 +13,18 @@
       >
         {{ $t('house.patioPool.intro') }}
       </HeadlineComponent>
-      <TeaserComponent :teaser="teaser" />
+      <TeaserComponent
+        :content1="$t('house.patioPool.patio.content')"
+        :image="{ alt: '', src: 'outdoor-area.jpg' }"
+        :image-left="true"
+        :title="$t('house.patioPool.patio.title')"
+      />
+      <TeaserComponent
+        :content1="$t('house.patioPool.pool.content1')"
+        :content2="$t('house.patioPool.pool.content2')"
+        :image="{ alt: '', src: 'garden.jpg' }"
+        :title="$t('house.patioPool.pool.title')"
+      />
     </div>
     <ImageCarousel
       :images="galleryImages"
@@ -23,16 +34,6 @@
 </template>
 <script lang="ts" setup>
 const i18n = useI18n()
-
-const teaser = {
-  imageTop: { alt: '', src: 'outdoor-area.jpg' },
-  imageBottom: { alt: '', src: 'garden.jpg' },
-  titleTop: i18n.t('house.patioPool.patio.title'),
-  content1Top: i18n.t('house.patioPool.patio.content'),
-  titleBottom: i18n.t('house.patioPool.pool.title'),
-  content1Bottom: i18n.t('house.patioPool.pool.content1'),
-  content2Bottom: i18n.t('house.patioPool.pool.content2'),
-}
 
 const galleryImages = [
   {

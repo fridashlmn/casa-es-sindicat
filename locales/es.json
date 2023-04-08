@@ -19,7 +19,8 @@
       "headline": "404",
       "subline": "Esta página no existe.",
       "button": "Página inicio"
-    }
+    },
+    "explore": "DESCUBRA"
   },
   "navigation": {
     "home": "Página inicio",
@@ -43,18 +44,15 @@
     "intro": "Bienvenidos a Artà en Mallorca, bienvenidos a Casa Es Sindicat. Descubra nuestro palacio cuidadosamente restaurado. Relájese en cuatro plantas: junto a la piscina, en el porche o en la terraza de la azotea. Explore la diversidad cultural de Artà, la idílica naturaleza y las fantásticas playas de los alrededores. Disfrute de una experiencia inolvidable en Mallorca.",
     "location": {
       "title": "Ubicación",
-      "teaser": "Con una ubicación tranquila pero en el centro de todo: desde Casa Es Sindicat podrá relajarse y explorar todo lo que la ciudad de Artà puede ofrecerle. Y eso es mucho.",
-      "link": "Descubra"
+      "teaser": "Con una ubicación tranquila pero en el centro de todo: desde Casa Es Sindicat podrá relajarse y explorar todo lo que la ciudad de Artà puede ofrecerle. Y eso es mucho."
     },
     "house": {
       "title": "Casa",
-      "teaser": "Un palacio histórico, restaurado con esmero: No podemos ofrecerle una visita guiada por la espaciosa casa, pero podemos abrirle el apetito.",
-      "link": "Descubra"
+      "teaser": "Un palacio histórico, restaurado con esmero: No podemos ofrecerle una visita guiada por la espaciosa casa, pero podemos abrirle el apetito."
     },
     "equipment": {
       "title": "Equipamiento",
-      "teaser": "Desde la cocina totalmente equipada hasta la piscina climatizada y el equipamiento deportivo, nuestra casa ofrece todo lo que pueda desear para unas vacaciones inolvidables.",
-      "link": "Descubra"
+      "teaser": "Desde la cocina totalmente equipada hasta la piscina climatizada y el equipamiento deportivo, nuestra casa ofrece todo lo que pueda desear para unas vacaciones inolvidables."
     }
   },
   "house": {

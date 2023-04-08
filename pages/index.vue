@@ -6,41 +6,44 @@
         class="w-screen min-h-90vh max-h-185 object-cover"
         src="~/assets/images/dinner-table-2.jpg"
       />
-      <div
-        class="absolute w-92 h-102 backdrop-filter backdrop-blur-2px bg-white/20"
-      />
-      <LogoIcon class="absolute w-64 md:w-88 lg:w-80" />
     </div>
-    <div class="px-6 py-16 md:p-16 lg:p-30">
-      <p class="text-center max-w-220 my-0 mx-auto pb-30">
-        {{ $t('home.intro') }}
-      </p>
-      <div class="flex flex-wrap justify-between shrink">
-        <Card
-          :link-label="$t('home.equipment.link')"
-          :text="$t('home.location.teaser')"
-          :title="$t('home.location.title')"
-          img-alt="alt"
-          img-src="rooftop.jpg"
-          link-path="/location"
-        />
-        <Card
-          :link-label="$t('home.equipment.link')"
-          :text="$t('home.house.teaser')"
-          :title="$t('home.house.title')"
-          img-alt="alt"
-          img-src="pool-with-light.jpg"
-          link-path="/house"
-        />
-        <Card
-          :link-label="$t('home.equipment.link')"
-          :text="$t('home.equipment.teaser')"
-          :title="$t('home.equipment.title')"
-          img-alt="alt"
-          img-src="kitchen.jpg"
-          link-path="/equipment"
-        />
+    <div
+      class="flex flex-col justify-center items-center px-6 py-16 md:p-16 lg:p-30"
+    >
+      <div
+        class="w-full flex flex-col lg:flex-row justify-evenly items-center p-16 lg:py-30 pt-0 lg:pt-0"
+      >
+        <LogoIcon class="w-33 lg:w-56 pb-16 lg:p-0" />
+        <HeadlineComponent
+          class="!font-normal !lg:text-xl lg:max-w-40vw"
+          level="XS/S"
+        >
+          {{ $t('home.intro') }}
+        </HeadlineComponent>
       </div>
+      <TeaserComponent
+        :content1="$t('home.location.teaser')"
+        :image="{ alt: '', src: 'rooftop.jpg' }"
+        :image-left="true"
+        :title="$t('home.location.title')"
+        class="mb-16 lg:mb-38"
+        link-path="/location"
+      />
+      <TeaserComponent
+        :content1="$t('home.house.teaser')"
+        :image="{ alt: '', src: 'pool-with-light.jpg' }"
+        :title="$t('home.house.title')"
+        class="mb-16 lg:mb-38"
+        link-path="/house"
+      />
+      <TeaserComponent
+        :content1="$t('home.equipment.teaser')"
+        :image="{ alt: '', src: 'kitchen.jpg' }"
+        :image-left="true"
+        :title="$t('home.equipment.title')"
+        class="mb-16 lg:mb-38"
+        link-path="/equipment"
+      />
     </div>
   </div>
 </template>
@@ -59,12 +62,14 @@ onMounted(() => {
 })
 </script>
 <script lang="ts">
-import Card from '../components/Card/index.vue'
+import HeadlineComponent from '../components/Headline/index.vue'
+import TeaserComponent from '../components/Teaser/index.vue'
 
 export default {
   name: 'HomePage',
   components: {
-    Card,
+    HeadlineComponent,
+    TeaserComponent,
   },
 }
 </script>

@@ -1,5 +1,8 @@
 <template>
-  <div class="h-150 max-w-81 md:max-w-91 flex flex-col shrink justify-between">
+  <div
+    class="h-150 max-w-81 md:max-w-91 flex flex-col shrink justify-between cursor-pointer"
+    @click="router.push(localePath(linkPath))"
+  >
     <div>
       <img
         :alt="imgAlt"
@@ -15,6 +18,8 @@
   </div>
 </template>
 <script lang="ts" setup>
+import { useRouter } from 'nuxt/app'
+
 interface Props {
   imgSrc: string
   imgAlt: string
@@ -26,7 +31,7 @@ interface Props {
 
 const props = defineProps<Props>()
 const localePath = useLocalePath()
-
+const router = useRouter()
 const useAsset = (path: string): string => {
   const assets = import.meta.glob('~/assets/images/*', {
     eager: true,

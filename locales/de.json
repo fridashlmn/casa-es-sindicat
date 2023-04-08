@@ -19,7 +19,8 @@
       "headline": "404",
       "subline": "Diese Seite existiert leider nicht.",
       "button": "Startseite"
-    }
+    },
+    "explore": "ENTDECKEN"
   },
   "navigation": {
     "home": "Startseite",
@@ -43,18 +44,15 @@
     "intro": "Willkommen in Artà auf Mallorca, willkommen im Casa Es Sindicat. Entdecken Sie unser liebevoll restauriertes Stadtpalais. Entspannen Sie sich auf vier Etagen – am Pool, auf der Porche oder der Dachterrasse. Erkunden Sie die kulturelle Vielfalt Artàs, die idyllische Natur und die traumhaften Strände in näherer Umgebung. Freuen Sie sich ganz einfach auf ein unvergessliches Erlebnis auf Mallorca.",
     "location": {
       "title": "Die Lage",
-      "teaser": "Ruhig gelegen und trotzdem mittendrin: Von der Casa Es Sindicat aus lässt sich entspannt alles erkunden, was die Stadt Artà zu bieten hat. Und das ist eine ganze Menge.",
-      "link": "Entdecken"
+      "teaser": "Ruhig gelegen und trotzdem mittendrin: Von der Casa Es Sindicat aus lässt sich entspannt alles erkunden, was die Stadt Artà zu bieten hat. Und das ist eine ganze Menge."
     },
     "house": {
       "title": "Das Haus",
-      "teaser": "Historisches Stadtpalais, mit viel Liebe restauriert: Einen Rundgang durch das geräumige Haus können wir Ihnen hier zwar nicht geben – Ihre Vorfreude wecken allerdings schon. ",
-      "link": "Entdecken"
+      "teaser": "Historisches Stadtpalais, mit viel Liebe restauriert: Einen Rundgang durch das geräumige Haus können wir Ihnen hier zwar nicht geben – Ihre Vorfreude wecken allerdings schon. "
     },
     "equipment": {
       "title": "Die Ausstattung",
-      "teaser": "Von der voll ausgestatteten Küche über den beheizten Pool bis hin zur Sportausrüstung: Unsere Casa bietet alles, was Sie sich für einen unvergesslichen Urlaub wünschen.",
-      "link": "Entdecken"
+      "teaser": "Von der voll ausgestatteten Küche über den beheizten Pool bis hin zur Sportausrüstung: Unsere Casa bietet alles, was Sie sich für einen unvergesslichen Urlaub wünschen."
     }
   },
   "location": {
