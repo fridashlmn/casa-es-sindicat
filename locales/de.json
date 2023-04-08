@@ -13,6 +13,9 @@
       "short": "ES"
     }
   },
+  "general": {
+    "gallery": "Galerie"
+  },
   "navigation": {
     "home": "Startseite",
     "location": "Lage",
@@ -90,20 +93,22 @@
         "link": "Entdecken"
       }
     },
-    "groundFloor": {
-      "intro": "Im Erdgeschoss befinden sich die große vollausgestattete Küche, das Esszimmer mit Kamin, Sitzecke, Gästebad, Hauswirtschaftsraum mit Waschmaschine und Trockner und ein Abstellraum"
-    },
-    "firstFloor": {
-      "intro": "Im ersten Obergeschoss befindet sich das weitläufige Wohnzimmer mit angrenzender Bibliothek, Master-Bedroom mit großem Badezimmer sowie das Ankleidezimmer. Selbstverständlich gibt es einen Smart-TV mit Soundbar und Empfang der meisten deutschen, spanischen und internationalen Sender."
-    },
-    "secondFloor": {
-      "intro": "Im zweiten Obergeschoss befinden sich zwei weitere Schlafzimmer. Beide mit Bade- und Wohnzimmer"
-    },
-    "patio": {
-      "intro": "Im Zwischengeschoss, über dem Atlier, erstreckt sich eine überdachte Terasse. Auf dem Daybed genießt man hier vor allem die Nachmittags-Sonne."
-    },
-    "rooftop": {
-      "intro": "Die Dachterasse im dritten Obergeschoss ist ein absolutes Highlight. 360 Grad Rundumblick über die Dächer von Artà, hinauf zur Burg San Salvador und zur Kathedrale bis zum Meer in der Ferne. Ein beschatteter Loungebereich sowie eine Außendusche laden auch bie heißen Tagen zum Verweilen ein."
+    "patioPool": {
+      "stage": {
+        "headline": "Patio & Pool",
+        "subline": "Das Herzstück der Casa"
+      },
+      "intro": "Wer das Haus von der Straße aus betrachtet – wer ahnt, welche Oase sich dahinter verbirgt? Treten Sie aus der Küche oder dem Esszimmer hinaus und auf den Patio – das Herzstück der Casa Es Sindicat. ",
+      "patio": {
+        "title": "PATIO",
+        "content": "Eingerahmt von drei Seiten öffnet sich zunächst die Terrasse mit dem großen Esstisch. Der perfekte Ort, um den Blick in den Garten zu genießen oder unter der imposanten marokkanischen Lampe zu Abend zu essen."
+      },
+      "pool": {
+        "title": "POOL & GARTEN",
+        "content1": "Über eine Stufe gelangt man in den Poolbereich. Hier können Sie sich im 3 x 6 m großen und 1,60 m tiefen Pool erfrischen und Ihre Fitness an der Gegenstromanlage testen.",
+        "content2": "Anschließend können Sie sich auf einer der bequemen Liegen in der Sonne entspannen. Oder vielleicht wird einer der beiden Stühle unter dem alten Mispelbaum Ihr neuer Lieblingsplatz?"
+      },
+      "galleryTitle": "Patio & Pool"
     }
   },
   "equipment": {

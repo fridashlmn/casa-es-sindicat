@@ -1,7 +1,7 @@
 <template>
   <header
     :class="{ '!shadow	bg-white': scrollPosition > 50 }"
-    class="fixed h-20 px-6 lg:px-20 w-screen flex flex-row flew-nowrap items-center justify-between z-2 bg-transparent transition-all ease-in shadow-none"
+    class="fixed h-20 px-6 lg:px-20 w-screen flex flex-row flew-nowrap items-center justify-between z-3 bg-transparent transition-all ease-in shadow-none"
   >
     <button>
       <MenuIcon
@@ -66,7 +66,10 @@ import Sidebar from '../../Sidebar/index.vue'
 
 export default {
   name: 'TheHeader',
-  components: { Sidebar, LocaleSwitch },
+  components: {
+    Sidebar,
+    LocaleSwitch,
+  },
 }
 </script>
 <style>

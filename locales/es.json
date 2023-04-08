@@ -13,6 +13,9 @@
       "short": "ES"
     }
   },
+  "general": {
+    "gallery": "Galería"
+  },
   "navigation": {
     "home": "Página inicio",
     "location": "Ubicación",
@@ -86,6 +89,23 @@
         "teaser": "Detrás de la casa, la relajación está a la orden del día: refrésquese en la piscina de 3 x 6 m y 1,60 m de profundidad. Póngase cómodo al sol. Y disfrute de la vista de los impresionantes cactus y el viejo níspero.",
         "link": "Descubra"
       }
+    },
+    "patioPool": {
+      "stage": {
+        "headline": "Patio y piscina",
+        "subline": "El corazón de la Casa"
+      },
+      "intro": "Si miras la casa desde la calle, ¿quién puede adivinar qué oasis se esconde detrás? Salga de la cocina o del comedor y diríjase al patio, el corazón de Casa Es Sindicat.",
+      "patio": {
+        "title": "PATIO",
+        "content": "Enmarcado por tres lados, el patio se abre primero con su gran mesa de comedor. El lugar perfecto para disfrutar de las vistas al jardín o cenar bajo la impresionante lámpara marroquí."
+      },
+      "pool": {
+        "title": "PISCINA Y JARDÍN",
+        "content1": "Un escalón conduce a la zona de la piscina. Aquí podrá refrescarse en la piscina de 3 x 6 m y 1,60 m de profundidad y poner a prueba su forma física en el sistema de contracorriente.",
+        "content2": "Después, podrá relajarse al sol en una de las cómodas tumbonas. ¿O quizás una de las dos sillas bajo el viejo níspero se convierta en su nuevo lugar favorito?"
+      },
+      "galleryTitle": "Patio & Piscina"
     }
   },
   "equipment": {

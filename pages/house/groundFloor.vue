@@ -40,27 +40,18 @@
           src="~/assets/images/dinner-table.jpg"
         />
       </div>
-      <div class="flex justify-between items-center">
-        <img
-          alt="image_pool"
-          class="w-50vw object-cover"
-          src="~/assets/images/groundfloor.jpg"
-        />
-        <p class="p-30">
-          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-          dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-          elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-          magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-          justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-          takimata sanctus est Lorem ipsum dolor sit amet.
-        </p>
-      </div>
+      <ImageCarousel />
     </div>
   </div>
 </template>
 
 <script lang="ts">
+import ImageCarousel from '../../components/carousel/ImageCarousel/index.vue'
+
 export default {
   name: 'GroundFloorPage',
+  components: {
+    ImageCarousel,
+  },
 }
 </script>

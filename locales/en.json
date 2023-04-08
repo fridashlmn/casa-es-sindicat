@@ -13,6 +13,9 @@
       "short": "ES"
     }
   },
+  "general": {
+    "gallery": "Gallery"
+  },
   "navigation": {
     "home": "Startseite",
     "location": "Location",
@@ -86,6 +89,23 @@
         "teaser": "Behind the house, relaxation is the order of the day: refresh yourself in the 3 x 6 m and 1.60 m deep pool. Make yourself comfortable in the sun. And enjoy the view of the imposing cacti and the old medlar tree.",
         "link": "Explore"
       }
+    },
+    "patioPool": {
+      "stage": {
+        "headline": "Patio & Pool",
+        "subline": "The heart of the Casa"
+      },
+      "intro": "If you look at the house from the street - who knows what oasis is hidden behind it? Step out of the kitchen or dining room and onto the patio - the heart of Casa Es Sindicat.",
+      "patio": {
+        "title": "PATIO",
+        "content": "Framed on three sides, the terrace with the large dining table opens first. The perfect place to enjoy the view of the garden or have dinner under the impressive Moroccan lamp."
+      },
+      "pool": {
+        "title": "POOL & GARDEN",
+        "content1": "Over a step you reach the pool area. Here you can refresh yourself in the 3 x 6 m and 1.60 m deep pool and test your fitness at the counter-current system.",
+        "content2": "Afterwards you can relax in the sun on one of the comfortable loungers. Or maybe one of the two chairs under the old medlar tree will become your new favorite place?"
+      },
+      "galleryTitle": "Patio & Pool"
     }
   },
   "equipment": {

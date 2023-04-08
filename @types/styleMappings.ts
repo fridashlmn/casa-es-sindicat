@@ -8,7 +8,7 @@ type TitleStyleMapping = {
 }
 
 // Headline
-export type HeadlineLevel = 'XL' | 'L' | 'M/L' | 'M' | 'S' | 'XS'
+export type HeadlineLevel = 'XL' | 'L' | 'M/L' | 'M' | 'S' | 'XS/S' | 'XS'
 export type HeadlineTag = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
 
 export interface HeadlineStyleMapping {

@@ -75,6 +75,8 @@ import HeadlineComponent from '../components/Headline/index.vue'
 
 export default {
   name: 'EquipmentPage',
-  components: { HeadlineComponent },
+  components: {
+    HeadlineComponent,
+  },
 }
 </script>
