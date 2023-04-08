@@ -4,8 +4,8 @@
       :headline="$t('contact.success.stage.headline')"
       :subline="$t('contact.success.stage.subline')"
       :with-scroll-indicator="false"
-      class="mb-24"
-      img-alt="apartment"
+      class="object5070 mb-24"
+      img-alt="image_pool"
       img-src="apartment2-2.jpg"
     />
   </div>

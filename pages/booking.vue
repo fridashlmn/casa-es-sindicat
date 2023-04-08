@@ -4,7 +4,7 @@
       :headline="$t('booking.stage.headline')"
       :subline="$t('booking.stage.subline')"
       img-alt="sunset"
-      img-src="sunset.jpg"
+      img-src="arta.jpg"
     />
     <div class="px-6 py-16 md:p-16 lg:p-30">
       <p class="sm:text-center max-w-220 my-0 mx-auto pb-16 md:pb-16 lg:pb-30">

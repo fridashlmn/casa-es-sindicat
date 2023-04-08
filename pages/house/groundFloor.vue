@@ -3,7 +3,7 @@
     <Stage
       :headline="$t('house.groundFloor.stage.headline')"
       :subline="$t('house.groundFloor.stage.subline')"
-      class="object-position"
+      class="object5070"
       img-alt="image_pool"
       img-src="dinner-table-3.jpg"
     />
@@ -88,8 +88,3 @@ export default {
   },
 }
 </script>
-<style module>
-.object-position img {
-  object-position: 50% 70%;
-}
-</style>

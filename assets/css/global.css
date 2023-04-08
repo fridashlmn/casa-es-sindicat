@@ -29,6 +29,10 @@ input:focus, textarea:focus, input:focus-visible, textarea:focus-visible {
   outline: none;
 }
 
+.object5070 img {
+  object-position: 50% 70%
+}
+
 .dp__action_row {
   display: none !important;
 }
