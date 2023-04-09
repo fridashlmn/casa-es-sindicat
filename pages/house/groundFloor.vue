@@ -4,7 +4,7 @@
       :headline="$t('house.groundFloor.stage.headline')"
       :subline="$t('house.groundFloor.stage.subline')"
       class="object5070"
-      img-alt="image_pool"
+      img-alt="dinner-table"
       img-src="dinner-table-3.jpg"
     />
     <div class="lg:p-25 xl:p-30">
@@ -16,13 +16,13 @@
       </HeadlineComponent>
       <TeaserComponent
         :content1="$t('house.groundFloor.dining.content')"
-        :image="{ alt: '', src: 'dinner-table.jpg' }"
+        :image="{ alt: 'dinner-table', src: 'dinner-table.jpg' }"
         :image-left="true"
         :title="$t('house.groundFloor.dining.title')"
       />
       <TeaserComponent
         :content1="$t('house.groundFloor.kitchen.content')"
-        :image="{ alt: '', src: 'kitchen-2.jpg' }"
+        :image="{ alt: 'kitchen', src: 'kitchen-2.jpg' }"
         :title="$t('house.groundFloor.kitchen.title')"
       />
     </div>
@@ -35,39 +35,39 @@
 <script lang="ts" setup>
 const galleryImages = [
   {
-    alt: 'test1',
+    alt: 'dinner-table',
     src: 'dinner-table-2.jpg',
   },
   {
-    alt: 'test1',
+    alt: 'groundfloor',
     src: 'groundfloor.jpg',
   },
   {
-    alt: 'test3',
+    alt: 'kitchen',
     src: 'kitchen-outdoorView.jpg',
   },
   {
-    alt: 'test3',
+    alt: 'bathroom',
     src: 'guest-bathroom.jpg',
   },
   {
-    alt: 'test1',
+    alt: 'dinner-table',
     src: 'dinner-table-fire.jpg',
   },
   {
-    alt: 'test3',
+    alt: 'stairs',
     src: 'stairs.jpg',
   },
   {
-    alt: 'test3',
+    alt: 'kitchen',
     src: 'kitchen.jpg',
   },
   {
-    alt: 'test3',
+    alt: 'buddha-statue',
     src: 'buddha.jpg',
   },
   {
-    alt: 'test3',
+    alt: 'dinner-table',
     src: 'dinner-table-details.jpg',
   },
 ]

@@ -3,7 +3,7 @@
     <Stage
       :headline="$t('directions.stage.headline')"
       :subline="$t('directions.stage.subline')"
-      img-alt="image_pool"
+      img-alt="castle"
       img-src="castle-view.jpg"
     />
     <div

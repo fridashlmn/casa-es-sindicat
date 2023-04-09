@@ -5,7 +5,7 @@
       :subline="$t('contact.success.stage.subline')"
       :with-scroll-indicator="false"
       class="object5070 mb-24"
-      img-alt="image_pool"
+      img-alt="apartment"
       img-src="apartment2-2.jpg"
     />
   </div>

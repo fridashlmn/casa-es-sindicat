@@ -3,7 +3,7 @@
     <Stage
       :headline="$t('equipment.stage.headline')"
       :subline="$t('equipment.stage.subline')"
-      img-alt="image_pool"
+      img-alt="kitchen"
       img-src="kitchen.jpg"
     />
     <div class="flex flex-col px-6 py-16 md:p-16 lg:p-30">

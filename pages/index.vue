@@ -2,7 +2,7 @@
   <div>
     <div class="flex items-center justify-center relative">
       <img
-        alt="image_pool"
+        alt="dinner-table"
         class="w-screen min-h-90vh max-h-185 object-cover"
         src="~/assets/images/dinner-table-2.jpg"
       />
@@ -23,7 +23,7 @@
       </div>
       <TeaserComponent
         :content1="$t('home.location.teaser')"
-        :image="{ alt: '', src: 'rooftop.jpg' }"
+        :image="{ alt: 'rooftop-view', src: 'rooftop.jpg' }"
         :image-left="true"
         :title="$t('home.location.title')"
         class="mb-16 lg:mb-38"
@@ -31,14 +31,14 @@
       />
       <TeaserComponent
         :content1="$t('home.house.teaser')"
-        :image="{ alt: '', src: 'pool-with-light.jpg' }"
+        :image="{ alt: 'pool-with-lights-on', src: 'pool-with-light.jpg' }"
         :title="$t('home.house.title')"
         class="mb-16 lg:mb-38"
         link-path="/house"
       />
       <TeaserComponent
         :content1="$t('home.equipment.teaser')"
-        :image="{ alt: '', src: 'kitchen.jpg' }"
+        :image="{ alt: 'kitchen', src: 'kitchen.jpg' }"
         :image-left="true"
         :title="$t('home.equipment.title')"
         class="mb-16 lg:mb-38"

@@ -4,7 +4,7 @@
       :headline="$t('house.secondFloor.stage.headline')"
       :subline="$t('house.secondFloor.stage.subline')"
       class="object5090"
-      img-alt="image_pool"
+      img-alt="apartment-2-daybed-and-office-table"
       img-src="apartment2.jpg"
     />
     <div class="lg:p-25 xl:p-30">
@@ -35,23 +35,23 @@
 <script lang="ts" setup>
 const galleryImages = [
   {
-    alt: 'test1',
+    alt: 'apartment',
     src: 'apartment1.jpg',
   },
   {
-    alt: 'test1',
+    alt: 'apartment',
     src: 'apartment1-2.jpg',
   },
   {
-    alt: 'test3',
+    alt: 'apartment',
     src: 'apartment2.jpg',
   },
   {
-    alt: 'test3',
+    alt: 'apartment',
     src: 'apartment2-2.jpg',
   },
   {
-    alt: 'test1',
+    alt: 'apartment',
     src: 'apartment2-3.jpg',
   },
 ]
