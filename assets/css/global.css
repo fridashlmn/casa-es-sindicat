@@ -12,13 +12,17 @@ li a {
   list-style: square;
 }
 
+label {
+  width: 100%;
+}
+
 input, textarea {
   width: 100%;
   padding: 16px 16px 6px 16px;
   margin-bottom: 18px;
   border-color: black;
-  border-width: 0px 0px 1px 0px;
-  border-radius: 0px 0px 0px 0px;
+  border-width: 0 0 1px 0;
+  border-radius: 0 0 0 0;
 }
 
 textarea {
@@ -30,11 +34,11 @@ input:focus, textarea:focus, input:focus-visible, textarea:focus-visible {
 }
 
 .object5070 img {
-  object-position: 50% 70%
+  object-position: 50% 70%;
 }
 
 .object5090 img {
-  object-position: 50% 90%
+  object-position: 50% 90%;
 }
 
 .dp__action_row {

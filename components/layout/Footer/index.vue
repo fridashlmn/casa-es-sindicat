@@ -4,7 +4,7 @@
       <div
         class="w-full flex flex-col sm:flex-row items-center justify-between py-8 px-16"
       >
-        <button @click="router.push('/')">
+        <button type="button" @click="router.push('/')">
           <LogoIcon class="w-31" />
         </button>
         <nav

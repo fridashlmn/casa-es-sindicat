@@ -5,14 +5,14 @@
     ]"
   >
     <nav class="relative h-100vh bg-[#f3efec] text-[#1f1f1f]">
-      <button class="absolute top-8 left-8" @click.stop="close">
+      <button class="absolute top-8 left-8" type="button" @click.stop="close">
         <CloseIcon class="w-40pt h-40pt inline-block" />
       </button>
 
       <ul class="font-normal text-neutralDarkest py-16 px-11 sm:py-18 sm:px-22">
         <li
-          v-for="(item, index) in navigationItems"
-          :key="index"
+          v-for="item in navigationItems"
+          :key="item.name"
           class="text-5xl sm:text-6xl pt-7 cursor-pointer"
         >
           <NuxtLink @click="navigate(item.path)">
@@ -32,8 +32,8 @@
             class="transform overflow-hidden transition-all duration-600"
           >
             <li
-              v-for="(submenuItem, index) in item.submenu"
-              :key="index"
+              v-for="submenuItem in item.submenu"
+              :key="submenuItem.name"
               class="text-3xl py-2 px-6 first:pt-6 cursor-pointer"
             >
               <NuxtLink @click="navigate(submenuItem.path)">

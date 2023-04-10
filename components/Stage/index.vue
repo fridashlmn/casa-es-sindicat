@@ -4,6 +4,7 @@
       :alt="imgAlt"
       :src="useAsset(imgSrc)"
       class="w-screen h-70vh lg:h-93vh object-cover"
+      loading="eager"
     />
     <div
       :class="{ 'pb-24': !withScrollIndicator }"
@@ -18,7 +19,6 @@
       <ChevronDownIcon
         v-if="withScrollIndicator"
         class="relative w-16 h-20 fill-white"
-        @click="openSubmenu = !openSubmenu"
       />
     </div>
   </div>
@@ -34,10 +34,9 @@ interface Props {
   withScrollIndicator?: boolean
 }
 
-const props = withDefaults(defineProps<Props>(), {
+withDefaults(defineProps<Props>(), {
   withScrollIndicator: true,
 })
-const localePath = useLocalePath()
 
 const useAsset = (path: string): string => {
   const assets = import.meta.glob('~/assets/images/*', {

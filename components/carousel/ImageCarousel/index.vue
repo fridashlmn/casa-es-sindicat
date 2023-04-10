@@ -30,6 +30,7 @@
             :alt="slide.alt"
             :src="useAsset(slide.src)"
             class="w-full h-80 md:h-144 object-cover"
+            loading="lazy"
           />
         </Slide>
       </template>

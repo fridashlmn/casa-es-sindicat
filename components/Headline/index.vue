@@ -8,26 +8,18 @@
 import type { ComputedRef } from 'vue'
 import { computed } from 'vue'
 
-import type {
-  HeadlineLevel,
-  HeadlineStyleMapping,
-  HeadlineTag,
-} from '../../@types/styleMappings'
+type HeadlineLevel = 'M/L' | 'M' | 'S' | 'XS/S' | 'XS'
+type HeadlineTag = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
 
-/**
- * In most cases in the Emilia flows specific headline tags match with corresponding headline styles.
- * This is displayed in the styleMap and is defined by the required prop "level".
- * On the other hand there are cases where a certain headline tag requires another style than
- * it is assigned in the styleMap. In this case you can use the additional prop "tag" to
- * overwrite the tag property in the styleMap.
- */
+interface HeadlineStyleMapping {
+  tag: HeadlineTag
+  style: string
+}
 
 const styleMap: Map<HeadlineLevel, HeadlineStyleMapping> = new Map([
-  ['XL', { tag: 'h1', style: 'text-9xl lg:text-13xl' }],
-  ['L', { tag: 'h2', style: 'text-8xl lg:text-12xl' }],
-  ['M/L', { tag: 'h3', style: 'text-5xl lg:text-9xl' }],
-  ['M', { tag: 'h3', style: 'text-4xl md:text-5xl lg:text-7xl' }],
-  ['S', { tag: 'h4', style: 'text-2xl lg:text-3xl' }],
+  ['M/L', { tag: 'h1', style: 'text-5xl lg:text-9xl' }],
+  ['M', { tag: 'h2', style: 'text-4xl md:text-5xl lg:text-7xl' }],
+  ['S', { tag: 'h3', style: 'text-2xl lg:text-3xl' }],
   ['XS/S', { tag: 'h4', style: 'text-base lg:text-2xl' }],
   ['XS', { tag: 'h5', style: 'text-base lg:text-lg m-0 !font-bold' }],
 ])
@@ -38,13 +30,13 @@ interface Props {
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  level: 'L',
+  level: 'M',
   tag: undefined,
 })
 
 const selectedLevel: ComputedRef<HeadlineStyleMapping | undefined> = computed(
   () =>
-    styleMap.get(props.level) || (styleMap.get('L') as HeadlineStyleMapping),
+    styleMap.get(props.level) || (styleMap.get('M') as HeadlineStyleMapping),
 )
 
 const component: ComputedRef<HeadlineTag | undefined> = computed(() => {
@@ -64,8 +56,6 @@ export default {
 </script>
 
 <style lang="css">
-.headline-xl,
-.headline-l,
 .headline-m,
 .headline-s,
 .headline-xs {

@@ -4,6 +4,7 @@
       <img
         alt="dinner-table"
         class="w-screen min-h-90vh max-h-185 object-cover"
+        loading="eager"
         src="~/assets/images/dinner-table-2.jpg"
       />
     </div>

@@ -8,6 +8,7 @@
       :alt="image.alt"
       :src="useAsset(image.src)"
       class="w-full lg:w-43vw sm:h-104 md:h-125 object-cover z-2"
+      loading="lazy"
     />
     <div
       class="relative flex flex-col justify-center bg-[#f7f7f7] lg:w-1/2 xl:min-h-96 lg:mt-1/100 lg:-mb-19/100 lg:px-8/100 py-12"
@@ -43,6 +44,7 @@
       :alt="image.alt"
       :src="useAsset(image.src)"
       class="w-full lg:w-43vw sm:h-104 md:h-125 object-cover z-2"
+      loading="lazy"
     />
   </div>
 </template>

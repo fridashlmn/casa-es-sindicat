@@ -3,7 +3,7 @@
     :class="{ '!shadow	bg-white': scrollPosition > 50 }"
     class="fixed h-20 px-6 lg:px-20 w-screen flex flex-row flew-nowrap items-center justify-between z-3 bg-transparent transition-all ease-in shadow-none"
   >
-    <button class="w-15">
+    <button class="w-15" type="button">
       <MenuIcon
         :class="{ '!fill-black': scrollPosition > 50 || fillBlack }"
         class="w-32pt h-32pt mt-4 inline-block fill-white transition-all ease-in"
@@ -16,12 +16,13 @@
           <div
             class="opacity-60 opacity-backdrop fixed inset-0 overflow-y-auto bg-black"
             @click="toggleSidebar"
+            @keyup.enter="toggleSidebar"
           />
           <Sidebar @close="toggleSidebar" />
         </div>
       </div>
     </Transition>
-    <button @click="router.push('/')">
+    <button type="button" @click="router.push('/')">
       <LogoIcon
         :class="{ '!fill-black': scrollPosition > 50 || fillBlack }"
         class="mt-8 w-24 h-auto fill-[#fefefe]"
@@ -40,7 +41,7 @@ interface Props {
   fillBlack?: boolean
 }
 
-const props = withDefaults(defineProps<Props>(), {
+withDefaults(defineProps<Props>(), {
   fillBlack: false,
 })
 

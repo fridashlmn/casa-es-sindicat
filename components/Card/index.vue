@@ -2,12 +2,14 @@
   <div
     class="md:max-w-91 flex flex-col shrink justify-between cursor-pointer"
     @click="router.push(localePath(linkPath))"
+    @keyup.enter="router.push(localePath(linkPath))"
   >
     <div>
       <img
         :alt="imgAlt"
         :src="useAsset(imgSrc)"
         class="object5070 h-91 md:h-120 w-full md:w-91 object-cover"
+        loading="lazy"
       />
       <h5 class="text-xl pt-4 pb-2">{{ title }}</h5>
       <p>{{ text }}</p>
@@ -29,7 +31,7 @@ interface Props {
   linkLabel: string
 }
 
-const props = defineProps<Props>()
+defineProps<Props>()
 const localePath = useLocalePath()
 const router = useRouter()
 const useAsset = (path: string): string => {

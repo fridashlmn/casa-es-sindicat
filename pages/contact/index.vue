@@ -27,22 +27,38 @@
         name="contact"
       >
         <input name="form-name" type="hidden" value="contact" />
-        <input :placeholder="$t('contact.form.name')" name="name" />
-        <input
-          :placeholder="$t('contact.form.email')"
-          name="email"
-          required
-          type="email"
-        />
-        <textarea :placeholder="$t('contact.form.message')" name="message" />
+        <label for="name">
+          <span hidden>Name</span>
+          <input id="name" :placeholder="$t('contact.form.name')" name="name" />
+        </label>
+        <label for="email">
+          <span hidden>E-Mail</span>
+          <input
+            id="email"
+            :placeholder="$t('contact.form.email')"
+            name="email"
+            required
+            type="email"
+          />
+        </label>
+        <label for="message">
+          <span hidden>Message</span>
+          <textarea
+            id="message"
+            :placeholder="$t('contact.form.message')"
+            name="message"
+          />
+        </label>
         <div class="flex mt-12 items-start">
           <input
+            id="agb"
             class="w-auto mr-4 mt-0.5"
             name="agb"
             required
             type="checkbox"
           />
-          <label class="text-xs" for="agb" v-html="$t('contact.form.agb')" />
+          <!-- eslint-disable-next-line -->
+          <label class="text-xs" for="agb" v-html="$t('contact.form.agb')"/>
         </div>
         <BaseButton class="mt-12">{{ $t('contact.form.submit') }}</BaseButton>
       </form>
@@ -52,12 +68,14 @@
 <script lang="ts">
 import HeadlineComponent from '../../components/Headline/index.vue'
 import BaseButton from '../../components/BaseButton/index.vue'
+import Stage from '../../components/Stage/index.vue'
 
 export default {
   name: 'ContactPage',
   components: {
     HeadlineComponent,
     BaseButton,
+    Stage,
   },
 }
 </script>
