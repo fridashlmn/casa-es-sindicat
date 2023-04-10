@@ -55,8 +55,8 @@ const props = withDefaults(defineProps<Props>(), {
 })
 
 const sidebarVisible = ref<boolean>(false)
-const scrollPosition = ref<number | null>(null)
-const scrollPercent = ref<number | null>(null)
+const scrollPosition = ref<number>(0)
+const scrollPercent = ref<number>(100)
 const toggleSidebar = () => {
   sidebarVisible.value = !sidebarVisible.value
 }
