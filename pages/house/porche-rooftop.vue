@@ -3,7 +3,7 @@
     <Stage
       :headline="$t('house.porcheRooftop.stage.headline')"
       :subline="$t('house.porcheRooftop.stage.subline')"
-      img-alt="rooftop"
+      img-alt="rooftop with view over arta"
       img-src="rooftop-5.jpg"
     />
     <div class="lg:p-25 xl:p-30">
@@ -15,13 +15,13 @@
       </HeadlineComponent>
       <TeaserComponent
         :content1="$t('house.porcheRooftop.porche.content')"
-        :image="{ alt: '', src: 'porche.jpg' }"
+        :image="{ alt: 'porche with lounge chairs', src: 'porche.jpg' }"
         :image-left="true"
         :title="$t('house.porcheRooftop.porche.title')"
       />
       <TeaserComponent
         :content1="$t('house.porcheRooftop.rooftop.content')"
-        :image="{ alt: '', src: 'rooftop-7.jpg' }"
+        :image="{ alt: 'rooftop with view over arta', src: 'rooftop-7.jpg' }"
         :title="$t('house.porcheRooftop.rooftop.title')"
         class="object5070"
       />
@@ -35,28 +35,28 @@
 <script lang="ts" setup>
 const galleryImages = [
   {
-    alt: 'test3',
+    alt: 'rooftop with view over arta',
     src: 'rooftop-9.jpg',
   },
   {
-    alt: 'test1',
+    alt: 'porche with lounge chairs',
     src: 'porche-2.jpg',
   },
   {
-    alt: 'test3',
+    alt: 'rooftop by sunset',
     src: 'rooftop-3.jpg',
   },
   {
-    alt: 'test3',
+    alt: 'porche by night with lights',
     src: 'porche-light.jpg',
   },
   {
-    alt: 'test3',
+    alt: 'rooftop with bar',
     src: 'rooftop-8.jpg',
   },
   {
-    alt: 'test2',
-    src: 'viewToPatio.jpg',
+    alt: 'view up to porche',
+    src: 'viewToPorche.jpg',
   },
 ]
 </script>

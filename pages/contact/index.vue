@@ -4,7 +4,7 @@
       :headline="$t('contact.stage.headline')"
       :subline="$t('contact.stage.subline')"
       class="object5070"
-      img-alt="apartment"
+      img-alt="bed in apartment"
       img-src="apartment2-2.jpg"
     />
     <div

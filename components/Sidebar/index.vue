@@ -4,7 +4,7 @@
       'fixed md:absolute left-0 top-0 inline-block min-h-screen w-full overflow-hidden bg-white md:w-136',
     ]"
   >
-    <div class="relative h-100vh bg-[#f3efec] text-[#1f1f1f]">
+    <nav class="relative h-100vh bg-[#f3efec] text-[#1f1f1f]">
       <button class="absolute top-8 left-8" @click.stop="close">
         <CloseIcon class="w-40pt h-40pt inline-block" />
       </button>
@@ -43,12 +43,12 @@
           </ul>
         </li>
       </ul>
-    </div>
+    </nav>
   </div>
 </template>
 <script lang="ts" setup>
 import CloseIcon from 'assets/icons/close.svg?component'
-import ChevronDownThickIcon from 'assets/icons/chevron_down_thick.svg?component'
+import ChevronDownThickIcon from 'assets/icons/chevron-down-thick.svg?component'
 import { useRouter } from 'nuxt/app'
 import { navigationItems } from '../../config/routes'
 

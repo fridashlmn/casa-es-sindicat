@@ -3,7 +3,7 @@
     <Stage
       :headline="$t('location.stage.headline')"
       :subline="$t('location.stage.subline')"
-      img-alt="arta"
+      img-alt="view from above over arta"
       img-src="arta.jpg"
     />
     <div class="lg:p-25 xl:p-30">
@@ -15,24 +15,24 @@
       </HeadlineComponent>
       <TeaserComponent
         :content1="$t('location.castle.content')"
-        :image="{ alt: 'castle', src: 'castle-2.jpg' }"
+        :image="{ alt: 'arta castle', src: 'castle-2.jpg' }"
         :image-left="true"
         :title="$t('location.castle.title')"
       />
       <TeaserComponent
         :content1="$t('location.marketplace.content')"
-        :image="{ alt: 'marketplace', src: 'marketplace.jpg' }"
+        :image="{ alt: 'arta marketplace', src: 'marketplace.jpg' }"
         :title="$t('location.marketplace.title')"
       />
       <TeaserComponent
         :content1="$t('location.streets.content')"
-        :image="{ alt: 'street', src: 'street.jpg' }"
+        :image="{ alt: 'arta street by night', src: 'street.jpg' }"
         :image-left="true"
         :title="$t('location.streets.title')"
       />
       <TeaserComponent
         :content1="$t('location.church.content')"
-        :image="{ alt: 'church', src: 'church.jpg' }"
+        :image="{ alt: 'arta church', src: 'church.jpg' }"
         :title="$t('location.church.title')"
       />
     </div>

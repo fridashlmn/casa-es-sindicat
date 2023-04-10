@@ -3,7 +3,7 @@
     <Stage
       :headline="$t('directions.stage.headline')"
       :subline="$t('directions.stage.subline')"
-      img-alt="castle"
+      img-alt="view from castle over arta"
       img-src="castle-view.jpg"
     />
     <div

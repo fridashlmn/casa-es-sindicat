@@ -4,7 +4,7 @@
       :headline="$t('house.stage.headline')"
       :subline="$t('house.stage.subline')"
       class="object5070"
-      img-alt="dinner-table"
+      img-alt="dinner table"
       img-src="dinner-table-2.jpg"
     />
     <div class="lg:p-25 xl:p-30">
@@ -26,7 +26,7 @@
           :text="$t('house.teaser.groundFloor.teaser')"
           :title="$t('house.teaser.groundFloor.title')"
           class="mb-16"
-          img-alt="dinner-table"
+          img-alt="dinner table"
           img-src="dinner-table.jpg"
           link-path="/house/groundFloor"
         />
@@ -35,7 +35,7 @@
           :text="$t('house.teaser.firstFloor.teaser')"
           :title="$t('house.teaser.firstFloor.title')"
           class="mb-16"
-          img-alt="living-room"
+          img-alt="living room"
           img-src="living-room-2.jpg"
           link-path="/house/firstFloor"
         />
@@ -44,7 +44,7 @@
           :text="$t('house.teaser.secondFloor.teaser')"
           :title="$t('house.teaser.secondFloor.title')"
           class="mb-16"
-          img-alt="apartment"
+          img-alt="apartment 2"
           img-src="apartment2.jpg"
           link-path="/house/secondFloor"
         />

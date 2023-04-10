@@ -88,7 +88,7 @@ export default defineNuxtConfig({
     defaultLocale: 'de',
     langDir: 'locales',
     detectBrowserLanguage: false,
-    baseUrl: 'http://localhost:3000',
+    baseUrl: 'https://casa-es-sindicat.com',
     vueI18n: {
       legacy: false,
       locale: 'de',

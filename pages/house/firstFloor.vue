@@ -4,7 +4,7 @@
       :headline="$t('house.firstFloor.stage.headline')"
       :subline="$t('house.firstFloor.stage.subline')"
       class="object-position"
-      img-alt="living-room"
+      img-alt="living room with couch and pictures"
       img-src="living-room-4.jpg"
     />
     <div class="lg:p-25 xl:p-30">
@@ -16,13 +16,13 @@
       </HeadlineComponent>
       <TeaserComponent
         :content1="$t('house.firstFloor.livingRoom.content')"
-        :image="{ alt: 'living-room', src: 'living-room.jpg' }"
+        :image="{ alt: 'living room', src: 'living-room.jpg' }"
         :image-left="true"
         :title="$t('house.firstFloor.livingRoom.title')"
       />
       <TeaserComponent
         :content1="$t('house.firstFloor.bedRoom.content')"
-        :image="{ alt: 'bedroom', src: 'master-bathroom.jpg' }"
+        :image="{ alt: 'bathroom', src: 'master-bathroom.jpg' }"
         :title="$t('house.firstFloor.bedRoom.title')"
       />
     </div>
@@ -35,7 +35,7 @@
 <script lang="ts" setup>
 const galleryImages = [
   {
-    alt: 'living-room',
+    alt: 'living room',
     src: 'living-room-4.jpg',
   },
   {
@@ -55,7 +55,7 @@ const galleryImages = [
     src: 'stairs-2.jpg',
   },
   {
-    alt: 'bookshelf',
+    alt: 'bookshelf and decor',
     src: 'bookshelf-2.jpg',
   },
 ]

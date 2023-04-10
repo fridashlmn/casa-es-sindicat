@@ -15,14 +15,14 @@
       </HeadlineComponent>
       <TeaserComponent
         :content1="$t('house.patioPool.patio.content')"
-        :image="{ alt: '', src: 'outdoor-area.jpg' }"
+        :image="{ alt: 'patio', src: 'outdoor-area.jpg' }"
         :image-left="true"
         :title="$t('house.patioPool.patio.title')"
       />
       <TeaserComponent
         :content1="$t('house.patioPool.pool.content1')"
         :content2="$t('house.patioPool.pool.content2')"
-        :image="{ alt: '', src: 'garden.jpg' }"
+        :image="{ alt: 'pool and garden', src: 'garden.jpg' }"
         :title="$t('house.patioPool.pool.title')"
       />
     </div>
@@ -35,43 +35,39 @@
 <script lang="ts" setup>
 const galleryImages = [
   {
-    alt: 'test1',
+    alt: 'patio with pool view',
     src: 'patio-2.jpg',
   },
   {
-    alt: 'test1',
+    alt: 'pool with sun chairs',
     src: 'pool-2.jpg',
   },
   {
-    alt: 'test3',
+    alt: 'pool and garden',
     src: 'patioPool.jpg',
   },
   {
-    alt: 'test3',
+    alt: 'pool by night with lights',
     src: 'pool-with-light.jpg',
   },
   {
-    alt: 'test3',
+    alt: 'poll with view to well',
     src: 'pool-well.jpg',
   },
   {
-    alt: 'test2',
-    src: 'patio-2.jpg',
-  },
-  {
-    alt: 'test3',
+    alt: 'plants',
     src: 'cacti.jpg',
   },
   {
-    alt: 'test3',
+    alt: 'pool and garden',
     src: 'patioPool-2.jpg',
   },
   {
-    alt: 'test3',
+    alt: 'patio by night with lights',
     src: 'outdoor-area-light.jpg',
   },
   {
-    alt: 'test3',
+    alt: 'moroccan lamp',
     src: 'outdoor-lamp.jpg',
   },
 ]

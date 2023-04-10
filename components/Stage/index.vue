@@ -24,7 +24,7 @@
   </div>
 </template>
 <script lang="ts" setup>
-import ChevronDownIcon from 'assets/icons/chevron_down.svg?component'
+import ChevronDownIcon from 'assets/icons/chevron-down.svg?component'
 
 interface Props {
   imgSrc: string

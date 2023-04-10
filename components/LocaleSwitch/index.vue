@@ -16,18 +16,18 @@
       </option>
     </select>
     <div
-      class="pointer-events-none absolute right-0.5 top-1/2 flex h-2 w-10 items-center justify-end"
+      class="pointer-events-none absolute right-0.5 top-1/2 flex h-2 w-7 items-center justify-end"
     >
       <ChevronDownIcon
         :class="{ '!fill-black': fillBlack }"
-        class="w-10 fill-white transition-all ease-in"
+        class="fill-white"
       />
     </div>
   </div>
 </template>
 <script lang="ts" setup>
 import { useNuxtApp } from 'nuxt/app'
-import ChevronDownIcon from 'assets/icons/chevron_down.svg?component'
+import ChevronDownIcon from 'assets/icons/chevron-down-thick.svg?component'
 
 interface Props {
   fillBlack?: boolean

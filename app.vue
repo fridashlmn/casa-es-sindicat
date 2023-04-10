@@ -11,6 +11,7 @@ const i18n = useI18n()
 const description = computed(() => {
   return i18n.t('meta.description')
 })
+
 useHead({
   title: 'Casa Es Sindicat',
   charset: 'utf-8',
@@ -22,5 +23,8 @@ useHead({
       content: description,
     },
   ],
+  htmlAttrs: {
+    lang: i18n.currentLocale ? i18n.currentLocale : 'de',
+  },
 })
 </script>
