@@ -18,11 +18,6 @@
           <span>
             {{ $t('booking.price.info') }}
           </span>
-          <ul class="listStyle ml-9">
-            <li>{{ $t('booking.price.day') }}</li>
-            <li>{{ $t('booking.price.week') }}</li>
-            <li>{{ $t('booking.price.weeks') }}</li>
-          </ul>
         </div>
         <VueDatePicker
           v-model="date"

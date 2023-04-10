@@ -53,7 +53,7 @@ export default defineNuxtConfig({
       },
     ],
   ],
-  buildModules: ['@nuxtjs/google-fonts'],
+  buildModules: ['@nuxtjs/google-fonts', '@nuxt/image'],
 
   components: ['~/components'],
 

@@ -13,9 +13,15 @@
         <HeadlineComponent class="mb-12" level="M">
           {{ $t('directions.title') }}
         </HeadlineComponent>
-        <p>
-          {{ $t('directions.content') }}
-        </p>
+        <Translation keypath="directions.content" scope="global" tag="p">
+          <NuxtLink
+            class="underline"
+            target="_blank"
+            to="https://www.rome2rio.com/de/s/Palma-de-Mallorca/Art%C3%A0"
+          >
+            {{ $t('general.here') }}
+          </NuxtLink>
+        </Translation>
       </div>
       <GMapMap
         :center="center"
@@ -54,12 +60,14 @@ const markers = [
 ]
 </script>
 <script lang="ts">
+import { Translation } from 'vue-i18n'
 import HeadlineComponent from '../components/Headline/index.vue'
 
 export default {
   name: 'DirectionsPage',
   components: {
     HeadlineComponent,
+    Translation: Translation as any,
   },
 }
 </script>

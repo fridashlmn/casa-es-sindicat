@@ -1,20 +1,20 @@
 <template>
   <div>
     <div class="flex items-center justify-center relative">
-      <img
-        alt="dinner-table"
-        class="w-screen min-h-90vh max-h-185 object-cover"
-        loading="eager"
-        src="~/assets/images/dinner-table-2.jpg"
-      />
+      <LogoIcon class="w-33 lg:w-56 pb-16 lg:p-0" />
     </div>
+    <img
+      alt="dinner-table"
+      class="w-screen min-h-90vh max-h-185 object-cover"
+      loading="eager"
+      src="~/assets/images/dinner-table-2.jpg"
+    />
     <div
       class="flex flex-col justify-center items-center px-6 py-16 md:p-16 lg:p-30"
     >
       <div
         class="w-full flex flex-col lg:flex-row justify-evenly items-center py-16 sm:p-16 lg:py-30 pt-0 lg:pt-0"
       >
-        <LogoIcon class="w-33 lg:w-56 pb-16 lg:p-0" />
         <HeadlineComponent
           class="!font-normal !lg:text-xl lg:max-w-40vw"
           level="XS/S"

@@ -14,6 +14,7 @@
     }
   },
   "general": {
+    "here": "aquí",
     "gallery": "Galería",
     "404": {
       "headline": "404",
@@ -124,7 +125,7 @@
       "intro": "¡Bienvenido a Casa Es Sindicat! Cuando entras en la casa, llegas a la gran zona de entrada. A la izquierda está el baño de invitados, el lavadero con lavadora y secadora y un trastero. A la derecha está el garaje, donde hay una segunda nevera con bebidas.",
       "dining": {
         "title": "Espacio para disfrutar",
-        "content": "Unos pasos más adelante, se abre el comedor con la enorme mesa de madera. Aquí se pueden acomodar hasta seis personas. ¿Le gustaría visitarnos en invierno? No hay problema, en los días fríos la chimenea le dará calor. "
+        "content": "Unos pasos más adelante, se abre el comedor con la enorme mesa de madera. Aquí se pueden acomodar hasta diez personas. ¿Le gustaría visitarnos en invierno? No hay problema, en los días fríos la chimenea le dará calor. "
       },
       "kitchen": {
         "title": "Todo para los gourmets",
@@ -160,7 +161,7 @@
       },
       "apartment2": {
         "title": "Acogedor de ensueño",
-        "content": "Se duerme como se hace la cama. Por eso las habitaciones están equipadas con camas de matrimonio fantásticamente cómodas. No tiene que preocuparse por la ropa de cama, nosotros se la preparamos. Los cuartos de baño con amplias duchas también ofrecen todo lo necesario para unas vacaciones perfectas."
+        "content": "Si haces tu cama, duermes en ella. Por eso los dormitorios están equipados con camas queen-size fantásticamente cómodas. Los cuartos de baño con amplias duchas también ofrecen todo lo necesario para unas vacaciones perfectas."
       },
       "galleryTitle": "Segunda planta"
     },
@@ -237,7 +238,7 @@
     },
     "entertainment": {
       "title": "Entretenimiento",
-      "list": "<li>Smart TV de 65 pulgadas</li><li>Sistema de sonido Bluetooth BluOS</li><li>Biblioteca</li>"
+      "list": "<li>Smart TV de 65 pulgadas</li><li>Sistema de sonido Bluetooth BluOS</li><li>Biblioteca</li><li>Amplia selección de juegos de salón</li>"
     },
     "sports": {
       "title": "Equipamiento deportivo",
@@ -251,11 +252,8 @@
     },
     "intro": "¿Desea reservar en Casa Es Sindicat? En el calendario de ocupación puede ver si la fecha que desea aún está disponible. Las fechas que ya han sido alquiladas están marcadas en rojo. Todas las demás fechas pueden solicitarse. Si ha encontrado un periodo adecuado para sus vacaciones previstas, envíenos un mensaje a través de Contacto. Le responderemos lo antes posible.",
     "price": {
-      "title": "Precios",
-      "info": "Precios para ocupación de hasta 6 adultos y dos niños pequeños (hasta 5 años):",
-      "day": "Por día: 750 € (estancia mínima de 3 noches)",
-      "week": "Una semana: 5.100 €",
-      "weeks": "Dos semanas: 10.000 €"
+      "title": "Precio",
+      "info": "El precio para una ocupación de hasta 6 adultos y 2 niños pequeños (hasta 5 años) es de 800 euros al día (estancia mínima de 3 noches)."
     },
     "conditions": {
       "title": "Condiciones de alquiler",
@@ -268,7 +266,7 @@
       "subline": "Tu camino a Àrta"
     },
     "title": "Una vez cruzada la isla.",
-    "content": "Casa Es Sindicat se encuentra en la pequeña localidad de Àrta, al noreste de Mallorca. La forma más rápida de llegar a Àrta desde el aeropuerto de Palma de Mallorca es a través de la Ma-15, que tarda aproximadamente una hora. También es posible llegar en taxi, autobús o tren. Puede obtener información al respecto, por ejemplo, aquí."
+    "content": "Casa Es Sindicat se encuentra en la pequeña localidad de Àrta, al noreste de Mallorca. La forma más rápida de llegar a Àrta desde el aeropuerto de Palma de Mallorca es a través de la Ma-15, que tarda aproximadamente una hora. También es posible llegar en taxi, autobús o tren. Puede obtener información al respecto, por ejemplo, {0}."
   },
   "contact": {
     "stage": {

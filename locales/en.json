@@ -14,6 +14,7 @@
     }
   },
   "general": {
+    "here": "here",
     "gallery": "Gallery",
     "404": {
       "headline": "404",
@@ -124,7 +125,7 @@
       "intro": "Bienvenido in Casa Es Sindicat! As you enter the house, you enter the large entrance area. To the left is the guest bathroom, the utility room with washer and dryer and a storage room. To the right is the garage, where there is a second refrigerator with drinks.",
       "dining": {
         "title": "Room to enjoy",
-        "content": "A few steps further opens the dining room with the massive wooden table. Here you can make yourself comfortable with up to six people. You would like to visit us in winter? No problem, on cold days the fireplace will warm you."
+        "content": "A few steps further opens the dining room with the massive wooden table. Here you can make yourself comfortable with up to ten people. You would like to visit us in winter? No problem, on cold days the fireplace will warm you."
       },
       "kitchen": {
         "title": "Everything for gourmets",
@@ -160,7 +161,7 @@
       },
       "apartment2": {
         "title": "Dreamlike cozy",
-        "content": "How you make your bed, is how you sleep. That's why the bedrooms are equipped with fantastically comfortable queen-size beds. You don't need to worry about the bed linen, we will make the beds fresh for you. Also the bathrooms with spacious showers offer everything you need for a perfect vacation."
+        "content": "How you make your bed is how you sleep. Therefore, the bedrooms are equipped with fantastically comfortable queen-size beds. Also the bathrooms with spacious showers offer everything you need for a perfect vacation."
       },
       "galleryTitle": "Second floor"
     },
@@ -237,7 +238,7 @@
     },
     "entertainment": {
       "title": "Entertainment",
-      "list": "<li>Smart-TV 65 inches</li><li>BluOS Bluetooth sound system</li><li>Library</li>"
+      "list": "<li>Smart-TV 65 inches</li><li>BluOS Bluetooth sound system</li><li>Library</li><li>Wide range of board games</li>"
     },
     "sports": {
       "title": "Sports",
@@ -251,11 +252,8 @@
     },
     "intro": "You want to book Casa Es Sindicat? In the occupancy schedule you can see if your desired date is still available. The already rented dates are marked in red. All other dates can be requested. If you have found a suitable period for your planned vacation, please send us a message via contact. We will answer you as soon as possible.",
     "price": {
-      "title": "Prices",
-      "info": "Prices for occupancy with up to 6 adults plus two small children (up to 5 years):",
-      "day": "Per day: 750 € (3 nights minimum stay)",
-      "week": "One week: 5.100 €",
-      "weeks": "Two weeks: 10.000 €"
+      "title": "Price",
+      "info": "The price for an occupancy with up to 6 adults and 2 small children (up to 5 years) is 800 € per day (minimum stay 3 nights)."
     },
     "conditions": {
       "title": "Rental conditions",
@@ -268,7 +266,7 @@
       "subline": "Your road to Àrta"
     },
     "title": "Once across the island.",
-    "content": "Casa Es Sindicat is located in the small town of Àrta in the northeast of Mallorca. From Palma de Mallorca Airport, the fastest way to reach Àrta is via the Ma-15, which takes about an hour. Other connections by cab, bus or train are possible. You can get information about this, for example, here."
+    "content": "Casa Es Sindicat is located in the small town of Àrta in the northeast of Mallorca. From Palma de Mallorca Airport, the fastest way to reach Àrta is via the Ma-15, which takes about an hour. Other connections by cab, bus or train are possible. You can get information about this, for example, {0}."
   },
   "contact": {
     "stage": {
