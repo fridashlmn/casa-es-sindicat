@@ -1,6 +1,11 @@
 <template>
   <div>
-    <div class="h-screen w-full" />
+    <div
+      class="relative flex flex-col items-center justify-center h-screen w-full"
+    >
+      <LogoIcon class="h-45vh w-full" />
+      <ChevronDownIcon class="absolute bottom-0 w-16 h-20 fill-[#e4e2dd]" />
+    </div>
     <img
       alt="dinner-table"
       class="w-screen min-h-90vh max-h-185 object-cover"
@@ -47,6 +52,9 @@
   </div>
 </template>
 <script lang="ts" setup>
+import LogoIcon from 'assets/logo/logo-color.svg?component'
+import ChevronDownIcon from 'assets/icons/chevron-down.svg?component'
+
 definePageMeta({
   layout: 'home',
 })
