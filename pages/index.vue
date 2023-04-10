@@ -1,8 +1,6 @@
 <template>
   <div>
-    <div class="flex items-center justify-center relative">
-      <LogoIcon class="w-33 lg:w-56 pb-16 lg:p-0" />
-    </div>
+    <div class="h-screen w-full" />
     <img
       alt="dinner-table"
       class="w-screen min-h-90vh max-h-185 object-cover"
@@ -16,7 +14,7 @@
         class="w-full flex flex-col lg:flex-row justify-evenly items-center py-16 sm:p-16 lg:py-30 pt-0 lg:pt-0"
       >
         <HeadlineComponent
-          class="!font-normal !lg:text-xl lg:max-w-40vw"
+          class="!font-normal !lg:text-xl lg:max-w-220"
           level="XS/S"
         >
           {{ $t('home.intro') }}
@@ -49,17 +47,8 @@
   </div>
 </template>
 <script lang="ts" setup>
-import LogoIcon from 'assets/logo/logo-color.svg?component'
-import { onMounted } from 'vue'
-
-const scrollPosition = ref<number | null>(null)
-
-const updateScroll = () => {
-  scrollPosition.value = window.scrollY
-}
-
-onMounted(() => {
-  window.addEventListener('scroll', updateScroll)
+definePageMeta({
+  layout: 'home',
 })
 </script>
 <script lang="ts">
