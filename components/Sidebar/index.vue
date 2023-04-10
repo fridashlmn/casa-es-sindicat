@@ -5,7 +5,12 @@
     ]"
   >
     <nav class="relative h-100vh bg-[#f3efec] text-[#1f1f1f]">
-      <button class="absolute top-8 left-8" type="button" @click.stop="close">
+      <button
+        aria-label="close sidebar"
+        class="absolute top-8 left-8"
+        type="button"
+        @click.stop="close"
+      >
         <CloseIcon class="w-40pt h-40pt inline-block" />
       </button>
 

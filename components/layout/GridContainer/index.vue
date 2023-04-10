@@ -12,7 +12,7 @@ interface Props {
   bgColor: string
 }
 
-const props = defineProps<Props>()
+defineProps<Props>()
 </script>
 <script lang="ts">
 export default {

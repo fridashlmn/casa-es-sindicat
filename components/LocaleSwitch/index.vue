@@ -33,7 +33,7 @@ interface Props {
   fillBlack?: boolean
 }
 
-const props = withDefaults(defineProps<Props>(), {
+withDefaults(defineProps<Props>(), {
   fillBlack: false,
 })
 const { $switchLocalePath } = useNuxtApp()
