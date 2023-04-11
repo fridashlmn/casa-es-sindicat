@@ -22,8 +22,9 @@
       />
       <TeaserComponent
         :content1="$t('house.firstFloor.bedRoom.content')"
-        :image="{ alt: 'bathroom', src: 'master-bathroom.jpg' }"
+        :image="{ alt: 'bathroom', src: 'master-bathroom-2.jpg' }"
         :title="$t('house.firstFloor.bedRoom.title')"
+        class="object5070"
       />
     </div>
     <ImageCarousel
@@ -36,15 +37,15 @@
 const galleryImages = [
   {
     alt: 'living room',
-    src: 'living-room-4.jpg',
+    src: 'living-room-3.jpg',
   },
   {
     alt: 'bookshelf',
     src: 'bookshelf.jpg',
   },
   {
-    alt: 'bathroom',
-    src: 'master-bathroom.jpg',
+    alt: 'dressing room',
+    src: 'dressing-room.jpg',
   },
   {
     alt: 'bedroom',
@@ -64,10 +65,12 @@ const galleryImages = [
 import ImageCarousel from '../../components/carousel/ImageCarousel/index.vue'
 import HeadlineComponent from '../../components/Headline/index.vue'
 import TeaserComponent from '../../components/Teaser/index.vue'
+import Stage from '../../components/Stage/index.vue'
 
 export default {
   name: 'FirstFloorPage',
   components: {
+    Stage,
     ImageCarousel,
     HeadlineComponent,
     TeaserComponent,

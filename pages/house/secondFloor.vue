@@ -27,9 +27,10 @@
         :content1="$t('house.secondFloor.apartment2.content')"
         :image="{
           alt: 'apartment 1 with office desk',
-          src: 'apartment1-2.jpg',
+          src: 'apartment2-bathroom.jpg',
         }"
         :title="$t('house.secondFloor.apartment2.title')"
+        class="object5070"
       />
     </div>
     <ImageCarousel
@@ -45,8 +46,20 @@ const galleryImages = [
     src: 'apartment1.jpg',
   },
   {
+    alt: 'apartment 1 with day bed',
+    src: 'apartment1-3.jpg',
+  },
+  {
     alt: 'apartment 1 with office desk',
     src: 'apartment1-2.jpg',
+  },
+  {
+    alt: 'apartment 2 bathroom',
+    src: 'apartment2-bathroom-3.jpg',
+  },
+  {
+    alt: 'apartment 2 with daybed and office desk',
+    src: 'apartment2-4.jpg',
   },
   {
     alt: 'apartment 2 with daybed and office desk',
@@ -57,8 +70,16 @@ const galleryImages = [
     src: 'apartment2-2.jpg',
   },
   {
+    alt: 'apartment 1 bathroom',
+    src: 'apartment1-bathroom.jpg',
+  },
+  {
     alt: 'apartment 2 with daybed and office desk',
     src: 'apartment2-3.jpg',
+  },
+  {
+    alt: 'apartment 2 closet',
+    src: 'apartment2-5.jpg',
   },
 ]
 </script>
@@ -66,10 +87,12 @@ const galleryImages = [
 import ImageCarousel from '../../components/carousel/ImageCarousel/index.vue'
 import HeadlineComponent from '../../components/Headline/index.vue'
 import TeaserComponent from '../../components/Teaser/index.vue'
+import Stage from '../../components/Stage/index.vue'
 
 export default {
   name: 'SecondFloorPage',
   components: {
+    Stage,
     ImageCarousel,
     HeadlineComponent,
     TeaserComponent,

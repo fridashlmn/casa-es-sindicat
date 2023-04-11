@@ -1,5 +1,5 @@
 <template>
-  <footer class="w-full px-8 text-[#766f6b]">
+  <footer class="w-full px-8 text-[#3B3735]">
     <div class="flex flex-col items-center justify-between">
       <div
         class="w-full flex flex-col sm:flex-row items-center justify-between py-8 px-16"
