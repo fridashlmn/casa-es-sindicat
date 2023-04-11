@@ -7,7 +7,7 @@
         :with-scroll-indicator="false"
         class="mb-12"
         img-alt="sunset"
-        img-src="sunset.jpg"
+        img-src="sunset.webp"
       />
       <div class="w-full flex justify-center items-center">
         <BaseButton class="mb-12" @click="router.push('/')">

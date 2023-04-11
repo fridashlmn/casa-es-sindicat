@@ -9,8 +9,7 @@
     <img
       alt="dinner-table"
       class="w-screen min-h-90vh max-h-185 object-cover"
-      loading="eager"
-      src="~/assets/images/dinner-table-2.jpg"
+      src="~/assets/images/dinner-table-2.webp"
     />
     <div
       class="flex flex-col justify-center items-center px-6 py-16 md:p-16 lg:p-30"
@@ -27,7 +26,7 @@
       </div>
       <TeaserComponent
         :content1="$t('home.location.teaser')"
-        :image="{ alt: 'rooftop-view', src: 'rooftop.jpg' }"
+        :image="{ alt: 'rooftop-view', src: 'rooftop.webp' }"
         :image-left="true"
         :title="$t('home.location.title')"
         class="mb-16 lg:mb-38"
@@ -35,14 +34,14 @@
       />
       <TeaserComponent
         :content1="$t('home.house.teaser')"
-        :image="{ alt: 'pool-with-lights-on', src: 'pool-with-light.jpg' }"
+        :image="{ alt: 'pool-with-lights-on', src: 'pool-with-light.webp' }"
         :title="$t('home.house.title')"
         class="mb-16 lg:mb-38"
         link-path="/house"
       />
       <TeaserComponent
         :content1="$t('home.equipment.teaser')"
-        :image="{ alt: 'kitchen', src: 'kitchen.jpg' }"
+        :image="{ alt: 'kitchen', src: 'kitchen.webp' }"
         :image-left="true"
         :title="$t('home.equipment.title')"
         class="mb-16 lg:mb-38"
