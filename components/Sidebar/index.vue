@@ -11,7 +11,7 @@
         type="button"
         @click.stop="close"
       >
-        <CloseIcon class="w-40pt h-40pt inline-block" />
+        <CloseIcon class="w-12 h-12 inline-block" />
       </button>
 
       <ul class="font-normal text-neutralDarkest py-16 px-11 sm:py-18 sm:px-22">
@@ -26,7 +26,7 @@
           <ChevronDownThickIcon
             v-if="item.submenu && item.submenu.length > 0"
             :class="{ 'rotate-180': openSubmenu }"
-            class="ml-4 w-10 h-10 fill-black transform transition-all duration-400"
+            class="ml-4 w-12 h-12 fill-black transform transition-all duration-400"
             @click="openSubmenu = !openSubmenu"
           />
           <ul

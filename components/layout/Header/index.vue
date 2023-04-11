@@ -6,7 +6,7 @@
     <button aria-label="sidebar menu" class="w-15" type="button">
       <MenuIcon
         :class="{ '!fill-black': scrollPosition > 50 || fillBlack }"
-        class="w-32pt h-32pt mt-4 inline-block fill-white transition-all ease-in"
+        class="w-12 h-12 mt-4 inline-block fill-white transition-all ease-in"
         @click="toggleSidebar"
       />
     </button>
