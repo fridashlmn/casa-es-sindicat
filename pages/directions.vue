@@ -4,7 +4,7 @@
       :headline="$t('directions.stage.headline')"
       :subline="$t('directions.stage.subline')"
       img-alt="view from castle over arta"
-      img-src="castle-view.jpg"
+      img-src="castle-view.webp"
     />
     <div
       class="flex flex-col lg:flex-row justify-evenly p-6 py-12 sm:p-16 md:p-26 lg:p-30"

@@ -4,7 +4,7 @@
       :headline="$t('equipment.stage.headline')"
       :subline="$t('equipment.stage.subline')"
       img-alt="kitchen"
-      img-src="kitchen.jpg"
+      img-src="kitchen.webp"
     />
     <div class="flex flex-col px-6 py-16 md:p-16 lg:p-30">
       <div class="flex flex-col lg:flex-row pb-16 lg:pb-24">

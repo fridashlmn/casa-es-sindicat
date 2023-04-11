@@ -4,7 +4,7 @@
       :headline="$t('house.patioPool.stage.headline')"
       :subline="$t('house.patioPool.stage.subline')"
       img-alt="pool"
-      img-src="pool.jpg"
+      img-src="pool.webp"
     />
     <div class="lg:p-25 xl:p-30">
       <HeadlineComponent
@@ -15,14 +15,14 @@
       </HeadlineComponent>
       <TeaserComponent
         :content1="$t('house.patioPool.patio.content')"
-        :image="{ alt: 'patio', src: 'outdoor-area.jpg' }"
+        :image="{ alt: 'patio', src: 'outdoor-area.webp' }"
         :image-left="true"
         :title="$t('house.patioPool.patio.title')"
       />
       <TeaserComponent
         :content1="$t('house.patioPool.pool.content1')"
         :content2="$t('house.patioPool.pool.content2')"
-        :image="{ alt: 'pool and garden', src: 'garden.jpg' }"
+        :image="{ alt: 'pool and garden', src: 'garden.webp' }"
         :title="$t('house.patioPool.pool.title')"
       />
     </div>
@@ -36,39 +36,39 @@
 const galleryImages = [
   {
     alt: 'patio with pool view',
-    src: 'patio-2.jpg',
+    src: 'patio-2.webp',
   },
   {
     alt: 'pool with sun chairs',
-    src: 'pool-2.jpg',
+    src: 'pool-2.webp',
   },
   {
     alt: 'pool and garden',
-    src: 'patioPool.jpg',
+    src: 'patioPool.webp',
   },
   {
     alt: 'pool by night with lights',
-    src: 'pool-with-light.jpg',
+    src: 'pool-with-light.webp',
   },
   {
     alt: 'poll with view to well',
-    src: 'pool-well.jpg',
+    src: 'pool-well.webp',
   },
   {
     alt: 'plants',
-    src: 'cacti.jpg',
+    src: 'cacti.webp',
   },
   {
     alt: 'pool and garden',
-    src: 'patioPool-2.jpg',
+    src: 'patioPool-2.webp',
   },
   {
     alt: 'patio by night with lights',
-    src: 'outdoor-area-light.jpg',
+    src: 'outdoor-area-light.webp',
   },
   {
     alt: 'moroccan lamp',
-    src: 'outdoor-lamp.jpg',
+    src: 'outdoor-lamp.webp',
   },
 ]
 </script>

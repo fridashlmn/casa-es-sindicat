@@ -4,7 +4,7 @@
       :headline="$t('house.studio.stage.headline')"
       :subline="$t('house.studio.stage.subline')"
       img-alt="patio with view to studio"
-      img-src="studio.jpg"
+      img-src="studio.webp"
     />
     <div class="lg:p-25 xl:p-30">
       <HeadlineComponent
@@ -15,14 +15,14 @@
       </HeadlineComponent>
       <TeaserComponent
         :content1="$t('house.studio.downstairs.content')"
-        :image="{ alt: 'studio with designer chairs', src: 'studio-2.jpg' }"
+        :image="{ alt: 'studio with designer chairs', src: 'studio-2.webp' }"
         :image-left="true"
         :title="$t('house.studio.downstairs.title')"
         class="object5070"
       />
       <TeaserComponent
         :content1="$t('house.studio.gallery.content')"
-        :image="{ alt: 'studio view to pool', src: 'studio-3.jpg' }"
+        :image="{ alt: 'studio view to pool', src: 'studio-3.webp' }"
         :title="$t('house.studio.gallery.title')"
       />
     </div>
@@ -36,15 +36,15 @@
 const galleryImages = [
   {
     alt: 'studio with designer chairs',
-    src: 'studio-2.jpg',
+    src: 'studio-2.webp',
   },
   {
     alt: 'studio view to pool',
-    src: 'studio-3.jpg',
+    src: 'studio-3.webp',
   },
   {
     alt: 'patio with view to studio',
-    src: 'studio.jpg',
+    src: 'studio.webp',
   },
 ]
 </script>

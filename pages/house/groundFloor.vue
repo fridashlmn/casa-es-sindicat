@@ -5,7 +5,7 @@
       :subline="$t('house.groundFloor.stage.subline')"
       class="object5070"
       img-alt="dinner table"
-      img-src="dinner-table-3.jpg"
+      img-src="dinner-table-3.webp"
     />
     <div class="lg:p-25 xl:p-30">
       <HeadlineComponent
@@ -18,14 +18,14 @@
         :content1="$t('house.groundFloor.dining.content')"
         :image="{
           alt: 'dinner table and view to stairs',
-          src: 'dinner-table.jpg',
+          src: 'dinner-table.webp',
         }"
         :image-left="true"
         :title="$t('house.groundFloor.dining.title')"
       />
       <TeaserComponent
         :content1="$t('house.groundFloor.kitchen.content')"
-        :image="{ alt: 'kitchen', src: 'kitchen-2.jpg' }"
+        :image="{ alt: 'kitchen', src: 'kitchen-2.webp' }"
         :title="$t('house.groundFloor.kitchen.title')"
       />
     </div>
@@ -39,39 +39,39 @@
 const galleryImages = [
   {
     alt: 'dinner table',
-    src: 'dinner-table-2.jpg',
+    src: 'dinner-table-2.webp',
   },
   {
     alt: 'reading corner',
-    src: 'groundfloor.jpg',
+    src: 'groundfloor.webp',
   },
   {
     alt: 'kitchen - view from outside',
-    src: 'kitchen-outdoorView.jpg',
+    src: 'kitchen-outdoorView.webp',
   },
   {
     alt: 'bathroom',
-    src: 'guest-bathroom.jpg',
+    src: 'guest-bathroom.webp',
   },
   {
     alt: 'dinner table with fireplace',
-    src: 'dinner-table-fire.jpg',
+    src: 'dinner-table-fire.webp',
   },
   {
     alt: 'stairs with decor',
-    src: 'stairs.jpg',
+    src: 'stairs.webp',
   },
   {
     alt: 'kitchen',
-    src: 'kitchen.jpg',
+    src: 'kitchen.webp',
   },
   {
     alt: 'buddha-statue',
-    src: 'buddha.jpg',
+    src: 'buddha.webp',
   },
   {
     alt: 'flowers on dinner table',
-    src: 'dinner-table-details.jpg',
+    src: 'dinner-table-details.webp',
   },
 ]
 </script>

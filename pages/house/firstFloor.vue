@@ -5,7 +5,7 @@
       :subline="$t('house.firstFloor.stage.subline')"
       class="object-position"
       img-alt="living room with couch and pictures"
-      img-src="living-room-4.jpg"
+      img-src="living-room-4.webp"
     />
     <div class="lg:p-25 xl:p-30">
       <HeadlineComponent
@@ -16,13 +16,13 @@
       </HeadlineComponent>
       <TeaserComponent
         :content1="$t('house.firstFloor.livingRoom.content')"
-        :image="{ alt: 'living room', src: 'living-room.jpg' }"
+        :image="{ alt: 'living room', src: 'living-room.webp' }"
         :image-left="true"
         :title="$t('house.firstFloor.livingRoom.title')"
       />
       <TeaserComponent
         :content1="$t('house.firstFloor.bedRoom.content')"
-        :image="{ alt: 'bathroom', src: 'master-bathroom-2.jpg' }"
+        :image="{ alt: 'bathroom', src: 'master-bathroom-2.webp' }"
         :title="$t('house.firstFloor.bedRoom.title')"
         class="object5070"
       />
@@ -37,27 +37,27 @@
 const galleryImages = [
   {
     alt: 'living room',
-    src: 'living-room-3.jpg',
+    src: 'living-room-3.webp',
   },
   {
     alt: 'bookshelf',
-    src: 'bookshelf.jpg',
+    src: 'bookshelf.webp',
   },
   {
     alt: 'dressing room',
-    src: 'dressing-room.jpg',
+    src: 'dressing-room.webp',
   },
   {
     alt: 'bedroom',
-    src: 'master-bedroom.jpg',
+    src: 'master-bedroom.webp',
   },
   {
     alt: 'stairs',
-    src: 'stairs-2.jpg',
+    src: 'stairs-2.webp',
   },
   {
     alt: 'bookshelf and decor',
-    src: 'bookshelf-2.jpg',
+    src: 'bookshelf-2.webp',
   },
 ]
 </script>

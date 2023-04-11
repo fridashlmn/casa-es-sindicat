@@ -5,7 +5,7 @@
       :subline="$t('contact.stage.subline')"
       class="object5070"
       img-alt="bed in apartment"
-      img-src="apartment2-2.jpg"
+      img-src="apartment2-2.webp"
     />
     <div
       class="flex flex-col lg:flex-row justify-evenly p-6 py-12 sm:p-16 lg:p-30"

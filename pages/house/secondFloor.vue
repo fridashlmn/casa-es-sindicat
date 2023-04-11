@@ -5,7 +5,7 @@
       :subline="$t('house.secondFloor.stage.subline')"
       class="object5090"
       img-alt="apartment 2 with daybed and office desk"
-      img-src="apartment2.jpg"
+      img-src="apartment2.webp"
     />
     <div class="lg:p-25 xl:p-30">
       <HeadlineComponent
@@ -18,7 +18,7 @@
         :content1="$t('house.secondFloor.apartment1.content')"
         :image="{
           alt: 'apartment 2 with daybed and office desk',
-          src: 'apartment2-3.jpg',
+          src: 'apartment2-3.webp',
         }"
         :image-left="true"
         :title="$t('house.secondFloor.apartment1.title')"
@@ -27,7 +27,7 @@
         :content1="$t('house.secondFloor.apartment2.content')"
         :image="{
           alt: 'apartment 1 with office desk',
-          src: 'apartment2-bathroom.jpg',
+          src: 'apartment2-bathroom.webp',
         }"
         :title="$t('house.secondFloor.apartment2.title')"
         class="object5070"
@@ -43,43 +43,43 @@
 const galleryImages = [
   {
     alt: 'apartment 2 bed',
-    src: 'apartment1.jpg',
+    src: 'apartment1.webp',
   },
   {
     alt: 'apartment 1 with day bed',
-    src: 'apartment1-3.jpg',
+    src: 'apartment1-3.webp',
   },
   {
     alt: 'apartment 1 with office desk',
-    src: 'apartment1-2.jpg',
+    src: 'apartment1-2.webp',
   },
   {
     alt: 'apartment 2 bathroom',
-    src: 'apartment2-bathroom-3.jpg',
+    src: 'apartment2-bathroom-3.webp',
   },
   {
     alt: 'apartment 2 with daybed and office desk',
-    src: 'apartment2-4.jpg',
+    src: 'apartment2-4.webp',
   },
   {
     alt: 'apartment 2 with daybed and office desk',
-    src: 'apartment2.jpg',
+    src: 'apartment2.webp',
   },
   {
     alt: 'apartment 2 bed',
-    src: 'apartment2-2.jpg',
+    src: 'apartment2-2.webp',
   },
   {
     alt: 'apartment 1 bathroom',
-    src: 'apartment1-bathroom.jpg',
+    src: 'apartment1-bathroom.webp',
   },
   {
     alt: 'apartment 2 with daybed and office desk',
-    src: 'apartment2-3.jpg',
+    src: 'apartment2-3.webp',
   },
   {
     alt: 'apartment 2 closet',
-    src: 'apartment2-5.jpg',
+    src: 'apartment2-5.webp',
   },
 ]
 </script>

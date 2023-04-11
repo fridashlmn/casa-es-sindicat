@@ -5,7 +5,7 @@
       :subline="$t('house.stage.subline')"
       class="object5070"
       img-alt="dinner table"
-      img-src="dinner-table-2.jpg"
+      img-src="dinner-table-2.webp"
     />
     <div class="lg:p-25 xl:p-30">
       <HeadlineComponent
@@ -27,7 +27,7 @@
           :title="$t('house.teaser.groundFloor.title')"
           class="mb-16"
           img-alt="dinner table"
-          img-src="dinner-table.jpg"
+          img-src="dinner-table.webp"
           link-path="/house/groundFloor"
         />
         <Card
@@ -36,7 +36,7 @@
           :title="$t('house.teaser.firstFloor.title')"
           class="mb-16"
           img-alt="living room"
-          img-src="living-room-2.jpg"
+          img-src="living-room-2.webp"
           link-path="/house/firstFloor"
         />
         <Card
@@ -45,7 +45,7 @@
           :title="$t('house.teaser.secondFloor.title')"
           class="mb-16"
           img-alt="apartment 2"
-          img-src="apartment2.jpg"
+          img-src="apartment2.webp"
           link-path="/house/secondFloor"
         />
         <Card
@@ -54,7 +54,7 @@
           :title="$t('house.teaser.studio.title')"
           class="mb-16"
           img-alt="studio"
-          img-src="studio-2.jpg"
+          img-src="studio-2.webp"
           link-path="/house/studio"
         />
         <Card
@@ -63,7 +63,7 @@
           :title="$t('house.teaser.porcheRooftop.title')"
           class="mb-16"
           img-alt="porche"
-          img-src="porche.jpg"
+          img-src="porche.webp"
           link-path="/house/porche-rooftop"
         />
         <Card
@@ -72,7 +72,7 @@
           :title="$t('house.teaser.patioPool.title')"
           class="mb-16"
           img-alt="pool"
-          img-src="patioPool.jpg"
+          img-src="patioPool.webp"
           link-path="/house/patio-pool"
         />
       </div>

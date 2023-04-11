@@ -4,7 +4,7 @@
       :headline="$t('house.porcheRooftop.stage.headline')"
       :subline="$t('house.porcheRooftop.stage.subline')"
       img-alt="rooftop with view over arta"
-      img-src="rooftop-5.jpg"
+      img-src="rooftop-5.webp"
     />
     <div class="lg:p-25 xl:p-30">
       <HeadlineComponent
@@ -15,13 +15,13 @@
       </HeadlineComponent>
       <TeaserComponent
         :content1="$t('house.porcheRooftop.porche.content')"
-        :image="{ alt: 'porche with lounge chairs', src: 'porche.jpg' }"
+        :image="{ alt: 'porche with lounge chairs', src: 'porche.webp' }"
         :image-left="true"
         :title="$t('house.porcheRooftop.porche.title')"
       />
       <TeaserComponent
         :content1="$t('house.porcheRooftop.rooftop.content')"
-        :image="{ alt: 'rooftop with view over arta', src: 'rooftop-7.jpg' }"
+        :image="{ alt: 'rooftop with view over arta', src: 'rooftop-7.webp' }"
         :title="$t('house.porcheRooftop.rooftop.title')"
         class="object5070"
       />
@@ -36,27 +36,27 @@
 const galleryImages = [
   {
     alt: 'rooftop with view over arta',
-    src: 'rooftop-9.jpg',
+    src: 'rooftop-9.webp',
   },
   {
     alt: 'porche with lounge chairs',
-    src: 'porche-2.jpg',
+    src: 'porche-2.webp',
   },
   {
     alt: 'rooftop by sunset',
-    src: 'rooftop-3.jpg',
+    src: 'rooftop-3.webp',
   },
   {
     alt: 'porche by night with lights',
-    src: 'porche-light.jpg',
+    src: 'porche-light.webp',
   },
   {
     alt: 'rooftop with bar',
-    src: 'rooftop-8.jpg',
+    src: 'rooftop-8.webp',
   },
   {
     alt: 'view up to porche',
-    src: 'viewToPorche.jpg',
+    src: 'viewToPorche.webp',
   },
 ]
 </script>
