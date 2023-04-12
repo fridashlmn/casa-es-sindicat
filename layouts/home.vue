@@ -1,13 +1,13 @@
 <template>
-  <div className="max-w-screen min-h-screen">
-    <TheHeader :fill-black="true" :logo-animation="true" />
+  <div class="max-w-screen min-h-screen">
+    <TheHeader :fill-black="true" :is-home="true" />
     <main>
       <slot />
     </main>
     <GridContainer bg-color="bg-[#e4e2dd]">
       <TheFooter />
     </GridContainer>
-    <div id="global-overlay" className="z-50" />
+    <div id="global-overlay" class="z-50" />
   </div>
 </template>
 

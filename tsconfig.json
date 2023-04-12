@@ -18,7 +18,7 @@
       "@types/node",
       "nuxt-windicss",
       "@nuxtjs/i18n",
-      "@nuxt/image"
+      "@nuxt/image-edge"
     ],
     "baseUrl": "."
   },

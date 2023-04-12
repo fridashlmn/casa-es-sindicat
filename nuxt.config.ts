@@ -40,35 +40,20 @@ export default defineNuxtConfig({
       ],
     },
   },
-  target: 'static',
-  modules: [
-    'nuxt-windicss',
-    '@nuxtjs/i18n',
-    [
-      '@nuxtjs/google-fonts',
-      {
-        families: {
-          'Bodoni Moda': true,
-        },
-      },
+
+  buildModules: ['@nuxtjs/google-fonts', '@nuxt/image-edge'],
+
+  build: {
+    transpile: [
+      '@fawmi/vue-google-maps',
+      '@googlemaps/markerclusterer',
+      '@vuepic/vue-datepicker',
     ],
-  ],
-  buildModules: ['@nuxtjs/google-fonts', '@nuxt/image'],
+  },
 
   components: ['~/components'],
 
   css: ['~/assets/css/global.css'],
-  windicss: {
-    analyze: {
-      analysis: {
-        interpretUtilities: false,
-      },
-      server: {
-        port: 3003,
-        open: false,
-      },
-    },
-  },
 
   i18n: {
     locales: [
@@ -96,6 +81,30 @@ export default defineNuxtConfig({
     },
   },
 
+  image: {
+    dir: 'assets/images',
+  },
+
+  modules: [
+    'nuxt-windicss',
+    '@nuxtjs/i18n',
+    [
+      '@nuxtjs/google-fonts',
+      {
+        families: {
+          'Bodoni Moda': true,
+        },
+      },
+    ],
+    '@nuxt/image-edge',
+  ],
+
+  nitro: {
+    compressPublicAssets: { brotli: true },
+  },
+
+  target: 'static',
+
   vite: {
     plugins: [svgLoader()],
     optimizeDeps: {
@@ -103,11 +112,15 @@ export default defineNuxtConfig({
     },
   },
 
-  build: {
-    transpile: [
-      '@fawmi/vue-google-maps',
-      '@googlemaps/markerclusterer',
-      '@vuepic/vue-datepicker',
-    ],
+  windicss: {
+    analyze: {
+      analysis: {
+        interpretUtilities: false,
+      },
+      server: {
+        port: 3003,
+        open: false,
+      },
+    },
   },
 })
