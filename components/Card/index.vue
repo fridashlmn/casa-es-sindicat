@@ -8,7 +8,7 @@
       <img
         :alt="imgAlt"
         :src="useAsset(imgSrc)"
-        class="object5070 h-91 md:h-120 w-full md:w-91 object-cover"
+        class="h-91 md:h-120 w-full md:w-91 object-cover"
         loading="lazy"
       />
       <h5 class="text-xl pt-4 pb-2">{{ title }}</h5>

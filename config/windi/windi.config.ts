@@ -1,13 +1,9 @@
 import { dirname, join, resolve } from 'path'
 import { defineConfig } from 'windicss/helpers'
-import scrollSnapPlugin from 'windicss/plugin/scroll-snap'
 import { spacing, supportedSpacings } from './spacing'
 import { screens, supportedScreens } from './screens'
 import font from './font'
 import textStyles from './textStyles'
-
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const plugin = require('tailwindcss/plugin')
 
 function range(size: number, startAt = 0) {
   return Array.from(Array(size).keys()).map((i) => i + startAt)
@@ -58,7 +54,7 @@ const generateWindiConfig = (appPath: string) => {
         none: 'none',
       },
     },
-    plugins: [textStyles, scrollSnapPlugin],
+    plugins: [textStyles],
     safelist: [
       allScreenVariants(allColumnVariants('grid-cols')),
       allScreenVariants(allColumnVariants('col-span')),

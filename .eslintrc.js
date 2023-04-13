@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const prettierConfig = require('./.prettierrc')
 
 module.exports = {
@@ -112,8 +113,10 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/blob/1cf9243/docs/getting-started/linting/FAQ.md#i-get-errors-from-the-no-undef-rule-about-global-variables-not-being-defined-even-though-there-are-no-typescript-errors
     'no-undef': 'off',
     'prettier/prettier': ['error', prettierConfig],
-    'vuejs-accessibility/no-static-element-interactions': 'warn',
+    'vuejs-accessibility/no-static-element-interactions': 'off',
     'vue/multi-word-component-names': 'off',
+    // V-HTML on
+    'vue/no-v-html': 'off',
   },
   overrides: [
     {

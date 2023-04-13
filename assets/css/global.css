@@ -33,12 +33,24 @@ input:focus, textarea:focus, input:focus-visible, textarea:focus-visible {
   outline: none;
 }
 
-.object5070 img {
+.object5070, .object5070 img {
   object-position: 50% 70%;
 }
 
-.object5090 img {
+.object5080, .object5080 img {
+  object-position: 50% 80%;
+}
+
+.object5090, .object5090 img {
   object-position: 50% 90%;
+}
+
+.object9050, .object9050 img {
+  object-position: 90% 50%;
+}
+
+.object4050, .object4050 img {
+  object-position: 40% 50%;
 }
 
 .dp__action_row {

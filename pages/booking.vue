@@ -21,7 +21,6 @@
         </div>
         <VueDatePicker
           v-model="date"
-          :disabled-dates="disabledDates"
           :enable-time-picker="false"
           :highlight="highlightedDates"
           :inline="true"
@@ -59,21 +58,6 @@ const getDatesInRange = (startDate: Date, endDate: Date): Date[] => {
   })
 }
 
-const disabledDates = computed(() => {
-  const today = new Date()
-  const tomorrow = new Date(today)
-  tomorrow.setDate(tomorrow.getDate() + 1)
-  const afterTomorrow = new Date(tomorrow)
-  afterTomorrow.setDate(tomorrow.getDate() + 1)
-  return [
-    new Date('2023-04-10'),
-    new Date('2023-04-11'),
-    new Date('2023-04-12'),
-    new Date('2023-04-13'),
-    new Date('2023-04-14'),
-  ]
-})
-
 const highlightedDates = ref([
   ...getDatesInRange(new Date('2023-04-06'), new Date('2023-04-18')),
   ...getDatesInRange(new Date('2023-07-09'), new Date('2023-09-09')),
@@ -83,8 +67,13 @@ const highlightedDates = ref([
 ])
 </script>
 <script lang="ts">
+import Stage from '../components/Stage/index.vue'
+
 export default {
   name: 'BookingPage',
+  components: {
+    Stage,
+  },
 }
 </script>
 <style module>

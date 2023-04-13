@@ -62,11 +62,14 @@ const markers = [
 <script lang="ts">
 import { Translation } from 'vue-i18n'
 import HeadlineComponent from '../components/Headline/index.vue'
+import Stage from '../components/Stage/index.vue'
 
 export default {
   name: 'DirectionsPage',
   components: {
+    Stage,
     HeadlineComponent,
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     Translation: Translation as any,
   },
 }

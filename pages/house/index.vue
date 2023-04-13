@@ -20,7 +20,7 @@
       >
         {{ $t('house.intro2') }}
       </HeadlineComponent>
-      <div class="flex flex-wrap justify-between mx-auto my-0 p-6">
+      <div class="flex flex-wrap justify-between mx-auto my-0 p-6 lg:p-0">
         <Card
           :link-label="$t('house.teaser.groundFloor.link')"
           :text="$t('house.teaser.groundFloor.teaser')"
@@ -34,18 +34,18 @@
           :link-label="$t('house.teaser.firstFloor.link')"
           :text="$t('house.teaser.firstFloor.teaser')"
           :title="$t('house.teaser.firstFloor.title')"
-          class="mb-16"
+          class="object4050 mb-16"
           img-alt="living room"
-          img-src="living-room-2.webp"
+          img-src="living-room-3.webp"
           link-path="/house/firstFloor"
         />
         <Card
           :link-label="$t('house.teaser.secondFloor.link')"
           :text="$t('house.teaser.secondFloor.teaser')"
           :title="$t('house.teaser.secondFloor.title')"
-          class="mb-16"
-          img-alt="apartment 2"
-          img-src="apartment2.webp"
+          class="object9050 mb-16"
+          img-alt="apartment 2 bed"
+          img-src="apartment2-2.webp"
           link-path="/house/secondFloor"
         />
         <Card
@@ -62,17 +62,17 @@
           :text="$t('house.teaser.porcheRooftop.teaser')"
           :title="$t('house.teaser.porcheRooftop.title')"
           class="mb-16"
-          img-alt="porche"
-          img-src="porche.webp"
+          img-alt="rooftop with view over arta"
+          img-src="rooftop-7.webp"
           link-path="/house/porche-rooftop"
         />
         <Card
           :link-label="$t('house.teaser.patioPool.link')"
           :text="$t('house.teaser.patioPool.teaser')"
           :title="$t('house.teaser.patioPool.title')"
-          class="mb-16"
-          img-alt="pool"
-          img-src="patioPool.webp"
+          class="object4050 mb-16"
+          img-alt="patio with pool view"
+          img-src="patio-2.webp"
           link-path="/house/patio-pool"
         />
       </div>

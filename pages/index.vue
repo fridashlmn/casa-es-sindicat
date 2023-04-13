@@ -8,8 +8,7 @@
     </div>
     <nuxt-img
       alt="dinner-table"
-      class="w-screen h-90vh object-cover"
-      sizes="xl:90vw lg:90vw md:90vw sm:90vw xs:90vw"
+      class="w-screen object5070 h-90vh object-cover"
       src="/dinner-table-2.webp"
     />
     <div
@@ -30,12 +29,12 @@
         :image="{ alt: 'rooftop-view', src: 'rooftop.webp' }"
         :image-left="true"
         :title="$t('home.location.title')"
-        class="mb-16 lg:mb-38"
+        class="object9050 mb-16 lg:mb-38"
         link-path="/location"
       />
       <TeaserComponent
         :content1="$t('home.house.teaser')"
-        :image="{ alt: 'pool-with-lights-on', src: 'pool-with-light.webp' }"
+        :image="{ alt: 'pool and garden', src: 'garden.webp' }"
         :title="$t('home.house.title')"
         class="mb-16 lg:mb-38"
         link-path="/house"

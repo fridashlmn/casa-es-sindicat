@@ -5,7 +5,7 @@
       :subline="$t('house.firstFloor.stage.subline')"
       class="object-position"
       img-alt="living room with couch and pictures"
-      img-src="living-room-4.webp"
+      img-src="living-room-3.webp"
     />
     <div class="lg:p-25 xl:p-30">
       <HeadlineComponent
