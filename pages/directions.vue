@@ -26,7 +26,8 @@
       <GMapMap
         :center="center"
         :options="{
-          zoomControl: true,
+          maxZoom: 15,
+          zoomControl: false,
           mapTypeControl: false,
           scaleControl: false,
           streetViewControl: false,
