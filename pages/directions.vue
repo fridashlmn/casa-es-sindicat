@@ -33,7 +33,7 @@
           rotateControl: false,
           fullscreenControl: true,
         }"
-        :zoom="17"
+        :zoom="15"
       >
         <GMapMarker
           v-for="(marker, index) in markers"
