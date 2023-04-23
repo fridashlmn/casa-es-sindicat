@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#e4e2dd] py-22">
+  <div class="bg-[#e4e2dd] py-30">
     <Carousel
       :breakpoints="breakpoints"
       :items-to-show="1"
@@ -7,14 +7,6 @@
       wrap-around
     >
       <template #addons>
-        <div class="text-center w-full mb-16">
-          <HeadlineComponent class="mb-4" level="XS">
-            {{ title }}
-          </HeadlineComponent>
-          <HeadlineComponent level="S">
-            {{ $t('general.gallery') }}
-          </HeadlineComponent>
-        </div>
         <Navigation class="navigation">
           <template #next>
             <ArrowRightIcon class="h-auto w-auto" />
@@ -66,13 +58,8 @@ const useAsset = (path: string): string => {
 }
 </script>
 <script lang="ts">
-import HeadlineComponent from '../../Headline/index.vue'
-
 export default {
   name: 'ImageCarousel',
-  components: {
-    HeadlineComponent,
-  },
 }
 </script>
 <style>
@@ -81,7 +68,7 @@ export default {
 .carousel__prev {
   width: 80px;
   height: 80px;
-  top: 9%;
+  top: -16%;
 }
 
 .carousel__next {
@@ -93,12 +80,19 @@ export default {
 }
 
 @media screen and (min-width: 768px) {
+  .carousel__next,
+  .carousel__prev {
+    width: 80px;
+    height: 80px;
+    top: 52%;
+  }
+
   .carousel__next {
-    right: 24%;
+    right: 2%;
   }
 
   .carousel__prev {
-    left: 20%;
+    left: 2%;
   }
 }
 </style>
