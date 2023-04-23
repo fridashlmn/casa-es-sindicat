@@ -45,6 +45,10 @@ input:focus, textarea:focus, input:focus-visible, textarea:focus-visible {
   object-position: 50% 90%;
 }
 
+.object10050, .object10050 img {
+  object-position: 100% 50%;
+}
+
 .object9050, .object9050 img {
   object-position: 90% 50%;
 }
