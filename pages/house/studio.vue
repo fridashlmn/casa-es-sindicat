@@ -36,11 +36,15 @@
 const galleryImages = [
   {
     alt: 'studio with designer chairs',
-    src: 'studio-2.webp',
+    src: 'studio-4.webp',
   },
   {
     alt: 'studio view to pool',
     src: 'studio-3.webp',
+  },
+  {
+    alt: 'studio with designer chairs',
+    src: 'studio-2.webp',
   },
   {
     alt: 'patio with view to studio',
@@ -52,6 +56,7 @@ const galleryImages = [
 import ImageCarousel from '../../components/carousel/ImageCarousel/index.vue'
 import HeadlineComponent from '../../components/Headline/index.vue'
 import TeaserComponent from '../../components/Teaser/index.vue'
+import Stage from '../../components/Stage/index.vue'
 
 export default {
   name: 'StudioPage',
@@ -59,6 +64,7 @@ export default {
     ImageCarousel,
     HeadlineComponent,
     TeaserComponent,
+    Stage,
   },
 }
 </script>

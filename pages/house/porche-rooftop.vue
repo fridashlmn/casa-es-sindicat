@@ -39,6 +39,10 @@ const galleryImages = [
     src: 'rooftop-9.webp',
   },
   {
+    alt: 'porche as day bed',
+    src: 'porche-3.webp',
+  },
+  {
     alt: 'porche with lounge chairs',
     src: 'porche-2.webp',
   },
@@ -64,6 +68,7 @@ const galleryImages = [
 import ImageCarousel from '../../components/carousel/ImageCarousel/index.vue'
 import HeadlineComponent from '../../components/Headline/index.vue'
 import TeaserComponent from '../../components/Teaser/index.vue'
+import Stage from '../../components/Stage/index.vue'
 
 export default {
   name: 'StudioPage',
@@ -71,6 +76,7 @@ export default {
     ImageCarousel,
     HeadlineComponent,
     TeaserComponent,
+    Stage,
   },
 }
 </script>

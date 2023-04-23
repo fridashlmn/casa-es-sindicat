@@ -4,8 +4,8 @@
       :headline="$t('house.firstFloor.stage.headline')"
       :subline="$t('house.firstFloor.stage.subline')"
       class="object-position"
-      img-alt="living room with couch and pictures"
-      img-src="living-room-3.webp"
+      img-alt="master bathroom"
+      img-src="master-bathroom-3.webp"
     />
     <div class="lg:p-25 xl:p-30">
       <HeadlineComponent
@@ -16,15 +16,15 @@
       </HeadlineComponent>
       <TeaserComponent
         :content1="$t('house.firstFloor.livingRoom.content')"
-        :image="{ alt: 'living room', src: 'living-room.webp' }"
+        :image="{ alt: 'living room', src: 'living-room-3.webp' }"
         :image-left="true"
         :title="$t('house.firstFloor.livingRoom.title')"
+        class="object10050"
       />
       <TeaserComponent
         :content1="$t('house.firstFloor.bedRoom.content')"
-        :image="{ alt: 'bathroom', src: 'master-bathroom-2.webp' }"
+        :image="{ alt: 'bedroom', src: 'master-bedroom.webp' }"
         :title="$t('house.firstFloor.bedRoom.title')"
-        class="object5070"
       />
     </div>
     <ImageCarousel
@@ -40,16 +40,16 @@ const galleryImages = [
     src: 'living-room-3.webp',
   },
   {
-    alt: 'bookshelf',
-    src: 'bookshelf.webp',
+    alt: 'bedroom',
+    src: 'master-bedroom.webp',
+  },
+  {
+    alt: 'bedroom',
+    src: 'master-bathroom-3.webp',
   },
   {
     alt: 'dressing room',
     src: 'dressing-room.webp',
-  },
-  {
-    alt: 'bedroom',
-    src: 'master-bedroom.webp',
   },
   {
     alt: 'stairs',

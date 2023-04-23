@@ -54,6 +54,10 @@ const galleryImages = [
     src: 'apartment1-2.webp',
   },
   {
+    alt: 'apartment 1 bed',
+    src: 'apartment1-4.webp',
+  },
+  {
     alt: 'apartment 2 bathroom',
     src: 'apartment2-bathroom-3.webp',
   },
