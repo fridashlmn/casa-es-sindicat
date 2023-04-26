@@ -35,6 +35,10 @@
 <script lang="ts" setup>
 const galleryImages = [
   {
+    alt: 'studio bathroom',
+    src: 'studio-bathroom.webp',
+  },
+  {
     alt: 'studio with designer chairs',
     src: 'studio-4.webp',
   },

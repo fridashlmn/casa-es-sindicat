@@ -3,9 +3,9 @@
     <Stage
       :headline="$t('house.groundFloor.stage.headline')"
       :subline="$t('house.groundFloor.stage.subline')"
-      class="object5080"
+      class="object5070"
       img-alt="dinner table"
-      img-src="dinner-table-3.webp"
+      img-src="dinner-table-2.webp"
     />
     <div class="lg:p-25 xl:p-30">
       <HeadlineComponent
@@ -17,8 +17,8 @@
       <TeaserComponent
         :content1="$t('house.groundFloor.dining.content')"
         :image="{
-          alt: 'dinner table and view to stairs',
-          src: 'dinner-table.webp',
+          alt: 'dinner table',
+          src: 'dinner-table-5.webp',
         }"
         :image-left="true"
         :title="$t('house.groundFloor.dining.title')"
@@ -39,15 +39,21 @@
 const galleryImages = [
   {
     alt: 'dinner table',
-    src: 'dinner-table-2.webp',
+    src: 'dinner-table-4.webp',
   },
   {
     alt: 'reading corner',
     src: 'groundfloor.webp',
+    class: 'object050 !important',
   },
   {
     alt: 'kitchen - view from outside',
     src: 'kitchen-outdoorView.webp',
+  },
+  {
+    alt: 'flowers on dinner table',
+    src: 'dinner-table-details-2.webp',
+    class: 'object5090 !important',
   },
   {
     alt: 'bathroom',
@@ -56,22 +62,24 @@ const galleryImages = [
   {
     alt: 'dinner table with fireplace',
     src: 'dinner-table-fire.webp',
+    class: 'object1050 !important',
   },
   {
     alt: 'stairs with decor',
     src: 'stairs.webp',
+    class: 'object505 !important',
   },
   {
     alt: 'kitchen',
     src: 'kitchen.webp',
   },
   {
-    alt: 'buddha-statue',
-    src: 'buddha.webp',
-  },
-  {
     alt: 'flowers on dinner table',
     src: 'dinner-table-details.webp',
+  },
+  {
+    alt: 'buddha-statue',
+    src: 'buddha.webp',
   },
 ]
 </script>

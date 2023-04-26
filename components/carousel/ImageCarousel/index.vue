@@ -17,11 +17,12 @@
         </Navigation>
       </template>
       <template #slides>
-        <Slide v-for="slide in images" :key="slide.alt" class="object5070 px-4">
+        <Slide v-for="slide in images" :key="slide.alt" class="px-4">
           <img
             :alt="slide.alt"
+            :class="slide.class"
             :src="useAsset(slide.src)"
-            class="w-full h-80 md:h-144 object-cover"
+            class="w-full h-80 md:h-144 object-cover object5070"
             loading="lazy"
           />
         </Slide>
@@ -37,7 +38,7 @@ import ArrowRightIcon from 'assets/icons/arrow-right.svg?component'
 
 interface Props {
   title: string
-  images: { alt: string; src: string }[]
+  images: { alt: string; src: string; class?: string }[]
 }
 
 defineProps<Props>()

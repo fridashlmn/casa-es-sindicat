@@ -25,8 +25,8 @@
           </NuxtLink>
           <ChevronDownThickIcon
             v-if="item.submenu && item.submenu.length > 0"
-            :class="{ 'rotate-180': openSubmenu }"
-            class="ml-4 w-12 h-12 fill-black transform transition-all duration-400"
+            :class="{ 'translate-y-0 rotate-180': openSubmenu }"
+            class="ml-4 w-12 h-12 fill-black transform translate-y-2.5 transition-all duration-400"
             @click="openSubmenu = !openSubmenu"
           />
           <ul

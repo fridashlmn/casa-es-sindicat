@@ -3,9 +3,9 @@
     <Stage
       :headline="$t('house.firstFloor.stage.headline')"
       :subline="$t('house.firstFloor.stage.subline')"
-      class="object-position"
-      img-alt="master bathroom"
-      img-src="master-bathroom-3.webp"
+      class="object5090"
+      img-alt="living room"
+      img-src="living-room.webp"
     />
     <div class="lg:p-25 xl:p-30">
       <HeadlineComponent
@@ -16,15 +16,16 @@
       </HeadlineComponent>
       <TeaserComponent
         :content1="$t('house.firstFloor.livingRoom.content')"
-        :image="{ alt: 'living room', src: 'living-room-3.webp' }"
+        :image="{ alt: 'living room', src: 'living-room-2.webp' }"
         :image-left="true"
         :title="$t('house.firstFloor.livingRoom.title')"
-        class="object10050"
+        class="object5090"
       />
       <TeaserComponent
         :content1="$t('house.firstFloor.bedRoom.content')"
         :image="{ alt: 'bedroom', src: 'master-bedroom.webp' }"
         :title="$t('house.firstFloor.bedRoom.title')"
+        class="object5090"
       />
     </div>
     <ImageCarousel
@@ -36,28 +37,38 @@
 <script lang="ts" setup>
 const galleryImages = [
   {
+    alt: 'bathroom',
+    src: 'master-bathroom-3.webp',
+    class: 'object10050 !important',
+  },
+  {
     alt: 'living room',
     src: 'living-room-3.webp',
   },
   {
     alt: 'bedroom',
     src: 'master-bedroom.webp',
-  },
-  {
-    alt: 'bedroom',
-    src: 'master-bathroom-3.webp',
+    class: 'object5090 !important',
   },
   {
     alt: 'dressing room',
     src: 'dressing-room.webp',
+    class: 'object2050 !important',
+  },
+  {
+    alt: 'bathroom',
+    src: 'master-bathroom-2.webp',
+    class: 'object5060 !important',
   },
   {
     alt: 'stairs',
     src: 'stairs-2.webp',
+    class: 'object505 !important',
   },
   {
     alt: 'bookshelf and decor',
     src: 'bookshelf-2.webp',
+    class: 'object5050 !important',
   },
 ]
 </script>

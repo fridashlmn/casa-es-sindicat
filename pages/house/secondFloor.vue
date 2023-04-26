@@ -26,7 +26,7 @@
       <TeaserComponent
         :content1="$t('house.secondFloor.apartment2.content')"
         :image="{
-          alt: 'apartment 1 with office desk',
+          alt: 'apartment 2 bathroom',
           src: 'apartment2-bathroom.webp',
         }"
         :title="$t('house.secondFloor.apartment2.title')"
@@ -43,7 +43,7 @@
 const galleryImages = [
   {
     alt: 'apartment 2 bed',
-    src: 'apartment1.webp',
+    src: 'apartment2-6.webp',
   },
   {
     alt: 'apartment 1 with day bed',

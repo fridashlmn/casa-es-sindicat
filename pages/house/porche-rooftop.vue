@@ -45,6 +45,7 @@ const galleryImages = [
   {
     alt: 'porche with lounge chairs',
     src: 'porche-2.webp',
+    class: 'object5050 !important',
   },
   {
     alt: 'rooftop by sunset',

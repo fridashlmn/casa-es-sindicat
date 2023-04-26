@@ -1,10 +1,13 @@
 html {
-  font-family: "Avenir Next", sans-serif;
+  font-family: 'Avenir Next', sans-serif;
 }
 
-h1, h2, h3, h4,
+h1,
+h2,
+h3,
+h4,
 li a {
-  font-family: "Bodoni Moda", serif;
+  font-family: 'Bodoni Moda', serif;
 }
 
 .listStyle li {
@@ -16,7 +19,8 @@ label {
   width: 100%;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 16px 16px 6px 16px;
   margin-bottom: 18px;
@@ -29,41 +33,86 @@ textarea {
   height: 128px;
 }
 
-input:focus, textarea:focus, input:focus-visible, textarea:focus-visible {
+input:focus,
+textarea:focus,
+input:focus-visible,
+textarea:focus-visible {
   outline: none;
 }
 
-.object5070, .object5070 img {
+.object5070,
+.object5070 img {
   object-position: 50% 70%;
 }
 
-.object5080, .object5080 img {
+.object5060,
+.object5060 img {
+  object-position: 50% 60%;
+}
+
+.object5050,
+.object5050 img {
+  object-position: 50% 50%;
+}
+
+.object5020,
+.object5020 img {
+  object-position: 50% 20%;
+}
+
+.object5080,
+.object5080 img {
   object-position: 50% 80%;
 }
 
-.object5090, .object5090 img {
+.object5090,
+.object5090 img {
   object-position: 50% 90%;
 }
 
-.object10050, .object10050 img {
+.object10050,
+.object10050 img {
   object-position: 100% 50%;
 }
 
-.object9050, .object9050 img {
+.object9050,
+.object9050 img {
   object-position: 90% 50%;
 }
 
-.object4050, .object4050 img {
+.object4050,
+.object4050 img {
   object-position: 40% 50%;
+}
+
+.object2050,
+.object2050 img {
+  object-position: 20% 50%;
+}
+
+.object1050,
+.object1050 img {
+  object-position: 10% 50%;
+}
+
+.object050,
+.object050 img {
+  object-position: 0 50%;
+}
+
+.object505,
+.object505 img {
+  object-position: 50% 5%;
 }
 
 .dp__action_row {
   display: none !important;
 }
 
-.dp__main, .dp__calendar_wrap {
+.dp__main,
+.dp__calendar_wrap {
   width: auto !important;
-  font-family: "Avenir Next" !important;
+  font-family: 'Avenir Next' !important;
 }
 
 .dp__instance_calendar {
@@ -76,7 +125,7 @@ input:focus, textarea:focus, input:focus-visible, textarea:focus-visible {
 
 .dp__month_year_row {
   height: 60px !important;
-  font-family: "Bodoni Moda" !important;
+  font-family: 'Bodoni Moda' !important;
   font-weight: bold !important;
 }
 

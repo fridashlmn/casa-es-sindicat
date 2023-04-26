@@ -57,6 +57,7 @@ const galleryImages = [
   {
     alt: 'plants',
     src: 'cacti.webp',
+    class: 'object5020 !important',
   },
   {
     alt: 'pool and garden',
@@ -69,6 +70,7 @@ const galleryImages = [
   {
     alt: 'moroccan lamp',
     src: 'outdoor-lamp.webp',
+    class: 'object5050 !important',
   },
 ]
 </script>
