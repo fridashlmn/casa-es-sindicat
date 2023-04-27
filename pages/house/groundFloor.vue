@@ -5,7 +5,7 @@
       :subline="$t('house.groundFloor.stage.subline')"
       class="object5070"
       img-alt="dinner table"
-      img-src="dinner-table-2.webp"
+      img-src="dinner-table-4.webp"
     />
     <div class="lg:p-25 xl:p-30">
       <HeadlineComponent
@@ -39,7 +39,7 @@
 const galleryImages = [
   {
     alt: 'dinner table',
-    src: 'dinner-table-4.webp',
+    src: 'dinner-table-2.webp',
   },
   {
     alt: 'reading corner',
