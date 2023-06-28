@@ -44,11 +44,7 @@ export default defineNuxtConfig({
   buildModules: ['@nuxtjs/google-fonts', '@nuxt/image-edge'],
 
   build: {
-    transpile: [
-      '@fawmi/vue-google-maps',
-      '@googlemaps/markerclusterer',
-      '@vuepic/vue-datepicker',
-    ],
+    transpile: ['@vuepic/vue-datepicker'],
   },
 
   components: ['~/components'],
@@ -108,7 +104,7 @@ export default defineNuxtConfig({
   vite: {
     plugins: [svgLoader()],
     optimizeDeps: {
-      include: ['@fawmi/vue-google-maps', 'fast-deep-equal'],
+      include: ['fast-deep-equal'],
     },
   },
 

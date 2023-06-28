@@ -23,42 +23,19 @@
           </NuxtLink>
         </Translation>
       </div>
-      <GMapMap
-        :center="center"
-        :options="{
-          maxZoom: 15,
-          zoomControl: false,
-          mapTypeControl: false,
-          scaleControl: false,
-          streetViewControl: false,
-          rotateControl: false,
-          fullscreenControl: true,
-        }"
-        :zoom="15"
-      >
-        <GMapMarker
-          v-for="(marker, index) in markers"
-          :key="index"
-          :position="marker.position"
-        />
-      </GMapMap>
+      <img :src="useAsset('map.png')" alt="imgAlt" class="vue-map" />
     </div>
   </div>
 </template>
 <script lang="ts" setup>
-const center = {
-  lat: 39.69462932203272,
-  lng: 3.3498266856088073,
+const useAsset = (path: string): string => {
+  const assets = import.meta.glob('~/assets/images/*', {
+    eager: true,
+    import: 'default',
+  })
+  // @ts-expect-error: wrong type info
+  return assets['/assets/images/' + path]
 }
-const markers = [
-  {
-    id: '1',
-    position: {
-      lat: 39.69462932203272,
-      lng: 3.3498266856088073,
-    },
-  },
-]
 </script>
 <script lang="ts">
 import { Translation } from 'vue-i18n'
