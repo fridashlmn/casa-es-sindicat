@@ -69,12 +69,11 @@ export default defineNuxtConfig({
     defaultLocale: 'de',
     langDir: 'locales',
     detectBrowserLanguage: false,
-    baseUrl: 'https://casa-es-sindicat.com',
-    vueI18n: {
-      legacy: false,
-      locale: 'de',
-      fallbackLocale: 'de',
+    compilation: {
+      strictMessage: false,
     },
+    baseUrl: 'https://casa-es-sindicat.com',
+    vueI18n: './i18n.config.ts',
   },
 
   image: {
