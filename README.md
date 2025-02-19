@@ -1,6 +1,9 @@
-## CASA ES SINDICAT
+# CASA ES SINDICAT
 
-#### website for a private luxury vacation home in Artà, Mallorca.
+website for a **private luxury vacation home** in Artà, Mallorca.
 
-https://casa-es-sindicat.com/
+#### https://casa-es-sindicat.com/
 
+## Preview
+
+![preview](assets/preview.gif)
