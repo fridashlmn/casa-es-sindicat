@@ -6,4 +6,4 @@ website for a **private luxury vacation home** in Artà, Mallorca.
 
 ## Preview
 
-![preview](assets/preview.gif)
+![preview](assets/demo.gif)
