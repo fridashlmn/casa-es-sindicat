@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-transparent: 'transparent';
+  --color-neutralDarkest: '#121212';
+  --color-neutralLight: '#D6CFC7';
+
+  --font-serif: 'Bodoni Moda', serif;
+  --font-sans: 'Avenir Next', serif;
+
+  --text-xs: 14px;
+  --text-xs--lineheight: 20px;
+  --text-base: 18px;
+  --text-base--lineheight: 24px;
+  --text-xl: 22px;
+  --text-xl--lineheight: 24px;
+  --text-2xl: 24px;
+  --text-2xl--lineheight: 32px;
+  --text-3xl: 28px;
+  --text-3xl--lineheight: 32px;
+  --text-5xl: 36px;
+  --text-5xl--lineheight: 36px;
+  --text-6xl: 40x;
+  --text-6xl-lineheight: 48px;
+  --text-7xl: 44px;
+  --text-7xl-lineheight: 44px;
+  --text-8xl: 52px;
+  --text-8xl-lineheight: 52px;
+  --text-11xl: 80px;
+  --text-11xl-lineheight: 80px;
+
+}

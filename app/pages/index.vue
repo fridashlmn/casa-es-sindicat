@@ -6,10 +6,10 @@
       <LogoIcon class="h-45vh w-full" />
       <ChevronDownIcon class="absolute bottom-0 w-16 h-20 fill-[#e4e2dd]" />
     </div>
-    <nuxt-img
+    <img
       alt="dinner-table"
       class="w-screen object5070 h-90vh object-cover"
-      src="/dinner-table-2.webp"
+      src="~/assets/images/dinner-table-2.webp"
     />
     <div
       class="flex flex-col justify-center items-center px-6 py-16 md:p-16 lg:p-30"

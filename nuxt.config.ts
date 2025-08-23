@@ -1,4 +1,6 @@
 import svgLoader from 'vite-svg-loader'
+import tailwindcss from '@tailwindcss/vite'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
@@ -47,22 +49,25 @@ export default defineNuxtConfig({
     transpile: ['@vuepic/vue-datepicker'],
   },
 
-  components: ['~/components'],
+  components: ['~/app/components'],
 
-  css: ['~/assets/css/global.css'],
+  css: ['~/assets/css/main.css'],
 
   i18n: {
     locales: [
       {
         code: 'en',
+        name: 'English',
         file: 'en.json',
       },
       {
         code: 'es',
+        name: 'Espanol',
         file: 'es.json',
       },
       {
         code: 'de',
+        name: 'Deutsch',
         file: 'de.json',
       },
     ],
@@ -77,11 +82,10 @@ export default defineNuxtConfig({
   },
 
   image: {
-    dir: 'assets/images',
+    dir: 'app/assets/images',
   },
 
   modules: [
-    'nuxt-windicss',
     '@nuxtjs/i18n',
     [
       '@nuxtjs/google-fonts',
@@ -92,30 +96,20 @@ export default defineNuxtConfig({
       },
     ],
     '@nuxt/image-edge',
+    '@nuxt/image',
   ],
 
   nitro: {
     compressPublicAssets: { brotli: true },
+    compatibilityDate: '2025-08-23',
   },
 
   target: 'static',
 
   vite: {
-    plugins: [svgLoader()],
+    plugins: [svgLoader(), tailwindcss()],
     optimizeDeps: {
       include: ['fast-deep-equal'],
-    },
-  },
-
-  windicss: {
-    analyze: {
-      analysis: {
-        interpretUtilities: false,
-      },
-      server: {
-        port: 3003,
-        open: false,
-      },
     },
   },
 })

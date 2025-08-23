@@ -55,7 +55,7 @@
 import CloseIcon from 'assets/icons/close.svg?component'
 import ChevronDownThickIcon from 'assets/icons/chevron-down-thick.svg?component'
 import { useRouter } from 'nuxt/app'
-import { navigationItems } from '../../config/routes'
+import { navigationItems } from '../../../config/routes'
 
 const router = useRouter()
 const localePath = useLocalePath()

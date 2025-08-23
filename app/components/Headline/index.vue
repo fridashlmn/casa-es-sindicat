@@ -44,7 +44,7 @@ const component: ComputedRef<HeadlineTag | undefined> = computed(() => {
 })
 
 const styles: ComputedRef<string[]> = computed(() => {
-  return ['font-400 hyphens-auto my-0', selectedLevel?.value?.style || '']
+  return ['font-normal hyphens-auto my-0', selectedLevel?.value?.style || '']
 })
 </script>
 
@@ -56,9 +56,11 @@ export default {
 </script>
 
 <style lang="css">
+@reference "tailwindcss";
+
 .headline-m,
 .headline-s,
 .headline-xs {
-  @apply font-400 hyphens-auto;
+  @apply font-normal hyphens-auto;
 }
 </style>

@@ -66,7 +66,7 @@ import {
   footer1NavigationItems,
   footer2NavigationItems,
   serviceNavigationItems,
-} from '../../../config/routes'
+} from '../../../../config/routes'
 
 const router = useRouter()
 const localePath = useLocalePath()
