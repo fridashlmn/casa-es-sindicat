@@ -11,7 +11,7 @@
         class="!font-normal sm:text-center max-w-220 my-0 mx-auto px-6 py-16 sm:p-16 lg:p-0 lg:pb-30 xl:pb-30"
         level="XS/S"
       >
-        {{ $t('location.intro') }}
+        {{ $t("location.intro") }}
       </HeadlineComponent>
       <TeaserComponent
         :content1="$t('location.castle.content')"
@@ -39,15 +39,8 @@
   </div>
 </template>
 
-<script lang="ts">
-import HeadlineComponent from '../components/Headline/index.vue'
-import TeaserComponent from '../components/Teaser/index.vue'
-
-export default {
-  name: 'LocationPage',
-  components: {
-    HeadlineComponent,
-    TeaserComponent,
-  },
-}
+<script lang="ts" setup>
+import HeadlineComponent from "../components/Headline/index.vue";
+import TeaserComponent from "../components/Teaser/index.vue";
+import Stage from "../components/Stage/index.vue";
 </script>

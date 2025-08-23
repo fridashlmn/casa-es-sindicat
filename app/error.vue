@@ -11,26 +11,16 @@
       />
       <div class="w-full flex justify-center items-center">
         <BaseButton class="mb-12" @click="router.push('/')">
-          {{ $t('general.404.button') }}
+          {{ $t("general.404.button") }}
         </BaseButton>
       </div>
     </NuxtLayout>
   </div>
 </template>
 <script lang="ts" setup>
-import { useRouter } from 'nuxt/app'
+import { useRouter } from "nuxt/app";
+import BaseButton from "./components/BaseButton/index.vue";
+import Stage from "./components/Stage/index.vue";
 
-const router = useRouter()
-</script>
-<script lang="ts">
-import Stage from './components/Stage/index.vue'
-import BaseButton from './components/BaseButton/index.vue'
-
-export default {
-  name: 'ErrorPage',
-  components: {
-    Stage,
-    BaseButton,
-  },
-}
+const router = useRouter();
 </script>

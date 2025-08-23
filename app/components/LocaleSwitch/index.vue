@@ -26,32 +26,27 @@
   </div>
 </template>
 <script lang="ts" setup>
-import { useNuxtApp } from 'nuxt/app'
-import ChevronDownIcon from 'assets/icons/chevron-down-thick.svg?component'
+import { useNuxtApp } from "nuxt/app";
+import ChevronDownIcon from "assets/icons/chevron-down-thick.svg?component";
 
 interface Props {
-  fillBlack?: boolean
+  fillBlack?: boolean;
 }
 
 withDefaults(defineProps<Props>(), {
   fillBlack: false,
-})
-const { $switchLocalePath } = useNuxtApp()
+});
+const { $switchLocalePath } = useNuxtApp();
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 const changeLocale = ($event: Event) => {
   const localePath = $switchLocalePath(
     ($event.target as HTMLSelectElement).value,
-  ).replace(/^\/+/g, '')
+  ).replace(/^\/+/g, "");
   window.location.href = new URL(
-    `/${localePath}`.replace(/^\/+/g, ''),
+    `/${localePath}`.replace(/^\/+/g, ""),
     window.location.origin,
-  ).href
-}
-</script>
-<script lang="ts">
-export default {
-  name: 'LocaleSwitch',
-}
+  ).href;
+};
 </script>

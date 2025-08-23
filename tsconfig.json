@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "ES2018",
+    "target": "ES2020",
     "module": "ESNext",
-    "moduleResolution": "Node",
+    "moduleResolution": "bundler",
     "lib": [
       "ESNext",
       "ESNext.AsyncIterable",
@@ -16,9 +16,7 @@
     "experimentalDecorators": true,
     "types": [
       "@types/node",
-      "nuxt-windicss",
-      "@nuxtjs/i18n",
-      "@nuxt/image-edge"
+      "@nuxtjs/i18n"
     ],
     "baseUrl": "."
   },

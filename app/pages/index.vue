@@ -10,7 +10,7 @@
       alt="dinner-table"
       class="w-screen object5070 h-90vh object-cover"
       src="~/assets/images/dinner-table-2.webp"
-    />
+    >
     <div
       class="flex flex-col justify-center items-center px-6 py-16 md:p-16 lg:p-30"
     >
@@ -21,7 +21,7 @@
           class="!font-normal !lg:text-xl lg:max-w-220"
           level="XS/S"
         >
-          {{ $t('home.intro') }}
+          {{ $t("home.intro") }}
         </HeadlineComponent>
       </div>
       <TeaserComponent
@@ -51,22 +51,12 @@
   </div>
 </template>
 <script lang="ts" setup>
-import LogoIcon from 'assets/logo/logo-color.svg?component'
-import ChevronDownIcon from 'assets/icons/chevron-down.svg?component'
+import LogoIcon from "assets/logo/logo-color.svg?component";
+import ChevronDownIcon from "assets/icons/chevron-down.svg?component";
+import HeadlineComponent from "../components/Headline/index.vue";
+import TeaserComponent from "../components/Teaser/index.vue";
 
 definePageMeta({
-  layout: 'home',
-})
-</script>
-<script lang="ts">
-import HeadlineComponent from '../components/Headline/index.vue'
-import TeaserComponent from '../components/Teaser/index.vue'
-
-export default {
-  name: 'HomePage',
-  components: {
-    HeadlineComponent,
-    TeaserComponent,
-  },
-}
+  layout: "home",
+});
 </script>

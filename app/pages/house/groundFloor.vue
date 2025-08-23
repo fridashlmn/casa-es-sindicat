@@ -36,6 +36,13 @@
   </div>
 </template>
 <script lang="ts" setup>
+</script>
+
+<script lang="ts">
+import ImageCarousel from '../../components/carousel/ImageCarousel/index.vue'
+import HeadlineComponent from '../../components/Headline/index.vue'
+import TeaserComponent from '../../components/Teaser/index.vue'
+import Stage from '../../components/Stage/index.vue'
 const galleryImages = [
   {
     alt: 'dinner table',
@@ -82,13 +89,6 @@ const galleryImages = [
     src: 'buddha.webp',
   },
 ]
-</script>
-
-<script lang="ts">
-import ImageCarousel from '../../components/carousel/ImageCarousel/index.vue'
-import HeadlineComponent from '../../components/Headline/index.vue'
-import TeaserComponent from '../../components/Teaser/index.vue'
-import Stage from '../../components/Stage/index.vue'
 
 export default {
   name: 'GroundFloorPage',

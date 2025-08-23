@@ -26,10 +26,10 @@
         method="POST"
         name="contact"
       >
-        <input name="form-name" type="hidden" value="contact" />
+        <input name="form-name" type="hidden" value="contact" >
         <label for="name">
           <span hidden>Name</span>
-          <input id="name" :placeholder="$t('contact.form.name')" name="name" />
+          <input id="name" :placeholder="$t('contact.form.name')" name="name" >
         </label>
         <label for="email">
           <span hidden>E-Mail</span>
@@ -39,7 +39,7 @@
             name="email"
             required
             type="email"
-          />
+          >
         </label>
         <label for="message">
           <span hidden>Message</span>
@@ -56,7 +56,7 @@
             name="agb"
             required
             type="checkbox"
-          />
+          >
           <!-- eslint-disable-next-line -->
           <label class="text-xs" for="agb" v-html="$t('contact.form.agb')"/>
         </div>

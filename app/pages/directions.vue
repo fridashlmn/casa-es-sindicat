@@ -11,7 +11,7 @@
     >
       <div class="flex flex-col max-w-111 mb-12 sm:mb-16 lg:mr-20 xl:mr-30">
         <HeadlineComponent class="mb-12" level="M">
-          {{ $t('directions.title') }}
+          {{ $t("directions.title") }}
         </HeadlineComponent>
         <Translation keypath="directions.content" scope="global" tag="p">
           <NuxtLink
@@ -19,38 +19,26 @@
             target="_blank"
             to="https://www.rome2rio.com/de/s/Palma-de-Mallorca/Art%C3%A0"
           >
-            {{ $t('general.here') }}
+            {{ $t("general.here") }}
           </NuxtLink>
         </Translation>
       </div>
-      <img :src="useAsset('map.png')" alt="imgAlt" class="vue-map" />
+      <img :src="useAsset('map.png')" alt="imgAlt" class="vue-map" >
     </div>
   </div>
 </template>
 <script lang="ts" setup>
-const useAsset = (path: string): string => {
-  const assets = import.meta.glob('~/assets/images/*', {
-    eager: true,
-    import: 'default',
-  })
-  // @ts-expect-error: wrong type info
-  return assets['/assets/images/' + path]
-}
-</script>
-<script lang="ts">
-import { Translation } from 'vue-i18n'
-import HeadlineComponent from '../components/Headline/index.vue'
-import Stage from '../components/Stage/index.vue'
+import { Translation } from "vue-i18n";
+import HeadlineComponent from "../components/Headline/index.vue";
+import Stage from "../components/Stage/index.vue";
 
-export default {
-  name: 'DirectionsPage',
-  components: {
-    Stage,
-    HeadlineComponent,
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    Translation: Translation as any,
-  },
-}
+const useAsset = (path: string): string => {
+  const assets = import.meta.glob("~/assets/images/*", {
+    eager: true,
+    import: "default",
+  });
+  return assets["/assets/images/" + path];
+};
 </script>
 <style>
 .vue-map {

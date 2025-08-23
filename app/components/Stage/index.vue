@@ -5,7 +5,7 @@
       :src="useAsset(imgSrc)"
       class="w-screen h-70vh lg:h-93vh object-cover"
       loading="eager"
-    />
+    >
     <div
       :class="{ 'pb-24': !withScrollIndicator }"
       class="absolute text-white text-center"
@@ -24,36 +24,26 @@
   </div>
 </template>
 <script lang="ts" setup>
-import ChevronDownIcon from 'assets/icons/chevron-down.svg?component'
+import ChevronDownIcon from "assets/icons/chevron-down.svg?component";
+import HeadlineComponent from "../Headline/index.vue";
 
 interface Props {
-  imgSrc: string
-  imgAlt: string
-  headline: string
-  subline: string
-  withScrollIndicator?: boolean
+  imgSrc: string;
+  imgAlt: string;
+  headline: string;
+  subline: string;
+  withScrollIndicator?: boolean;
 }
 
 withDefaults(defineProps<Props>(), {
   withScrollIndicator: true,
-})
+});
 
 const useAsset = (path: string): string => {
-  const assets = import.meta.glob('~/assets/images/*', {
+  const assets = import.meta.glob("~/assets/images/*", {
     eager: true,
-    import: 'default',
-  })
-  // @ts-expect-error: wrong type info
-  return assets['/assets/images/' + path]
-}
-</script>
-<script lang="ts">
-import HeadlineComponent from '../Headline/index.vue'
-
-export default {
-  name: 'Stage',
-  components: {
-    HeadlineComponent,
-  },
-}
+    import: "default",
+  });
+  return assets["/assets/images/" + path];
+};
 </script>

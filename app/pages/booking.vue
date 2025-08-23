@@ -8,15 +8,15 @@
     />
     <div class="px-6 py-16 md:p-16 lg:p-30">
       <p class="sm:text-center max-w-220 my-0 mx-auto pb-16 md:pb-16 lg:pb-30">
-        {{ $t('booking.intro') }}
+        {{ $t("booking.intro") }}
       </p>
       <div class="flex flex-col lg:flex-row justify-evenly items-start">
         <div class="max-w-111 mb-12">
           <HeadlineComponent class="mb-8" level="M">
-            {{ $t('booking.price.title') }}
+            {{ $t("booking.price.title") }}
           </HeadlineComponent>
           <span>
-            {{ $t('booking.price.info') }}
+            {{ $t("booking.price.info") }}
           </span>
         </div>
         <VueDatePicker
@@ -36,45 +36,36 @@
         />
       </div>
       <HeadlineComponent class="mb-8" level="M">
-        {{ $t('booking.conditions.title') }}
+        {{ $t("booking.conditions.title") }}
       </HeadlineComponent>
       <ul class="listStyle ml-9" v-html="$t('booking.conditions.list')" />
     </div>
   </div>
 </template>
 <script lang="ts" setup>
-import VueDatePicker from '@vuepic/vue-datepicker'
-import '@vuepic/vue-datepicker/dist/main.css'
-import { addYears, eachDayOfInterval } from 'date-fns'
-import HeadlineComponent from '../components/Headline/index.vue'
+import VueDatePicker from "@vuepic/vue-datepicker";
+import "@vuepic/vue-datepicker/dist/main.css";
+import { addYears, eachDayOfInterval } from "date-fns";
+import HeadlineComponent from "../components/Headline/index.vue";
+import Stage from "../components/Stage/index.vue";
 
-const date = ref()
+const date = ref();
 
-const maxDate = addYears(new Date(), 1)
+const maxDate = addYears(new Date(), 1);
 const getDatesInRange = (startDate: Date, endDate: Date): Date[] => {
   return eachDayOfInterval({
     start: new Date(startDate),
     end: new Date(endDate),
-  })
-}
+  });
+};
 
 const highlightedDates = ref([
-  ...getDatesInRange(new Date('2023-04-06'), new Date('2023-04-18')),
-  ...getDatesInRange(new Date('2023-07-09'), new Date('2023-09-09')),
-  ...getDatesInRange(new Date('2023-09-29'), new Date('2023-10-15')),
-  ...getDatesInRange(new Date('2023-11-17'), new Date('2023-12-03')),
-  ...getDatesInRange(new Date('2023-12-28'), new Date('2024-03-01')),
-])
-</script>
-<script lang="ts">
-import Stage from '../components/Stage/index.vue'
-
-export default {
-  name: 'BookingPage',
-  components: {
-    Stage,
-  },
-}
+  ...getDatesInRange(new Date("2023-04-06"), new Date("2023-04-18")),
+  ...getDatesInRange(new Date("2023-07-09"), new Date("2023-09-09")),
+  ...getDatesInRange(new Date("2023-09-29"), new Date("2023-10-15")),
+  ...getDatesInRange(new Date("2023-11-17"), new Date("2023-12-03")),
+  ...getDatesInRange(new Date("2023-12-28"), new Date("2024-03-01")),
+]);
 </script>
 <style module>
 .dp__theme_light {
