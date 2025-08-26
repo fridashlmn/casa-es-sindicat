@@ -12,7 +12,7 @@
         class="!font-normal sm:text-center max-w-220 my-0 mx-auto px-6 py-16 sm:p-16 lg:p-0 lg:pb-30 xl:pb-30"
         level="XS/S"
       >
-        {{ $t('house.groundFloor.intro') }}
+        {{ $t("house.groundFloor.intro") }}
       </HeadlineComponent>
       <TeaserComponent
         :content1="$t('house.groundFloor.dining.content')"
@@ -36,67 +36,55 @@
   </div>
 </template>
 <script lang="ts" setup>
-</script>
+import ImageCarousel from "../../components/carousel/ImageCarousel/index.vue";
+import HeadlineComponent from "../../components/Headline/index.vue";
+import TeaserComponent from "../../components/Teaser/index.vue";
+import Stage from "../../components/Stage/index.vue";
 
-<script lang="ts">
-import ImageCarousel from '../../components/carousel/ImageCarousel/index.vue'
-import HeadlineComponent from '../../components/Headline/index.vue'
-import TeaserComponent from '../../components/Teaser/index.vue'
-import Stage from '../../components/Stage/index.vue'
 const galleryImages = [
   {
-    alt: 'dinner table',
-    src: 'dinner-table-2.webp',
+    alt: "dinner table",
+    src: "dinner-table-2.webp",
   },
   {
-    alt: 'reading corner',
-    src: 'groundfloor.webp',
-    class: 'object050 !important',
+    alt: "reading corner",
+    src: "groundfloor.webp",
+    class: "object050 !important",
   },
   {
-    alt: 'kitchen - view from outside',
-    src: 'kitchen-outdoorView.webp',
+    alt: "kitchen - view from outside",
+    src: "kitchen-outdoorView.webp",
   },
   {
-    alt: 'flowers on dinner table',
-    src: 'dinner-table-details-2.webp',
-    class: 'object5090 !important',
+    alt: "flowers on dinner table",
+    src: "dinner-table-details-2.webp",
+    class: "object5090 !important",
   },
   {
-    alt: 'bathroom',
-    src: 'guest-bathroom.webp',
+    alt: "bathroom",
+    src: "guest-bathroom.webp",
   },
   {
-    alt: 'dinner table with fireplace',
-    src: 'dinner-table-fire.webp',
-    class: 'object1050 !important',
+    alt: "dinner table with fireplace",
+    src: "dinner-table-fire.webp",
+    class: "object1050 !important",
   },
   {
-    alt: 'stairs with decor',
-    src: 'stairs.webp',
-    class: 'object505 !important',
+    alt: "stairs with decor",
+    src: "stairs.webp",
+    class: "object505 !important",
   },
   {
-    alt: 'kitchen',
-    src: 'kitchen.webp',
+    alt: "kitchen",
+    src: "kitchen.webp",
   },
   {
-    alt: 'flowers on dinner table',
-    src: 'dinner-table-details.webp',
+    alt: "flowers on dinner table",
+    src: "dinner-table-details.webp",
   },
   {
-    alt: 'buddha-statue',
-    src: 'buddha.webp',
+    alt: "buddha-statue",
+    src: "buddha.webp",
   },
-]
-
-export default {
-  name: 'GroundFloorPage',
-  components: {
-    Stage,
-    ImageCarousel,
-    HeadlineComponent,
-    TeaserComponent,
-  },
-}
+];
 </script>

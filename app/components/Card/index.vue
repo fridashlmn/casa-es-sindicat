@@ -10,7 +10,7 @@
         :src="useAsset(imgSrc)"
         class="h-91 md:h-120 w-full md:w-91 object-cover"
         loading="lazy"
-      />
+      >
       <h5 class="text-xl pt-4 pb-2">{{ title }}</h5>
       <p>{{ text }}</p>
     </div>
@@ -20,32 +20,25 @@
   </div>
 </template>
 <script lang="ts" setup>
-import { useRouter } from 'nuxt/app'
+import { useRouter } from "nuxt/app";
 
 interface Props {
-  imgSrc: string
-  imgAlt: string
-  title: string
-  text: string
-  linkPath: string
-  linkLabel: string
+  imgSrc: string;
+  imgAlt: string;
+  title: string;
+  text: string;
+  linkPath: string;
+  linkLabel: string;
 }
 
-defineProps<Props>()
-const localePath = useLocalePath()
-const router = useRouter()
+defineProps<Props>();
+const localePath = useLocalePath();
+const router = useRouter();
 const useAsset = (path: string): string => {
-  const assets = import.meta.glob('~/assets/images/*', {
+  const assets = import.meta.glob("~/assets/images/*", {
     eager: true,
-    import: 'default',
-  })
-  // @ts-expect-error: wrong type info
-  return assets['/assets/images/' + path]
-}
-</script>
-
-<script lang="ts">
-export default {
-  name: 'Card',
-}
+    import: "default",
+  });
+  return assets["/assets/images/" + path];
+};
 </script>

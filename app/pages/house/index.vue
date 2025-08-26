@@ -12,13 +12,13 @@
         class="!font-normal sm:text-center max-w-220 my-0 mx-auto px-6 py-16 lg:pt-0"
         level="XS/S"
       >
-        {{ $t('house.intro') }}
+        {{ $t("house.intro") }}
       </HeadlineComponent>
       <HeadlineComponent
         class="!font-normal sm:text-center max-w-220 my-0 mx-auto px-6 pb-16 sm:p-16 lg:p-0 lg:pb-30 xl:pb-30"
         level="XS/S"
       >
-        {{ $t('house.intro2') }}
+        {{ $t("house.intro2") }}
       </HeadlineComponent>
       <div class="flex flex-wrap justify-between mx-auto my-0 p-6 lg:p-0">
         <Card
@@ -79,17 +79,8 @@
     </div>
   </div>
 </template>
-<script lang="ts">
-import Card from '../../components/Card/index.vue'
-import Stage from '../../components/Stage/index.vue'
-import HeadlineComponent from '../../components/Headline/index.vue'
-
-export default {
-  name: 'HousePage',
-  components: {
-    Card,
-    Stage,
-    HeadlineComponent,
-  },
-}
+<script lang="ts" setup>
+import Card from "../../components/Card/index.vue";
+import Stage from "../../components/Stage/index.vue";
+import HeadlineComponent from "../../components/Headline/index.vue";
 </script>

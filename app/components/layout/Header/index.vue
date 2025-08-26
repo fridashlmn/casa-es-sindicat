@@ -33,47 +33,37 @@
   </header>
 </template>
 <script lang="ts" setup>
-import { onMounted } from 'vue'
-import MenuIcon from 'assets/icons/menu.svg?component'
-import LogoIconSmall from 'assets/logo/logo-color-small.svg?component'
+import { onMounted } from "vue";
+import MenuIcon from "assets/icons/menu.svg?component";
+import LogoIconSmall from "assets/logo/logo-color-small.svg?component";
+import LocaleSwitch from "../../LocaleSwitch/index.vue";
+import Sidebar from "../../Sidebar/index.vue";
 
 interface Props {
-  fillBlack?: boolean
-  isHome?: boolean
+  fillBlack?: boolean;
+  isHome?: boolean;
 }
 
 withDefaults(defineProps<Props>(), {
   fillBlack: false,
   isHome: false,
-})
+});
 
-const sidebarVisible = ref<boolean>(false)
-const scrollPosition = ref<number>(0)
-const scrollPercent = ref<number>(100)
+const sidebarVisible = ref<boolean>(false);
+const scrollPosition = ref<number>(0);
+const scrollPercent = ref<number>(100);
 
 const toggleSidebar = () => {
-  sidebarVisible.value = !sidebarVisible.value
-}
+  sidebarVisible.value = !sidebarVisible.value;
+};
 const updateScroll = () => {
-  scrollPosition.value = window.scrollY
-  scrollPercent.value = 100 - (window.scrollY / window.outerHeight) * 100
-}
+  scrollPosition.value = window.scrollY;
+  scrollPercent.value = 100 - (window.scrollY / window.outerHeight) * 100;
+};
 
 onMounted(() => {
-  window.addEventListener('scroll', updateScroll)
-})
-</script>
-<script lang="ts">
-import LocaleSwitch from '../../LocaleSwitch/index.vue'
-import Sidebar from '../../Sidebar/index.vue'
-
-export default {
-  name: 'TheHeader',
-  components: {
-    Sidebar,
-    LocaleSwitch,
-  },
-}
+  window.addEventListener("scroll", updateScroll);
+});
 </script>
 <style>
 .slide-fade-enter-active {

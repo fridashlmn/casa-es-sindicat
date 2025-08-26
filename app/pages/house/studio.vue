@@ -11,7 +11,7 @@
         class="!font-normal sm:text-center max-w-220 my-0 mx-auto px-6 py-16 sm:p-16 lg:p-0 lg:pb-30 xl:pb-30"
         level="XS/S"
       >
-        {{ $t('house.studio.intro') }}
+        {{ $t("house.studio.intro") }}
       </HeadlineComponent>
       <TeaserComponent
         :content1="$t('house.studio.downstairs.content')"
@@ -33,42 +33,31 @@
   </div>
 </template>
 <script lang="ts" setup>
+import ImageCarousel from "../../components/carousel/ImageCarousel/index.vue";
+import HeadlineComponent from "../../components/Headline/index.vue";
+import TeaserComponent from "../../components/Teaser/index.vue";
+import Stage from "../../components/Stage/index.vue";
+
 const galleryImages = [
   {
-    alt: 'studio bathroom',
-    src: 'studio-bathroom.webp',
+    alt: "studio bathroom",
+    src: "studio-bathroom.webp",
   },
   {
-    alt: 'studio with designer chairs',
-    src: 'studio-4.webp',
+    alt: "studio with designer chairs",
+    src: "studio-4.webp",
   },
   {
-    alt: 'studio view to pool',
-    src: 'studio-3.webp',
+    alt: "studio view to pool",
+    src: "studio-3.webp",
   },
   {
-    alt: 'studio with designer chairs',
-    src: 'studio-2.webp',
+    alt: "studio with designer chairs",
+    src: "studio-2.webp",
   },
   {
-    alt: 'patio with view to studio',
-    src: 'studio.webp',
+    alt: "patio with view to studio",
+    src: "studio.webp",
   },
-]
-</script>
-<script lang="ts">
-import ImageCarousel from '../../components/carousel/ImageCarousel/index.vue'
-import HeadlineComponent from '../../components/Headline/index.vue'
-import TeaserComponent from '../../components/Teaser/index.vue'
-import Stage from '../../components/Stage/index.vue'
-
-export default {
-  name: 'StudioPage',
-  components: {
-    ImageCarousel,
-    HeadlineComponent,
-    TeaserComponent,
-    Stage,
-  },
-}
+];
 </script>

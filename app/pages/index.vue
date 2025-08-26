@@ -3,7 +3,7 @@
     <div
       class="relative flex flex-col items-center justify-center h-screen w-full"
     >
-      <LogoIcon class="h-45vh w-full" />
+      <LogoIcon class="h-[45vh] w-full" />
       <ChevronDownIcon class="absolute bottom-0 w-16 h-20 fill-[#e4e2dd]" />
     </div>
     <img

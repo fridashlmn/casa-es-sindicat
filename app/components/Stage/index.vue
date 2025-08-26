@@ -3,12 +3,12 @@
     <img
       :alt="imgAlt"
       :src="useAsset(imgSrc)"
-      class="w-screen h-70vh lg:h-93vh object-cover"
+      class="w-screen h-[70vh] lg:h-[93vh] object-cover"
       loading="eager"
     >
     <div
       :class="{ 'pb-24': !withScrollIndicator }"
-      class="absolute text-white text-center"
+      class="absolute text-white text-center flex flex-col justify-center items-center"
     >
       <HeadlineComponent level="M/L">
         {{ headline }}

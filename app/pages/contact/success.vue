@@ -10,9 +10,6 @@
     />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'ContactSuccessPage',
-}
+<script lang="ts" setup>
+import Stage from "../../components/Stage/index.vue";
 </script>

@@ -38,7 +38,7 @@
           </ul>
         </nav>
       </div>
-      <hr class="w-full border-[#766f6b] mb-8" />
+      <hr class="w-full border-[#766f6b] mb-8" >
       <div
         class="w-full flex flex-col sm:flex-row items-center justify-between pb-8 text-xs"
       >
@@ -60,19 +60,14 @@
 </template>
 
 <script lang="ts" setup>
-import LogoIcon from 'assets/logo/logo-color.svg?component'
-import { useRouter } from 'nuxt/app'
+import LogoIcon from "assets/logo/logo-color.svg?component";
+import { useRouter } from "nuxt/app";
 import {
   footer1NavigationItems,
   footer2NavigationItems,
   serviceNavigationItems,
-} from '../../../../config/routes'
+} from "../../../../config/routes";
 
-const router = useRouter()
-const localePath = useLocalePath()
-</script>
-<script lang="ts">
-export default {
-  name: 'TheFooter',
-}
+const router = useRouter();
+const localePath = useLocalePath();
 </script>

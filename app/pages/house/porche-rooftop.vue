@@ -11,7 +11,7 @@
         class="!font-normal sm:text-center max-w-220 my-0 mx-auto px-6 py-16 sm:p-16 lg:p-0 lg:pb-30 xl:pb-30"
         level="XS/S"
       >
-        {{ $t('house.porcheRooftop.intro') }}
+        {{ $t("house.porcheRooftop.intro") }}
       </HeadlineComponent>
       <TeaserComponent
         :content1="$t('house.porcheRooftop.porche.content')"
@@ -33,51 +33,40 @@
   </div>
 </template>
 <script lang="ts" setup>
+import ImageCarousel from "../../components/carousel/ImageCarousel/index.vue";
+import HeadlineComponent from "../../components/Headline/index.vue";
+import TeaserComponent from "../../components/Teaser/index.vue";
+import Stage from "../../components/Stage/index.vue";
+
 const galleryImages = [
   {
-    alt: 'rooftop with view over arta',
-    src: 'rooftop-9.webp',
+    alt: "rooftop with view over arta",
+    src: "rooftop-9.webp",
   },
   {
-    alt: 'porche as day bed',
-    src: 'porche-3.webp',
+    alt: "porche as day bed",
+    src: "porche-3.webp",
   },
   {
-    alt: 'porche with lounge chairs',
-    src: 'porche-2.webp',
-    class: 'object5050 !important',
+    alt: "porche with lounge chairs",
+    src: "porche-2.webp",
+    class: "object5050 !important",
   },
   {
-    alt: 'rooftop by sunset',
-    src: 'rooftop-3.webp',
+    alt: "rooftop by sunset",
+    src: "rooftop-3.webp",
   },
   {
-    alt: 'porche by night with lights',
-    src: 'porche-light.webp',
+    alt: "porche by night with lights",
+    src: "porche-light.webp",
   },
   {
-    alt: 'rooftop with bar',
-    src: 'rooftop-8.webp',
+    alt: "rooftop with bar",
+    src: "rooftop-8.webp",
   },
   {
-    alt: 'view up to porche',
-    src: 'viewToPorche.webp',
+    alt: "view up to porche",
+    src: "viewToPorche.webp",
   },
-]
-</script>
-<script lang="ts">
-import ImageCarousel from '../../components/carousel/ImageCarousel/index.vue'
-import HeadlineComponent from '../../components/Headline/index.vue'
-import TeaserComponent from '../../components/Teaser/index.vue'
-import Stage from '../../components/Stage/index.vue'
-
-export default {
-  name: 'StudioPage',
-  components: {
-    ImageCarousel,
-    HeadlineComponent,
-    TeaserComponent,
-    Stage,
-  },
-}
+];
 </script>

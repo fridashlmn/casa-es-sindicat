@@ -1,4 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
 @import "tailwindcss";
+
+
+html {
+  font-family: 'Avenir Next', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+li a {
+  font-family: 'Bodoni Moda', serif;
+}
+
+.listStyle li {
+  padding-top: 16px;
+  list-style: square;
+}
+
+label {
+  width: 100%;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 16px 16px 6px 16px;
+  margin-bottom: 18px;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 0 0 0 0;
+}
+
+textarea {
+  height: 128px;
+}
+
+input:focus,
+textarea:focus,
+input:focus-visible,
+textarea:focus-visible {
+  outline: none;
+}
+
+.object5070,
+.object5070 img {
+  object-position: 50% 70%;
+}
+
+.object5060,
+.object5060 img {
+  object-position: 50% 60%;
+}
+
+.object5050,
+.object5050 img {
+  object-position: 50% 50%;
+}
+
+.object5020,
+.object5020 img {
+  object-position: 50% 20%;
+}
+
+.object5080,
+.object5080 img {
+  object-position: 50% 80%;
+}
+
+.object5090,
+.object5090 img {
+  object-position: 50% 90%;
+}
+
+.object10050,
+.object10050 img {
+  object-position: 100% 50%;
+}
+
+.object9050,
+.object9050 img {
+  object-position: 90% 50%;
+}
+
+.object4050,
+.object4050 img {
+  object-position: 40% 50%;
+}
+
+.object2050,
+.object2050 img {
+  object-position: 20% 50%;
+}
+
+.object1050,
+.object1050 img {
+  object-position: 10% 50%;
+}
+
+.object050,
+.object050 img {
+  object-position: 0 50%;
+}
+
+.object505,
+.object505 img {
+  object-position: 50% 5%;
+}
+
+.dp__action_row {
+  display: none !important;
+}
+
+.dp__main,
+.dp__calendar_wrap {
+  width: auto !important;
+  font-family: 'Avenir Next' !important;
+}
+
+.dp__instance_calendar {
+  padding: 20px;
+}
+
+.dp__calendar_next {
+  margin-left: 20px !important;
+}
+
+.dp__month_year_row {
+  height: 60px !important;
+  font-family: 'Bodoni Moda' !important;
+  font-weight: bold !important;
+}
+
+.dp__month_year_wrap {
+  justify-content: center !important;
+}
+
+.dp__month_year_select {
+  width: auto !important;
+  margin-right: 16px !important;
+}
+
+.dp__flex_display {
+  justify-content: flex-end !important;
+}
+
+.dp__cell_highlight {
+  background-color: rgba(248, 120, 106, 0.55) !important;
+  color: white !important;
+}
+
+.dp__cell_inner {
+  border-radius: 0 !important;
+}
 
 @theme {
   --color-transparent: 'transparent';
@@ -8,20 +163,20 @@
   --font-serif: 'Bodoni Moda', serif;
   --font-sans: 'Avenir Next', serif;
 
-  --text-xs: 14px;
-  --text-xs--lineheight: 20px;
-  --text-base: 18px;
+  --text-xs: 12px;
+  --text-xs--lineheight: 16px;
+  --text-base: 16px;
   --text-base--lineheight: 24px;
   --text-xl: 22px;
   --text-xl--lineheight: 24px;
-  --text-2xl: 24px;
-  --text-2xl--lineheight: 32px;
+  --text-2xl: 20px;
+  --text-2xl--lineheight: 28px;
   --text-3xl: 28px;
   --text-3xl--lineheight: 32px;
-  --text-5xl: 36px;
-  --text-5xl--lineheight: 36px;
-  --text-6xl: 40x;
-  --text-6xl-lineheight: 48px;
+  --text-5xl: 48px;
+  --text-5xl--lineheight: 1;
+  --text-6xl: 60px;
+  --text-6xl-lineheight: 1;
   --text-7xl: 44px;
   --text-7xl-lineheight: 44px;
   --text-8xl: 52px;

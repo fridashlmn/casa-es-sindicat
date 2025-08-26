@@ -4,7 +4,7 @@
       'fixed md:absolute left-0 top-0 inline-block min-h-screen w-full overflow-hidden bg-white md:w-136',
     ]"
   >
-    <nav class="relative h-100vh bg-[#f3efec] text-[#1f1f1f]">
+    <nav class="relative h-[100vh] bg-[#f3efec] text-[#1f1f1f]">
       <button
         aria-label="close sidebar"
         class="absolute top-8 left-8"
@@ -20,15 +20,17 @@
           :key="item.name"
           class="text-5xl sm:text-6xl pt-7 cursor-pointer"
         >
-          <NuxtLink @click="navigate(item.path)">
-            {{ $t(item.name) }}
-          </NuxtLink>
-          <ChevronDownThickIcon
-            v-if="item.submenu && item.submenu.length > 0"
-            :class="{ 'translate-y-0 rotate-180': openSubmenu }"
-            class="ml-4 w-12 h-12 fill-black transform translate-y-2.5 transition-all duration-400"
-            @click="openSubmenu = !openSubmenu"
-          />
+          <div class="flex items-center">
+            <NuxtLink @click="navigate(item.path)">
+              {{ $t(item.name) }}
+            </NuxtLink>
+            <ChevronDownThickIcon
+              v-if="item.submenu && item.submenu.length > 0"
+              :class="{ 'translate-y-0 rotate-180': openSubmenu }"
+              class="inline-block ml-4 w-12 h-12 fill-black transform translate-y-2.5 transition-all duration-400"
+              @click.prevent="openSubmenu = !openSubmenu"
+            />
+          </div>
           <ul
             :class="{
               'opacity-100 max-h-500': openSubmenu,
@@ -52,29 +54,24 @@
   </div>
 </template>
 <script lang="ts" setup>
-import CloseIcon from 'assets/icons/close.svg?component'
-import ChevronDownThickIcon from 'assets/icons/chevron-down-thick.svg?component'
-import { useRouter } from 'nuxt/app'
-import { navigationItems } from '../../../config/routes'
+import CloseIcon from "assets/icons/close.svg?component";
+import ChevronDownThickIcon from "assets/icons/chevron-down-thick.svg?component";
+import { useRouter } from "nuxt/app";
+import { navigationItems } from "../../../config/routes";
 
-const router = useRouter()
-const localePath = useLocalePath()
-const openSubmenu = ref<boolean>(false)
+const router = useRouter();
+const localePath = useLocalePath();
+const openSubmenu = ref<boolean>(false);
 const emit = defineEmits<{
-  (eventName: 'close'): void
-}>()
+  (eventName: "close"): void;
+}>();
 
 const close = () => {
-  emit('close')
-}
+  emit("close");
+};
 
 const navigate = (path: string) => {
-  router.push(localePath(path))
-  emit('close')
-}
-</script>
-<script lang="ts">
-export default {
-  name: 'Sidebar',
-}
+  router.push(localePath(path));
+  emit("close");
+};
 </script>

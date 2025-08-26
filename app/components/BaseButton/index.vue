@@ -3,9 +3,4 @@
     <slot />
   </button>
 </template>
-
-<script>
-export default {
-  name: 'BaseButton',
-}
-</script>
+<script lang="ts" setup></script>
