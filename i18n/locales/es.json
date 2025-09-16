@@ -274,20 +274,7 @@
       "subline": "¡Escríbanos!"
     },
     "title": "Así es como puede ponerse en contacto con nosotros.",
-    "content": "Si tiene alguna pregunta sobre la casa, desea hacer una reserva o enviar una reseña, sólo tiene que utilizar el formulario de la derecha. Nos pondremos en contacto con usted lo antes posible.",
-    "form": {
-      "name": "Nombre",
-      "email": "Correo electrónico",
-      "message": "Mensaje",
-      "submit": "Enviar",
-      "agb": "Acepto que mis datos del formulario de contacto se recopilen y procesen para responder a mi consulta. Los datos se eliminarán una vez finalizado el tratamiento de su consulta. Nota: Puede revocar su consentimiento para el futuro en cualquier momento enviando un correo electrónico a info&#64casa-es-sindicat.de. Encontrará información detallada sobre el tratamiento de los datos de los usuarios en nuestra política de privacidad."
-    },
-    "success": {
-      "stage": {
-        "headline": "¡Muchas gracias!",
-        "subline": "Atenderemos su solicitud de inmediato"
-      }
-    }
+    "content": "Si tiene alguna pregunta sobre el hotel, desea hacer una reserva o dejar una valoración, no dude en enviarnos un correo electrónico a {0}. Nos pondremos en contacto con usted lo antes posible."
   },
   "impressum": {
     "headline": "Pie de imprenta",

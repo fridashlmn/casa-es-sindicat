@@ -275,8 +275,7 @@
       "subline": "Schreiben Sie uns!"
     },
     "title": "So können Sie uns erreichen. ",
-    "content": "Wenn Sie Fragen zum Haus haben, eine Reservierung vornehmen oder eine Bewertung abgeben möchten, schreiben Sie uns gerne eine e-mail an Rene&#64yartanhotels.com. Wir werden uns so schnell wie möglich mit Ihnen in Verbindung setzen.",
-    
+    "content": "Wenn Sie Fragen zum Haus haben, eine Reservierung vornehmen oder eine Bewertung abgeben möchten, schreiben Sie uns gerne eine E-mail an {0}. Wir werden uns so schnell wie möglich mit Ihnen in Verbindung setzen."
   },
   "impressum": {
     "headline": "Impressum",
