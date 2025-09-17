@@ -7,6 +7,9 @@
       img-src="castle.webp"
     />
     <div class="px-6 py-16 md:p-16 lg:p-30">
+      <p class="sm:text-center max-w-220 my-0 mx-auto pb-16 md:pb-16 lg:pb-30">
+        {{ $t("booking.intro") }}
+      </p>
       <div class="flex flex-col lg:flex-row justify-evenly items-start">
         <div class="max-w-111 mb-12">
           <HeadlineComponent class="mb-8" level="M">
