@@ -94,12 +94,12 @@
       },
       "firstFloor": {
         "title": "Erste Etage",
-        "teaser": "Wer sich zurückziehen möchte, kann es sich auf dem Sofa im ersten Stock gemütlich machen. Hier befinden sich auch das Hauptschlafzimmer, ein geräumiges Badezimmer und ein Ankleidezimmer.",
+        "teaser": "Wer sich zurückziehen möchte, kann es sich auf dem Sofa im ersten Stock gemütlich machen. Hier befinden sich auch das Hauptschlafzimmer, ein geräumiges Badezimmer, ein Ankleidezimmer und die Bibliothek.",
         "link": "Entdecken"
       },
       "secondFloor": {
         "title": "Zweite Etage",
-        "teaser": "Ein Stockwerk höher finden Sie zwei separate Studios für jeweils zwei Personen. Beide verfügen über ein Schlafzimmer mit Doppelbett und ein eigenes Bad. Genießen Sie den Blick nach vorne oder hinten – Sie haben die Wahl.",
+        "teaser": "Ein Stockwerk höher finden Sie zwei separate Apartments für jeweils zwei Personen. Beide verfügen über ein Schlafzimmer mit Doppelbett und ein eigenes Bad. Genießen Sie den Blick nach vorne oder hinten – Sie haben die Wahl.",
         "link": "Entdecken"
       },
       "studio": {
@@ -123,10 +123,10 @@
         "headline": "Erdgeschoss",
         "subline": "Kochen, Essen, Entspannen"
       },
-      "intro": "Bienvenido in der Casa Es Sindicat! Wenn Sie das Haus betreten, gelangen Sie in den großen Eingangsbereich. Links befindet sich das Gästebad, der Hauswirtschaftsraum mit Waschmaschine und Trockner.",
+      "intro": "Bienvenido in der Casa Es Sindicat! Wenn Sie das Haus betreten, gelangen Sie in den großen Eingangsbereich. Links befindet sich das Gästebad, der Hauswirtschaftsraum mit Waschmaschine und Trockner und ein Abstellraum. Rechts befindet sich die Garage, in der ein zweiter Kühlschrank mit Getränken steht.",
       "dining": {
         "title": "Platz zum Genießen",
-        "content": "Ein paar Schritte weiter öffnet sich das Esszimmer mit dem massiven Holztisch. Hier können Sie es sich mit bis zu zehn Personen gemütlich machen."
+        "content": "Ein paar Schritte weiter öffnet sich das Esszimmer mit dem massiven Holztisch. Hier können Sie es sich mit bis zu zehn Personen gemütlich machen. Sie möchten uns im Winter besuchen? Kein Problem, an kalten Tagen wärmt Sie der Kamin."
       },
       "kitchen": {
         "title": "Alles für Feinschmecker",
@@ -139,10 +139,10 @@
         "headline": "Erste Etage",
         "subline": "Wohnen, Schlafen, Wohlfühlen"
       },
-      "intro": "Im ersten Stock befindet sich das großzügige Wohnzimmer. Hier kann man Musik hören, fernsehen, lesen oder einfach nur entspannen: Auf dem großen Sofa und den einladenden Sesseln ist für jeden Platz. ",
+      "intro": "Im ersten Stock befindet sich das großzügige Wohnzimmer mit angrenzender Bibliothek. Hier kann man Musik hören, fernsehen, lesen oder einfach nur entspannen: Auf dem großen Sofa und den einladenden Sesseln ist für jeden Platz. ",
       "livingRoom": {
         "title": "Entspannung pur",
-        "content": "Natürlich gibt es einen Smart-TV mit Soundbar und Empfang der meisten deutschen, spanischen und internationalen Sender."
+        "content": "Natürlich gibt es einen Smart-TV mit Soundbar und Empfang der meisten deutschen, spanischen und internationalen Sender. Für zusätzliche Gemütlichkeit im Winter sorgt der stilvolle gusseiserne Ofen."
       },
       "bedRoom": {
         "title": "Wohlfühlen garantiert",
@@ -153,11 +153,12 @@
     "secondFloor": {
       "stage": {
         "headline": "Zweite Etage",
-        "subline": "Die beiden Studios"
+        "subline": "Die beiden Apartments"
       },
-      "intro": "Im zweiten Obergeschoss befinden sich zwei gut ausgestattete Studios. Beide verfügen über ein geräumiges Wohnzimmer. Sie planen, aus dem Remote Office zu arbeiten? Kein Problem, es gibt kostenloses WLAN und Schreibtische mit Monitor, die Sie für Ihre Workation nutzen können. Außerdem verfügen die Zimmer über ein Tagesbett.",
+      "intro": "Im zweiten Obergeschoss befinden sich zwei gut ausgestattete Apartments. Beide verfügen über ein geräumiges Wohnzimmer. Sie planen, aus dem Remote Office zu arbeiten? Kein Problem, es gibt kostenloses WLAN und Schreibtische, die Sie für Ihre Workation nutzen können. Außerdem verfügen die Zimmer über ein Tagesbett.",
       "apartment1": {
-
+        "title": "Rundum versorgt",
+        "content": "Das größere der beiden Apartments eignet sich hervorragend für den Aufenthalt mit einem Kleinkind bis 2 Jahre. Hierfür steht ein Kinderbett zur Verfügung, das sich im Handumdrehen auf- und abbauen lässt. Fühlen Sie sich wie zu Hause."
       },
       "apartment2": {
         "title": "Traumhaft gemütlich",
@@ -167,16 +168,17 @@
     },
     "studio": {
       "stage": {
-        "headline": "Gartenstudio",
+        "headline": "Studio",
         "subline": "Ihr perfekter Rückzugsort"
       },
-      "intro": "Über die Terrasse betreten Sie das Gartenstudio. Hier können Sie es sich auf einem der beiden Designerstühle bequem machen und die einzigartige Architektur und Atmosphäre des Raumes auf sich wirken lassen. Doch das Studio bietet noch viel mehr.",
+      "intro": "Über die Terrasse betreten Sie das Studio. Hier können Sie es sich auf einem der beiden Designerstühle bequem machen und die einzigartige Architektur und Atmosphäre des Raumes auf sich wirken lassen. Doch das Studio bietet noch viel mehr.",
       "downstairs": {
         "title": "Unterer Bereich",
-        "content": "Das Gartemstudio erstreckt sich über zwei Etagen. Im unteren Bereich befindet sich neben dem Hauptraum ein eigenes Badezimmer. Perfekt, wenn man tagsüber die Terrasse und den Poolbereich nutzt und sich umziehen oder nach dem Schwimmen duschen möchte."
+        "content": "Das Studio erstreckt sich über zwei Etagen. Im unteren Bereich befindet sich neben dem Hauptraum ein eigenes Badezimmer. Perfekt, wenn man tagsüber die Terrasse und den Poolbereich nutzt und sich umziehen oder nach dem Schwimmen duschen möchte."
       },
       "gallery": {
-        "content": "Über eine Treppe gelangt man auf die Galerie, groß genug für ein komfortables Doppelbett."
+        "title": "Auf der Galerie",
+        "content": "Über eine Treppe gelangt man auf die Galerie. Hier gibt es eine weitere Sitzgelegenheit und einen Schreibtisch. Ob zum Entspannen oder zum Arbeiten vom Remote Office aus: Hier finden Sie den perfekten Rückzugsort."
       },
       "galleryTitle": "Studio"
     },
@@ -209,7 +211,7 @@
       "pool": {
         "title": "Pool & Garten",
         "content1": "Über eine Stufe gelangt man in den Poolbereich. Hier können Sie sich im 3 x 6 m großen und 1,60 m tiefen Pool erfrischen und Ihre Fitness an der Gegenstromanlage testen.",
-        "content2": "Anschließend können Sie sich auf einer der bequemen Liegen in der Sonne entspannen. Oder vielleicht wird einer der Stühle unter dem alten Mispelbaum Ihr neuer Lieblingsplatz?"
+        "content2": "Anschließend können Sie sich auf einer der bequemen Liegen in der Sonne entspannen. Oder vielleicht wird einer der beiden Stühle unter dem alten Mispelbaum Ihr neuer Lieblingsplatz?"
       },
       "galleryTitle": "Patio & Pool"
     }
@@ -225,11 +227,11 @@
     },
     "kitchen": {
       "title": "Küche",
-      "list": "<li>Voll ausgestattete Küche inkl. De Longhi Kaffeevollautomat</li><li>90 cm breiter Induktionsherd und Backofen</li><li>Großer Kühl- Gefrierschrank</li><li>Toaster, Blender, Reiskocher und viele mehr</li>"
+      "list": "<li>Voll ausgestattete Küche inkl. De Longhi Kaffeevollautomat</li><li>90 cm breiter Induktionsherd und Backofen</li><li>Großer Kühl- Gefrierschrank</li>"
     },
     "bathroom": {
       "title": "Badezimmer",
-      "list": "<li>Handtücher</li><li>Shampoo & Bodywash</li><li>Haartrockner</li><li>Bademäntel</li>"
+      "list": "<li>Handtücher</li><li>Shampoo & Bodywash</li><li>Haartrockner</li>"
     },
     "outdoor": {
       "title": "Außenbereich",
@@ -237,7 +239,7 @@
     },
     "entertainment": {
       "title": "Entertainment",
-      "list": "<li>Smart-TV 65 Zoll</li><li>BluOS Bluetooth-Soundsystem</li><li>Große Auswahl an Gesellschaftsspielen</li>"
+      "list": "<li>Smart-TV 65 Zoll</li><li>BluOS Bluetooth-Soundsystem</li><li>Bibliothek</li><li>Große Auswahl an Gesellschaftsspielen</li>"
     },
     "sports": {
       "title": "Sportausrüstung",
@@ -249,7 +251,7 @@
       "headline": "Buchen",
       "subline": "Wir freuen uns auf Sie!"
     },
-    
+    "intro": "Sie möchten Casa Es Sindicat buchen? Im Belegungsplan sehen Sie, ob Ihr Wunschtermin noch frei ist. Die bereits vermieteten Termine sind rot markiert. Alle anderen Termine können angefragt werden. Wenn Sie einen geeigneten Zeitraum für Ihren geplanten Urlaub gefunden haben, senden Sie uns bitte eine Nachricht über Kontakt. Wir werden Ihnen so schnell wie möglich antworten.",
     "price": {
       "title": "Preis",
       "info": "Der Preis für eine Belegung mit bis zu 6 Erwachsenen und 2 Kleinkindern (bis 2 Jahre) beträgt 800 € pro Tag (Mindestaufenthalt 3 Nächte)."
